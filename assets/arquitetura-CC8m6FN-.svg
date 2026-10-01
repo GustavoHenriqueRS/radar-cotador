@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 452" role="img" aria-labelledby="titulo descricao" font-family="'Fira Sans', 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="titulo">Como o Radar do Cotador funciona</title>
+  <desc id="descricao">As fontes entram pela coleta, o PDF é guardado e lido duas vezes, a conferência usa o cálculo das faixas e a ANS, uma pessoa revisa só o que não fechou, e a versão publicada alimenta a cotação e o radar de avisos. Os dados abertos da ANS são a base da conferência e dos avisos.</desc>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0369a1"/>
+    </marker>
+    <style>
+      .caixa { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; }
+      .nucleo { fill: #f0f9ff; stroke: #0369a1; stroke-width: 2; }
+      .fonte { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.2; }
+      .titulo { font-size: 18px; font-weight: 600; fill: #0f172a; }
+      .sub { font-size: 13.5px; fill: #475569; }
+      .fonte-texto { font-size: 13.5px; fill: #1e293b; }
+      .rotulo { font-size: 12px; font-weight: 600; fill: #64748b; letter-spacing: 0.6px; }
+      .linha { stroke: #0369a1; stroke-width: 2; fill: none; }
+      .base { fill: #0f172a; }
+      .base-titulo { font-size: 18px; font-weight: 600; fill: #ffffff; }
+      .base-sub { font-size: 13.5px; fill: #cbd5e1; }
+    </style>
+  </defs>
+
+  <text class="rotulo" x="20" y="16">FONTES</text>
+  <rect class="fonte" x="20" y="26" width="200" height="34" rx="8"/>
+  <text class="fonte-texto" x="120" y="48" text-anchor="middle">Páginas, APIs, arquivo da web</text>
+  <rect class="fonte" x="20" y="68" width="200" height="34" rx="8"/>
+  <text class="fonte-texto" x="120" y="90" text-anchor="middle">Caixa de e-mail</text>
+  <rect class="fonte" x="20" y="110" width="200" height="34" rx="8"/>
+  <text class="fonte-texto" x="120" y="132" text-anchor="middle">Upload e parceria</text>
+  <path class="linha" d="M220 43 H240 M220 85 H240 M220 127 H240 M240 43 V127"/>
+  <path class="linha" d="M240 85 H266" marker-end="url(#seta)"/>
+
+  <rect class="caixa" x="270" y="42" width="200" height="86" rx="10"/>
+  <text class="titulo" x="370" y="74" text-anchor="middle">Coleta</text>
+  <text class="sub" x="370" y="96" text-anchor="middle">robots.txt obedecido</text>
+  <text class="sub" x="370" y="114" text-anchor="middle">e só o que mudou</text>
+  <path class="linha" d="M470 85 H516" marker-end="url(#seta)"/>
+
+  <rect class="caixa" x="520" y="42" width="200" height="86" rx="10"/>
+  <text class="titulo" x="620" y="74" text-anchor="middle">PDF guardado</text>
+  <text class="sub" x="620" y="96" text-anchor="middle">hash, fonte e data:</text>
+  <text class="sub" x="620" y="114" text-anchor="middle">a prova da origem</text>
+  <path class="linha" d="M720 85 H766" marker-end="url(#seta)"/>
+
+  <rect class="nucleo" x="770" y="42" width="210" height="86" rx="10"/>
+  <text class="titulo" x="875" y="74" text-anchor="middle">Duas leituras</text>
+  <text class="sub" x="875" y="96" text-anchor="middle">geométrica (ou OCR)</text>
+  <text class="sub" x="875" y="114" text-anchor="middle">e modelo de linguagem</text>
+  <path class="linha" d="M875 128 V176" marker-end="url(#seta)"/>
+
+  <rect class="nucleo" x="770" y="180" width="210" height="86" rx="10"/>
+  <text class="titulo" x="875" y="212" text-anchor="middle">Conferência</text>
+  <text class="sub" x="875" y="234" text-anchor="middle">cálculo das faixas</text>
+  <text class="sub" x="875" y="252" text-anchor="middle">e regras da ANS</text>
+  <path class="linha" d="M770 223 H724" marker-end="url(#seta)"/>
+
+  <rect class="caixa" x="520" y="180" width="200" height="86" rx="10"/>
+  <text class="titulo" x="620" y="212" text-anchor="middle">Revisão</text>
+  <text class="sub" x="620" y="234" text-anchor="middle">uma pessoa vê só</text>
+  <text class="sub" x="620" y="252" text-anchor="middle">o que não fechou</text>
+  <path class="linha" d="M520 223 H474" marker-end="url(#seta)"/>
+
+  <rect class="caixa" x="270" y="180" width="200" height="86" rx="10"/>
+  <text class="titulo" x="370" y="212" text-anchor="middle">Versão publicada</text>
+  <text class="sub" x="370" y="234" text-anchor="middle">origem, vigência</text>
+  <text class="sub" x="370" y="252" text-anchor="middle">e histórico</text>
+  <path class="linha" d="M270 223 H224" marker-end="url(#seta)"/>
+
+  <rect class="caixa" x="20" y="180" width="200" height="86" rx="10"/>
+  <text class="titulo" x="120" y="212" text-anchor="middle">Cotação e radar</text>
+  <text class="sub" x="120" y="234" text-anchor="middle">preço com origem</text>
+  <text class="sub" x="120" y="252" text-anchor="middle">e aviso do que mudou</text>
+
+  <path class="linha" d="M875 340 V270" marker-end="url(#seta)"/>
+  <path class="linha" d="M120 340 V270" marker-end="url(#seta)"/>
+  <rect class="base" x="20" y="340" width="960" height="92" rx="12"/>
+  <text class="base-titulo" x="500" y="374" text-anchor="middle">ANS, dados abertos: a base da conferência e dos avisos</text>
+  <text class="base-sub" x="500" y="398" text-anchor="middle">catálogo de planos e cadastro de operadoras (todo dia), preço de referência por faixa (nota técnica),</text>
+  <text class="base-sub" x="500" y="418" text-anchor="middle">rede hospitalar e pedidos de mudança de rede (todo mês)</text>
+</svg>
