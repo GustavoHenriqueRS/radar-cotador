@@ -32,7 +32,7 @@ export function Painel() {
         <Kpi rotulo="Alertas abertos" valor={num(dados.eventos_abertos)} detalhe={`${num(dados.tabelas_vencidas)} tabelas vencidas`} tom={dados.eventos_abertos ? "erro" : "ok"} />
       </div>
 
-      <div className="mt-5 grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px]">
+      <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-[minmax(0,1fr)_380px]">
         <Cartao titulo="Radar: o que mudou" acao={<Link to="/radar" className="text-sm text-acao hover:underline">ver tudo</Link>}>
           {dados.eventos.length ? (
             <ul className="divide-y divide-borda">{dados.eventos.map((e) => <ItemEvento key={e.id} e={e} />)}</ul>

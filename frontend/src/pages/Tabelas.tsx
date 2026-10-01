@@ -31,7 +31,7 @@ export function Tabelas() {
       <Cartao>
         {erro && <Erro mensagem={erro} />}
         {!dados ? <Carregando /> : dados.length === 0 ? <Vazio>Nenhuma tabela publicada encontrada.</Vazio> : (
-          <div className="overflow-x-auto">
+          <div className="relative overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="border-b border-borda bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                 <tr>

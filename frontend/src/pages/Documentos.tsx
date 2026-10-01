@@ -56,7 +56,7 @@ export function Documentos() {
         ) : dados.length === 0 ? (
           <Vazio>Nenhum documento ainda. Envie um PDF ou rode <code>manage.py carregar_demo</code>.</Vazio>
         ) : (
-          <div className="overflow-x-auto">
+          <div className="relative overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="border-b border-borda bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                 <tr>

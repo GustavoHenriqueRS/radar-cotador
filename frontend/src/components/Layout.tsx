@@ -68,8 +68,8 @@ export function Layout() {
 export function Cabecalho({ titulo, descricao, acoes }: { titulo: string; descricao?: string; acoes?: React.ReactNode }) {
   return (
     <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <h1 className="text-xl font-semibold text-slate-900">{titulo}</h1>
+      <div className="min-w-0">
+        <h1 className="break-words text-xl font-semibold text-slate-900">{titulo}</h1>
         {descricao && <p className="mt-1 max-w-3xl text-sm text-slate-600">{descricao}</p>}
       </div>
       {acoes && <div className="flex flex-wrap gap-2">{acoes}</div>}

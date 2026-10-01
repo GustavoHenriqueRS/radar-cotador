@@ -52,7 +52,7 @@ export function ItemEvento({ e }: { e: Evento }) {
         <Icone size={16} aria-hidden />
       </span>
       <div className="min-w-0 flex-1">
-        <p className="text-sm text-slate-900">{e.titulo}</p>
+        <p className="break-words text-sm text-slate-900">{e.titulo}</p>
         {itens.length > 1 && (
           <details className="mt-1 text-xs text-slate-600">
             <summary className="cursor-pointer text-acao">ver os {itens.length} itens</summary>
