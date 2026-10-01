@@ -1,6 +1,6 @@
 # Radar do Cotador
 
-Protótipo para o desafio técnico do Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
+Protótipo Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
 
 **Para ver sem instalar nada:**
 - **Protótipo completo, com o back-end:** [item-soa-alleged-lauderdale.trycloudflare.com](https://item-soa-alleged-lauderdale.trycloudflare.com), publicado na AWS. Tudo funciona, de revisar e publicar a enviar PDF; a seção [Publicação](#publicação) mostra como está montado.
