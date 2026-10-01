@@ -22,18 +22,18 @@ O único canal público oficial é o Kit Corretor (kitcorretoramil.com.br), mant
 | Kit Corretor Amil (operadora) | https://kitcorretoramil.com.br/ | Rodapé: "Amil Assistência Médica Internacional S/A, CNPJ 29.309.127/0001-79", o mesmo da 326305. Em PDF fixo: Manual de Vendas PME (`pdfs/Manual_de_Vendas_PME.pdf?updated=16-09-2026`), manuais Dental e Regionalizadas, 18 "Modelo PDF online" de adesão e tabelas avulsas antigas em `wp-content/uploads/`. | Só `Disallow: /wp-content/themes/kitcorretor/bkp`. O rodapé não traz termos próprios. Os termos da Amil vedam aplicações automatizadas (ver abaixo). | Público, sem login. Capturas configuradas e inativas |
 | Kit: tabela de preço na tela | `/linha-amil-pj/tabela-de-precos-pj/`, `/linha-selecionada-pme/tabela-de-precos-pme/`, `/contrato-coletivo-por-adesao/tabela-de-precos/` | Preço por estado, porte e coparticipação, carregado do `app.js` por POST em `admin-ajax.php?action=ktc_get_price_table_values` (PME e PJ) e em `/wp-json/adesao/query` (adesão) | robots.txt permite | Público, mas só por POST: nenhum tipo de captura do projeto faz POST. Não usado |
 | Kit: gerador de PDF | https://pdf.kitcorretoramil.com.br/pdf | Recebe por POST o HTML da tabela do estado e devolve o endereço de um PDF gerado na hora | robots.txt responde 404 | Não usado (POST, endereço muda a cada pedido) |
-| Kit: "Modelo PDF online" de adesão | 18 links na página de adesão (17 médicos e 1 dental), ex.: `wp-content/uploads/2026/09/Modelo_PDF_ONLINE_TABELA__Prata_SP_II_1.pdf` | Abri só o de Prata II SP (5 páginas em imagem, Last-Modified 28/09/2026, "ANS nº 326305" no rodapé). Apesar do nome, traz só a área de comercialização (lista de municípios), sem preço. Descartei; os outros 17 não abri | robots.txt permite | Público; o que abri não tem preço |
+| Kit: "Modelo PDF online" de adesão | 18 links na página de adesão (17 médicos e 1 dental), ex.: `wp-content/uploads/2026/09/Modelo_PDF_ONLINE_TABELA__Prata_SP_II_1.pdf` | Só o de Prata II SP foi aberto (5 páginas em imagem, Last-Modified 28/09/2026, "ANS nº 326305" no rodapé). Apesar do nome, traz só a área de comercialização (lista de municípios), sem preço. Não entrou como amostra, e os outros 17 não foram abertos | robots.txt permite | Público; o modelo aberto não tem preço |
 | Kit: tabela avulsa | `wp-content/uploads/2025/03/Linha-Especial-Amil-6.pdf` | Tabela de preço da Linha Especial (RJ), de março de 2025. Achada por buscador; não está ligada nas páginas atuais | robots.txt permite | Público, antiga. Baixada como amostra |
 | Site institucional | https://www.amil.com.br/ | — | robots.txt responde 403: o cliente HTTP do projeto trata como bloqueio total | Não acessado |
-| Institucional (termos e lista de produtos) | https://institucional.amil.com.br/ | Termos de uso e lista oficial de planos ativos (PDF de set/2026, segundo a pesquisa do projeto) | robots.txt permite essas páginas, mas o servidor devolve 403 ao agente identificado (WAF) | Bloqueado; não contornei |
+| Institucional (termos e lista de produtos) | https://institucional.amil.com.br/ | Termos de uso e lista oficial de planos ativos (PDF de set/2026, segundo a pesquisa do projeto) | robots.txt permite essas páginas, mas o servidor devolve 403 ao agente identificado (WAF) | Bloqueado; sem tentativa de contornar |
 | Plataforma Comercial e vendas.amil.com.br | https://vendas.amil.com.br/login | Cotação com o preço final, que o manual manda usar | Login | Restrito |
 | Allcare: arquivo fora da página | https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_amil_df_a.pdf | Adesão DF, modelo Allcare, de junho de 2023. A página de materiais não lista mais a Amil | robots.txt permite | No ar, sem link; produtos suspensos. Baixada como amostra |
 | Qualicorp | https://tabelasdevendas.qualicorp.com.br/ | Tabelas de adesão; o buscador mostra tabelas com a Amil | robots.txt responde 403 | Não acessado |
 | Supermed (administradora da adesão Amil) | https://www.supermed.com.br/nossos-planos/amil | Página institucional, sem tabela. O material do corretor fica em vendas.supermed.com.br (login) e no app | `Allow: /` | Sem material público |
-| Arquivo da web | API CDX do web.archive.org | 91 cópias de PDFs do Kit desde 2023: manuais e normativas PME da Amil (2023, 2024 e 4 versões distintas do manual atual, de 20/07/2025 a 15/04/2026), tabelas das operadoras regionais e folhetos. Pelo nome, nenhum é tabela de preço da 326305 (não abri) | O robots.txt do arquivo responde 404; o do Kit permite o original | Captura configurada, inativa |
+| Arquivo da web | API CDX do web.archive.org | 91 cópias de PDFs do Kit desde 2023: manuais e normativas PME da Amil (2023, 2024 e 4 versões distintas do manual atual, de 20/07/2025 a 15/04/2026), tabelas das operadoras regionais e folhetos. Pelo nome, nenhum é tabela de preço da 326305 (os PDFs não foram abertos) | O robots.txt do arquivo responde 404; o do Kit permite o original | Captura configurada, inativa |
 | E-mail | amilofertascorretor@amil.com.br, impresso na tabela Linha Especial | Canal de proposta da Linha Especial | — | Modelo de caixa inativo com `@amil.com.br` |
 
-Termos de uso: a página `institucional.amil.com.br/termos-de-uso-e-condicoes-de-navegacao` devolveu 403 ao robô identificado. Li o trecho pelo buscador: o portal foi feito para uso humano, e aplicações automatizadas e mineração de dados são vedadas. Não consegui verificar se o "portal Amil" dos termos inclui o domínio do Kit.
+Termos de uso: a página `institucional.amil.com.br/termos-de-uso-e-condicoes-de-navegacao` devolveu 403 ao robô identificado. O trecho foi lido pelo buscador: o portal foi feito para uso humano, e aplicações automatizadas e mineração de dados são vedadas. Ficou sem confirmação se o "portal Amil" dos termos inclui o domínio do Kit.
 
 Não usados: sites de corretoras e comparadores com "tabela Amil 2026" em HTML (lifebis, fortplanos, amilsaudebr, planoamilempresas e outros), porque não são canal oficial ou compilam várias operadoras.
 
@@ -122,12 +122,12 @@ Problemas do leitor (código central):
   2. a caixa de e-mail do corretor que recebe os comunicados da Amil (modelo configurado com `@amil.com.br`);
   3. upload do PDF que o corretor baixa no Kit ("Baixar PDF" da tabela completa do estado).
 - **Termos de uso.** Confirmar com a Amil ou com o jurídico se a cláusula contra automação vale para o domínio do Kit. Se não valer, as capturas do manual (página e arquivo da web) podem ser ativadas sem mudança de código.
-- **Condições.** O Manual de Vendas PME muda a cada poucos meses: 5 versões entre julho de 2025 e setembro de 2026, contando a atual. Ler coparticipação, reembolso e carência dele depende da leitura por LLM, que não rodei.
-- **Adesão.** Não achei canal público atual. A Supermed exige login, a Qualicorp bloqueia robôs e a Allcare tirou a Amil da página.
+- **Condições.** O Manual de Vendas PME muda a cada poucos meses: 5 versões entre julho de 2025 e setembro de 2026, contando a atual. Ler coparticipação, reembolso e carência dele depende da leitura por LLM, que não rodou neste levantamento.
+- **Adesão.** Nenhum canal público atual foi encontrado. A Supermed exige login, a Qualicorp bloqueia robôs e a Allcare tirou a Amil da página.
 - **Leitor.** Corrigir o 59+ com rótulo em duas linhas e a montagem dos rótulos de coluna (itens 1 e 2 acima).
 - **Não verificado:**
   - o texto integral dos termos de uso (403);
   - a lista oficial de planos ativos no institucional (403);
-  - o preço por POST do Kit, que não chamei;
-  - o manual Dental (Amil Dental também é 326305), que não baixei;
+  - o preço por POST do Kit, que não foi chamado;
+  - o manual Dental (Amil Dental também é 326305), que não foi baixado;
   - as tabelas das operadoras regionais do Kit (Ana Costa, Santa Helena, Sobam), que são de outros registros.

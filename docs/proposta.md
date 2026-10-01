@@ -4,7 +4,7 @@
 
 ## Resumo
 
-Hoje cada tabela que chega é lida e digitada à mão, plano por plano. Isso atrasa, abre espaço para erro e não acompanha a velocidade com que as tabelas mudam. Proponho trocar a digitação por um **radar de dados**:
+Hoje cada tabela que chega é lida e digitada à mão, plano por plano. Isso atrasa, abre espaço para erro e não acompanha a velocidade com que as tabelas mudam. A proposta é trocar a digitação por um **radar de dados**:
 - o sistema busca o material onde ele é publicado;
 - lê cada tabela duas vezes, de jeitos independentes;
 - confere tudo contra os dados oficiais da ANS;
@@ -12,7 +12,7 @@ Hoje cada tabela que chega é lida e digitada à mão, plano por plano. Isso atr
 
 Cada preço publicado guarda de onde veio, e o sistema avisa quando algo muda, antes de o corretor errar.
 
-Para mostrar que isso funciona, construí um protótipo e rodei com material público real:
+O protótipo que acompanha a proposta roda com material público real, e os resultados mostram que a ideia funciona:
 
 - **81,1% dos preços passam sem revisão humana**, contando os produtos que o PDF identifica pelo registro ANS. O que sobra não é erro de leitura: são sinais da ANS sobre o preço ou sobre o plano, concentrados em poucas tabelas.
 - **Em dois testes às cegas**, com 137 tabelas que o leitor nunca tinha visto, todo preço da primeira leitura foi confirmado pela segunda, sem nenhuma divergência.
@@ -33,14 +33,14 @@ O protótipo sobe com `docker compose up`, e o roteiro da demonstração está e
 | Confiabilidade e atualização: conferência, divergências, origem, vigência, histórico | seção 4 |
 | Estrutura técnica: componentes, fluxo, armazenamento, crescimento | seção 5 |
 | Plano de implementação: primeira entrega, etapas, riscos, dependências, medição | seção 6 |
-| Os desafios que apareceram no caminho e como resolvi | seção 7 |
+| Os desafios que apareceram no caminho e como foram resolvidos | seção 7 |
 | Protótipo: o que é real e o que é simulado | seção 8 e `README.md` |
 
 As medições completas ficam em `docs/detalhes-tecnicos.md`, e o caminho para evoluir o sistema em `docs/como-evoluir.md`.
 
 ---
 
-## 1. O problema, como eu entendi
+## 1. O problema
 
 O desafio descreve dois problemas que se alimentam: o acesso às informações é limitado e a atualização é manual. Na ponta, o corretor recebe uma cotação que pode estar desatualizada e não tem como saber de onde veio o número.
 
@@ -59,7 +59,7 @@ No fim, o corretor precisa de três coisas: o preço certo, o preço atual e a s
 - **LLM:** usar um modelo de linguagem como segunda leitura é aceitável, com custo medido e sem publicar nada sozinho.
 - **Portal com login:** só entra com autorização da operadora ou do corretor dono da conta.
 
-**Escopo.** Concentrei o protótipo no que trava o processo hoje: obter, ler, conferir e manter o preço atualizado. Deixei de fora, de propósito:
+**Escopo.** O protótipo se concentra no que trava o processo hoje: obter, ler, conferir e manter o preço atualizado. Ficaram de fora, de propósito:
 - entrar em portal com login sem autorização;
 - a rede de clínicas e laboratórios, que a ANS não publica e que pede um coletor por operadora;
 - o motor de cotação em si. A cotação do protótipo existe para mostrar o dado chegando na ponta, e o Cotador já tem a sua.
@@ -74,9 +74,9 @@ No fim, o corretor precisa de três coisas: o preço certo, o preço atual e a s
 - a rede hospitalar de cada plano;
 - os pedidos de mudança de rede, com a data em que valem.
 
-Não é a tabela de venda, mas é o que confere a tabela de venda. E é o que avisa que algo mudou mesmo quando não temos acesso ao material.
+Não é a tabela de venda, mas é o que confere a tabela de venda. E é o que avisa que algo mudou mesmo quando não há acesso ao material.
 
-**Ir aonde o material está.** Mapeei as 9 operadoras da página do Cotador uma a uma, com agentes de IA trabalhando em paralelo e cada achado conferido por mim. Cada operadora tem um relatório em `docs/operadoras/`. A conclusão principal: **nenhuma publica a tabela vigente aberta no próprio site.** O preço chega de três jeitos, e o protótipo trata os três:
+**Ir aonde o material está.** As 9 operadoras da página do Cotador foram mapeadas uma a uma, por agentes de IA trabalhando em paralelo, com revisão humana de cada achado. Cada operadora tem um relatório em `docs/operadoras/`. A conclusão principal: **nenhuma publica a tabela vigente aberta no próprio site.** O preço chega de três jeitos, e o protótipo trata os três:
 
 | Como o preço chega | Operadoras | O que o sistema faz |
 |---|---|---|
@@ -146,7 +146,7 @@ recebe o PDF → lê duas vezes → confere → uma pessoa olha só o que não f
 | Carências (Lei 9.656) | carência acima do máximo legal |
 | Atributos | coparticipação e acomodação do material contra o registro na ANS |
 
-Testei cada regra contra o acervo real antes de confiar nela, porque regra que acusa preço certo só atrapalha. Vieram daí quatro cuidados:
+Cada regra foi testada contra o acervo real antes de entrar, porque regra que acusa preço certo só atrapalha. Daí vieram quatro cuidados:
 - tolerância de centavos, porque as operadoras usam o limite exato;
 - reajuste igual em todas as faixas não é erro;
 - preço com odonto embutido não segue a proporção das faixas;
@@ -212,7 +212,7 @@ Testei cada regra contra o acervo real antes de confiar nela, porque regra que a
 
 **A primeira entrega é de propósito a mais simples.** Ela não depende de nenhuma operadora e já mostra o valor: só a checagem contra a ANS pegaria a Saúde Sim.
 
-**Riscos e como lido com eles:**
+**Riscos e como são tratados:**
 - **A operadora não publica o preço.** É o caso de 6 das 9. O sistema reduz o trabalho e o erro, mas não substitui a relação com a operadora: por isso e-mail agora e parceria depois.
 - **Um layout que o leitor não entende.** A segunda leitura cobre, a divergência vai para uma pessoa, e a correção entra no leitor genérico, nunca como caso especial (seção 7).
 - **O modelo de linguagem erra ou fica caro.** Ele nunca publica sozinho, o custo é medido por página, e o provedor troca por configuração.
@@ -236,19 +236,19 @@ Testei cada regra contra o acervo real antes de confiar nela, porque regra que a
 
 ---
 
-## 7. Desafios que apareceram e como resolvi
+## 7. Desafios que apareceram e como foram resolvidos
 
-Rodar com material real trouxe problemas que nenhum desenho no papel mostraria. Os agentes de IA que usei no mapeamento das operadoras trouxeram PDFs e sites diferentes de tudo o que o acervo tinha, e cada falha que eles expuseram virou correção com teste. Nenhuma correção mudou o que já funcionava: o acervo segue lendo os mesmos 10.573 preços.
+Rodar com material real trouxe problemas que nenhum desenho no papel mostraria. O mapeamento das operadoras, feito com agentes de IA, trouxe PDFs e sites diferentes de tudo o que o acervo tinha, e cada falha exposta virou correção com teste. Nenhuma correção mudou o que já funcionava: o acervo segue lendo os mesmos 10.573 preços.
 
-1. **O modelo de linguagem resumia os documentos longos.** Lendo o PDF inteiro de uma vez, ele pulava tabelas e confirmava só 28% dos preços. Passei a mandar uma página por vez, em paralelo, e a confirmação foi a quase 100%. O custo subiu pouco mais da metade e continuou perto de US$ 0,001 por página.
+1. **O modelo de linguagem resumia os documentos longos.** Lendo o PDF inteiro de uma vez, ele pulava tabelas e confirmava só 28% dos preços. Com cada página enviada separadamente, em paralelo, a confirmação foi a quase 100%. O custo subiu pouco mais da metade e continuou perto de US$ 0,001 por página.
 
 2. **Uma coluna de preços que ninguém via.** Um PDF da NotreDame carregava uma coluna escondida na borda da grade. A leitura geométrica lia; os dois modelos testados, que veem a página, não. Agora o leitor confere cada palavra contra a página desenhada e descarta o que ninguém vê.
 
-3. **Reajustes que não existiam.** Comparando versões pela posição das colunas, a tabela da Qualicorp de 2024 contra a de 2026 casava "titular + 1 dependente" com "titular + 2 ou mais", e mostrava "reajustes" de −21% a +15% no mesmo produto. Passei a comparar pela condição de venda: vidas, coparticipação e composição familiar. Reordenar colunas agora gera zero reajustes, e a Qualicorp mostra o que de fato mudou: 26 tabelas com preço novo, 13 condições encerradas e 4 produtos que saíram.
+3. **Reajustes que não existiam.** Comparando versões pela posição das colunas, a tabela da Qualicorp de 2024 contra a de 2026 casava "titular + 1 dependente" com "titular + 2 ou mais", e mostrava "reajustes" de −21% a +15% no mesmo produto. A comparação passou a usar a condição de venda: vidas, coparticipação e composição familiar. Reordenar colunas agora gera zero reajustes, e a Qualicorp mostra o que de fato mudou: 26 tabelas com preço novo, 13 condições encerradas e 4 produtos que saíram.
 
 4. **Coluna incompleta passando como resolvida.** O alerta de faixa faltando não mandava nada para revisão, porque a faixa que falta não tem célula. Agora a coluna inteira vai para revisão.
 
-5. **O robots.txt lido errado pela própria biblioteca do Python.** O leitor padrão liberava o site inteiro da Unimed Guarulhos, por causa de uma linha em branco, e ignorava os curingas da NotreDame. Um coletor que confiasse nele baixaria justamente o que essas fontes pedem para não baixar. Escrevi a leitura seguindo a norma (RFC 9309), com teste para cada caso.
+5. **O robots.txt lido errado pela própria biblioteca do Python.** O leitor padrão liberava o site inteiro da Unimed Guarulhos, por causa de uma linha em branco, e ignorava os curingas da NotreDame. Um coletor que confiasse nele baixaria justamente o que essas fontes pedem para não baixar. O coletor passou a ler o robots.txt seguindo a norma (RFC 9309), com teste para cada caso.
 
 6. **Uma versão antiga podia virar o preço do dia.** Uma cópia de 2024, vinda do arquivo da web ou reenviada por alguém, substituiria o preço de 2026. Agora o material antigo entra no histórico, na posição da sua data, e nunca volta a ser o preço vigente, em qualquer ordem que os documentos cheguem.
 
@@ -259,7 +259,7 @@ Rodar com material real trouxe problemas que nenhum desenho no papel mostraria. 
    - **condição na vertical:** "Com coparticipação" escrito girado ao lado da grade;
    - **rótulos de faixa novos:** "Acima 59 anos", "> 59", e o "59" com o "ou +" na linha de baixo.
 
-   O teste do acervo inteiro é o que garante que uma correção não quebra outra. Ele pegou, por exemplo, o primeiro filtro de camadas apagando metade dos preços de uma tabela cujo fundo das células é desenhado por cima do texto. Ajustei o filtro para só agir quando há camadas de texto empilhadas.
+   O teste do acervo inteiro é o que garante que uma correção não quebra outra. Ele pegou, por exemplo, o primeiro filtro de camadas apagando metade dos preços de uma tabela cujo fundo das células é desenhado por cima do texto. O filtro passou a agir só quando há camadas de texto empilhadas.
 
 8. **Alarme falso por comparar com a nota técnica errada.** Uma tabela de 2023 comparada com a nota técnica de 2026 gerava 112 alertas falsos de preço abaixo do custo. A data da nota na ANS é a do registro, que pode vir antes ou depois de a tabela valer. Agora o preço é comparado com as notas plausíveis para a época do material, e o alerta só fica quando nenhuma delas explica o preço. O que era verdade virou um aviso próprio: existe nota técnica mais nova, então a tabela provavelmente está defasada.
 

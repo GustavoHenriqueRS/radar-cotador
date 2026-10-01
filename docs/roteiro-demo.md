@@ -2,7 +2,7 @@
 
 1. **Painel (20 s).**
    - 6.892 preços lidos de PDFs reais no acervo inicial, 86% sem precisar de gente, e o que falta está apontado.
-   - Em "Operadoras do Cotador", cada uma das 9 operadoras da página de vocês aparece com a situação na ANS e por onde o preço chega. A Saúde Sim aparece cancelada desde 2022, e está extinta.
+   - Em "Operadoras do Cotador", cada uma das 9 operadoras da página do Cotador aparece com a situação na ANS e por onde o preço chega. A Saúde Sim aparece cancelada desde 2022, e está extinta.
 
 2. **Documento `unimed_guarulhos_pme_2026.pdf` (60 s).**
    - O PDF real da Unimed Guarulhos, com cada preço destacado no lugar de onde saiu: 360 preços, 1 apontado.

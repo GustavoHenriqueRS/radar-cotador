@@ -15,7 +15,7 @@ A ordem é da mais confiável e com menos risco para a menos confiável e com ma
 | 3 | **Materiais recebidos** pela equipe (e-mail, WhatsApp, portal) | O mesmo tipo de tabela, de fontes restritas | Upload na tela e caixa de e-mail dedicada, lida só para leitura e só de remetente autenticado | Implementados; o e-mail é o canal das 6 operadoras que não publicam preço (seção 1.3) |
 | 4 | **Sites públicos das operadoras** | Condições comerciais (coparticipação, reembolso, portfólio); rede não hospitalar | Mesmo coletor, por configuração | Condições implementadas; a rede hospitalar vem da ANS, que é a fonte oficial |
 | 5 | **Parcerias** (administradoras, plataformas como a Planium, APIs de operadoras) | Tabela estruturada na origem | Feed ou API | Proposta comercial |
-| 6 | **Credencial do corretor** (robô com o login dele) | Material de portal restrito | Só com consentimento, escopo mínimo e sem dados de clientes | Ponte futura, não recomendo começar por aqui |
+| 6 | **Credencial do corretor** (robô com o login dele) | Material de portal restrito | Só com consentimento, escopo mínimo e sem dados de clientes | Ponte futura; não é por onde começar |
 
 ### 1.2 Acesso: o que pode, o que não pode
 
@@ -32,7 +32,7 @@ A ordem é da mais confiável e com menos risco para a menos confiável e com ma
 
 ### 1.3 Mapa das operadoras do Cotador
 
-Mapeei as 9 operadoras citadas na página do Cotador, uma a uma, sem login e obedecendo o robots.txt. Cada uma tem um relatório em `docs/operadoras/` (canais, linha do robots.txt, termos, amostras lidas, números da ANS) e a configuração das capturas em `fontes/operadoras/`.
+As 9 operadoras citadas na página do Cotador foram mapeadas uma a uma, sem login e obedecendo o robots.txt. Cada uma tem um relatório em `docs/operadoras/` (canais, linha do robots.txt, termos, amostras lidas, números da ANS) e a configuração das capturas em `fontes/operadoras/`.
 
 | Operadora (ANS) | Preço vigente público | Por onde o preço chega | Captura configurada |
 |---|---|---|---|
@@ -195,7 +195,7 @@ Quatro lições de rodar com dados reais:
 
 | Regra | O que pega | Exemplo real |
 |---|---|---|
-| **RN 563/2022** (faixas: 59+ até 6× a 0–18; variação da 7ª à 10ª faixa ≤ da 1ª à 7ª; sem queda) | Dígito trocado, faixas trocadas, coluna mal associada | A validação acusou na hora um bug do meu próprio leitor, que deslocava as faixas |
+| **RN 563/2022** (faixas: 59+ até 6× a 0–18; variação da 7ª à 10ª faixa ≤ da 1ª à 7ª; sem queda) | Dígito trocado, faixas trocadas, coluna mal associada | A validação acusou na hora um defeito do próprio leitor, que deslocava as faixas |
 | **Padrão de faixas da própria tabela** (os percentuais fixados em contrato, RN 563) | Preço que não segue o percentual das colunas iguais no resto; recalcula o valor ao centavo | No escaneado, recalculou exatamente os 3 dígitos que o LLM errou: 474,77, 892,23 e 767,05 |
 | **Nota técnica do plano (RN 564/2022)**, com a nota plausível para a data do material | Faixa que foge da proporção das outras em relação ao preço de referência, que é o sinal típico de erro de digitação; preço abaixo da despesa assistencial (vedado) | Unimed Guarulhos: R$ 116,56 contra o piso de R$ 122,77 na faixa 0–18 do Essencial III |
 | **Nota técnica nova depois do material** | A operadora registrou preço novo na ANS depois da tabela que está publicada: existe tabela nova, mesmo sem acesso a ela | Qualicorp/SulAmérica: 11 planos com nota de 25/08/2026, depois do material de junho; Affix/Hapvida: 3 planos com nota de 07/2026, depois do material de 08/2025 |
@@ -240,7 +240,7 @@ A regra para não errar pelo outro lado: o cálculo só confirma um preço quand
 
 ### 3.5 Onde um preço pode ir para o lugar errado
 
-Na página real da Unimed Guarulhos, provoquei de propósito as trocas que um layout novo pode causar na leitura geométrica:
+Na página real da Unimed Guarulhos, as trocas que um layout novo pode causar na leitura geométrica foram provocadas de propósito:
 
 | Troca provocada | O que pega |
 |---|---|

@@ -91,7 +91,7 @@ O leitor não foi executado.
   - O radar deve listar "Saúde Sim" como operadora cancelada em qualquer tela de cobertura (o README já menciona isso no Painel).
   - Deve recusar documento novo que cite o registro 320111 ou os produtos dele.
   - Qualquer tabela recebida por e-mail ou upload com essa marca deve virar alerta, não preço.
-- **Não verifiquei:**
-  - se os sites de corretora dos resultados de busca ainda estão no ar e oferecendo o plano; não os acessei, por serem agregadores ou captação de contato;
+- **Não verificado:**
+  - se os sites de corretora dos resultados de busca ainda estão no ar e oferecendo o plano; não foram acessados, por serem agregadores ou captação de contato;
   - o texto completo da notícia da ANS no gov.br, que hoje pede login.
 - **Próximo passo:** decidir se operadora extinta merece exceção na regra do robots.txt para o arquivo da web, só para auditoria. A sugestão é não abrir a exceção: o cadastro da ANS já basta para o bloqueio.

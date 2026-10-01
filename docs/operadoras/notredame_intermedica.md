@@ -32,9 +32,9 @@ A tabela atual, com registro ANS, chega pela Allcare. A página pública de mate
 | Qualicorp | https://tabelasdevendas.qualicorp.com.br/ | — | robots.txt responde 403 | Não acessado |
 | Portal do corretor | https://gndi.my.site.com/corretor/s/login/, https://corretor.intermedica.com.br/ | Simulador e material de venda | Login | Restrito |
 | Arquivo da web | API CDX do web.archive.org | 5 tabelas de 2023–2024 do site antigo (NotreLife, PF Pleno, NotreLife RJ, Web 1 vida e 2 vidas). As três do acervo não foram arquivadas | O robots.txt do arquivo responde 404; o do site permite o original | Captura configurada, inativa |
-| E-mail | apoio.corretor@intermedica.com.br, no Manual do Corretor publicado em `/corretor-pme` | Recebe propostas; não achei endereço de envio de tabela | — | Modelo de caixa inativo com `@intermedica.com.br` |
+| E-mail | apoio.corretor@intermedica.com.br, no Manual do Corretor publicado em `/corretor-pme` | Recebe propostas; nenhum endereço de envio de tabela encontrado | — | Modelo de caixa inativo com `@intermedica.com.br` |
 
-Termos de uso: não achei termos no site comercial. O endereço de termos do RI (`ri.gndi.com.br/termos-de-uso/`) abre a página de RI da Hapvida. Não vi cláusula contra automação.
+Termos de uso: o site comercial não traz termos. O endereço de termos do RI (`ri.gndi.com.br/termos-de-uso/`) abre a página de RI da Hapvida. Nenhuma cláusula contra automação apareceu.
 
 Não usados: sites de corretoras e comparadores com "tabela NotreDame 2026" (notredameintermedicaplanos.com.br, facaseuplanodesaude, martinezcorretora e outros), porque não são canal oficial.
 
@@ -119,10 +119,10 @@ Problemas do leitor (código central):
 - **Tabela oficial atual.** O site da operadora não tem tabela de 2026. Se a GNDI publicar com outro UUID, só a descoberta na página acha. Até lá, a Allcare cobre SP e RJ, e a caixa de e-mail (modelo com `@intermedica.com.br`) cobre o que chega ao corretor.
 - **Leitor.** O dígito solto já volta ao valor. Falta herdar o registro ANS da célula mesclada sobre duas colunas (NotreLife); até lá, essas colunas vão para revisão.
 - **Arquivo da web.** O histórico está incompleto: as três tabelas do acervo não foram arquivadas.
-- **Outras administradoras.** O levantamento da Hapvida (`fontes/operadoras/hapvida.json`) ativou a página da Safe com tabelas "Hapvida" de adesão RJ e SP (`safeadmin.com.br/produtos/hapvida/`). No cadastro da ANS, SP e RJ são da 359017, então essas tabelas devem ser desta operadora. Não abri; vale conferir os registros para atribuir a fonte à operadora certa.
+- **Outras administradoras.** O levantamento da Hapvida (`fontes/operadoras/hapvida.json`) ativou a página da Safe com tabelas "Hapvida" de adesão RJ e SP (`safeadmin.com.br/produtos/hapvida/`). No cadastro da ANS, SP e RJ são da 359017, então essas tabelas devem ser desta operadora. Essas tabelas não foram abertas; vale conferir os registros para atribuir a fonte à operadora certa.
 - **Não verificado:**
   - a tabela Super Simples 1 vida (só HEAD: 996 KB, Last-Modified 04/09/2025);
-  - as tabelas Allcare que não viraram amostra. Da adesão SP (versão 07.2026, 21 registros) e da adesão RJ (versão 06.2026, 14 registros) só conferi os registros, todos da 359017 e ativos, sem rodar o leitor;
-  - Flamengo SP, Flamengo RJ, PME RJ e AFECOM (MG), que não abri;
+  - as tabelas Allcare que não viraram amostra. Da adesão SP (versão 07.2026, 21 registros) e da adesão RJ (versão 06.2026, 14 registros) só os registros foram conferidos, todos da 359017 e ativos, sem rodar o leitor;
+  - Flamengo SP, Flamengo RJ, PME RJ e AFECOM (MG), que não foram abertas;
   - se `@gndi.com.br` também é remetente de tabelas;
   - o portal do corretor, que exige login.

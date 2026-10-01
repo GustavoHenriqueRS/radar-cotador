@@ -24,7 +24,7 @@ Rota recomendada para preço vigente: caixa de e-mail que receba as tabelas da Q
 
 | Canal | Endereço | O que tem | robots.txt / termos | Situação |
 |---|---|---|---|---|
-| Site da operadora | https://www.quallityprosaude.com.br/ | Institucional e "a partir de R$ 162,28". O simulador é formulário de contato com nome e telefone (não enviado). | `User-agent: *` / `Disallow: /wp-admin/` / `Allow: /wp-admin/admin-ajax.php`. Não achei termos restritivos. | Público, sem tabela |
+| Site da operadora | https://www.quallityprosaude.com.br/ | Institucional e "a partir de R$ 162,28". O simulador é formulário de contato com nome e telefone (não enviado). | `User-agent: *` / `Disallow: /wp-admin/` / `Allow: /wp-admin/admin-ajax.php`. Nenhum termo restritivo encontrado. | Público, sem tabela |
 | Coparticipação | https://www.quallityprosaude.com.br/coparticipacao/ | Guia em PDF, versão 01/09/2026 (data no nome do arquivo), 100 páginas | Idem | Público. Captura configurada, inativa |
 | Reajustes | https://www.quallityprosaude.com.br/reajustes/ | 5 PDFs, de 2023 a 2026, do reajuste do agrupamento com menos de 30 vidas. O de 2026 tem 188 páginas, código do contrato (sem nome de empresa), plano, registro ANS, mês e 9,76%. | Idem. Os links levam `?v=<timestamp>`, que muda a cada carga da página (1790827262 e depois 1790828343). | Público. Captura configurada, inativa |
 | Publicações e manuais | /publicacoes/, /manuais/ | Demonstrações financeiras, IDSS, manual do aplicativo | Idem | Fora do escopo |
@@ -73,7 +73,7 @@ Problemas do leitor:
 4. **Documento de condição passa calado.** O arquivo `quallity_coparticipacao_2026-09-01.pdf` termina com 0 preços e nenhum aviso de documento. A tabela de valores por grupo da página 1 não é extraída. No pipeline, com chave de API, as 100 páginas iriam para o LLM. Sugestão para o código central: detectar documento sem grade de faixa etária e limitar ou pular a segunda leitura.
 5. **Lacuna no próprio guia, não no leitor.** O anexo classifica 2 códigos no grupo "Consultas por telemedicina", que não tem valor na tabela da página 1. Uma pessoa precisa conferir.
 
-O PDF de reajuste de 2026 não entrou como amostra porque não é material de venda. Li o texto em memória, sem gravar, só para conferir o conteúdo: código do contrato, plano, registro ANS, mês e 9,76%, sem nome de empresa.
+O PDF de reajuste de 2026 não entrou como amostra porque não é material de venda. O texto foi lido em memória, sem gravar, só para conferir o conteúdo: código do contrato, plano, registro ANS, mês e 9,76%, sem nome de empresa.
 
 ## Na ANS
 
@@ -106,7 +106,7 @@ O PDF de reajuste de 2026 não entrou como amostra porque não é material de ve
 - **Ligar as duas capturas inativas do site** depois de mudanças no código central:
   - coparticipação: leitura de condição limitada às primeiras páginas;
   - reajustes: identificar o item sem a query `?v=`.
-- **Não verifiquei:**
+- **Não verificado:**
   - se o Sinpro ainda aplica a tabela de 08/2022 a novos associados (a notícia de 22/11/2024 fala em "tabelas exclusivas", sem link);
   - os municípios cobertos por plano, que não estão no índice local.
 - **Rede como fonte de conferência:** a busca de rede (facgeo) responde JSON por plano. Não há tipo de captura para isso no `coletor/`. Seria a fonte para conferir a rede anunciada contra a ANS.

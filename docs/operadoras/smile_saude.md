@@ -20,7 +20,7 @@ A Smile não publica tabela de preço nem condição comercial própria no site;
 | Canal | Endereço | O que tem | robots.txt / termos | Situação |
 |---|---|---|---|---|
 | Site da operadora | https://www.smilesaude.com.br/ | Cartões de plano (MOBI, Premium Promo, Platinum Promo, Ambulatorial DF), página de reajuste individual, áreas com login (cliente, empresa, administradora, prestador). Nenhuma tabela, nenhuma área de corretor. | robots.txt responde 404 (sem restrição). O rodapé diz que todo o conteúdo é de uso exclusivo da Smile. | Público, sem material de venda |
-| Rede para quem não é cliente | /rede-credenciada-smile/acesso.html, /rede-credenciada.php | Rede dos "planos comercializados atualmente", por formulário e JavaScript. A busca na web acha PDFs de rede por linha (ex.: `rede-credenciada-smile/files/REDE_PLATINUM.pdf`), que não baixei. | Idem | Público. É rede, não preço: fora do leitor |
+| Rede para quem não é cliente | /rede-credenciada-smile/acesso.html, /rede-credenciada.php | Rede dos "planos comercializados atualmente", por formulário e JavaScript. A busca na web acha PDFs de rede por linha (ex.: `rede-credenciada-smile/files/REDE_PLATINUM.pdf`), que não foram baixados. | Idem | Público. É rede, não preço: fora do leitor |
 | Link "Quero comprar" | https://compresmile.online/ | Está comentado no HTML da home. O domínio está estacionado ("may be for sale"). | robots.txt típico de estacionamento | Morto |
 | Allcare: página de materiais | https://www.corretorallcare.com.br/materiais-de-vendas | 96 tabelas em PDF. No DF, só Hapvida e MedSênior; nenhuma da Smile. | Permite (`Disallow: /cgi-bin/`, `Disallow: /wusage`) | Captura da Allcare já ativa no projeto |
 | Allcare: arquivo fora da página | https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_unica_adesao_smile_df.pdf | Tabela de adesão Smile DF, 9 páginas, 7 produtos. Last-Modified de 02/06/2023. | Permite. O PDF diz "material de uso interno, destinado exclusivamente aos consultores". | No ar, sem link; produtos cancelados ou suspensos |
@@ -94,6 +94,6 @@ Problemas do leitor:
 ## Lacunas e próximo passo
 
 - **Não há tabela vigente pública da Smile.** O próximo passo é a caixa de e-mail: um corretor parceiro encaminha o material da Smile, com remetente `@smilesaude.com.br` autenticado por DMARC ou DKIM. Ou uma parceria com a operadora ou com uma administradora parceira (Aliança, por exemplo).
-- **Não verifiquei** quais municípios cada plano ativo cobre: o índice local não tem a tabela de municípios. Também não confirmei se a Smile ainda vende no DF por algum produto de abrangência "grupo de estados".
+- **Não verificado:** quais municípios cada plano ativo cobre, porque o índice local não tem a tabela de municípios; e se a Smile ainda vende no DF por algum produto de abrangência "grupo de estados".
 - **Easyplan:** o site só renderiza com JavaScript. Ficou sem verificação se ela administra planos da Smile.
 - **Correção no leitor:** aceitar "> 59 anos" e variantes em `leitor/faixas.py`; ler o rótulo de coparticipação abaixo ou ao lado da grade.

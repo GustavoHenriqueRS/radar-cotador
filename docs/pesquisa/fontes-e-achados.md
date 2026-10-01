@@ -1,6 +1,6 @@
 # Pesquisa: fontes de dados, achados e embasamento
 
-Consolidação da pesquisa feita em 29 e 30/09/2026, com agentes de IA trabalhando em paralelo e cada achado conferido por mim: dados abertos da ANS, sites públicos de 11 operadoras e administradoras, mercado e jurídico/regulatório. Aqui fica só o que foi verificado.
+Consolidação da pesquisa feita em 29 e 30/09/2026, com agentes de IA trabalhando em paralelo e revisão humana de cada achado: dados abertos da ANS, sites públicos de 11 operadoras e administradoras, mercado e jurídico/regulatório. Aqui fica só o que foi verificado.
 
 > **Atualização de 01/10/2026.** O mapeamento detalhado das 9 operadoras está em `docs/operadoras/`, uma por arquivo. Lá ficam os canais, a linha do robots.txt, as amostras lidas e os números da ANS. Ele corrige um ponto daqui e acrescenta outro:
 > - a Smile (ESMALE, 395480) tem sede em Maceió/AL, e nenhum dos 28 produtos "DF" dela está ativo na ANS;

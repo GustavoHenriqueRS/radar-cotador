@@ -74,4 +74,4 @@ Problemas do leitor:
 2. **Vigência do material do portal**: o cronograma é de 2024 e o manual de 02/2024; sem baixar as tabelas não dá para saber se trazem o portfólio novo (registros de 2025) ou produtos já suspensos.
 3. **Adesão**: a parceira é a Qualicorp, cujo bucket de tabelas é bloqueado pelo robots.txt. Não há tabela de adesão CNU atual alcançável; a da CAASP é de 2022.
 4. **Leitor**: os dois problemas acima (camadas de texto sobrepostas e "Acima 59 anos") precisam de correção no código central.
-5. **Não verifiquei**: o conteúdo das tabelas atuais do portal; a tabela da Allcare de Ilhéus e Itabuna (não baixada, limite de três amostras); a tabela da CAASP.
+5. **Não verificado**: o conteúdo das tabelas atuais do portal; a tabela da Allcare de Ilhéus e Itabuna (não baixada, limite de três amostras); a tabela da CAASP.

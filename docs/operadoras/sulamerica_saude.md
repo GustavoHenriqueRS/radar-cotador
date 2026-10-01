@@ -41,7 +41,7 @@ Fonte "SulAmérica Saúde" (`site_operadora`, confiabilidade 5):
 | Documentos do PME (3 a 29 vidas) | `pagina_publica` | sim | 10 candidatos | Condições gerais, coparticipação, reembolso e plano referência linkados na página |
 | Documentos do PME Mais (30 a 99 vidas) | `pagina_publica` | sim | 5 candidatos | Idem para o PME Mais |
 | Tabelas de coparticipação e reembolso em endereço fixo | `url_direta` | sim | 6 candidatos | A SulAmérica troca o arquivo no mesmo endereço. Cobre PME Mais e Adesão, que nenhuma página estática linka |
-| Folhetos de apoio às vendas | `url_direta` | sim | 2 candidatos | Material de apoio à venda do PME e do PME Mais (características, contratação, carências, segundo a descrição no buscador; não abri os PDFs) |
+| Folhetos de apoio às vendas | `url_direta` | sim | 2 candidatos | Material de apoio à venda do PME e do PME Mais (características, contratação, carências, segundo a descrição no buscador; os PDFs não foram abertos) |
 | Histórico das tabelas de coparticipação e folhetos | `wayback` | não | 14 candidatos | Ligar uma vez para montar o histórico; com `somente_series_conhecidas`, só as séries acima |
 | Tabelas enviadas ao corretor | `caixa_email` | não | não testada (modelo) | Canal de preço. Remetente `@sulamerica.com.br` |
 
@@ -66,7 +66,7 @@ Pasta `amostras/operadoras/sulamerica_saude/`, com `manifest.json`. Leitura geom
 | `sulamerica_coparticipacao_adesao_i_2026-06-01.pdf` | Coparticipação Adesão I, vigência a partir de julho/2023 | 75 | 0 | 0 | 0 | 0 / 0 |
 | `qualicorp_caasp_sulamerica_adesao_sp_2023-11.pdf` | QualiPRO SulAmérica SP, OUT/2023 | 49 | 1.560 | 156 de 156 (24 registros, todos do 006246) | 340 | 12 / 123 |
 
-A tabela da Qualicorp foi lida em 10 s. 1.546 preços foram confirmados pelo padrão de faixas. Os outros 14 ficam só na leitura geométrica, a R$ 0,02 do cálculo (arredondamento). Conferi os 1.546 valores escolhidos contra o texto das páginas 20 a 29, e todos aparecem. A condição de cada grade saiu certa: composição (titular, + 1, + 2 ou mais), região (capital, interior 1, interior 2) e coparticipação. Os 340 itens para revisão vêm todos de regra, nenhum de leitura:
+A tabela da Qualicorp foi lida em 10 s. 1.546 preços foram confirmados pelo padrão de faixas. Os outros 14 ficam só na leitura geométrica, a R$ 0,02 do cálculo (arredondamento). Os 1.546 valores escolhidos foram conferidos contra o texto das páginas 20 a 29, e todos aparecem. A condição de cada grade saiu certa: composição (titular, + 1, + 2 ou mais), região (capital, interior 1, interior 2) e coparticipação. Os 340 itens para revisão vêm todos de regra, nenhum de leitura:
 
 - 120 vêm de 12 colunas de 4 planos cancelados na ANS em 29/07/2025, depois da tabela: 495.665/23-6 e 495.667/23-2 na p21, 495.669/23-9 e 495.670/23-2 na p23. Esses são os 12 erros.
 - 112 vêm de alerta RN 564 art. 5º (preço abaixo da despesa assistencial da nota).
@@ -74,11 +74,11 @@ A tabela da Qualicorp foi lida em 10 s. 1.546 preços foram confirmados pelo pad
 
 Problemas do leitor:
 
-1. **A conferência usa a nota técnica mais recente, não a da data da tabela (código central).** `leitor/conferencia.py:227` chama `indice.notas_vigentes(...)` (`leitor/ans.py:182`), que sempre devolve a nota mais recente do plano. Além disso, `leitor/regras.py:118` mede a idade da nota contra a data de hoje. Na tabela de OUT/2023, os 112 alertas art. 5º comparam preço de 2023 com notas de 28/03/2024 (99), 25/08/2026 (11) e 26/06/2024 (2). Os planos têm nota de 25/10/2023 no índice. Repeti a regra (`regras.referencia_ntrp`) com a nota mais recente até 31/10/2023 e com essa data como "hoje": ficariam 39 alertas art. 5º e 26 art. 6º §2º, em vez de 112 e 11. Sem LLM, o leitor nem extrai a vigência (só a leitura por LLM preenche `vigencia_inicio`). Mesmo com ela, a conferência não a usa para escolher a nota. O problema vale para toda tabela antiga: versões do Wayback e anteriores.
+1. **A conferência usa a nota técnica mais recente, não a da data da tabela (código central).** `leitor/conferencia.py:227` chama `indice.notas_vigentes(...)` (`leitor/ans.py:182`), que sempre devolve a nota mais recente do plano. Além disso, `leitor/regras.py:118` mede a idade da nota contra a data de hoje. Na tabela de OUT/2023, os 112 alertas art. 5º comparam preço de 2023 com notas de 28/03/2024 (99), 25/08/2026 (11) e 26/06/2024 (2). Os planos têm nota de 25/10/2023 no índice. Refeita a regra (`regras.referencia_ntrp`) com a nota mais recente até 31/10/2023 e com essa data como "hoje", ficariam 39 alertas art. 5º e 26 art. 6º §2º, em vez de 112 e 11. Sem LLM, o leitor nem extrai a vigência (só a leitura por LLM preenche `vigencia_inicio`). Mesmo com ela, a conferência não a usa para escolher a nota. O problema vale para toda tabela antiga: versões do Wayback e anteriores.
 2. **Rótulo de coluna com texto do painel lateral.** Nas páginas 24 a 29, 75 de 132 rótulos levam pedaços como "PLANOS reajuste:", "em Reais (R$), per" ou "o Beneficiário.". O registro e a condição não são afetados. Nas versões 2024-11 e 2026-06 da mesma série, lidas com LLM no acervo, os rótulos vêm limpos.
 3. **Tabela de coparticipação passa em branco.** As duas tabelas de coparticipação dão 0 preço, o que é certo, mas sem achado de documento. O que interessa ao cotador está em duas páginas que o leitor não extrai:
    - página 3: limite por evento, 30%, em 7 grupos de evento × 6 ou 7 colunas de linha. Na PME Mais, a consulta vai de R$ 36,61 (Direto) a R$ 207,45 (Prestige);
-   - página 75: produtos com registro ANS. Conferi essa página à parte: os 30 registros da PME Mais estão ativos; dos 57 da Adesão I, 5 estão cancelados na ANS (4 em 29/07/2025 e 1 em 07/08/2023). Na PME Mais o registro vem sem máscara (`495510232`).
+   - página 75: produtos com registro ANS. Essa página foi conferida à parte: os 30 registros da PME Mais estão ativos; dos 57 da Adesão I, 5 estão cancelados na ANS (4 em 29/07/2025 e 1 em 07/08/2023). Na PME Mais o registro vem sem máscara (`495510232`).
 
 ## Na ANS
 
@@ -112,9 +112,9 @@ Problemas do leitor:
 - Leitor (código central):
   - escolher a nota técnica pela data da tabela e medir a idade da nota contra essa data;
   - extrair a grade de limites de coparticipação e a lista de registros das tabelas de coparticipação.
-- Não verifiquei:
+- Não verificado:
   - o Saúde Cotador e a central de documentos (aplicação, API não procurada);
-  - se `caasp.qualicorp.com.br` tem versões mais novas: não há listagem, e não testei nomes de arquivo;
+  - se `caasp.qualicorp.com.br` tem versões mais novas: não há listagem, e nenhum nome de arquivo foi testado;
   - os três endereços de `tabelasdevendas`;
   - o dono de `sulamericasaudeonline.com.br`;
-  - a página do empresarial acima de 100 vidas, que não consultei.
+  - a página do empresarial acima de 100 vidas, não consultada.
