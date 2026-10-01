@@ -11,6 +11,7 @@ rm -rf "$SAIDA"
 (cd frontend && VITE_DEMO_ESTATICA=1 VITE_DEMO_DATA="$(date +%d/%m/%Y)" npx vite build --base=/radar-cotador/ --outDir "$(cd .. && pwd)/$SAIDA" --emptyOutDir)
 docker compose cp app:/tmp/demo "$SAIDA/demo"
 touch "$SAIDA/.nojekyll"
+mkdir -p "$SAIDA/pdf" && cp docs/pdf/*.pdf "$SAIDA/pdf/"
 # O vídeo (scripts/gravar_video.cjs) e a capa dele vão junto quando já foram gravados.
 if [ -f dados/video/radar-cotador-demo.mp4 ]; then
   mkdir -p "$SAIDA/video" && cp dados/video/radar-cotador-demo.mp4 dados/video/capa.jpg "$SAIDA/video/"
