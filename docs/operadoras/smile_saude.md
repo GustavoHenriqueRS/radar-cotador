@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `smile_saude`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - "&gt; 59 anos" passou a ser lido como a última faixa (70 de 70 preços na cópia de 01/2023);
 > - "Com coparticipação" e "Sem coparticipação", escritos na vertical ao lado das grades, viraram a condição de cada grade.
 

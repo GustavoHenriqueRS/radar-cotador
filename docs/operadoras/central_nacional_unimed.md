@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `central_nacional_unimed`. Configuração em `fontes/operadoras/central_nacional_unimed.json`; amostras em `amostras/operadoras/central_nacional_unimed/`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - a camada de texto coberta pelo fundo das células sai da leitura: as tabelas DF e Feira de Santana, que davam 0 preços, dão 240 e 280;
 > - "Acima 59 anos" passou a ser lido como a última faixa: Salvador dá 100 preços, contra 90 aqui.
 

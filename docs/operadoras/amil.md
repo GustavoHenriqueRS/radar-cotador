@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `amil`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - o rótulo "59" com o "ou +" na linha de baixo passou a ser lido: a Linha Especial dá 360 de 360 preços, contra 324 aqui.
 
 ## Resumo

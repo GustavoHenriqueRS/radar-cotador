@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `sulamerica_saude`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - a conferência passou a usar a nota técnica plausível para a data do material. A tabela de 10/2023 deixou de ter os alertas falsos de "abaixo da despesa" (eram 112, agora nenhum). Sobram os 12 erros reais de plano cancelado, e 144 colunas avisam que a operadora registrou nota técnica nova depois do material;
 > - material sem grade de preço (tabelas de coparticipação) passou a gerar aviso.
 

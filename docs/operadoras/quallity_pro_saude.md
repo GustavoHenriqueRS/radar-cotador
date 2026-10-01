@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `quallity_pro_saude`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - a vigência impressa ("vigente 08/2022") passou a ser lida sem LLM;
 > - a conferência passou a usar a nota técnica plausível para a data do material: a tabela de 2022 deixa de ter 21 alertas de preço contra a nota de 2026, e o que aparece é o aviso de nota técnica nova depois do material, que é o sinal certo de tabela defasada;
 > - o guia de coparticipação, sem grade de preço, passou a gerar aviso.

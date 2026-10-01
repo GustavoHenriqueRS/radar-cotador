@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `bradesco_saude`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - material sem grade de preço por faixa (manual de coparticipação, portfólio) passou a gerar o aviso "nenhuma tabela de preço encontrada", em vez de sair com 0 preços em silêncio.
 
 ## Resumo

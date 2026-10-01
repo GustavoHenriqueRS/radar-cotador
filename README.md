@@ -228,4 +228,4 @@ scripts/           medições do acervo e do cálculo, PDFs, versão estática, 
   - a aprovação humana das versões antigas, feita pela carga de demonstração para montar o histórico;
   - as demais fontes de PDF, que entram por upload: Unimed e Qualicorp bloqueiam robôs no robots.txt.
 
-Detalhes na seção 8 da proposta.
+Detalhes na seção 9 da proposta.

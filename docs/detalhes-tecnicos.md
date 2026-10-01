@@ -119,7 +119,7 @@ Na prática:
 |---|---|
 | Preços da leitura geométrica | 8.553, **todos confirmados pelo LLM**, com 0 divergências |
 | PDFs com preço lido pela geométrica | 83 de 84; o que falta tem preço único, sem faixa etária (a geométrica não tem âncora; o LLM leu os 6 preços, que foram para revisão) |
-| Sem revisão (produto identificado) | 73,9%; o resto é sinal da ANS (nota técnica, banda), não erro de leitura |
+| Sem revisão (produto identificado) | 73,9%; o resto vem sobretudo das regras da ANS (nota técnica, banda), e nenhum preço foi para revisão por divergência entre as leituras |
 | Custo da segunda leitura | US$ 0,56 pelas 84 (cerca de US$ 0,007 por PDF) |
 
 Três achados no caminho, todos com teste:
@@ -185,7 +185,7 @@ Quatro lições de rodar com dados reais:
 - **A dupla leitura achou um erro da leitura geométrica.** Um PDF da NotreDame carrega uma coluna de preços copiada e escondida na borda de duas grades: está no arquivo, mas não aparece na página. A leitura geométrica lia essa coluna; os dois LLMs, que veem a página, não. Agora o leitor confere cada palavra contra a página desenhada e descarta o que ninguém vê (20 preços fantasmas; nenhum preço visível afetado).
 - **Página por página.** Com o documento inteiro numa chamada, o modelo resumia os PDFs grandes e avisava que tinha pulado tabelas: confirmava só 28% dos preços. Lendo cada página separada, em paralelo, a confirmação foi a quase 100%, e o custo subiu pouco mais da metade.
 - **Modelo barato para tudo, o forte para o difícil.** No escaneado, o GPT-6.1 Sol acertou 360 de 360 preços (US$ 0,105, 18 vezes o Luna). As poucas diferenças dos modelos baratos já caem em revisão pela divergência com o OCR. Por isso o modelo forte só se paga em PDF escaneado ou para desempatar página com divergência.
-- **A dupla leitura aumenta a confiança; a automação muda pouco.** O percentual sem revisão foi de 80,1% com uma leitura para 81,1% com duas e o cálculo, porque o LLM completa faixas que a leitura geométrica perdeu e o cálculo desempata as divergências. O que manda preço para revisão neste acervo são as regras da ANS (plano suspenso, nota técnica nova), não erro de leitura. O ganho é que quase todo preço tem confirmação independente, e cada discordância aponta a célula exata.
+- **A dupla leitura aumenta a confiança; a automação muda pouco.** O percentual sem revisão foi de 80,1% com uma leitura para 81,1% com duas e o cálculo, porque o LLM completa faixas que a leitura geométrica perdeu e o cálculo desempata as divergências. O que manda preço para revisão neste acervo são sobretudo as regras da ANS (plano suspenso, nota técnica nova); dos 899 apontados com uma leitura, só 44 vêm de faixa que a leitura não achou, e nenhum de divergência entre as leituras. O ganho é que quase todo preço tem confirmação independente, e cada discordância aponta a célula exata.
 
 ---
 

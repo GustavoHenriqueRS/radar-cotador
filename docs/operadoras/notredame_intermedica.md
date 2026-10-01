@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `notredame_intermedica`. Só o registro 359017; Hapvida (368253) e NotreDame Intermédica Minas Gerais (348520) ficam de fora.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - o coletor passou a interpretar o robots.txt como manda a RFC 9309, com curinga. Os endereços que o site veda (`/*?version=*`, `/web*`, `/-/*`) agora são recusados;
 > - o dígito desenhado à parte ("1" + "18,07") volta para o número. Os 735 preços que perdiam a centena na Super Simples e na NotreLife saem certos.
 

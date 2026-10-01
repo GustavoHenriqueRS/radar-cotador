@@ -2,7 +2,7 @@
 
 Levantamento de 01/10/2026. Slug: `hapvida`. Configuração em `fontes/operadoras/hapvida.json`; amostras em `amostras/operadoras/hapvida/`.
 
-> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 7):
+> **Depois deste levantamento**, o que ele apontou no leitor e no coletor foi corrigido no código, cada caso com teste (`docs/proposta.md`, seção 8):
 > - o tipo de captura `api_json` foi escrito, e a API da CORPe trouxe as 53 tabelas Hapvida, cada uma com a data da versão. No teste às cegas, os 3.000 preços da leitura geométrica foram todos confirmados pelo LLM;
 > - "com coparticipação total ou parcial" deixou de marcar a grade inteira como "total";
 > - o negrito falso (letra desenhada duas vezes no mesmo lugar) deixou de esconder a segunda grade da tabela de Belo Horizonte.
