@@ -5,6 +5,7 @@ Protótipo para o desafio técnico do Cotador de Planos de Saúde. Cada tabela d
 **Para ver sem instalar nada:**
 - **Protótipo no navegador:** [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/). É o acervo de demonstração congelado, com a cotação calculada no próprio navegador; revisar, publicar e coletar ficam desligados.
 - **Vídeo de 1 min 28 s:** [a demonstração seguindo o roteiro](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4).
+- **Slides:** [os 12 slides da apresentação](docs/pdf/slides.pdf), gerados de [`docs/slides.md`](docs/slides.md).
 - **Documentos em PDF:** [proposta](docs/pdf/proposta.pdf), [detalhes técnicos](docs/pdf/detalhes-tecnicos.pdf), [como evoluir](docs/pdf/como-evoluir.pdf), [as 9 operadoras](docs/pdf/operadoras.pdf), [pesquisa](docs/pdf/pesquisa.pdf) e [roteiro da demonstração](docs/pdf/roteiro-demo.pdf).
 
 **Os mesmos documentos em Markdown:**
@@ -200,7 +201,7 @@ Os primeiros usam os PDFs reais do acervo e os casos de fronteira encontrados ne
 O material de apresentação sai do próprio protótipo, por script, e se refaz a qualquer momento:
 
 - **Versão estática** (`./scripts/gerar_demo_estatica.sh`): `manage.py exportar_demo` exporta as respostas da API, as páginas dos PDFs e o que a cotação precisa; o front é montado em modo estático e publicado no branch `gh-pages`. A cotação roda no navegador com a mesma conta da API, e `scripts/conferir_versao_estatica.cjs` compara as duas cartão a cartão: em 8 combinações de idade, contratação e UF, o resultado é idêntico.
-- **PDFs** (`python3 scripts/gerar_pdfs.py`): o Markdown de `docs/` vira PDF com capa, sumário e número de página, impresso pelo Chrome sem interface.
+- **PDFs** (`python3 scripts/gerar_pdfs.py` e `python3 scripts/gerar_slides.py`): o Markdown de `docs/` vira PDF com capa, sumário e número de página, e `docs/slides.md` vira os slides em 16:9, tudo impresso pelo Chrome sem interface.
 - **Vídeo** (`node scripts/gravar_video.cjs`): o roteiro da demonstração gravado no protótipo no ar, com legendas.
 
 ## Estrutura

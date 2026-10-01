@@ -16,29 +16,38 @@ const NUMEROS = [
 ];
 
 const RECURSOS = [
-  { Icone: ScanLine, titulo: "Duas leituras independentes", texto: "Uma geométrica (ou OCR) e outra por modelo de linguagem. Quando discordam, a célula vai para uma pessoa, com o PDF ao lado." },
-  { Icone: Calculator, titulo: "Conferência por cálculo", texto: "O percentual entre as faixas etárias refaz cada preço. Em 1.434 erros de digitação plantados de propósito, apontou todos os acima de 0,1%." },
-  { Icone: Scale, titulo: "Regras com base legal", texto: "RN 563 para as faixas, RN 564 para o preço de referência da nota técnica e RN 543 para a situação do plano na ANS." },
-  { Icone: Layers, titulo: "Origem e histórico", texto: "Todo preço publicado sabe de onde veio. Nada é sobrescrito, e material antigo nunca volta a ser o preço vigente." },
-  { Icone: Radar, titulo: "Radar de mudanças", texto: "Nota técnica nova, plano suspenso, hospital saindo da rede: o aviso chega antes de o corretor errar." },
-  { Icone: Hospital, titulo: "Cotação com contexto", texto: "Rede hospitalar no estado do cliente, reembolso do registro ANS e alerta quando outra fonte tem material mais novo." },
+  { Icone: ScanLine, titulo: "Duas leituras independentes", para: "/documentos/19", texto: "Uma geométrica (ou OCR) e outra por modelo de linguagem. Quando discordam, a célula vai para uma pessoa, com o PDF ao lado." },
+  { Icone: Calculator, titulo: "Conferência por cálculo", para: "/documentos/23", texto: "O percentual entre as faixas etárias refaz cada preço. Em 1.434 erros de digitação plantados de propósito, apontou todos os acima de 0,1%." },
+  { Icone: Scale, titulo: "Regras com base legal", para: "/documentos/19", texto: "RN 563 para as faixas, RN 564 para o preço de referência da nota técnica e RN 543 para a situação do plano na ANS." },
+  { Icone: Layers, titulo: "Origem e histórico", para: "/tabelas", texto: "Todo preço publicado sabe de onde veio. Nada é sobrescrito, e material antigo nunca volta a ser o preço vigente." },
+  { Icone: Radar, titulo: "Radar de mudanças", para: "/radar", texto: "Nota técnica nova, plano suspenso, hospital saindo da rede: o aviso chega antes de o corretor errar." },
+  { Icone: Hospital, titulo: "Cotação com contexto", para: "/cotacao", texto: "Rede hospitalar no estado do cliente, reembolso do registro ANS e alerta quando outra fonte tem material mais novo." },
 ];
 
 const ACHADOS = [
-  { titulo: "Operadora extinta na lista", texto: "A Saúde Sim teve o registro cancelado em 2022 e ainda aparecia na página do Cotador." },
-  { titulo: "Plano suspenso à venda", texto: "Planos com venda suspensa na ANS desde 11/2024 ainda estavam numa tabela de venda de 2026." },
-  { titulo: "Preço velho mais barato", texto: "A mesma tabela Hapvida DF estava 9,7% mais barata numa das fontes, porque era a versão de 2025." },
-  { titulo: "Hospital fora da rede", texto: "A ANS deferiu a saída do Hospital Mogiano da rede de 9 planos publicados. Nenhum PDF de venda conta isso." },
+  { titulo: "Operadora extinta na lista", para: "/", texto: "A Saúde Sim teve o registro cancelado em 2022 e ainda aparecia na página do Cotador." },
+  { titulo: "Plano suspenso à venda", para: "/radar", texto: "Planos com venda suspensa na ANS desde 11/2024 ainda estavam numa tabela de venda de 2026." },
+  { titulo: "Preço velho mais barato", para: "/cotacao", texto: "A mesma tabela Hapvida DF estava 9,7% mais barata numa das fontes, porque era a versão de 2025." },
+  { titulo: "Hospital fora da rede", para: "/radar", texto: "A ANS deferiu a saída do Hospital Mogiano da rede de 9 planos publicados. Nenhum PDF de venda conta isso." },
 ];
 
 const DOCUMENTOS = [
   { nome: "proposta", titulo: "Proposta", texto: "Os cinco pontos do desafio e os problemas resolvidos no caminho." },
+  { nome: "slides", titulo: "Slides", texto: "A proposta em 12 slides, para apresentar em poucos minutos." },
   { nome: "detalhes-tecnicos", titulo: "Detalhes técnicos", texto: "As medições, as regras e as tabelas por trás de cada número." },
   { nome: "como-evoluir", titulo: "Como evoluir", texto: "Princípios, receitas de extensão, escala e próximos passos." },
   { nome: "operadoras", titulo: "As 9 operadoras", texto: "Canais, robots.txt, termos de uso e amostras lidas, uma a uma." },
   { nome: "pesquisa", titulo: "Pesquisa", texto: "Fontes de dados, achados e embasamento regulatório." },
   { nome: "roteiro-demo", titulo: "Roteiro da demonstração", texto: "O protótipo em cinco minutos, tela a tela." },
 ];
+
+function VerNoPrototipo({ para }: { para: string }) {
+  return (
+    <Link to={para} className="mt-auto inline-flex min-h-8 items-center gap-1 self-start pt-2 text-sm font-medium text-acao hover:underline">
+      Ver no protótipo <ArrowRight size={14} aria-hidden />
+    </Link>
+  );
+}
 
 function Secao({ id, rotulo, titulo, children }: { id?: string; rotulo: string; titulo: string; children: ReactNode }) {
   return (
@@ -123,13 +132,14 @@ export function Apresentacao() {
 
       <Secao rotulo="O que já funciona" titulo="Seis peças que tiram a digitação sem perder o controle">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {RECURSOS.map(({ Icone, titulo, texto }) => (
+          {RECURSOS.map(({ Icone, titulo, para, texto }) => (
             <div key={titulo} className="flex flex-col gap-4 rounded-2xl border border-borda bg-white p-6 shadow-sm">
               <span className="grid size-10 place-items-center rounded-xl border border-borda bg-sky-50 text-acao"><Icone size={20} strokeWidth={1.75} aria-hidden /></span>
               <div>
                 <h3 className="text-base font-semibold text-slate-900">{titulo}</h3>
                 <p className="mt-1.5 text-pretty text-sm leading-relaxed text-slate-600">{texto}</p>
               </div>
+              <VerNoPrototipo para={para} />
             </div>
           ))}
         </div>
@@ -143,6 +153,7 @@ export function Apresentacao() {
               <div>
                 <h3 className="text-base font-semibold text-slate-900">{a.titulo}</h3>
                 <p className="mt-1 text-pretty text-sm leading-relaxed text-slate-700">{a.texto}</p>
+                <VerNoPrototipo para={a.para} />
               </div>
             </div>
           ))}
