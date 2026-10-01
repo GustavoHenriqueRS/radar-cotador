@@ -2,10 +2,20 @@
 
 Protótipo Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
 
+<table>
+  <tr>
+    <td width="50%"><a href="https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-motion.mp4"><img src="docs/img/video-resumo.jpg" alt="Vídeo: o Radar do Cotador em 41 segundos"></a></td>
+    <td width="50%"><a href="https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4"><img src="docs/img/video-demonstracao.jpg" alt="Vídeo: demonstração completa do protótipo, 1 min 36 s"></a></td>
+  </tr>
+  <tr>
+    <td><b>Resumo, 41 s.</b> Do PDF à cotação: a dupla leitura, a conferência com a ANS, o radar e a origem de cada preço.</td>
+    <td><b>Demonstração completa, 1 min 36 s.</b> O protótipo em uso, tela a tela, seguindo o roteiro da demonstração.</td>
+  </tr>
+</table>
+
 **Para ver sem instalar nada:**
 - **Protótipo completo, com o back-end:** [item-soa-alleged-lauderdale.trycloudflare.com](https://item-soa-alleged-lauderdale.trycloudflare.com), publicado na AWS. Tudo funciona, de revisar e publicar a enviar PDF; a seção [Publicação](#publicação) mostra como está montado.
 - **Versão estática, no navegador:** [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/). É o acervo de demonstração congelado, com a cotação calculada no próprio navegador; revisar, publicar e coletar ficam desligados.
-- **Vídeos:** [o Radar em 41 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-motion.mp4), do PDF à cotação, e [a demonstração completa](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), em 1 min 36 s.
 - **Slides:** [os 12 slides da apresentação](docs/pdf/slides.pdf), gerados de [`docs/slides.md`](docs/slides.md).
 - **Documentos em PDF:** [proposta](docs/pdf/proposta.pdf), [detalhes técnicos](docs/pdf/detalhes-tecnicos.pdf), [como evoluir](docs/pdf/como-evoluir.pdf), [as 9 operadoras](docs/pdf/operadoras.pdf), [pesquisa](docs/pdf/pesquisa.pdf) e [roteiro da demonstração](docs/pdf/roteiro-demo.pdf).
 
