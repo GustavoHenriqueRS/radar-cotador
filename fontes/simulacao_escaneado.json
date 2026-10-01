@@ -1,0 +1,12 @@
+{
+  "fontes": [
+    {
+      "nome": "Simulação (escaneado)",
+      "tipo": "envio_corretor",
+      "url": "",
+      "confiabilidade": 2,
+      "observacoes": "PDF só com imagem gerado a partir da tabela da Unimed Guarulhos para testar OCR. Dado simulado.",
+      "capturas": []
+    }
+  ]
+}

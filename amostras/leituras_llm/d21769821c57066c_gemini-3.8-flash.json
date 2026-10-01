@@ -1,0 +1,433 @@
+{
+ "arquivo": "allcare_unimed_fortaleza_adesao_ce_2026-02.pdf",
+ "sha256": "d21769821c57066cc5b32819aab4577b991c8c000fa0c4a379019509889fc23e",
+ "gravada_em": "2026-09-30T21:01:52+00:00",
+ "esforco": "low",
+ "paginas": 12,
+ "segundos": 10.0,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 13719,
+  "saida": 6082,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.033097,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed Fortaleza",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "CE"
+  ],
+  "vigencia_inicio": "2026-02-01",
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p5.P1",
+    "nome": "Unifácil Enfermaria",
+    "registro_ans": "495.143/23-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Interplano Leste CA Enfermaria",
+    "registro_ans": "502.514/25-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Salute UNI Enfermaria",
+    "registro_ans": "500.149/24-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Salute UNI Apartamento",
+    "registro_ans": "500.152/24-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P5",
+    "nome": "Salute Max Enfermaria",
+    "registro_ans": "484.149/19-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P6",
+    "nome": "Salute Max Apartamento",
+    "registro_ans": "484.150/19-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P7",
+    "nome": "Multiplan Enfermaria",
+    "registro_ans": "489.388/21-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P8",
+    "nome": "Multiplan Apartamento",
+    "registro_ans": "489.379/21-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Unifácil",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "Interplano",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P3",
+    "nome": "Salute",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P4",
+    "nome": "Multiplan",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços Ambulatorial + Hospitalar com Obstetrícia - Com coparticipação 30% - Unifácil / Interplano Leste CA / Salute UNI",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Unifácil - Enfermaria",
+      "valores": [
+       249.74,
+       287.19,
+       330.31,
+       379.81,
+       417.76,
+       480.47,
+       611.85,
+       813.67,
+       1082.2,
+       1498.2
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Interplano Leste CA - Enfermaria",
+      "valores": [
+       249.85,
+       287.31,
+       330.46,
+       379.99,
+       417.94,
+       480.68,
+       612.11,
+       814.03,
+       1082.67,
+       1498.86
+      ]
+     },
+     {
+      "produto_id": "p5.P3",
+      "coluna": "Salute UNI - Enfermaria",
+      "valores": [
+       321.24,
+       369.4,
+       424.87,
+       488.55,
+       537.35,
+       618.02,
+       787.0,
+       1046.61,
+       1392.0,
+       1927.1
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "Salute UNI - Apartamento",
+      "valores": [
+       430.74,
+       495.31,
+       569.69,
+       655.1,
+       720.54,
+       828.7,
+       1055.26,
+       1403.41,
+       1866.5,
+       2584.0
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços Ambulatorial + Hospitalar com Obstetrícia - Com coparticipação 30% - Salute Max / Multiplan",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P5",
+      "coluna": "Salute Max - Enfermaria",
+      "valores": [
+       352.25,
+       405.07,
+       465.89,
+       535.72,
+       589.26,
+       677.7,
+       862.98,
+       1147.67,
+       1526.39,
+       2113.15
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "Salute Max - Apartamento",
+      "valores": [
+       471.14,
+       541.77,
+       623.14,
+       716.55,
+       788.14,
+       906.43,
+       1154.25,
+       1535.04,
+       2041.59,
+       2826.39
+      ]
+     },
+     {
+      "produto_id": "p5.P7",
+      "coluna": "Multiplan - Enfermaria",
+      "valores": [
+       392.19,
+       450.98,
+       518.71,
+       596.47,
+       656.05,
+       754.54,
+       960.82,
+       1277.8,
+       1699.48,
+       2352.77
+      ]
+     },
+     {
+      "produto_id": "p5.P8",
+      "coluna": "Multiplan - Apartamento",
+      "valores": [
+       525.08,
+       603.77,
+       694.46,
+       798.55,
+       878.33,
+       1010.16,
+       1286.34,
+       1710.7,
+       2275.25,
+       3149.84
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Coparticipação geral",
+    "regra": "30%",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Médicas Eletivas.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas em Pronto Socorro.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Simples.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Terapias incluindo sessões de psicologia, fisioterapia, fonoaudiologia, terapia ocupacional, nutrição e acupuntura",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Internações psiquiátricas.²",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Atendimentos Ambulatoriais em situação de urgência/emergência.",
+    "prazo_dias": 1,
+    "observacao": "Carências Contratuais: 24 horas; De 3 a 12 meses: 24 horas; Acima de 12 meses: 24 horas"
+   },
+   {
+    "cobertura": "Consultas médicas e exames simples.",
+    "prazo_dias": 30,
+    "observacao": "Carências Contratuais: 30 dias; De 3 a 12 meses: 4 dias; Acima de 12 meses: 4 dias"
+   },
+   {
+    "cobertura": "Ultrassonografia, ecocardiograma, teste ergométrico, prova de holter.",
+    "prazo_dias": 90,
+    "observacao": "Carências Contratuais: 90 dias; De 3 a 12 meses: 60 dias; Acima de 12 meses: 4 dias"
+   },
+   {
+    "cobertura": "Cintilografia",
+    "prazo_dias": 90,
+    "observacao": "Carências Contratuais: 90 dias; De 3 a 12 meses: 90 dias; Acima de 12 meses: 4 dias"
+   },
+   {
+    "cobertura": "Fonoaudiologia, Psicologia, Terapia ocupacional, Fisioterapia, Nutricionista.",
+    "prazo_dias": 180,
+    "observacao": "Carências Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias"
+   },
+   {
+    "cobertura": "Tomografia computadorizada e Ressonância Magnética.",
+    "prazo_dias": 180,
+    "observacao": "Carências Contratuais: 180 dias; De 3 a 12 meses: 120 dias; Acima de 12 meses: 45 dias"
+   },
+   {
+    "cobertura": "Cirurgias eletivas ambulatoriais, Hemodinâmica, Internações clínicas e cirúrgicas, Diatermia, Litotripsia, Quimioterapia, Diálise e Hemodiálise.",
+    "prazo_dias": 180,
+    "observacao": "Carências Contratuais: 180 dias; De 3 a 12 meses: 120 dias; Acima de 12 meses: 60 dias"
+   },
+   {
+    "cobertura": "Acupuntura",
+    "prazo_dias": 180,
+    "observacao": "Carências Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias"
+   },
+   {
+    "cobertura": "Internação decorrente de transtornos psiquiátricos.",
+    "prazo_dias": 180,
+    "observacao": "Carências Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias"
+   },
+   {
+    "cobertura": "Parto a termo",
+    "prazo_dias": 300,
+    "observacao": "Carências Contratuais: 300 dias; De 3 a 12 meses: 300 dias; Acima de 12 meses: 300 dias"
+   },
+   {
+    "cobertura": "Cobertura parcial temporária para o tratamento de doenças e lesões pré existentes.",
+    "prazo_dias": 720,
+    "observacao": "Carências Contratuais: 720 dias; De 3 a 12 meses: 720 dias; Acima de 12 meses: 720 dias"
+   }
+  ],
+  "elegibilidade": [
+   "Titulares: Deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Cônjuge",
+   "Companheiro(a)",
+   "Filhos(as) com até 38 (trinta e oito) anos",
+   "Filho(a) inválido(a) de qualquer idade",
+   "Menor sob guarda, tutela ou curatelado do Beneficiário Titular",
+   "Neto(a) com até 38 (trinta e oito) anos",
+   "Genro/Nora com até 38 (trinta e oito) anos",
+   "Enteado(a) com até 38 (trinta e oito) anos",
+   "Enteado(a) inválido(a) de qualquer idade",
+   "Titular com companheiro(a)",
+   "Sobrinho(a) com até 38 (trinta e oito) anos",
+   "Irmão(a) com até 38 (trinta e oito) anos",
+   "Cunhado(a) com até 38 (trinta e oito) anos",
+   "AFECOM DO BRASIL (Associação dos Funcionarios das Empresas do Comercio de Bens e Serviços do Brasil): Profissional que atuam como representante ou empregado no comércio de bens e serviços correlatos ao setor comercial.",
+   "UNASFEM (União Nacional de Assistencia aos Servidores Federais, Estaduais e Municipais): Servidor Público Municipal, Estadual e Federal.",
+   "AncePla - Associação Nacional dos Consultores Empresariais Profissionais Liberais e Autônomos",
+   "Público Elegível: Profissional Liberal (Advogado, Administrador, Aeronauta, Agrônomo, Anestesista, Arquiteto, Arquivista, Artista, Assistente Social, Atleta Profissional, Atuário, Auditores Independentes, Autônomo*, Bibliotecário, Biólogo, Biomédico, Cinema Áudio Visual, Cinema e Mídias Digitais, Comércio Exterior, Comunicação Social, Contabilista, Corretor de Seguros de Imóveis, Desenhista Industrial, Designer, Despachante Aduaneiro, Economista, Engenheiro, Estatístico, Farmacêutico, Filósofo, Físico, Fisioterapeuta, Fonoaudiólogo, Fotógrafo, Gastrônomo, Geógrafo, Geólogo, Gráficos, Historiador, Jornalista, Letras, Logística, Marketing, Matemático, Médico, Musico, Nutricionista, Odontólogo, Pedagogo, Professor, Profissional de Educação Física, Profissional de Enfermagem (Enfermeiro, Técnico e Auxiliar), Profissional de Finanças, Profissional da Tecnologia da Informação, Profissional de Recursos Humanos, Profissional da Saúde, Profissional de Segurança no Trabalho, Profissional de Segurança Privada, Profissional de Seguros, Profissional de Hotelaria e Turismo, Profissionais com Formação Técnica, Técnico em Contabilidade, Técnico em Informática, Técnico em Radiologia, Técnico Industrial, Técnico Laboratorial, Técnico de Radiologia, Protéticos, Psicólogo, Psicoterapeuta, Publicitário, Químico, Radialista, TV e INTERNET, Relações Públicas e Internacionais, Representante Comercial, Secretário, Sociólogo, Tecnólogo, Tradutores, Urbanista e veterinário)"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é a capa do Manual de Vendas, sem tabelas de preços ou produtos especificados com registros ANS.",
+   "p. 2: A página 1 (página 2 do material) é uma página de menu/índice e não contém tabelas de preços, valores ou descrições detalhadas de produtos.",
+   "p. 3: A página 3 apresenta apenas conteúdo institucional com diferenciais da Allcare, sem tabelas de preços, produtos ou regras de carência/coparticipação.",
+   "p. 4: A página 4 (marcada como página 1 no recorte) não contém tabelas de preços, apenas informações sobre diferenciais e benefícios gratuitos (Unimed Urgente e Seguro Vida Protegida).",
+   "p. 5: Reajuste indicado na página: Março",
+   "p. 6: A página 6 contém apenas tabelas de coparticipação e redução de carências; não contém tabelas de preços de mensalidade.",
+   "p. 7: A página 7 não contém tabelas de preços de produtos, apenas regras de vigência, área de comercialização e critérios de elegibilidade para adesão.",
+   "p. 8: Página de documentação/regras para dependentes; não contém tabelas de preços.",
+   "p. 9: A página 9 não contém tabelas de preços nem produtos descritos, apenas documentação para elegibilidade/comprovação de dependentes e comprovantes de endereço aceitos.",
+   "p. 11: A página 11 contém apenas regras e critérios de elegibilidade para a entidade AncePla, sem tabelas de preços."
+  ]
+ }
+}

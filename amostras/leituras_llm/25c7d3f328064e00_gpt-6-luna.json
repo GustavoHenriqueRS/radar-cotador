@@ -1,0 +1,393 @@
+{
+ "arquivo": "corpe_hapvida_adesao_df_2026-09-15.pdf",
+ "sha256": "25c7d3f328064e007ddcabb40a571181a49b64ac6eaaf23a6a8d1a92c9a33b26",
+ "gravada_em": "2026-09-30T20:27:31+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 15.2,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 28919,
+  "saida": 7606,
+  "cache_escrita": 0,
+  "cache_leitura": 17271,
+  "usd": 0.006868,
+  "raciocinio": 1877
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "CORPe Saúde",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF",
+   "GO"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "NOSSO PLANO A CA MUN CC SV 426",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "nao_informado",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p3.P3",
+    "nome": "PROTEÇÃO ODONTOLÓGICA CA",
+    "registro_ans": "485.365/20-2",
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P4",
+    "nome": "+ODONTO PREMIUM ADESÃO",
+    "registro_ans": "476.835/16-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial — Com Franquia — Coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": "Municipal",
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC SV 426",
+      "valores": [
+       124.09,
+       163.05,
+       185.71,
+       207.03,
+       217.82,
+       244.4,
+       298.61,
+       413.71,
+       557.29,
+       723.44
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial — Com Franquia — Coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": "Municipal",
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC SV 426",
+      "valores": [
+       157.94,
+       207.83,
+       236.85,
+       264.16,
+       277.97,
+       312.01,
+       381.43,
+       528.83,
+       712.71,
+       925.48
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial + Hospitalar + Obstetrícia — Com Franquia — Coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": "Municipal",
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       207.65,
+       267.04,
+       303.79,
+       337.59,
+       353.37,
+       396.44,
+       478.81,
+       652.37,
+       872.99,
+       1128.28
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       300.46,
+       389.55,
+       444.67,
+       495.39,
+       519.06,
+       583.67,
+       707.22,
+       967.58,
+       1298.52,
+       1681.46
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "Tabela de Vendas — Ambulatorial + Hospitalar + Obstetrícia — Com Franquia — Coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       259.7,
+       335.75,
+       382.8,
+       426.09,
+       446.29,
+       501.44,
+       606.92,
+       829.16,
+       1111.65,
+       1438.53
+      ]
+     },
+     {
+      "produto_id": "p3.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       378.54,
+       492.62,
+       563.2,
+       628.14,
+       658.44,
+       741.17,
+       899.37,
+       1232.75,
+       1656.5,
+       2146.83
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "Planos Odontológicos",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P3",
+      "coluna": "PROTEÇÃO ODONTOLÓGICA CA",
+      "valores": [
+       3.47,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "produto_id": "p3.P4",
+      "coluna": "+ODONTO PREMIUM ADESÃO",
+      "valores": [
+       22.05,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "Coparticipação Parcial: Isento; Coparticipação Total: Valor fixo R$ 25,42",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "Coparticipação Parcial: Isento; Coparticipação Total: Valor fixo R$ R$ 45,79",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "Coparticipação Parcial: Isento; Coparticipação Total: 40% Limitado a R$ 42,40",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "Coparticipação Parcial: Isento; Coparticipação Total: 40% Limitado a R$ R$ 114,48",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais",
+    "regra": "Coparticipação Parcial: Valor fixo R$ 78,87; Coparticipação Total: Valor fixo de R$ 78,87",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias",
+    "regra": "Coparticipação Parcial: Valor fixo R$ 24,27; Coparticipação Total: Valor fixo de R$ R$ 24,27",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Atendimentos decorrentes de acidentes pessoais, ocorridos comprovadamente a partir da vigência do Contrato, sendo que as demais condições de atendimento para urgência/emergência estão detalhadas no anexo I, em conformidade com a CONSU Nº 13/98. Para a cobertura de consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS).",
+    "prazo_dias": 1,
+    "observacao": "Vinte e quatro (24) horas; item 1."
+   },
+   {
+    "cobertura": "Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG).",
+    "prazo_dias": 30,
+    "observacao": "Trinta (30) dias; item 2. A tabela também repete “(Radiografia não contrastada) e Eletrocardiograma (ECG)”."
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não sejam de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS): exames cardiológicos simples (Teste Ergométrico, Holter, Ecocardiograma Convencional); exames oftalmológicos simples (Curva tensional, Tonometria, Campimetria, Mapeamento de retina); exames otorrinolaringológicos simples (Audiometrias e Impedanciometrias, Pesquisa de Potencial Evocado (BERA)); exames de Raio-X Contrastado; exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Noventa (90) dias; item 3."
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não estejam relacionados à(s) patologia(s) para a(s) qual(is) o beneficiário cumpre Cobertura Parcial Temporária - CPT: cirurgias ambulatoriais; internação hospitalar, clínica, cirúrgica ou obstétrica; internações em leitos de alta complexidade; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia; Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive, com métodos específicos – ABA, BOBATH e outras – (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia, e terapia ocupacional); todos os procedimentos não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Cento e oitenta (180) dias; item 4."
+   },
+   {
+    "cobertura": "Cobertura de partos a termo.",
+    "prazo_dias": 300,
+    "observacao": "Trezentos (300) dias; item 5."
+   },
+   {
+    "cobertura": "CPT (Cobertura Parcial Temporária).",
+    "prazo_dias": null,
+    "observacao": "24 meses. A CPT admite, por período ininterrupto de até 24 meses, contado a partir da data de início de vigência do benefício, a suspensão da cobertura de Procedimentos de Alta Complexidade (PAC), leitos de alta tecnologia e procedimentos cirúrgicos, desde que relacionados exclusivamente às doenças ou lesões preexistentes declaradas pelo beneficiário ou seu representante legal. A CPT não se confunde com carência contratual."
+   },
+   {
+    "cobertura": "Redução de carências para beneficiário vinculado há mais de 1 ano à operadora de origem",
+    "prazo_dias": null,
+    "observacao": "Redução de 100% do número de dias de adimplência junto à operadora de origem. Exceto partos, sessões e terapias simples, especiais e multidisciplinares, inclusive com métodos específicos (ABA, BOBATH e outros), e CPT para doenças e lesões preexistentes; para esses casos, valem os prazos do instrumento contratual originalmente firmado com a CONTRATANTE."
+   },
+   {
+    "cobertura": "Redução de carências para beneficiário vinculado entre 180 dias e 1 ano à operadora de origem",
+    "prazo_dias": null,
+    "observacao": "Redução de 50% do número de dias de adimplência junto à operadora de origem. Exceto partos, sessões e terapias simples, especiais e multidisciplinares, inclusive com métodos específicos (ABA, BOBATH e outros), e CPT para doenças e lesões preexistentes; para esses casos, valem os prazos do instrumento contratual originalmente firmado com a CONTRATANTE."
+   },
+   {
+    "cobertura": "Redução de carências para beneficiário vinculado entre 30 e 179 dias à operadora de origem",
+    "prazo_dias": null,
+    "observacao": "Redução de 30 dias, devendo o beneficiário cumprir o prazo restante conforme o instrumento contratual originalmente firmado com a CONTRATANTE. Exceto partos, sessões e terapias simples, especiais e multidisciplinares, inclusive com métodos específicos (ABA, BOBATH e outros), e CPT para doenças e lesões preexistentes; para esses casos, os prazos do contrato original serão integralmente cumpridos."
+   }
+  ],
+  "elegibilidade": [
+   "Cônjuge ou companheiro(a): cópias de RG, CPF e certidão de casamento ou declaração de união estável.",
+   "Filho(a) e enteado(a) até 24 anos incompletos: cópias de RG, CPF e certidão de nascimento; documentação que comprove vínculo com o titular. Para enteado: se o titular for cônjuge, certidão de casamento; se for companheiro, declaração de união estável reconhecida no cartório.",
+   "Pai, mãe, avô(ó) e neto(a): cópias de RG e CPF e documento oficial comprobatório do vínculo de parentesco.",
+   "Irmão(ã), tio(a) e sobrinho(a): cópias de RG e CPF e documento oficial comprobatório do vínculo de parentesco.",
+   "Titulares a partir de 18 anos para categoria estudantil: cônjuge ou companheiro(a) do mesmo sexo ou do sexo oposto; enteados e filhos naturais ou adotivos solteiros até 24 anos incompletos (23 anos, 11 meses e 29 dias), ou de qualquer idade se inválidos física ou mentalmente em caráter permanente, mediante comprovação da incapacidade; filhos inválidos de qualquer idade; tutelados, curatelados e menores sob guarda, nos limites etários até 21 anos incompletos, conforme as regras do Código Civil e do Estatuto da Criança e do Adolescente (ECA).",
+   "Para dependentes da categoria estudantil, são solicitados documentos conforme a situação: RG e CPF ou certidão de nascimento; certidão de casamento ou declaração de união estável reconhecida no cartório; documentação de adoção, tutela ou termo de guarda expedido por órgão oficial; documentação que comprove o vínculo; e, para filhos inválidos, documentação atestando a invalidez emitida pelo INSS. Documentação provisória deve estar dentro da validade.",
+   "Para menores de 17 anos, 11 meses e 29 dias, fica facultada a inclusão como dependentes de pai, mãe e irmãos.",
+   "ASMU P: Servidores Público. Taxa associativa: R$ 5,00. Documentos: Cópia do Holerite Atual ou Nomeação de cargo | Ficha Associativa.",
+   "Aliança: Profissionais Liberais listados na página. Taxa associativa: R$ 8,00. Documentos: Cópia do Diploma ou Registro em Conselho de Classe ou em Sindicato da Categoria | Ficha Associativa.",
+   "ALOBRÁS: Empregados profissionais lojistas e comerciários do Brasil. Taxa associativa: R$ 5,00. Documentos: Cópia do Holerite Atual ou Carteira de Trabalho (CTPS) das páginas: Foto, CNPJ da Empresa, Nome Completo e Cargo do Empregado | Ficha Associativa.",
+   "ASSINDICOM: Empregados de empresas do Ramo do Comércio, Serviços ou Sócios, devidamente associados a entidade do comércio. Taxa associativa: R$ 9,00. Documentos: Comerciante: Cópia do Contrato Social ou Última Alteração | Requerimento de Empresário ou MEI (com no mínimo 6 meses de registro e ativo). Comerciário: Cópia da Carteira de Trabalho (CTPS) das páginas: Foto, CNPJ da Empresa, Nome Completo e Cargo do Empregado ou Holerite Atual. Necessário o envio do Cartão do CNPJ | Ficha Associativa.",
+   "Federação dos Estudantes: Estudantes (a partir de 05 anos). Taxa associativa: R$ 8,00. Documentos: Cópia do Certificado da Escola ou Declaração Escolar | Ficha Associativa."
+  ],
+  "avisos": [
+   "p. 1: Página de capa: não há tabelas de preço nem informações de produtos nesta página.",
+   "p. 1: Os números ANS impressos (CORPe Saúde: 418960; Hapvida: 368253) não estão associados a produtos.",
+   "p. 1: A capa exibe “v.setembro.2026”; há também um texto pouco legível “setembro.2025”, sem indicação clara de vigência.",
+   "p. 2: Acomodação do produto NOSSO PLANO A CA MUN CC SV 426 indicada como “Indisponível” no documento.",
+   "p. 2: A página informa “Valores exemplificados” e “Reajuste: fevereiro/2027”; não informa datas de vigência.",
+   "p. 3: A tabela de planos odontológicos imprime valores únicos (R$ 3,47 e R$ 22,05), sem discriminação por faixa etária. Como o esquema exige 10 posições, cada valor foi registrado na primeira posição e as demais ficaram null; a página não informa a quais faixas etárias os valores se aplicam.",
+   "p. 3: A página informa reajuste em fevereiro/2027, sem indicar data de vigência inicial ou final.",
+   "p. 3: Os planos médicos são identificados como 'Com Odonto', mas as notas esclarecem que os preços da tabela Nosso Plano abrangem exclusivamente assistência médica e que a contratação odontológica é feita em instrumento próprio.",
+   "p. 4: A página não contém tabelas de preço.",
+   "p. 4: Área de atuação impressa: Brasília.",
+   "p. 4: Área de comercialização impressa: Brasília, Águas Lindas de Goiás, Cidade Ocidental, Formosa, Novo Gama, Planaltina, Santo Antônio do Descoberto e Valparaíso de Goiás.",
+   "p. 5: A página não contém tabela de preços de planos; contém uma tabela de valores de coparticipação.",
+   "p. 5: Mantida a repetição impressa de “R$” nos valores de coparticipação total.",
+   "p. 6: A página contém tabelas de carências e de Cobertura Parcial Temporária, mas não contém tabelas de preços.",
+   "p. 7: A página não contém tabelas de preço.",
+   "p. 7: As reduções de carência dependem da análise e do aceite da documentação pela operadora. As condições especiais aplicam-se a beneficiários titulares com direito e dependentes oriundos de outras operadoras, adimplentes no plano de origem, considerando o critério de pré-pagamento.",
+   "p. 7: Cada beneficiário é considerado individualmente para redução de carências ou CPT. Os planos de origem devem ter segmentação assistencial e acomodação equivalentes ou inferiores às da contratação aditada.",
+   "p. 7: O documento lista como operadoras congêneres: Sulamerica (e Paraná Clínicas), Bradesco, Seguros Unimed, CNU, Amil, Unimeds, Smile, Quality e Ideal Saúde.",
+   "p. 7: O documento solicita carta de permanência e os 3 últimos boletos pagos.",
+   "p. 8: A página contém informações sobre rede credenciada, mas não apresenta tabelas de preço.",
+   "p. 9: Página 9 contém apenas informações de atendimento e divulgação do aplicativo; não há tabelas de preço nem outros dados do plano impressos."
+  ]
+ }
+}

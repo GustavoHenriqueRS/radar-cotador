@@ -1,0 +1,596 @@
+{
+ "arquivo": "wayback_allcare_unimed_rio_preto_adesao_sp_2026-05-11.pdf",
+ "sha256": "7af68c53ed53da2f184ff1cfd626d4331e34cf11242787e002d2bc75900fab59",
+ "gravada_em": "2026-09-30T20:30:21+00:00",
+ "esforco": "low",
+ "paginas": 10,
+ "segundos": 15.2,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 28349,
+  "saida": 8193,
+  "cache_escrita": 0,
+  "cache_leitura": 19683,
+  "usd": 0.007128,
+  "raciocinio": 1604
+ },
+ "leitura": {
+  "operadora": "Unimed São José do Rio Preto",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "SP"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.805/24-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.778/24-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.806/24-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.777/24-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P5",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.796/24-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P6",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.776/24-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P7",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.797/24-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P8",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.775/24-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.766/24-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P2",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.774/24-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P3",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.767/24-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P4",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.773/24-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P5",
+    "nome": "COMPANY 30 NAC ADESÃO QC COM C",
+    "registro_ans": "478.730/17-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p5.P6",
+    "nome": "COMPANY 30 NAC ADESÃO STAR QP",
+    "registro_ans": "478.731/17-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "COMPANY 30 NACIONAL",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "nacional"
+   },
+   {
+    "id": "p6.P2",
+    "nome": "CORPORATIVO 30",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "regional"
+   },
+   {
+    "id": "p6.P3",
+    "nome": "CORPORATIVO 50",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "regional"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "VFJ",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       192.83,
+       192.83,
+       237.17,
+       265.63,
+       289.55,
+       344.57,
+       447.94,
+       586.79,
+       774.56,
+       1030.17
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       251.99,
+       251.99,
+       309.94,
+       347.13,
+       378.39,
+       450.27,
+       585.35,
+       766.8,
+       1012.2,
+       1346.22
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "VFJ",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       234.07,
+       234.07,
+       287.91,
+       322.45,
+       351.48,
+       418.26,
+       543.74,
+       712.29,
+       940.24,
+       1250.51
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       290.3,
+       290.3,
+       357.07,
+       399.91,
+       435.91,
+       518.74,
+       674.37,
+       883.41,
+       1166.11,
+       1550.93
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "CORPORATIVO 50 - ADESÃO REGIONAL RP — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "RP",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       227.39,
+       227.39,
+       279.68,
+       313.24,
+       341.44,
+       406.32,
+       528.21,
+       691.96,
+       913.39,
+       1214.8
+      ]
+     },
+     {
+      "produto_id": "p4.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       299.23,
+       299.23,
+       368.05,
+       412.22,
+       449.32,
+       534.68,
+       695.09,
+       910.56,
+       1201.95,
+       1598.59
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "CORPORATIVO 30 - ADESÃO REGIONAL RP — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "RP",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P7",
+      "coluna": "Enfermaria",
+      "valores": [
+       275.39,
+       275.39,
+       338.73,
+       379.38,
+       413.51,
+       492.1,
+       639.72,
+       838.02,
+       1106.2,
+       1471.26
+      ]
+     },
+     {
+      "produto_id": "p4.P8",
+      "coluna": "Apartamento",
+      "valores": [
+       341.54,
+       341.54,
+       420.1,
+       470.5,
+       512.85,
+       610.28,
+       793.38,
+       1039.33,
+       1371.9,
+       1824.63
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços — CORPORATIVO 50 - ADESÃO REGIONAL TOTAL — com coparticipação",
+    "vidas_minimo": 50,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo municipal",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL — Enfermaria",
+      "valores": [
+       261.43,
+       261.43,
+       321.55,
+       360.13,
+       392.56,
+       467.15,
+       607.28,
+       795.54,
+       1050.11,
+       1396.65
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL — Apartamento",
+      "valores": [
+       341.72,
+       341.72,
+       420.32,
+       470.76,
+       513.12,
+       610.61,
+       793.79,
+       1039.88,
+       1372.63,
+       1825.6
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços — CORPORATIVO 30 - ADESÃO REGIONAL TOTAL — com coparticipação",
+    "vidas_minimo": 30,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo municipal",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P3",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL — Enfermaria",
+      "valores": [
+       316.68,
+       316.68,
+       389.52,
+       436.27,
+       475.52,
+       565.88,
+       735.63,
+       963.68,
+       1272.06,
+       1691.84
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL — Apartamento",
+      "valores": [
+       392.77,
+       392.77,
+       483.11,
+       541.07,
+       589.78,
+       701.83,
+       912.39,
+       1195.21,
+       1577.7,
+       2098.32
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços — COMPANY 30 NAC — com coparticipação",
+    "vidas_minimo": 30,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P5",
+      "coluna": "COMPANY 30 NAC ADESÃO QC COM C",
+      "valores": [
+       409.26,
+       450.21,
+       536.13,
+       626.85,
+       773.5,
+       851.27,
+       1033.74,
+       1333.52,
+       1626.94,
+       2440.42
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "COMPANY 30 NAC ADESÃO STAR QP",
+      "valores": [
+       512.52,
+       563.75,
+       671.38,
+       784.98,
+       968.62,
+       1066.03,
+       1294.52,
+       1669.96,
+       2037.36,
+       3056.08
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas (*)",
+    "regra": "COMPANY 30 NACIONAL: 75%, teto R$ 36,03; CORPORATIVO 30: 25%, teto R$ 35,00; CORPORATIVO 50: 35%, teto R$ 55,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Consulta urgência (*)",
+    "regra": "COMPANY 30 NACIONAL: 75%, teto R$ 50,44; CORPORATIVO 30: 35%, teto R$ 45,00; CORPORATIVO 50: 50%, teto R$ 65,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais (grupo 1)",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 50,00; CORPORATIVO 50: 50%, teto R$ 110,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames simples (grupo 2)",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 50,00; CORPORATIVO 50: 50%, teto R$ 110,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Terapias especiais (grupo 1)",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 250,00; CORPORATIVO 50: 50%, teto R$ 250,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples (grupo 2)",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 50,00; CORPORATIVO 50: 50%, teto R$ 110,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Outros atendimentos ambulatoriais",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 250,00; CORPORATIVO 50: 50%, teto R$ 250,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Demais despesas assistenciais",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: 30%, teto R$ 50,00; CORPORATIVO 50: 50%, teto R$ 110,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Internações psiquiátricas",
+    "regra": "COMPANY 30 NACIONAL: 30%, teto R$ 60,05; CORPORATIVO 30: -; CORPORATIVO 50: 50%, teto -",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Internações",
+    "regra": "COMPANY 30 NACIONAL: -; CORPORATIVO 30: -; CORPORATIVO 50: teto R$ 230,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3"
+    ]
+   },
+   {
+    "procedimento": "Teto familiar",
+    "regra": "R$ 300,00 | somente para os tetos/procedimentos (valor máximo e valores fixos).",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular deve obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado pelo envio de documentação.",
+   "Dependentes devem ter grau de parentesco e dependência econômica com o titular: cônjuge; companheiro(a) em união homoafetiva, observados os mesmos critérios para reconhecimento da união estável; companheiro(a) que comprove união estável conforme a Lei Civil, sem eventual concorrência com o cônjuge, salvo decisão judicial; pensionados separados judicialmente, divorciados ou com união estável reconhecida e dissolvida judicialmente, com percepção de pensão alimentícia; filhos solteiros até 21 anos; filhos entre 21 e 24 anos, dependentes economicamente do titular e estudantes de curso regular reconhecido pelo Ministério da Educação; enteados e menores sob guarda por decisão judicial ou tutela; filhos adotivos ou não e enteados solteiros até completarem 24 anos; filhos comprovadamente inválidos enquanto durar a invalidez.",
+   "Recém-nascido, filho natural ou adotivo do titular, pode ser inscrito como dependente nos primeiros 30 dias do nascimento ou da adoção.",
+   "Filho adotivo menor de 12 anos pode aproveitar os períodos de carência já cumpridos pelo beneficiário adotante.",
+   "Associação dos Funcionários das Empresas do Comércio de Bens e Serviços do Brasil (AFECOM do Brasil): profissionais do comércio de bens e serviços. Documentação: contracheque com até 90 dias do mês de competência, carteira profissional ou contrato de trabalho que comprove o vínculo empregatício com empresas do comércio de bens e serviços; ou contrato social ou firma individual (CEI, CAEPF/MEI, Requerimento de Empresário Individual – MEI imediato) que comprove ser empresa do comércio de bens e serviços.",
+   "Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos (ANCEPLA): administradores, advogados, arquitetos, assistentes sociais, biólogos, biomédicos, contadores, corretores de imóveis, designers, economistas, educadores físicos, enfermeiros e técnicos de enfermagem, engenheiros, fisioterapeutas, fonoaudiólogos, profissionais de gestão financeira, jornalistas, profissionais de logística, marketing, médicos, médicos veterinários, nutricionistas, professores, profissionais de recursos humanos, psicólogos, publicitários, profissionais de relações públicas, segurança do trabalho, químicos e tecnologia da informação. Comprovação: cópia do diploma ou certificado de conclusão de curso superior/técnico; ou cópia da carteira do conselho regional e comprovante de associação à ANCEPLA (carteirinha da entidade, declaração original da entidade ou comprovante de contribuição em favor da entidade).",
+   "Associação Nacional dos Comerciários (ANC): profissionais atuantes no segmento do comércio. Empregados: cópia do último holerite e comprovante de associado à ANC. Empresários: empresário e sócio (pessoa física) MEI, ou cópia do contrato social ou da última alteração, e cópia da declaração original de associado emitida pela ANC.",
+   "União Nacional de Assistência aos Servidores Federais, Estaduais e Municipais (UNASFEM): servidores públicos federais, estaduais e municipais, exceto magistrados, promotores e procuradores. Comprovação: comprovante de vínculo com a entidade (declaração atual da entidade); cópia do holerite atual (mês vigente) ou carteira funcional ativa, ou nomeação no Diário Oficial comprovando vínculo CLT ou estatutário com órgãos públicos."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nem outras informações de plano impressas.",
+   "p. 2: Página de menu; não contém tabelas de preço.",
+   "p. 3: A página apresenta diferenciais da Allcare, mas não contém tabelas de preço nem informações de planos.",
+   "p. 4: A página identifica as condições como CORPORATIVO 50 e CORPORATIVO 30, mas não informa explicitamente os limites mínimo e máximo de vidas; por isso, vidas_minimo e vidas_maximo ficaram null.",
+   "p. 4: O material indica as regiões pelas siglas VFJ e RP; foram mantidas como impressas.",
+   "p. 4: A página informa reajuste em abril.",
+   "p. 5: A página não informa o limite máximo de vidas para as condições indicadas como 50 e 30.",
+   "p. 5: A transcrição do nome do produto COMPANY 30 NAC ADESÃO QC COM C segue o texto impresso.",
+   "p. 6: A página não contém tabela de preços; a tabela apresentada é de coparticipação.",
+   "p. 6: Os códigos impressos sob os nomes dos produtos são: COMPANY 30 NACIONAL: 47870177 | 478731175; CORPORATIVO 30: 499797242 | 499775241; 499806245 | 499777248; 499767241 | 499773245; CORPORATIVO 50: 499796244 | 499776240; 499805247 | 499778246; 499766242 | 499774243. Não estão no formato de registro ANS indicado no esquema.",
+   "p. 6: A área de comercialização lista municípios de SP para CORPORATIVO 30 E 50 RP e CORPORATIVO 30 E 50 VFJ. O texto de CORPORATIVO 30 E 50 TOTAL está interrompido após “Orindiúva”.",
+   "p. 7: A página fornecida não contém tabelas de preço nem informações de produtos, valores, coparticipação, carências ou elegibilidade. O texto apresenta listas de municípios e uma tabela de vigência/cobrança, que não é uma tabela de preços.",
+   "p. 7: A sigla COMPANY aparece no texto, mas sua função não está identificada.",
+   "p. 8: A página não contém tabelas de preço.",
+   "p. 8: O texto menciona isenção de carência para recém-nascido inscrito nos primeiros 30 dias, mas não informa prazos de carência em dias.",
+   "p. 9: A página não contém tabelas de preço.",
+   "p. 10: Esta página é uma capa e não contém tabelas de preço.",
+   "p. 10: A página exibe “ANS - nº 41728-9” junto à marca Allcare e “ANS - nº 33510-0” junto à marca Unimed; não há número de registro de produto no formato indicado pelo esquema."
+  ]
+ }
+}

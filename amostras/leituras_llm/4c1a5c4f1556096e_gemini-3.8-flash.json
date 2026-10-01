@@ -1,0 +1,317 @@
+{
+ "arquivo": "corpe_medsenior_adesao_pr_2026-08-10.pdf",
+ "sha256": "4c1a5c4f1556096e94fbbf9427e5ceea5ea98c2c1ca25922ad835b5ac7bbf6f5",
+ "gravada_em": "2026-09-30T21:02:25+00:00",
+ "esforco": "low",
+ "paginas": 7,
+ "segundos": 7.0,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 7994,
+  "saida": 4462,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.022728,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "MedSênior",
+  "administradora": "CORPe Saúde",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "PR"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": "2026-12-01",
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": "504.131/25-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": "504.132/25-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": "504.127/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": "504.222/25-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "MEDSÊNIOR ADESÃO - ENF. - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "MEDSÊNIOR ADESÃO - APT. - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P3",
+    "nome": "BLACK ADESÃO 5",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P4",
+    "nome": "INFINITE ADESÃO",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Sem Coparticipação - Ambulatorial + Hospitalar sem Obstetrícia",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "PR",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "MedSênior Adesão - Enf - PR",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       512.78,
+       512.78,
+       615.33,
+       806.09
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "MedSênior Adesão - Apt - PR",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       640.97,
+       640.97,
+       769.17,
+       1007.61
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "Black Adesão 5",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1085.33,
+       1085.33,
+       1302.4,
+       1706.14
+      ]
+     },
+     {
+      "produto_id": "p2.P4",
+      "coluna": "Infinite Adesão",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1566.5,
+       1566.5,
+       1879.8,
+       2462.54
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [],
+  "carencias": [
+   {
+    "cobertura": "Urgência, Emergência e Acidente Pessoal.",
+    "prazo_dias": 1,
+    "observacao": "Carência Contratual: 24 horas | Carência Promocional: 24 horas | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Consultas Médicas.",
+    "prazo_dias": 30,
+    "observacao": "Carência Contratual: 30 dias | Carência Promocional: 24 horas | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Exames simples: Exames simples de radiografias, laboratório e eletrocardiograma.",
+    "prazo_dias": 30,
+    "observacao": "Carência Contratual: 30 dias | Carência Promocional: 24 horas | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Exames e Procedimentos Complexos I: Exames de laboratório – biologia molecular, imunológicos e hormonais; radiografias contrastadas; ultrassom simples; mamografia; teste ergométrico.",
+    "prazo_dias": 90,
+    "observacao": "Carência Contratual: 90 dias | Carência Promocional: 24 horas | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Exames e Procedimentos Complexos II: Teste alérgico; densitometria.",
+    "prazo_dias": 120,
+    "observacao": "Carência Contratual: 120 dias | Carência Promocional: 90 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Exames e Procedimentos Especiais: Endoscopia intervencionista e diagnósticas; ultrassonografia intervencionista; holter; mapa; ultrassonografia diagnóstica com doppler; ecocardiograma com doppler; pequena cirurgia ambulatorial de porte anestésico zero; exames e testes específicos; eletrofisiológicos funcionais.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 90 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Fisioterapias: Fisioterapias, fonoterapia, acupuntura; e demais terapias; exceto as ligadas à saúde mental.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 90 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Exames e Procedimentos de Alta Complexidade: Ressonância magnética nuclear; hemodinâmica, hemoterapia, radioterapia; hemodiálise de curta ou longa duração, quimioterapia; tomografia computadorizada; exames e procedimentos de medicina nuclear e demais exames e procedimentos cobertos por este contrato e não especificados nos grupos anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 180 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Saúde Mental: Atendimento à Saúde Mental ambulatorial.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 180 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Internações: Internações Clínicas, Cirúrgicas e UTI.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 180 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Internações Psiquiátricas.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias | Carência Promocional: 180 dias | Redução de Carência: 24 horas"
+   },
+   {
+    "cobertura": "Doenças e lesões preexistentes com opção de Cobertura Parcial Temporária - CPT.",
+    "prazo_dias": 720,
+    "observacao": "Carência Contratual: 24 meses | Carência Promocional: 24 meses | Redução de Carência: 24 meses"
+   }
+  ],
+  "elegibilidade": [
+   "O(a) cônjuge ou companheiro(a), devidamente reconhecido(a), desde que possua idade igual ou superior a 44 anos",
+   "Ascendentes em linha reta consanguínea até o terceiro grau (pai, mãe, avô, avó, bisavô e bisavó), desde que possuam idade igual ou superior a 44 anos",
+   "Ascendentes por afinidade (padrasto e madrasta)",
+   "Sogro e Sogra, desde que possuam idade igual ou superior a 44 anos",
+   "Tio e Tia, consanguíneos ou por afinidade, desde que possuam idade igual ou superior a 44 anos",
+   "ALIANÇA: Profissionais Liberais: Administrador, Advogado, Agrônomo, Analista de Sistemas, Arquiteto, Assistente Social, Atuário, Bacharel em Ciência da Computação, Bacharel em Comércio Exterior, Bacharel em Comunicação Social, Bacharel em Gastronomia, Bacharel em Gestão Financeira, Bacharel em Hotelaria, Bacharel em Recursos Humanos, Biólogo, Biomédico, Contabilista, Corretor de Imoveis, Corretor de Seguros, Dentista, Designer (Gráfico, Moda e Interiores), Despachante, Economista, Educador Físico, Enfermeiro, Engenheiro, Farmacêutico, Fonoaudiólogo, Jornalista, Marqueteiro, Matemático, Médico, Nutricionista, Pedagogo, Professor, Psicólogo, Publicitário, Tecnólogo de Informação e Veterinário (Taxa associativa: R$ 8,00)",
+   "OBPP: Profissionais da Pedagogia e Psicopedagogia, Empregados em Órgãos Públicos e Privados (Taxa associativa: R$ 8,00)",
+   "Servidores Públicos (Taxa associativa: R$ 5,00)",
+   "ANEC: Empregados de empresas do Ramo do Comércio, Serviços ou Sócios. Devidamente associados a entidade do comércio (Taxa associativa: R$ 10,00)"
+  ],
+  "avisos": [
+   "p. 1: Página 1 de capa; não contém tabelas de preços de planos de saúde.",
+   "p. 2: Planos Black e Infinite contam com o adicional de seguro viagem sem custo adicional, conforme nota explicativa.",
+   "p. 3: A página 1 (página 3 do material completo) não contém tabelas de preços com valores por faixa etária, contendo apenas a lista de planos/área de comercialização e regras de elegibilidade/taxas associativas para titulares.",
+   "p. 4: Página 4 de 7 não contém tabelas de preços numéricas de produtos, contendo apenas prazos e regras de carências.",
+   "p. 5: A página 5 contém exclusivamente a grade de Rede de Atendimento dos produtos no Paraná, não contendo tabelas de preços.",
+   "p. 6: A página 1 (página 6 do material global) contém apenas informações de Rede de Atendimento, sem tabelas de preços.",
+   "p. 7: Página de contracapa/atendimento sem tabelas de preços ou produtos informados."
+  ]
+ }
+}

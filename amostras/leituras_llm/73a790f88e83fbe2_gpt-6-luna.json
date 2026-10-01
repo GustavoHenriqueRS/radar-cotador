@@ -1,0 +1,189 @@
+{
+ "arquivo": "allcare_medsenior_adesao_df_2026-08-13.pdf",
+ "sha256": "73a790f88e83fbe2dfd6e445e50a31f85af080376a74c561efaa99d5c6a74549",
+ "gravada_em": "2026-09-30T20:26:10+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 10.0,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 26644,
+  "saida": 4045,
+  "cache_escrita": 0,
+  "cache_leitura": 17154,
+  "usd": 0.004858,
+  "raciocinio": 1355
+ },
+ "leitura": {
+  "operadora": "MedSênior",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Med Adesão",
+    "registro_ans": "492.186/22-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Med Adesão",
+    "registro_ans": "492.181/22-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": "504.127/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": "504.222/25-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p8.P1",
+    "nome": "DISTRITO FEDERAL - BLACK",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P2",
+    "nome": "DISTRITO FEDERAL - INFINITE",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Med Adesão",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       723.14,
+       723.14,
+       867.77,
+       1136.78
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Med Adesão",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       867.77,
+       867.77,
+       1041.32,
+       1364.13
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Black Adesão 5",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1085.33,
+       1085.33,
+       1302.4,
+       1706.14
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Infinite Adesão",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1566.5,
+       1566.5,
+       1879.8,
+       2462.54
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Telemedicina",
+    "regra": "sem coparticipação",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular: deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Dependentes: devem ter grau de parentesco e dependência econômica com o titular. Cônjuge ou companheiro(a) devidamente reconhecido(a), filhos, irmãos, ascendentes em linha reta consanguínea até o terceiro grau (pai, mãe, avô, avó, bisavô e bisavó), ascendentes por afinidade (padrasto e madrasta), sogro e sogra, tio e tia consanguíneos ou por afinidade; todos desde que possuam idade igual ou superior a 44 anos.",
+   "Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos: Administrador, Advogado, Agrônomo, Analista de Sistemas, Arquiteto, Assistente Social, Atuário, Bacharel em ciência da computação, comercio exterior, comunicação social, gastronomia, gestão financeira, Hotelaria e Recursos Humanos, Biólogo, Biomédico, Contabilista, Corretor de Imóveis, Corretor de Seguros, Dentista, Designer (gráfico, moda e Interiores), Despachante, Economista, Educador Físico, Enfermeiro, Engenheiro, Farmacêutico, Físico, Fisioterapeuta, Fonoaudiólogo, Jornalista, Matemático, Médico, Nutricionista, Pedagogo, Professor, Psicólogo, Publicitário, Tecnologia da Informação, Veterinário e Técnico de Enfermagem com COREN ATIVO.",
+   "União Nacional de Assitência aos Servidores Federais, Estaduais e Municipais: Servidores Públicos Ativos, vinculados aos poderes FEDERAL, ESTADUAL e MUNICIPAL."
+  ],
+  "avisos": [
+   "p. 1: Página de capa: não há tabelas de preço nem outros dados de produtos impressos.",
+   "p. 1: Versão impressa: 08.2026; não foi identificada como data de vigência.",
+   "p. 2: Página de menu, sem tabelas de preço. “Tabela de preços” aparece apenas como item de navegação.",
+   "p. 4: A tabela apresenta preços somente para as faixas 44 a 48, 49 a 53, 54 a 58 e 59 anos >; as demais faixas foram preenchidas com null.",
+   "p. 4: Reajuste: Março.",
+   "p. 4: Versão impressa: 08.2026.",
+   "p. 5: A página não contém tabelas de preço.",
+   "p. 5: A página informa a área de comercialização como Distrito Federal.",
+   "p. 5: A tabela de vigência apresenta datas de adesão, início de vigência e vencimento, mas não informa datas de início ou fim da vigência do material.",
+   "p. 6: A página não contém tabelas de preço.",
+   "p. 6: Documentação impressa para a Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos: comprovante de vínculo com a entidade; cópia do diploma ou certificado de conclusão de curso ou Registro no conselho de Classe ou comprovante de contribuição sindical da categoria.",
+   "p. 6: Documentação impressa para a União Nacional de Assitência aos Servidores Federais, Estaduais e Municipais: comprovante de vínculo com a entidade; cópia do Holerite atual ou com menos de 60 dias ou carteira funcional ativa, ou nomeação no diário oficial comprovando o vínculo, CLT ou estatutário com órgãos públicos.",
+   "p. 6: O material indica MedSênior e Allcare e a versão 08.2026; não há data de vigência impressa nesta página.",
+   "p. 7: A página contém uma tabela de rede credenciada resumida para adesão, com as colunas ENFER. e APART., mas não contém tabelas de preço.",
+   "p. 8: A página contém duas tabelas de rede credenciada resumida (BLACK e INFINITE), não tabelas de preço.",
+   "p. 8: Acomodação indicada para ambos: APART.",
+   "p. 8: O material informa “Versão: 08.2026”; não há datas de vigência impressas.",
+   "p. 9: Página de apresentação; não há tabelas de preço nem nomes comerciais de produtos impressos.",
+   "p. 9: A página exibe “ANS - nº 41728-9” junto à AllCare e “ANS - nº 33561-4” junto à MedSênior; não são números de registro de produto no formato indicado pelo esquema."
+  ]
+ }
+}

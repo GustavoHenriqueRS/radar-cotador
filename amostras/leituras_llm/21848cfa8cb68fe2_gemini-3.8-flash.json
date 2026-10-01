@@ -1,0 +1,540 @@
+{
+ "arquivo": "wayback_allcare_unimed_bh_adesao_mg_2024-09-03.pdf",
+ "sha256": "21848cfa8cb68fe25e29230d1b80a9aba5e3918810143518857e701eb7519bdd",
+ "gravada_em": "2026-09-30T21:03:59+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 8.5,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 10278,
+  "saida": 5880,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.029759,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed Belo Horizonte",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "MG"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Unifácil Flex Regional Enfermaria",
+    "registro_ans": "459.579/09-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Unipart Flex Regional Enfermaria",
+    "registro_ans": "459.619/09-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Unipart Flex Regional Apartamento",
+    "registro_ans": "459.576/09-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "Unipart Flex Estadual Enfermaria",
+    "registro_ans": "459.443/09-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P5",
+    "nome": "Unipart Flex Estadual Apartamento",
+    "registro_ans": "459.445/09-2",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P6",
+    "nome": "Unimax Regional Enfermaria",
+    "registro_ans": "459.581/09-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P7",
+    "nome": "Unimax Regional Apartamento",
+    "registro_ans": "459.624/09-2",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P8",
+    "nome": "Unimax Estadual Enfermaria",
+    "registro_ans": "459.430/09-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P9",
+    "nome": "Unimax Estadual Apartamento",
+    "registro_ans": "459.826/09-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Odontologia Unimed Odonto Estendido",
+    "registro_ans": "459.819/09-9",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Odontológico",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Odontológico Odontoprev",
+    "registro_ans": "460.367/09-2",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Odontológico",
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Unipart Flex Enfermaria",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "Unipart Flex Apartamento",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P1",
+    "nome": "Unifácil Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P2",
+    "nome": "Unipart Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P3",
+    "nome": "Unimax",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Unifácil Flex Regional Enfermaria 459.579/09-3",
+      "valores": [
+       174.12,
+       208.95,
+       259.1,
+       321.25,
+       359.81,
+       374.2,
+       471.47,
+       537.5,
+       639.64,
+       1042.59
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Unipart Flex Regional Enfermaria 459.619/09-6",
+      "valores": [
+       243.16,
+       291.76,
+       361.83,
+       448.65,
+       502.47,
+       522.57,
+       658.45,
+       750.61,
+       893.26,
+       1455.98
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Unipart Flex Regional Apartamento 459.576/09-9",
+      "valores": [
+       328.26,
+       393.9,
+       488.43,
+       605.66,
+       678.35,
+       705.48,
+       888.91,
+       1013.34,
+       1205.88,
+       1965.59
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Unipart Flex Estadual Enfermaria 459.443/09-6",
+      "valores": [
+       279.47,
+       335.4,
+       415.89,
+       515.7,
+       577.58,
+       600.69,
+       756.88,
+       862.83,
+       1026.76,
+       1673.62
+      ]
+     },
+     {
+      "produto_id": "p4.P5",
+      "coluna": "Unipart Flex Estadual Apartamento 459.445/09-2",
+      "valores": [
+       377.25,
+       452.7,
+       561.33,
+       696.08,
+       779.62,
+       810.78,
+       1021.58,
+       1164.62,
+       1385.9,
+       2258.98
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P6",
+      "coluna": "Unimax Regional Enfermaria 459.581/09-5",
+      "valores": [
+       459.13,
+       550.97,
+       683.19,
+       847.19,
+       948.83,
+       986.79,
+       1243.36,
+       1417.44,
+       1686.76,
+       2749.36
+      ]
+     },
+     {
+      "produto_id": "p4.P7",
+      "coluna": "Unimax Regional Apartamento 459.624/09-2",
+      "valores": [
+       619.85,
+       743.81,
+       922.32,
+       1143.69,
+       1280.91,
+       1332.17,
+       1678.52,
+       1913.52,
+       2277.1,
+       3711.66
+      ]
+     },
+     {
+      "produto_id": "p4.P8",
+      "coluna": "Unimax Estadual Enfermaria 459.430/09-4",
+      "valores": [
+       509.82,
+       611.78,
+       758.64,
+       940.72,
+       1053.59,
+       1095.75,
+       1380.64,
+       1573.94,
+       1873.23,
+       3052.95
+      ]
+     },
+     {
+      "produto_id": "p4.P9",
+      "coluna": "Unimax Estadual Apartamento 459.826/09-1",
+      "valores": [
+       688.24,
+       825.91,
+       1024.13,
+       1269.92,
+       1422.29,
+       1479.2,
+       1863.81,
+       2124.75,
+       2528.42,
+       4121.37
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Opcionais",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Odontologia Unimed Odonto Estendido",
+      "valores": [
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Odontológico Odontoprev",
+      "valores": [
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01,
+       39.01
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta Eletiva - Especialistas (Rede)",
+    "regra": "R$ 65,05",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta Eletiva - Especialistas (Fora da rede)",
+    "regra": "R$ 65,05",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em Pronto Atendimento (Rede)",
+    "regra": "R$ 76,72",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em Pronto Atendimento (Fora da rede)",
+    "regra": "R$ 81,27",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias (Diálise, Quimioterapia, Radioterapia, Transfusão) (Rede)",
+    "regra": "R$ 0,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias (Diálise, Quimioterapia, Radioterapia, Transfusão) (Fora da rede)",
+    "regra": "R$ 0,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação (Rede)",
+    "regra": "R$ 156,18",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação (Fora da rede)",
+    "regra": "R$ 166,80",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames e terapias de Coparticipação Reduzida",
+    "regra": "50% MÁX R$ 60,66",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames e terapias de Coparticipação Diferenciada",
+    "regra": "50% MÁX R$ 181,97",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de Coparticipação Reduzida",
+    "regra": "50% MÁX R$ 60,66",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de Coparticipação Diferenciada",
+    "regra": "50% MÁX R$ 181,97",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta Eletiva - Especialistas (Rede)",
+    "regra": "R$ 65,05",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva - Especialistas (Fora da rede)",
+    "regra": "R$ 65,05",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta em Pronto Atendimento (Rede)",
+    "regra": "R$ 81,27",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta em Pronto Atendimento (Fora da rede)",
+    "regra": "R$ 81,27",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias (Diálise, Quimioterapia, Radioterapia, Transfusão) - Rede",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias (Diálise, Quimioterapia, Radioterapia, Transfusão) - Fora da rede",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação (Enfermaria / Rede)",
+    "regra": "R$ 191,05",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Internação (Apartamento / Fora da rede)",
+    "regra": "R$ 383,63",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames e terapias de Coparticipação Reduzida",
+    "regra": "50% MÁX R$ 60,66",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames e terapias de Coparticipação Diferenciada",
+    "regra": "50% MÁX R$ 181,97",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos de Coparticipação Reduzida",
+    "regra": "50% MÁX R$ 60,66",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos de Coparticipação Diferenciada",
+    "regra": "50% MÁX R$ 181,97",
+    "produtos": [
+     "p6.P1",
+     "p6.P2"
+    ]
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "ANTRACC - Associação Nacional dos Trabalhadores da Construção Civil",
+   "ANTRACC - Associação Nacional dos Trabalhadores da Construção Civil: Trabalhadores e profissionais liberais do Setor da Construção Civil (Arquiteto, Engenheiro Civil, Engenheiro Eletricista, Eletricista, Pintor, Vidraceiro, Mestre de Obras, Pedreiro, Técnico em edificações, Armador, Carpinteiro, Gesseiro, Encanador)"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é capa institucional e não contém tabelas de preços nem produtos listados com registro ANS.",
+   "p. 2: A página 2 (numerada como página 1 do PDF) consiste apenas no menu interativo do material e não apresenta tabelas de preço, valores ou informações detalhadas de produtos.",
+   "p. 3: A página 1 (página 3 do material) não contém tabelas de preços, produtos, prazos de carência ou regras de coparticipação; trata-se de uma página institucional com a lista de diferenciais da administradora Allcare.",
+   "p. 4: Mês de reajuste impresso na página: Outubro.",
+   "p. 5: Opcional adicional: Transporte Aeromédico no valor de R$ 7,00.",
+   "p. 5: A tabela de coparticipação refere-se ao plano Unifácil Flex.",
+   "p. 6: A página contém apenas a tabela de valores de coparticipação, regras de vigência/vencimento e área de comercialização, sem tabela de mensalidades por faixa etária.",
+   "p. 8: A página 8 contém apenas informações sobre a rede credenciada e rede própria dos produtos, não apresentando tabelas de preços.",
+   "p. 9: Página de contracapa / encerramento institucional contendo apenas logomarcas da Allcare e Unimed Belo Horizonte e seus respectivos registros ANS (41728-9 e 34388-9), sem tabelas de preços."
+  ]
+ }
+}

@@ -1,0 +1,85 @@
+{
+  "operadora": {
+    "registro_ans": "005711",
+    "nome": "Bradesco Saúde",
+    "canal": "preço só no portal com login: e-mail e parceria",
+    "relatorio": "docs/operadoras/bradesco_saude.md"
+  },
+  "fontes": [
+    {
+      "nome": "Bradesco Saúde",
+      "tipo": "site_operadora",
+      "url": "https://www.bradescoseguros.com.br/clientes/produtos/plano-saude/portfolios-de-planos",
+      "confiabilidade": 5,
+      "observacoes": "Site oficial com robots.txt 'Allow: /': publica portfólios, folders por linha e o manual de coparticipação, sem tabela de preço, com os links num array JavaScript que a captura por página não lê. Preço só no Portal de Negócios (login) ou por e-mail ao corretor.",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Manual de coparticipação e tabela de procedimentos",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.bradescoseguros.com.br/wcm/connect/bb866622-807b-48e0-9583-c0a007d7141f/A.F.Dig.Manual_Coparticipacao_150726.pdf?MOD=AJPERES",
+                "titulo": "Manual de Coparticipação (15/07/2026)"
+              },
+              {
+                "url": "https://www.bradescoseguros.com.br/wcm/connect/b3d88f32-4b55-4987-ae5b-8e1033b81987/Lista.procedimentos.+24-08-2026.pdf?MOD=AJPERES",
+                "titulo": "Tabela de procedimentos da coparticipação (24/08/2026)"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "url_direta",
+          "nome": "Portfólios SPG e Empresarial",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.bradescoseguros.com.br/wcm/connect/bdb975c5-5188-4ad0-959b-9772c67adef0/A.F.Portfolio.SPG.120526.pdf?MOD=AJPERES",
+                "titulo": "Portfólio SPG, 3 a 199 pessoas (12/05/2026)"
+              },
+              {
+                "url": "https://www.bradescoseguros.com.br/wcm/connect/a9ce8751-3a95-4b7c-a1cc-3536c82a16c0/A.F.Portfolio.Empresarial.110526.pdf?MOD=AJPERES",
+                "titulo": "Portfólio Empresarial, a partir de 200 pessoas (11/05/2026)"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página de portfólios e folders",
+          "ativa": false,
+          "config": {
+            "url": "https://www.bradescoseguros.com.br/clientes/produtos/plano-saude/portfolios-de-planos",
+            "incluir": "/wcm/connect/.+\\.pdf(\\?|$)"
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página de coparticipação",
+          "ativa": false,
+          "config": {
+            "url": "https://www.bradescoseguros.com.br/clientes/produtos/plano-saude/coparticipacao-bradesco-saude",
+            "incluir": "/wcm/connect/.+\\.pdf(\\?|$)"
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Tabelas enviadas ao corretor",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@bradescoseguros.com.br",
+              "@bradescosaude.com.br"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

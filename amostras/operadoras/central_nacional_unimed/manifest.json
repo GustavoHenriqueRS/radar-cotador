@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "allcare_cnu_pme_df_2022-05.pdf",
+    "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_df.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "96e164e959ef3751acf13b4b1e97a7782a2350d38cbc6361d353bf8575e3ed77",
+    "fonte": "Allcare (administradora de benefícios); endereço fixo que a página de materiais não lista mais, achado por buscador (robots.txt libera)",
+    "observacao": "Tabela PME da Unimed CNU para Brasília e Entorno, título interno TABELA_UNIMED_CNU_DF_PME_14_07_2022, rodapé 'Tabela de preços | Maio 2022'; Last-Modified 15/07/2022. 15 páginas, 12 registros ANS, todos suspensos no cadastro da ANS (10 desde 13/06/2024 e 2 desde 28/09/2022). As tabelas das páginas 5 a 8 têm duas ou três camadas de texto sobrepostas (o preço visível e um preço antigo escondido, em outra fonte), que a extração de texto intercala letra a letra. Serve como caso de tabela vencida e de texto sobreposto, não como preço atual."
+  },
+  {
+    "arquivo": "allcare_cnu_pme_ba_salvador_2023-06.pdf",
+    "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_salvador_ba.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "b21cc5f4d8c5e32452efc1b846673dd5bcda879785e727a4f900005e6d0264f7",
+    "fonte": "Allcare (administradora de benefícios); endereço fixo que a página de materiais não lista mais, achado no arquivo da web (robots.txt libera)",
+    "observacao": "Tabela PME da Unimed CNU para Salvador, título interno Tabela_P_Unimed_Salvador_BA_PME_29_09_2023, rodapé 'Tabela de Preços | Junho 2023'; Last-Modified 02/10/2023. 14 páginas. Cinco produtos nacionais (Estilo enfermaria e apartamento, Absoluto, Superior, Exclusivo; 480.987/18-4, 480.989/18-1, 480.996/18-3, 484.170/19-1, 481.858/18-0), em livre adesão e contratação compulsória, todos suspensos na ANS desde 13/06/2024. A última faixa vem impressa como 'Acima 59 anos'."
+  },
+  {
+    "arquivo": "allcare_cnu_pme_ba_feira_saj_2022-05.pdf",
+    "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_feira_saj_ba.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "19cc37b842fe8db20ac5e0e44c1e4f94dab272912a74168d36078df4769803bb",
+    "fonte": "Allcare (administradora de benefícios); endereço fixo que a página de materiais não lista mais, achado no arquivo da web (robots.txt libera)",
+    "observacao": "Tabela PME da Unimed CNU para Feira de Santana e Santo Antônio de Jesus, título interno Tabela_Unimed_CNU_FEIRA_SAJ_PME_14_07_2022, rodapé 'Tabela de preços | Maio 2022'; Last-Modified 15/07/2022. 15 páginas, 14 registros ANS (inclui os regionais Clássico Feira/SAJ 482.161/19-1 a 482.164/19-5), todos suspensos desde 13/06/2024. Mesmo modelo e mesmo defeito de camadas sobrepostas da tabela do DF."
+  }
+]

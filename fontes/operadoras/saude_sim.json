@@ -1,0 +1,18 @@
+{
+  "operadora": {
+    "registro_ans": "320111",
+    "nome": "Saúde Sim",
+    "canal": "operadora extinta: cotação bloqueada",
+    "relatorio": "docs/operadoras/saude_sim.md"
+  },
+  "fontes": [
+    {
+      "nome": "Saúde Sim",
+      "tipo": "site_operadora",
+      "url": "https://www.saudesim.med.br/",
+      "confiabilidade": 1,
+      "observacoes": "OPERADORA EXTINTA. Registro ANS 320111 (Massa Falida de Saúde Sim Ltda, DF) cancelado em 10/08/2022 por liquidação extrajudicial; falência decretada pelo TJDFT em 06/2023; os 117 planos estão cancelados. O domínio não resolve mais. Não há material de venda a capturar: a cotação deve ser bloqueada.",
+      "capturas": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "arquivo": "sinpro_quallity_adesao_ambulatorial_df_2022-08.pdf",
+    "url": "https://www.sinprodf.org.br/wp-content/uploads/2019/05/Tabela-de-vendas-quallity.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "3db6546edb52073624efca24be5c2b6b6264b9b490c44b4b4675cbcf6668de67",
+    "fonte": "Sinpro-DF (convênio Quallity); material da Platinum Administradora (ANS 418986)",
+    "observacao": "Tabela de vendas adesão Quallity ambulatorial, 'Tabela atual vigente: 08/2022' (Last-Modified 31/01/2023), 2 páginas. Linkada na notícia do convênio de 20/05/2019. 4 produtos com registro, todos ativos na ANS; o 489.426/21-0 aparece em duas colunas (preço geral e preço exclusivo Sinpro). O odonto (488.926/21-6) tem preço único. robots.txt do Sinpro permite."
+  },
+  {
+    "arquivo": "quallity_coparticipacao_2026-09-01.pdf",
+    "url": "https://www.quallityprosaude.com.br/wp-content/uploads/2026/09/arquivo-sitio-grupos-de-coparticipacao-quallity-pro-saude-versao-01-09-2026.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "b2509be833bae80a5e211b660b4ac3f2129e45260b131965cfc0b28b3ecd729e",
+    "fonte": "Quallity Pró Saúde (site da operadora, página /coparticipacao/)",
+    "observacao": "Guia de coparticipação, versão 01/09/2026, 100 páginas. Página 1: valor fixo por grupo (consulta eletiva R$ 25, pronto-socorro R$ 50, alta complexidade R$ 95, internação e cirurgia R$ 0, demais R$ 38). Páginas 5 a 100: relação TUSS por grupo. Não é tabela de preço por faixa etária. robots.txt da Quallity permite."
+  }
+]

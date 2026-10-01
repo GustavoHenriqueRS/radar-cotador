@@ -1,0 +1,62 @@
+{
+  "operadora": {
+    "registro_ans": "395480",
+    "nome": "Smile Saúde",
+    "canal": "canal fechado (WhatsApp, portal): e-mail",
+    "relatorio": "docs/operadoras/smile_saude.md"
+  },
+  "fontes": [
+    {
+      "nome": "Smile Saúde",
+      "tipo": "site_operadora",
+      "url": "https://www.smilesaude.com.br/",
+      "confiabilidade": 5,
+      "observacoes": "ESMALE Assistência Internacional de Saúde (ANS 395480), sede em Maceió/AL, vende em AL, PB, RN e DF. O site não publica tabela de preço nem área de corretor: só rede, reajuste individual e acessos com login. robots.txt inexistente (404); o rodapé diz que o conteúdo é de uso exclusivo da Smile. Venda por plantão de WhatsApp e corretores.",
+      "capturas": [
+        {
+          "tipo": "caixa_email",
+          "nome": "Tabelas da Smile enviadas ao corretor",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@smilesaude.com.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Allcare",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Smile DF adesão: arquivo fora da página de materiais",
+          "ativa": false,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_unica_adesao_smile_df.pdf",
+                "titulo": "Smile Saúde · Coletivo por adesão · Brasília-DF"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "wayback",
+          "nome": "Smile DF adesão: arquivo da web",
+          "ativa": false,
+          "config": {
+            "enderecos": [
+              "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_unica_adesao_smile_df.pdf"
+            ],
+            "intervalo_s": 4
+          }
+        }
+      ]
+    }
+  ]
+}

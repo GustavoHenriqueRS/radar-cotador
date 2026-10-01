@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "sulamerica_coparticipacao_pme_mais_2026-05-13.pdf",
+    "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_PME_MAIS_.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "1a1154161d26aec09325250d098b18bdd5276ab4bfb839f15cff5989317d97cc",
+    "fonte": "SulAmérica Saúde, site oficial (endereço fixo atualizado no lugar)",
+    "observacao": "75 páginas, com texto. Válida para contratos comercializados a partir de 14/05/2026 (Last-Modified 13/05/2026). Página 3: limite por evento (30%) por linha; páginas 4 a 74: classificação de procedimentos; página 75: 30 registros ANS, todos ativos no 006246. Não é tabela de preço."
+  },
+  {
+    "arquivo": "sulamerica_coparticipacao_adesao_i_2026-06-01.pdf",
+    "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_Adesao_I.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "260123e229596146ade1a5582f6663e5e60c0fc71e9f70e05218e79bebf13736",
+    "fonte": "SulAmérica Saúde, site oficial (endereço fixo atualizado no lugar)",
+    "observacao": "75 páginas, com texto. Válida para contratos com vigência a partir de julho/2023 (Last-Modified 01/06/2026). Mesma estrutura da PME Mais; a página 75 cita 57 registros ANS, 5 deles cancelados na ANS (4 em 29/07/2025, 1 em 07/08/2023). Não é tabela de preço."
+  },
+  {
+    "arquivo": "qualicorp_caasp_sulamerica_adesao_sp_2023-11.pdf",
+    "url": "https://caasp.qualicorp.com.br/QUALIPRO_SAS_SP_F_23_NP.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "60d3acd6294c98ec951311e8ad9bfd912e389963389a6298a552719309dc5dfd",
+    "fonte": "Qualicorp (administradora), subdomínio da CAASP; robots.txt responde 404",
+    "observacao": "49 páginas, com texto. Manual QualiPRO SulAmérica São Paulo OUT/2023, validade setembro/2023 a agosto/2024; tabelas nas páginas 20 a 29 (capital, interior 1 e 2; titular, titular + 1, titular + 2 ou mais). Versão anterior da série QUALIPRO_SAS_SP_F_*_NP já presente em amostras/publicas. Achado por buscador; a página raiz do subdomínio não lista o PDF."
+  }
+]

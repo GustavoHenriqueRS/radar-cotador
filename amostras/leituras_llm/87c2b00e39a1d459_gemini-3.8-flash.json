@@ -1,0 +1,508 @@
+{
+ "arquivo": "allcare_unimed_natal_pme_rn_2026-08-21.pdf",
+ "sha256": "87c2b00e39a1d4599ab08bf586695d67ccf7d48cb13fa7d2e1e437371fe464a0",
+ "gravada_em": "2026-09-30T21:01:54+00:00",
+ "esforco": "low",
+ "paginas": 12,
+ "segundos": 7.6,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 13719,
+  "saida": 6354,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.034117,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed Natal",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "RN"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "ESSENCIAL FLEX II ESTADUAL EMP C-E",
+    "registro_ans": "488.675/21-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "ambulatorial + hospitalar com obstetrícia",
+    "abrangencia": "estadual (RN)"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "ESSENCIAL FLEX II ESTADUAL EMP C-E",
+    "registro_ans": "488.675/21-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p4.P1",
+    "nome": "Linha Essencial Flex Estadual",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "UNIMED SER EMP C-E",
+    "registro_ans": "507.137/25-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "grupo de municípios"
+   },
+   {
+    "id": "p5.P2",
+    "nome": "UNIMED SER EMP C-A",
+    "registro_ans": "507.139/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "grupo de municípios"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "GREEN FLEX II EMP C-E",
+    "registro_ans": "486.090/20-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "ambulatorial + hospitalar com obstetrícia",
+    "abrangencia": "estadual (RN)"
+   },
+   {
+    "id": "p7.P1",
+    "nome": "GREEN FLEX II EMP C-E",
+    "registro_ans": "486.090/20-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P2",
+    "nome": "GREEN FLEX II EMP C-A",
+    "registro_ans": "486.088/20-8",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P1",
+    "nome": "Unicol II Plano Referência",
+    "registro_ans": "419.355/99-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial, hospitalar com obstetrícia",
+    "abrangencia": "grupo de municípios"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 3,
+    "titulo": "PME Boletado (Para empresas a partir de 1 titular com responsabilidade individual do beneficiário) - Linha Essencial Flex Estadual",
+    "vidas_minimo": 1,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "ESSENCIAL FLEX II ESTADUAL EMP C-E",
+      "valores": [
+       154.92,
+       173.51,
+       194.32,
+       223.49,
+       256.99,
+       308.39,
+       388.57,
+       516.81,
+       692.52,
+       927.99
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Linha Ser Coletivo Empresarial • Allcare",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "GRUPO DE MUNICÍPIOS",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "UNIMED SER EMP C-E",
+      "valores": [
+       143.74,
+       160.99,
+       180.3,
+       207.38,
+       238.44,
+       286.15,
+       360.54,
+       479.52,
+       642.56,
+       861.04
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "UNIMED SER EMP C-A",
+      "valores": [
+       186.85,
+       209.29,
+       234.4,
+       269.58,
+       309.99,
+       371.99,
+       468.72,
+       623.38,
+       835.36,
+       1119.4
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Linha Green Flex Coletivo Empresarial • Allcare - A partir de",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "RN",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "GREEN FLEX II EMP C-E",
+      "valores": [
+       207.66,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Linha Green Flex Coletivo Empresarial • Allcare - MENOS MENSALIDADE e mais coparticipação - PME Boletado (Para empresas a partir de 1 titular com responsabilidade individual do beneficiário) - enfermaria",
+    "vidas_minimo": 1,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "GREEN FLEX II EMP C-E",
+      "valores": [
+       207.66,
+       245.01,
+       289.14,
+       335.41,
+       389.08,
+       451.32,
+       568.64,
+       716.52,
+       931.46,
+       1210.9
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Linha Green Flex Coletivo Empresarial • Allcare - MENOS MENSALIDADE e mais coparticipação - PME Boletado (Para empresas a partir de 1 titular com responsabilidade individual do beneficiário) - apartamento",
+    "vidas_minimo": 1,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P2",
+      "coluna": "GREEN FLEX II EMP C-A",
+      "valores": [
+       269.96,
+       318.57,
+       375.89,
+       436.03,
+       505.79,
+       586.74,
+       739.27,
+       931.48,
+       1210.93,
+       1574.21
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 9,
+    "titulo": "TABELA PESSOA FÍSICA | Unimed Natal - enfermaria",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p9.P1",
+      "coluna": "UNICOL II PLANO REFERÊNCIA REG. ANS - 419.355/99-5",
+      "valores": [
+       1064.73,
+       1256.38,
+       1482.51,
+       1719.74,
+       1994.9,
+       2314.07,
+       2915.74,
+       3673.83,
+       4776.0,
+       6208.8
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 35,00",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta PA",
+    "regra": "R$ 55,00",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "35% com limitador de R$ 35,00 (por evento)",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "35% com limitador de R$ 95,00 (por evento)",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples",
+    "regra": "35% com limitador de R$ 35,00 (por evento)",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias especiais",
+    "regra": "35% com limitador de R$ 95,00 (por evento)",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais",
+    "regra": "35% com limitador de R$ 95,00 (por evento)",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 100,00",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Internação Psiquiátrica",
+    "regra": "R$ 100,00",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Limitador Mensal por Beneficiário",
+    "regra": "Não há",
+    "produtos": [
+     "p3.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 35,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta PA",
+    "regra": "R$ 55,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "35% com limitador de R$95,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "35% com limitador de R$95,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias Simples",
+    "regra": "35% com limitador de R$95,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias Especiais",
+    "regra": "35% com limitador de R$95,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Demais Procedimentos Ambulatoriais",
+    "regra": "35% com limitador de R$95,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 100,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação Psiquiátrica",
+    "regra": "R$ 100,00 (por evento)",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Limitador mensal por beneficiário",
+    "regra": "Não há",
+    "produtos": [
+     "p5.P1",
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Enfermaria: R$ 45,00 | Apartamento: R$ 45,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta PA",
+    "regra": "Enfermaria: R$ 60,00 | Apartamento: R$ 60,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Enfermaria: 50% c/ limitador de R$ 35,00 (por evento) | Apartamento: 50% c/ limitador de R$ 35,00 (por evento)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Enfermaria: 50% c/ limitador de R$ 95,00 (por evento) | Apartamento: 50% c/ limitador de R$ 95,00 (por evento)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias simples",
+    "regra": "Enfermaria: 50% c/ limitador de R$ 35,00 (por evento) | Apartamento: 50% c/ limitador de R$ 35,00 (por evento)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias especiais",
+    "regra": "Enfermaria: 50% c/ limitador de R$ 95,00 (por evento) | Apartamento: 50% c/ limitador de R$ 95,00 (por evento)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais",
+    "regra": "Enfermaria: 50% c/ limitador de R$ 95,00 (por evento) | Apartamento: 50% c/ limitador de R$ 95,00 (por evento)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "Enfermaria: R$ 120,00 | Apartamento: R$ 170,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação Psiquiátrica",
+    "regra": "Enfermaria: R$ 120,00 | Apartamento: R$ 170,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Limitador Mensal por Beneficiário",
+    "regra": "Enfermaria: Não há | Apartamento: Não há",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Empresas a partir de 1 titular com responsabilidade individual do beneficiário",
+   "TITULAR: pessoa responsável pela contratação do plano precisa, obrigatoriamente, ser responsável por uma empresa cadastrada na base da Allcare ou ter vínculo empregatício comprovado através de documentação.",
+   "CÔNJUGE",
+   "COMPANHEIRO(A)",
+   "FILHO(A) ATÉ 38 ANOS",
+   "ENTEADO(A) ATÉ 38 ANOS",
+   "MENOR DE 18 ANOS SOB GUARDA JUDICIAL OU SOB TUTELA/CIVILMENTE INCAPAZ",
+   "IRMÃOS, SOBRINHOS E NETOS DO TITULAR ATÉ 38 ANOS"
+  ],
+  "avisos": [
+   "p. 1: Página 1 de 12 é a capa do material ('Tabela de Vendas PME Boletado'), sem tabelas de preços ou informações de produtos.",
+   "p. 2: Página promocional/capa de seção sem grade completa de tabela de preços. Apenas divulga o valor inicial 'A partir de R$ 154,92' para a faixa de 0 a 18 anos.",
+   "p. 2: O cabeçalho traz 'Coletivo Empresarial • Allcare' com sobreposição visual/glitch, mas o texto da página especifica 'Tipo de contratação: coletivo por adesão'.",
+   "p. 3: Combo opcional disponível por R$ 38,90 (Dental Unimed Odonto + SOS Unimed + Aero Médico Unimed + Seguros Unimed).",
+   "p. 4: A página 4 apresenta apenas a rede credenciada/de atendimento da Linha Essencial Flex Estadual (Hospitais, Laboratórios e Clínicas) e divulgação do aplicativo Unimed Natal - Cliente, sem tabelas de preços.",
+   "p. 5: Há menção a COMBO OPCIONAL (Dental Unimed Odonto + SOS Unimed + Aero Médico Unimed + Seguros Unimed) pelo valor adicional de R$ 38,90.",
+   "p. 6: Página promocional de capa/destaque contendo apenas o valor 'a partir de' para a faixa etária de 0 a 18 anos (R$ 207,66).",
+   "p. 7: Apresenta opcional: COMBO OPCIONAL - DENTAL UNIMED ODONTO + SOS UNIMED + AERO MÉDICO UNIMED + SEGUROS UNIMED pelo valor de R$ 38,90.",
+   "p. 8: A página contém apenas a tabela de coparticipação (COPART FLEX I), resumo de rede de atendimento da Linha Green Flex e divulgação do aplicativo, não havendo tabelas de preços de mensalidades expressas.",
+   "p. 10: A página não apresenta tabelas de preços nem produtos listados; contém apenas regras de abrangência, datas de vigência/vencimento e condições de elegibilidade (Quem pode aderir ao PME Boletado).",
+   "p. 11: A página 11 não contém tabelas de preços, produtos com dados cadastrais ou regras de carência/coparticipação; trata-se de página informativa sobre vantagens e diferenciais.",
+   "p. 12: A página é a contracapa do material e não contém tabelas de preço, valores, vigências ou regras específicas de planos."
+  ]
+ }
+}

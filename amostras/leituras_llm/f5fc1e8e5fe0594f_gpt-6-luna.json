@@ -1,0 +1,7091 @@
+{
+ "arquivo": "gndi_pme_web_2024-07.pdf",
+ "sha256": "f5fc1e8e5fe0594f8fb79d573423a46c1a73b07107de787c109dcce372916a9d",
+ "gravada_em": "2026-09-30T20:28:44+00:00",
+ "esforco": "low",
+ "paginas": 17,
+ "segundos": 41.6,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 51,
+  "saida": 40434,
+  "cache_escrita": 0,
+  "cache_leitura": 153722,
+  "usd": 0.021759,
+  "raciocinio": 3907
+ },
+ "leitura": {
+  "operadora": "NotreDame Intermédica",
+  "administradora": null,
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "RJ",
+   "SP"
+  ],
+  "vigencia_inicio": "2024-07-01",
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "PREMIUM F",
+    "registro_ans": null,
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "N-PREMIUM",
+    "registro_ans": null,
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "TOP PREMIUM LE",
+    "registro_ans": null,
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p2.P4",
+    "nome": "PREMIUM PLUS DO LE",
+    "registro_ans": null,
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "ADVANCE 600 ENF.",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P2",
+    "nome": "ADVANCE 600 APTO.",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P3",
+    "nome": "ADVANCE 700 ENF.",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P4",
+    "nome": "ADVANCE 700 APTO.",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P5",
+    "nome": "PREMIUM 900 CARE APTO.",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P6",
+    "nome": "PREMIUM F",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P7",
+    "nome": "N-PREMIUM",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P8",
+    "nome": "TOP PREMIUM LE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P9",
+    "nome": "PREMIUM PLUS DO LE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p4.P1",
+    "nome": "Linha Smart - Smart Ambulatorial",
+    "registro_ans": null,
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Nosso Médico",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Nosso Médico",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P1",
+    "nome": "Smart 150 ABC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P2",
+    "nome": "Smart 150 Grande Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P3",
+    "nome": "Smart 200 ABC + BS / 200 ABC + BAIXADA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P4",
+    "nome": "Smart 200 Baixada Santista",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P5",
+    "nome": "Smart 200 Campinas",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P6",
+    "nome": "Smart 200 Jundiaí",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P7",
+    "nome": "Smart 200 Guarulhos",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P8",
+    "nome": "Smart 200 SP Oeste",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P9",
+    "nome": "Smart 200 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P10",
+    "nome": "Smart 200 SP Capital",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P11",
+    "nome": "Smart 200 Alto Tietê",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P12",
+    "nome": "Smart 200 Americana",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P13",
+    "nome": "Smart Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P14",
+    "nome": "Smart 200 GRU-Mogi",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P15",
+    "nome": "Smart 200 UP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P1",
+    "nome": "Smart 150 ABC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P2",
+    "nome": "Smart 150 Grande Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P3",
+    "nome": "Smart 200 ABC + Baixada",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P4",
+    "nome": "Smart 200 Baixada Santista",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P5",
+    "nome": "Smart 200 Campinas",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P6",
+    "nome": "Smart 200 Jundiaí",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P7",
+    "nome": "Smart 200 Guarulhos",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P8",
+    "nome": "Smart 200 SP Oeste",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P9",
+    "nome": "Smart 200 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P10",
+    "nome": "Smart 200 SP Capital",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P11",
+    "nome": "Smart 200 Alto Tietê",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P12",
+    "nome": "Smart 200 Americana",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P13",
+    "nome": "Smart Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P14",
+    "nome": "Smart 200 GRU-MOGI",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P15",
+    "nome": "Smart 200 UP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p9.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p10.P11",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p11.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p12.P11",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p13.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p14.P11",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p15.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P6",
+    "nome": "ADVANCE600 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P7",
+    "nome": "ADVANCE600 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P8",
+    "nome": "ADVANCE700 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P9",
+    "nome": "ADVANCE700 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P10",
+    "nome": "PREMIUM900.1 CARE",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p16.P11",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Benefício Ortodôntica Adicional — contratos de 2 a 29 vidas; valores por pessoa/mês",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "PREMIUM F",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "N-PREMIUM",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "TOP PREMIUM LE",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "produto_id": "p2.P4",
+      "coluna": "PREMIUM PLUS DO LE",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "2 a 29 vidas — Linha Smart — com coparticipação total",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial SP",
+      "valores": [
+       102.12,
+       110.95,
+       131.12,
+       131.12,
+       131.12,
+       155.72,
+       251.49,
+       266.47,
+       342.13,
+       612.6
+      ]
+     },
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial RJ",
+      "valores": [
+       102.12,
+       110.95,
+       131.12,
+       131.12,
+       131.12,
+       155.72,
+       251.49,
+       266.47,
+       342.13,
+       612.6
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "2 a 29 vidas — Linha Smart — sem coparticipação (exceto terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial SP",
+      "valores": [
+       136.17,
+       147.95,
+       174.85,
+       174.85,
+       174.85,
+       207.66,
+       335.37,
+       355.34,
+       456.24,
+       816.92
+      ]
+     },
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial RJ",
+      "valores": [
+       136.17,
+       147.95,
+       174.85,
+       174.85,
+       174.85,
+       207.66,
+       335.37,
+       355.34,
+       456.24,
+       816.92
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "30 a 99 vidas — Linha Smart — com coparticipação total",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial SP",
+      "valores": [
+       93.95,
+       102.08,
+       120.64,
+       120.64,
+       120.64,
+       143.28,
+       231.4,
+       245.18,
+       314.8,
+       563.67
+      ]
+     },
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial RJ",
+      "valores": [
+       93.95,
+       102.08,
+       120.64,
+       120.64,
+       120.64,
+       143.28,
+       231.4,
+       245.18,
+       314.8,
+       563.67
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "30 a 99 vidas — Linha Smart — sem coparticipação (exceto terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial SP",
+      "valores": [
+       125.27,
+       136.11,
+       160.86,
+       160.86,
+       160.86,
+       191.05,
+       308.55,
+       326.92,
+       419.75,
+       751.58
+      ]
+     },
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart Ambulatorial RJ",
+      "valores": [
+       125.27,
+       136.11,
+       160.86,
+       160.86,
+       160.86,
+       191.05,
+       308.55,
+       326.92,
+       419.75,
+       751.58
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "2 a 29 vidas — com coparticipação total",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Sorocaba",
+      "valores": [
+       98.12,
+       132.44,
+       156.52,
+       156.52,
+       156.52,
+       185.9,
+       241.67,
+       314.17,
+       408.42,
+       588.66
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Campinas",
+      "valores": [
+       90.33,
+       121.93,
+       144.1,
+       144.1,
+       144.1,
+       171.15,
+       222.5,
+       289.25,
+       376.03,
+       541.97
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Jundiaí",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Guarulhos",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Itapevi",
+      "valores": [
+       90.33,
+       121.93,
+       144.1,
+       144.1,
+       144.1,
+       171.15,
+       222.5,
+       289.25,
+       376.03,
+       541.97
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Osasco",
+      "valores": [
+       90.33,
+       121.93,
+       144.1,
+       144.1,
+       144.1,
+       171.15,
+       222.5,
+       289.25,
+       376.03,
+       541.97
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Taboão",
+      "valores": [
+       90.33,
+       121.93,
+       144.1,
+       144.1,
+       144.1,
+       171.15,
+       222.5,
+       289.25,
+       376.03,
+       541.97
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Americana",
+      "valores": [
+       92.99,
+       125.52,
+       148.34,
+       148.34,
+       148.34,
+       176.18,
+       229.03,
+       297.74,
+       387.06,
+       557.87
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Mogi",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Leste",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Norte",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Sul",
+      "valores": [
+       88.56,
+       119.54,
+       141.27,
+       141.27,
+       141.27,
+       167.79,
+       218.13,
+       283.57,
+       368.64,
+       531.32
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "30 a 99 vidas — com coparticipação total",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Sorocaba",
+      "valores": [
+       90.28,
+       121.86,
+       144.01,
+       144.01,
+       144.01,
+       171.04,
+       222.35,
+       289.06,
+       375.78,
+       541.61
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Campinas",
+      "valores": [
+       83.12,
+       112.2,
+       132.6,
+       132.6,
+       132.6,
+       157.49,
+       204.74,
+       266.16,
+       346.01,
+       498.7
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Jundiaí",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Guarulhos",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Itapevi",
+      "valores": [
+       83.11,
+       112.18,
+       132.57,
+       132.57,
+       132.57,
+       157.45,
+       204.69,
+       266.1,
+       345.93,
+       498.59
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Osasco",
+      "valores": [
+       83.11,
+       112.18,
+       132.57,
+       132.57,
+       132.57,
+       157.45,
+       204.69,
+       266.1,
+       345.93,
+       498.59
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Taboão",
+      "valores": [
+       83.11,
+       112.18,
+       132.57,
+       132.57,
+       132.57,
+       157.45,
+       204.69,
+       266.1,
+       345.93,
+       498.59
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Americana",
+      "valores": [
+       85.56,
+       115.49,
+       136.49,
+       136.49,
+       136.49,
+       162.11,
+       210.74,
+       273.96,
+       356.15,
+       513.32
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico Mogi",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Leste",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Norte",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     },
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Nosso Médico SP Sul",
+      "valores": [
+       81.49,
+       110.0,
+       130.0,
+       130.0,
+       130.0,
+       154.4,
+       200.72,
+       260.94,
+       339.22,
+       488.92
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Tabela de preços - PME Nosso Médico Regionais — 2 a 29 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Sorocaba",
+      "valores": [
+       130.81,
+       176.57,
+       208.67,
+       208.67,
+       208.67,
+       247.84,
+       322.19,
+       418.85,
+       544.51,
+       784.8
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Campinas",
+      "valores": [
+       120.43,
+       162.56,
+       192.11,
+       192.11,
+       192.11,
+       228.17,
+       296.62,
+       385.61,
+       501.29,
+       722.51
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Jundiaí",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Guarulhos",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Itapevi",
+      "valores": [
+       120.43,
+       162.56,
+       192.11,
+       192.11,
+       192.11,
+       228.17,
+       296.62,
+       385.61,
+       501.29,
+       722.51
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Osasco",
+      "valores": [
+       120.43,
+       162.56,
+       192.11,
+       192.11,
+       192.11,
+       228.17,
+       296.62,
+       385.61,
+       501.29,
+       722.51
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Taboão",
+      "valores": [
+       120.43,
+       162.56,
+       192.11,
+       192.11,
+       192.11,
+       228.17,
+       296.62,
+       385.61,
+       501.29,
+       722.51
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Americana",
+      "valores": [
+       123.97,
+       167.33,
+       197.75,
+       197.75,
+       197.75,
+       234.87,
+       305.33,
+       396.93,
+       516.01,
+       743.73
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Mogi",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Leste",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Norte",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Sul",
+      "valores": [
+       118.07,
+       159.37,
+       188.34,
+       188.34,
+       188.34,
+       223.69,
+       290.8,
+       378.04,
+       491.45,
+       708.33
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Tabela de preços - PME Nosso Médico Regionais — 30 a 99 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Sorocaba",
+      "valores": [
+       120.36,
+       162.46,
+       192.0,
+       192.0,
+       192.0,
+       228.04,
+       296.45,
+       385.39,
+       501.01,
+       722.11
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Campinas",
+      "valores": [
+       110.81,
+       149.57,
+       176.76,
+       176.76,
+       176.76,
+       209.94,
+       272.92,
+       354.8,
+       461.24,
+       664.79
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Jundiaí",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Guarulhos",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Itapevi",
+      "valores": [
+       110.81,
+       149.57,
+       176.76,
+       176.76,
+       176.76,
+       209.94,
+       272.92,
+       354.8,
+       461.24,
+       664.79
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Osasco",
+      "valores": [
+       110.81,
+       149.57,
+       176.76,
+       176.76,
+       176.76,
+       209.94,
+       272.92,
+       354.8,
+       461.24,
+       664.79
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Taboão",
+      "valores": [
+       110.81,
+       149.57,
+       176.76,
+       176.76,
+       176.76,
+       209.94,
+       272.92,
+       354.8,
+       461.24,
+       664.79
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Americana",
+      "valores": [
+       114.07,
+       153.97,
+       181.96,
+       181.96,
+       181.96,
+       216.11,
+       280.94,
+       365.22,
+       474.79,
+       684.31
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico Mogi",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Leste",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Norte",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     },
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Nosso Médico SP Sul",
+      "valores": [
+       108.63,
+       146.63,
+       173.29,
+       173.29,
+       173.29,
+       205.82,
+       267.57,
+       347.84,
+       452.19,
+       651.74
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Tabela de preços - PME Smart Regionais — 2 a 29 vidas — coparticipação total — Linha Smart",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       94.56,
+       127.64,
+       150.84,
+       150.84,
+       150.84,
+       179.15,
+       232.9,
+       302.77,
+       393.6,
+       567.3
+      ]
+     },
+     {
+      "produto_id": "p7.P2",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       101.24,
+       137.48,
+       151.23,
+       164.84,
+       167.31,
+       175.68,
+       248.94,
+       336.07,
+       403.28,
+       607.34
+      ]
+     },
+     {
+      "produto_id": "p7.P3",
+      "coluna": "200 ABC + BAIXADA",
+      "valores": [
+       113.92,
+       153.77,
+       181.73,
+       181.73,
+       181.73,
+       215.84,
+       280.59,
+       364.77,
+       474.2,
+       683.46
+      ]
+     },
+     {
+      "produto_id": "p7.P4",
+      "coluna": "SMART 200 BAIXADA SANTISTA",
+      "valores": [
+       113.92,
+       153.77,
+       181.73,
+       181.73,
+       181.73,
+       215.84,
+       280.59,
+       364.77,
+       474.2,
+       683.46
+      ]
+     },
+     {
+      "produto_id": "p7.P5",
+      "coluna": "Smart 200 CAMPINAS",
+      "valores": [
+       105.63,
+       142.58,
+       168.5,
+       168.5,
+       168.5,
+       200.13,
+       260.17,
+       338.22,
+       439.69,
+       633.73
+      ]
+     },
+     {
+      "produto_id": "p7.P6",
+      "coluna": "SMART 200 JUNDIAÍ",
+      "valores": [
+       103.56,
+       139.79,
+       165.2,
+       165.2,
+       165.2,
+       196.21,
+       255.07,
+       331.59,
+       431.07,
+       621.3
+      ]
+     },
+     {
+      "produto_id": "p7.P7",
+      "coluna": "Smart 200 GUARULHOS",
+      "valores": [
+       103.56,
+       139.79,
+       165.2,
+       165.2,
+       165.2,
+       196.21,
+       255.07,
+       331.59,
+       431.07,
+       621.3
+      ]
+     },
+     {
+      "produto_id": "p7.P8",
+      "coluna": "Smart 200 SP OESTE",
+      "valores": [
+       105.63,
+       142.58,
+       168.5,
+       168.5,
+       168.5,
+       200.13,
+       260.17,
+       338.22,
+       439.69,
+       633.73
+      ]
+     },
+     {
+      "produto_id": "p7.P9",
+      "coluna": "Smart 200 SOROCABA",
+      "valores": [
+       126.47,
+       170.71,
+       201.75,
+       201.75,
+       201.75,
+       239.62,
+       311.51,
+       404.96,
+       526.45,
+       758.77
+      ]
+     },
+     {
+      "produto_id": "p7.P10",
+      "coluna": "Smart 200 SP CAPITAL",
+      "valores": [
+       103.56,
+       139.79,
+       165.2,
+       165.2,
+       165.2,
+       196.21,
+       255.07,
+       331.59,
+       431.07,
+       621.3
+      ]
+     },
+     {
+      "produto_id": "p7.P11",
+      "coluna": "Smart 200 ALTO TIETÊ",
+      "valores": [
+       103.56,
+       139.79,
+       165.2,
+       165.2,
+       165.2,
+       196.21,
+       255.07,
+       331.59,
+       431.07,
+       621.3
+      ]
+     },
+     {
+      "produto_id": "p7.P12",
+      "coluna": "Smart 200 AMERICANA",
+      "valores": [
+       108.74,
+       146.78,
+       173.46,
+       173.46,
+       173.46,
+       206.02,
+       267.83,
+       348.18,
+       452.63,
+       652.38
+      ]
+     },
+     {
+      "produto_id": "p7.P13",
+      "coluna": "SMART RIO",
+      "valores": [
+       108.91,
+       147.9,
+       162.69,
+       177.33,
+       179.99,
+       188.99,
+       267.8,
+       361.53,
+       433.84,
+       653.36
+      ]
+     },
+     {
+      "produto_id": "p7.P14",
+      "coluna": "SMART 200 GRU-MOGI",
+      "valores": [
+       106.66,
+       143.97,
+       170.14,
+       170.14,
+       170.14,
+       202.08,
+       262.7,
+       341.51,
+       443.96,
+       639.88
+      ]
+     },
+     {
+      "produto_id": "p7.P15",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       130.27,
+       175.84,
+       207.81,
+       207.81,
+       207.81,
+       246.82,
+       320.87,
+       417.13,
+       542.27,
+       781.57
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Tabela de preços - PME Smart Regionais — 30 a 99 vidas — coparticipação total — Linha Smart",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       87.0,
+       117.43,
+       138.78,
+       138.78,
+       138.78,
+       164.83,
+       214.28,
+       278.56,
+       362.13,
+       521.94
+      ]
+     },
+     {
+      "produto_id": "p7.P2",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       95.96,
+       130.31,
+       143.34,
+       156.24,
+       158.58,
+       166.51,
+       235.94,
+       318.52,
+       382.22,
+       575.62
+      ]
+     },
+     {
+      "produto_id": "p7.P3",
+      "coluna": "Smart 200 ABC + BS",
+      "valores": [
+       104.81,
+       141.47,
+       167.19,
+       167.19,
+       167.19,
+       198.57,
+       258.14,
+       335.58,
+       436.25,
+       628.77
+      ]
+     },
+     {
+      "produto_id": "p7.P4",
+      "coluna": "SMART 200 BAIXADA SANTISTA",
+      "valores": [
+       104.81,
+       141.47,
+       167.19,
+       167.19,
+       167.19,
+       198.57,
+       258.14,
+       335.58,
+       436.25,
+       628.77
+      ]
+     },
+     {
+      "produto_id": "p7.P5",
+      "coluna": "Smart 200 CAMPINAS",
+      "valores": [
+       97.2,
+       131.2,
+       155.05,
+       155.05,
+       155.05,
+       184.15,
+       239.4,
+       311.22,
+       404.59,
+       583.14
+      ]
+     },
+     {
+      "produto_id": "p7.P6",
+      "coluna": "SMART 200 JUNDIAÍ",
+      "valores": [
+       95.29,
+       128.62,
+       152.0,
+       152.0,
+       152.0,
+       180.53,
+       234.69,
+       305.1,
+       396.63,
+       571.66
+      ]
+     },
+     {
+      "produto_id": "p7.P7",
+      "coluna": "Smart 200 GUARULHOS",
+      "valores": [
+       95.29,
+       128.62,
+       152.0,
+       152.0,
+       152.0,
+       180.53,
+       234.69,
+       305.1,
+       396.63,
+       571.66
+      ]
+     },
+     {
+      "produto_id": "p7.P8",
+      "coluna": "Smart 200 SP OESTE",
+      "valores": [
+       97.19,
+       131.19,
+       155.04,
+       155.04,
+       155.04,
+       184.14,
+       239.38,
+       311.19,
+       404.55,
+       583.08
+      ]
+     },
+     {
+      "produto_id": "p7.P9",
+      "coluna": "Smart 200 SOROCABA",
+      "valores": [
+       116.36,
+       157.06,
+       185.61,
+       185.61,
+       185.61,
+       220.45,
+       286.59,
+       372.57,
+       484.34,
+       698.08
+      ]
+     },
+     {
+      "produto_id": "p7.P10",
+      "coluna": "Smart 200 SP CAPITAL",
+      "valores": [
+       95.29,
+       128.62,
+       152.0,
+       152.0,
+       152.0,
+       180.53,
+       234.69,
+       305.1,
+       396.63,
+       571.66
+      ]
+     },
+     {
+      "produto_id": "p7.P11",
+      "coluna": "Smart 200 ALTO TIETÊ",
+      "valores": [
+       95.29,
+       128.62,
+       152.0,
+       152.0,
+       152.0,
+       180.53,
+       234.69,
+       305.1,
+       396.63,
+       571.66
+      ]
+     },
+     {
+      "produto_id": "p7.P12",
+      "coluna": "Smart 200 AMERICANA",
+      "valores": [
+       100.06,
+       135.06,
+       159.61,
+       159.61,
+       159.61,
+       189.57,
+       246.44,
+       320.37,
+       416.48,
+       600.27
+      ]
+     },
+     {
+      "produto_id": "p7.P13",
+      "coluna": "SMART RIO",
+      "valores": [
+       103.23,
+       140.19,
+       154.21,
+       168.09,
+       170.61,
+       179.14,
+       253.84,
+       342.68,
+       411.22,
+       619.3
+      ]
+     },
+     {
+      "produto_id": "p7.P14",
+      "coluna": "SMART 200 GRU-MOGI",
+      "valores": [
+       98.15,
+       132.48,
+       156.56,
+       156.56,
+       156.56,
+       185.95,
+       241.74,
+       314.26,
+       408.54,
+       588.83
+      ]
+     },
+     {
+      "produto_id": "p7.P15",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       119.84,
+       161.76,
+       191.17,
+       191.17,
+       191.17,
+       227.05,
+       295.17,
+       383.72,
+       498.84,
+       718.98
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Tabela de preços - PME Smart Regionais — 2 a 29 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P1",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       126.07,
+       170.17,
+       201.11,
+       201.11,
+       201.11,
+       238.86,
+       310.52,
+       403.68,
+       524.78,
+       756.37
+      ]
+     },
+     {
+      "produto_id": "p8.P2",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       117.74,
+       159.89,
+       175.88,
+       191.71,
+       194.59,
+       204.32,
+       289.52,
+       390.85,
+       469.02,
+       706.34
+      ]
+     },
+     {
+      "produto_id": "p8.P3",
+      "coluna": "200 ABC + BAIXADA",
+      "valores": [
+       151.91,
+       205.05,
+       242.33,
+       242.33,
+       242.33,
+       287.82,
+       374.17,
+       486.42,
+       632.35,
+       911.41
+      ]
+     },
+     {
+      "produto_id": "p8.P4",
+      "coluna": "Smart 200 Baixada Santista",
+      "valores": [
+       151.91,
+       205.05,
+       242.33,
+       242.33,
+       242.33,
+       287.82,
+       374.17,
+       486.42,
+       632.35,
+       911.41
+      ]
+     },
+     {
+      "produto_id": "p8.P5",
+      "coluna": "Smart 200 CAMPINAS",
+      "valores": [
+       140.83,
+       190.09,
+       224.65,
+       224.65,
+       224.65,
+       266.82,
+       346.87,
+       450.93,
+       586.21,
+       844.9
+      ]
+     },
+     {
+      "produto_id": "p8.P6",
+      "coluna": "Smart 200 JUNDIAÍ",
+      "valores": [
+       138.07,
+       186.37,
+       220.25,
+       220.25,
+       220.25,
+       261.59,
+       340.07,
+       442.09,
+       574.72,
+       828.34
+      ]
+     },
+     {
+      "produto_id": "p8.P7",
+      "coluna": "Smart 200 GUARULHOS",
+      "valores": [
+       138.07,
+       186.37,
+       220.25,
+       220.25,
+       220.25,
+       261.59,
+       340.07,
+       442.09,
+       574.72,
+       828.34
+      ]
+     },
+     {
+      "produto_id": "p8.P8",
+      "coluna": "Smart 200 SP OESTE",
+      "valores": [
+       140.83,
+       190.09,
+       224.65,
+       224.65,
+       224.65,
+       266.82,
+       346.87,
+       450.93,
+       586.21,
+       844.9
+      ]
+     },
+     {
+      "produto_id": "p8.P9",
+      "coluna": "Smart 200 SOROCABA",
+      "valores": [
+       168.64,
+       227.63,
+       269.01,
+       269.01,
+       269.01,
+       319.5,
+       415.35,
+       539.96,
+       701.95,
+       1011.72
+      ]
+     },
+     {
+      "produto_id": "p8.P10",
+      "coluna": "Smart 200 SP CAPITAL",
+      "valores": [
+       138.07,
+       186.37,
+       220.25,
+       220.25,
+       220.25,
+       261.59,
+       340.07,
+       442.09,
+       574.72,
+       828.34
+      ]
+     },
+     {
+      "produto_id": "p8.P11",
+      "coluna": "Smart 200 ALTO TIETÊ",
+      "valores": [
+       138.07,
+       186.37,
+       220.25,
+       220.25,
+       220.25,
+       261.59,
+       340.07,
+       442.09,
+       574.72,
+       828.34
+      ]
+     },
+     {
+      "produto_id": "p8.P12",
+      "coluna": "Smart 200 AMERICANA",
+      "valores": [
+       144.97,
+       195.68,
+       231.25,
+       231.25,
+       231.25,
+       274.66,
+       357.06,
+       464.18,
+       603.43,
+       869.72
+      ]
+     },
+     {
+      "produto_id": "p8.P13",
+      "coluna": "Smart Rio",
+      "valores": [
+       117.74,
+       159.89,
+       175.88,
+       191.71,
+       194.59,
+       204.32,
+       289.52,
+       390.85,
+       469.02,
+       706.34
+      ]
+     },
+     {
+      "produto_id": "p8.P14",
+      "coluna": "Smart 200 GRU-MOGI",
+      "valores": [
+       142.21,
+       191.96,
+       226.86,
+       226.86,
+       226.86,
+       269.44,
+       350.27,
+       455.35,
+       591.96,
+       853.19
+      ]
+     },
+     {
+      "produto_id": "p8.P15",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       173.71,
+       234.47,
+       277.1,
+       277.1,
+       277.1,
+       329.11,
+       427.84,
+       556.19,
+       723.05,
+       1042.13
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Tabela de preços - PME Smart Regionais — 30 a 99 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P1",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       116.0,
+       156.58,
+       185.05,
+       185.05,
+       185.05,
+       219.78,
+       285.71,
+       371.42,
+       482.85,
+       695.93
+      ]
+     },
+     {
+      "produto_id": "p8.P2",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       117.74,
+       159.89,
+       175.88,
+       191.71,
+       194.59,
+       204.32,
+       289.52,
+       390.85,
+       469.02,
+       706.34
+      ]
+     },
+     {
+      "produto_id": "p8.P3",
+      "coluna": "200 ABC + BAIXADA",
+      "valores": [
+       139.73,
+       188.61,
+       222.9,
+       222.9,
+       222.9,
+       264.74,
+       344.16,
+       447.41,
+       581.63,
+       838.3
+      ]
+     },
+     {
+      "produto_id": "p8.P4",
+      "coluna": "Smart 200 Baixada Santista",
+      "valores": [
+       139.73,
+       188.61,
+       222.9,
+       222.9,
+       222.9,
+       264.74,
+       344.16,
+       447.41,
+       581.63,
+       838.3
+      ]
+     },
+     {
+      "produto_id": "p8.P5",
+      "coluna": "Smart 200 CAMPINAS",
+      "valores": [
+       129.58,
+       174.91,
+       206.71,
+       206.71,
+       206.71,
+       245.51,
+       319.16,
+       414.91,
+       539.38,
+       777.41
+      ]
+     },
+     {
+      "produto_id": "p8.P6",
+      "coluna": "Smart 200 JUNDIAÍ",
+      "valores": [
+       127.03,
+       171.47,
+       202.64,
+       202.64,
+       202.64,
+       240.68,
+       312.88,
+       406.74,
+       528.76,
+       762.1
+      ]
+     },
+     {
+      "produto_id": "p8.P7",
+      "coluna": "Smart 200 GUARULHOS",
+      "valores": [
+       127.03,
+       171.47,
+       202.64,
+       202.64,
+       202.64,
+       240.68,
+       312.88,
+       406.74,
+       528.76,
+       762.1
+      ]
+     },
+     {
+      "produto_id": "p8.P8",
+      "coluna": "Smart 200 SP OESTE",
+      "valores": [
+       129.58,
+       174.91,
+       206.71,
+       206.71,
+       206.71,
+       245.51,
+       319.16,
+       414.91,
+       539.38,
+       777.41
+      ]
+     },
+     {
+      "produto_id": "p8.P9",
+      "coluna": "Smart 200 SOROCABA",
+      "valores": [
+       155.14,
+       209.41,
+       247.48,
+       247.48,
+       247.48,
+       293.93,
+       382.11,
+       496.74,
+       645.76,
+       930.73
+      ]
+     },
+     {
+      "produto_id": "p8.P10",
+      "coluna": "Smart 200 SP CAPITAL",
+      "valores": [
+       127.03,
+       171.47,
+       202.64,
+       202.64,
+       202.64,
+       240.68,
+       312.88,
+       406.74,
+       528.76,
+       762.1
+      ]
+     },
+     {
+      "produto_id": "p8.P11",
+      "coluna": "Smart 200 ALTO TIETÊ",
+      "valores": [
+       127.03,
+       171.47,
+       202.64,
+       202.64,
+       202.64,
+       240.68,
+       312.88,
+       406.74,
+       528.76,
+       762.1
+      ]
+     },
+     {
+      "produto_id": "p8.P12",
+      "coluna": "Smart 200 AMERICANA",
+      "valores": [
+       133.38,
+       180.04,
+       212.77,
+       212.77,
+       212.77,
+       252.71,
+       328.52,
+       427.08,
+       555.2,
+       800.21
+      ]
+     },
+     {
+      "produto_id": "p8.P13",
+      "coluna": "Smart Rio",
+      "valores": [
+       117.74,
+       159.89,
+       175.88,
+       191.71,
+       194.59,
+       204.32,
+       289.52,
+       390.85,
+       469.02,
+       706.34
+      ]
+     },
+     {
+      "produto_id": "p8.P14",
+      "coluna": "Smart 200 GRU-MOGI",
+      "valores": [
+       130.84,
+       176.61,
+       208.72,
+       208.72,
+       208.72,
+       247.9,
+       322.27,
+       418.95,
+       544.64,
+       784.99
+      ]
+     },
+     {
+      "produto_id": "p8.P15",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       159.79,
+       215.68,
+       254.89,
+       254.89,
+       254.89,
+       302.73,
+       393.55,
+       511.62,
+       665.11,
+       958.62
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 9,
+    "titulo": "Tabela de preços - PME São Paulo, Região Metropolitana e ABC — Coparticipação total — 2 a 29 vidas",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p9.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       166.66,
+       224.96,
+       265.86,
+       277.77,
+       287.05,
+       315.76,
+       410.49,
+       533.64,
+       693.73,
+       999.87
+      ]
+     },
+     {
+      "produto_id": "p9.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       188.72,
+       254.73,
+       301.04,
+       314.53,
+       325.04,
+       357.54,
+       464.8,
+       604.24,
+       785.51,
+       1132.16
+      ]
+     },
+     {
+      "produto_id": "p9.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       233.97,
+       315.81,
+       373.22,
+       389.94,
+       402.96,
+       443.26,
+       576.24,
+       749.11,
+       973.84,
+       1403.6
+      ]
+     },
+     {
+      "produto_id": "p9.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       216.32,
+       291.99,
+       345.07,
+       360.53,
+       372.57,
+       409.83,
+       532.78,
+       692.61,
+       900.39,
+       1297.73
+      ]
+     },
+     {
+      "produto_id": "p9.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       268.19,
+       362.0,
+       427.81,
+       446.98,
+       461.91,
+       508.1,
+       660.53,
+       858.69,
+       1116.3,
+       1608.92
+      ]
+     },
+     {
+      "produto_id": "p9.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       258.95,
+       349.53,
+       413.07,
+       431.58,
+       445.99,
+       490.59,
+       637.77,
+       829.1,
+       1077.83,
+       1553.48
+      ]
+     },
+     {
+      "produto_id": "p9.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       297.72,
+       401.86,
+       474.92,
+       496.2,
+       512.77,
+       564.05,
+       733.27,
+       953.25,
+       1239.23,
+       1786.1
+      ]
+     },
+     {
+      "produto_id": "p9.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       310.13,
+       418.61,
+       494.71,
+       516.87,
+       534.13,
+       587.54,
+       763.8,
+       992.94,
+       1290.82,
+       1860.46
+      ]
+     },
+     {
+      "produto_id": "p9.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       359.74,
+       485.58,
+       573.86,
+       599.57,
+       619.6,
+       681.56,
+       886.03,
+       1151.84,
+       1497.39,
+       2158.19
+      ]
+     },
+     {
+      "produto_id": "p9.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       487.8,
+       658.43,
+       778.13,
+       812.99,
+       840.14,
+       924.15,
+       1201.4,
+       1561.82,
+       2030.37,
+       2926.37
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 9,
+    "titulo": "Tabela de preços - PME São Paulo, Região Metropolitana e ABC — Coparticipação total — 30 a 99 vidas",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p9.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       153.32,
+       206.95,
+       244.57,
+       255.53,
+       264.06,
+       290.47,
+       377.61,
+       490.89,
+       638.16,
+       919.78
+      ]
+     },
+     {
+      "produto_id": "p9.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       173.6,
+       234.33,
+       276.93,
+       289.34,
+       299.0,
+       328.9,
+       427.57,
+       555.84,
+       722.59,
+       1041.47
+      ]
+     },
+     {
+      "produto_id": "p9.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       215.26,
+       290.56,
+       343.38,
+       358.76,
+       370.74,
+       407.81,
+       530.15,
+       689.2,
+       895.96,
+       1291.35
+      ]
+     },
+     {
+      "produto_id": "p9.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       199.02,
+       268.64,
+       317.48,
+       331.7,
+       342.78,
+       377.06,
+       490.18,
+       637.23,
+       828.4,
+       1193.97
+      ]
+     },
+     {
+      "produto_id": "p9.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       246.75,
+       333.06,
+       393.61,
+       411.24,
+       424.98,
+       467.48,
+       607.72,
+       790.04,
+       1027.05,
+       1480.29
+      ]
+     },
+     {
+      "produto_id": "p9.P6",
+      "coluna": "Advance600 enf",
+      "valores": [
+       238.2,
+       321.52,
+       379.97,
+       396.99,
+       410.25,
+       451.28,
+       586.66,
+       762.66,
+       991.46,
+       1428.99
+      ]
+     },
+     {
+      "produto_id": "p9.P7",
+      "coluna": "Advance600 apto",
+      "valores": [
+       273.91,
+       369.72,
+       436.94,
+       456.51,
+       471.76,
+       518.94,
+       674.62,
+       877.01,
+       1140.11,
+       1643.24
+      ]
+     },
+     {
+      "produto_id": "p9.P8",
+      "coluna": "Advance700 enf",
+      "valores": [
+       285.32,
+       385.12,
+       455.13,
+       475.52,
+       491.4,
+       540.54,
+       702.7,
+       913.51,
+       1187.56,
+       1711.63
+      ]
+     },
+     {
+      "produto_id": "p9.P9",
+      "coluna": "Advance700 apto",
+      "valores": [
+       331.0,
+       446.78,
+       528.0,
+       551.65,
+       570.08,
+       627.09,
+       815.22,
+       1059.79,
+       1377.73,
+       1985.72
+      ]
+     },
+     {
+      "produto_id": "p9.P10",
+      "coluna": "Premium900.1 CARE",
+      "valores": [
+       448.8,
+       605.79,
+       715.92,
+       747.99,
+       772.97,
+       850.27,
+       1105.35,
+       1436.96,
+       1868.05,
+       2692.42
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 10,
+    "titulo": "Tabela de preços - PME — 2 a 29 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p10.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       238.09,
+       321.37,
+       379.8,
+       396.82,
+       410.07,
+       451.08,
+       586.4,
+       762.32,
+       991.02,
+       1428.36
+      ]
+     },
+     {
+      "produto_id": "p10.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       269.57,
+       363.87,
+       430.02,
+       449.28,
+       464.29,
+       510.72,
+       663.94,
+       863.12,
+       1122.06,
+       1617.23
+      ]
+     },
+     {
+      "produto_id": "p10.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       334.24,
+       451.16,
+       533.18,
+       557.07,
+       575.68,
+       633.25,
+       823.23,
+       1070.2,
+       1391.26,
+       2005.22
+      ]
+     },
+     {
+      "produto_id": "p10.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       309.02,
+       417.12,
+       492.95,
+       515.03,
+       532.23,
+       585.45,
+       761.09,
+       989.42,
+       1286.25,
+       1853.87
+      ]
+     },
+     {
+      "produto_id": "p10.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       383.11,
+       517.12,
+       611.13,
+       638.51,
+       659.84,
+       725.82,
+       943.57,
+       1226.64,
+       1594.63,
+       2298.34
+      ]
+     },
+     {
+      "produto_id": "p10.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       369.93,
+       499.33,
+       590.11,
+       616.55,
+       637.14,
+       700.85,
+       911.11,
+       1184.44,
+       1539.77,
+       2219.27
+      ]
+     },
+     {
+      "produto_id": "p10.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       425.3,
+       574.07,
+       678.44,
+       708.83,
+       732.5,
+       805.75,
+       1047.48,
+       1361.72,
+       1770.24,
+       2551.45
+      ]
+     },
+     {
+      "produto_id": "p10.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       443.04,
+       598.02,
+       706.74,
+       738.4,
+       763.06,
+       839.37,
+       1091.18,
+       1418.53,
+       1844.09,
+       2657.89
+      ]
+     },
+     {
+      "produto_id": "p10.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       513.93,
+       693.7,
+       819.81,
+       856.54,
+       885.15,
+       973.67,
+       1265.77,
+       1645.5,
+       2139.15,
+       3083.16
+      ]
+     },
+     {
+      "produto_id": "p10.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       696.86,
+       940.62,
+       1111.62,
+       1161.42,
+       1200.21,
+       1320.23,
+       1716.3,
+       2231.19,
+       2900.55,
+       4180.56
+      ]
+     },
+     {
+      "produto_id": "p10.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       864.47,
+       1166.86,
+       1379.0,
+       1440.78,
+       1488.9,
+       1637.79,
+       2129.13,
+       2767.87,
+       3598.23,
+       5186.13
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 10,
+    "titulo": "Tabela de preços - PME — 30 a 99 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p10.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       219.03,
+       295.65,
+       349.4,
+       365.05,
+       377.24,
+       414.96,
+       539.45,
+       701.29,
+       911.68,
+       1314.0
+      ]
+     },
+     {
+      "produto_id": "p10.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       248.01,
+       334.76,
+       395.62,
+       413.34,
+       427.15,
+       469.87,
+       610.83,
+       794.08,
+       1032.3,
+       1487.85
+      ]
+     },
+     {
+      "produto_id": "p10.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       307.52,
+       415.09,
+       490.55,
+       512.53,
+       529.65,
+       582.62,
+       757.41,
+       984.63,
+       1280.02,
+       1844.89
+      ]
+     },
+     {
+      "produto_id": "p10.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       284.29,
+       383.73,
+       453.49,
+       473.81,
+       489.64,
+       538.6,
+       700.18,
+       910.23,
+       1183.3,
+       1705.49
+      ]
+     },
+     {
+      "produto_id": "p10.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       352.52,
+       475.83,
+       562.34,
+       587.53,
+       607.15,
+       667.87,
+       868.23,
+       1128.7,
+       1467.31,
+       2114.83
+      ]
+     },
+     {
+      "produto_id": "p10.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       340.31,
+       459.35,
+       542.86,
+       567.18,
+       586.12,
+       644.73,
+       838.15,
+       1089.6,
+       1416.48,
+       2041.57
+      ]
+     },
+     {
+      "produto_id": "p10.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       391.27,
+       528.14,
+       624.16,
+       652.12,
+       673.9,
+       741.29,
+       963.68,
+       1252.78,
+       1628.61,
+       2347.32
+      ]
+     },
+     {
+      "produto_id": "p10.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       407.58,
+       550.15,
+       650.17,
+       679.3,
+       701.99,
+       772.19,
+       1003.85,
+       1305.01,
+       1696.51,
+       2445.18
+      ]
+     },
+     {
+      "produto_id": "p10.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       472.85,
+       638.25,
+       754.28,
+       788.07,
+       814.39,
+       895.83,
+       1164.58,
+       1513.95,
+       1968.14,
+       2836.68
+      ]
+     },
+     {
+      "produto_id": "p10.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       641.13,
+       865.4,
+       1022.73,
+       1068.55,
+       1104.24,
+       1214.66,
+       1579.06,
+       2052.78,
+       2668.61,
+       3846.27
+      ]
+     },
+     {
+      "produto_id": "p10.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       795.32,
+       1073.52,
+       1268.69,
+       1325.53,
+       1369.8,
+       1506.78,
+       1958.81,
+       2546.45,
+       3310.39,
+       4771.27
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 11,
+    "titulo": "Tabela de preços - PME Jundiaí, Sorocaba e Campinas — coparticipação total — 2 a 29 vidas",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p11.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       166.66,
+       224.96,
+       265.86,
+       277.77,
+       287.05,
+       315.76,
+       410.49,
+       533.64,
+       693.73,
+       999.87
+      ]
+     },
+     {
+      "produto_id": "p11.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       170.1,
+       229.6,
+       271.34,
+       283.5,
+       292.97,
+       322.27,
+       418.95,
+       544.64,
+       708.03,
+       1020.48
+      ]
+     },
+     {
+      "produto_id": "p11.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       210.92,
+       284.7,
+       336.46,
+       351.53,
+       363.27,
+       399.6,
+       519.48,
+       675.32,
+       877.92,
+       1265.35
+      ]
+     },
+     {
+      "produto_id": "p11.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       216.32,
+       291.99,
+       345.07,
+       360.53,
+       372.57,
+       409.83,
+       532.78,
+       692.61,
+       900.39,
+       1297.73
+      ]
+     },
+     {
+      "produto_id": "p11.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       268.22,
+       362.04,
+       427.86,
+       447.03,
+       461.96,
+       508.16,
+       660.61,
+       858.79,
+       1116.43,
+       1609.11
+      ]
+     },
+     {
+      "produto_id": "p11.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       258.95,
+       349.53,
+       413.07,
+       431.58,
+       445.99,
+       490.59,
+       637.77,
+       829.1,
+       1077.83,
+       1553.48
+      ]
+     },
+     {
+      "produto_id": "p11.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       297.72,
+       401.86,
+       474.92,
+       496.2,
+       512.77,
+       564.05,
+       733.27,
+       953.25,
+       1239.23,
+       1786.1
+      ]
+     },
+     {
+      "produto_id": "p11.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       310.13,
+       418.61,
+       494.71,
+       516.87,
+       534.13,
+       587.54,
+       763.8,
+       992.94,
+       1290.82,
+       1860.46
+      ]
+     },
+     {
+      "produto_id": "p11.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       359.74,
+       485.58,
+       573.86,
+       599.57,
+       619.6,
+       681.56,
+       886.03,
+       1151.84,
+       1497.39,
+       2158.19
+      ]
+     },
+     {
+      "produto_id": "p11.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       487.8,
+       658.43,
+       778.13,
+       812.99,
+       840.14,
+       924.15,
+       1201.4,
+       1561.82,
+       2030.37,
+       2926.37
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 11,
+    "titulo": "Tabela de preços - PME Jundiaí, Sorocaba e Campinas — coparticipação total — 30 a 99 vidas",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p11.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       153.32,
+       206.95,
+       181.19,
+       160.19,
+       158.44,
+       168.65,
+       199.32,
+       199.32,
+       199.32,
+       220.98
+      ]
+     },
+     {
+      "produto_id": "p11.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       156.49,
+       211.23,
+       184.94,
+       163.5,
+       161.72,
+       172.14,
+       203.44,
+       203.44,
+       203.44,
+       225.55
+      ]
+     },
+     {
+      "produto_id": "p11.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       194.04,
+       261.92,
+       229.32,
+       202.73,
+       200.52,
+       213.44,
+       252.25,
+       252.25,
+       252.25,
+       279.67
+      ]
+     },
+     {
+      "produto_id": "p11.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       199.03,
+       268.65,
+       235.21,
+       207.95,
+       205.68,
+       218.93,
+       258.74,
+       258.74,
+       258.74,
+       286.86
+      ]
+     },
+     {
+      "produto_id": "p11.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       246.75,
+       333.06,
+       291.61,
+       257.8,
+       254.99,
+       271.43,
+       320.78,
+       320.78,
+       320.78,
+       355.64
+      ]
+     },
+     {
+      "produto_id": "p11.P6",
+      "coluna": "Advance600 enf",
+      "valores": [
+       238.2,
+       321.52,
+       281.5,
+       248.87,
+       246.16,
+       262.02,
+       309.66,
+       309.66,
+       309.66,
+       343.32
+      ]
+     },
+     {
+      "produto_id": "p11.P7",
+      "coluna": "Advance600 apto",
+      "valores": [
+       273.91,
+       369.72,
+       323.71,
+       286.18,
+       283.06,
+       301.3,
+       356.08,
+       356.08,
+       356.08,
+       394.79
+      ]
+     },
+     {
+      "produto_id": "p11.P8",
+      "coluna": "Advance700 enf",
+      "valores": [
+       285.32,
+       385.12,
+       337.19,
+       298.1,
+       294.85,
+       313.85,
+       370.92,
+       370.92,
+       370.92,
+       411.23
+      ]
+     },
+     {
+      "produto_id": "p11.P9",
+      "coluna": "Advance700 apto",
+      "valores": [
+       331.0,
+       446.78,
+       391.18,
+       345.83,
+       342.06,
+       364.1,
+       430.3,
+       430.3,
+       430.3,
+       477.07
+      ]
+     },
+     {
+      "produto_id": "p11.P10",
+      "coluna": "Premium900.1 CARE",
+      "valores": [
+       448.8,
+       605.79,
+       530.39,
+       468.91,
+       463.79,
+       493.68,
+       583.44,
+       583.44,
+       583.44,
+       646.86
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 12,
+    "titulo": "Tabela de preços - PME Jundiaí, Sorocaba e Campinas — 2 a 29 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p12.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       238.09,
+       321.37,
+       379.8,
+       396.82,
+       410.07,
+       451.08,
+       586.4,
+       762.32,
+       991.02,
+       1428.36
+      ]
+     },
+     {
+      "produto_id": "p12.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       243.0,
+       328.0,
+       387.63,
+       405.0,
+       418.53,
+       460.38,
+       598.49,
+       778.04,
+       1011.45,
+       1457.8
+      ]
+     },
+     {
+      "produto_id": "p12.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       301.32,
+       406.72,
+       480.66,
+       502.19,
+       518.96,
+       570.86,
+       742.12,
+       964.76,
+       1254.19,
+       1807.66
+      ]
+     },
+     {
+      "produto_id": "p12.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       309.04,
+       417.14,
+       492.98,
+       515.07,
+       532.27,
+       585.5,
+       761.15,
+       989.5,
+       1286.35,
+       1854.02
+      ]
+     },
+     {
+      "produto_id": "p12.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       383.19,
+       517.23,
+       611.26,
+       638.64,
+       659.97,
+       725.97,
+       943.76,
+       1226.89,
+       1594.96,
+       2298.82
+      ]
+     },
+     {
+      "produto_id": "p12.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       369.93,
+       499.33,
+       590.11,
+       616.55,
+       637.14,
+       700.85,
+       911.11,
+       1184.44,
+       1539.77,
+       2219.27
+      ]
+     },
+     {
+      "produto_id": "p12.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       425.3,
+       574.07,
+       678.44,
+       708.83,
+       732.5,
+       805.75,
+       1047.48,
+       1361.72,
+       1770.24,
+       2551.45
+      ]
+     },
+     {
+      "produto_id": "p12.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       443.04,
+       598.02,
+       706.74,
+       738.4,
+       763.06,
+       839.37,
+       1091.18,
+       1418.53,
+       1844.09,
+       2657.89
+      ]
+     },
+     {
+      "produto_id": "p12.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       513.93,
+       693.7,
+       819.81,
+       856.54,
+       885.15,
+       973.67,
+       1265.77,
+       1645.5,
+       2139.15,
+       3083.16
+      ]
+     },
+     {
+      "produto_id": "p12.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       696.86,
+       940.62,
+       1111.62,
+       1161.42,
+       1200.21,
+       1320.23,
+       1716.3,
+       2231.19,
+       2900.55,
+       4180.56
+      ]
+     },
+     {
+      "produto_id": "p12.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       864.47,
+       1166.86,
+       1379.0,
+       1440.78,
+       1488.9,
+       1637.79,
+       2129.13,
+       2767.87,
+       3598.23,
+       5186.13
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 12,
+    "titulo": "Tabela de preços - PME Jundiaí, Sorocaba e Campinas — 30 a 99 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p12.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       219.03,
+       295.65,
+       349.4,
+       365.05,
+       377.24,
+       414.96,
+       539.45,
+       701.29,
+       911.68,
+       1314.0
+      ]
+     },
+     {
+      "produto_id": "p12.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       223.58,
+       301.79,
+       356.66,
+       372.64,
+       385.09,
+       423.6,
+       550.68,
+       715.88,
+       930.64,
+       1341.33
+      ]
+     },
+     {
+      "produto_id": "p12.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       277.21,
+       374.18,
+       442.21,
+       462.02,
+       477.45,
+       525.2,
+       682.76,
+       887.59,
+       1153.87,
+       1663.07
+      ]
+     },
+     {
+      "produto_id": "p12.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       284.3,
+       383.75,
+       453.52,
+       473.84,
+       489.67,
+       538.64,
+       700.23,
+       910.3,
+       1183.39,
+       1705.62
+      ]
+     },
+     {
+      "produto_id": "p12.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       352.52,
+       475.83,
+       562.34,
+       587.53,
+       607.15,
+       667.87,
+       868.23,
+       1128.7,
+       1467.31,
+       2114.83
+      ]
+     },
+     {
+      "produto_id": "p12.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       340.31,
+       459.35,
+       542.86,
+       567.18,
+       586.12,
+       644.73,
+       838.15,
+       1089.6,
+       1416.48,
+       2041.57
+      ]
+     },
+     {
+      "produto_id": "p12.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       391.27,
+       528.14,
+       624.16,
+       652.12,
+       673.9,
+       741.29,
+       963.68,
+       1252.78,
+       1628.61,
+       2347.32
+      ]
+     },
+     {
+      "produto_id": "p12.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       407.58,
+       550.15,
+       650.17,
+       679.3,
+       701.99,
+       772.19,
+       1003.85,
+       1305.01,
+       1696.51,
+       2445.18
+      ]
+     },
+     {
+      "produto_id": "p12.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       472.85,
+       638.25,
+       754.28,
+       788.07,
+       814.39,
+       895.83,
+       1164.58,
+       1513.95,
+       1968.14,
+       2836.68
+      ]
+     },
+     {
+      "produto_id": "p12.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       641.13,
+       865.4,
+       1022.73,
+       1068.55,
+       1104.24,
+       1214.66,
+       1579.06,
+       2052.78,
+       2668.61,
+       3846.27
+      ]
+     },
+     {
+      "produto_id": "p12.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       795.32,
+       1073.52,
+       1268.69,
+       1325.53,
+       1369.8,
+       1506.78,
+       1958.81,
+       2546.45,
+       3310.39,
+       4771.27
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 13,
+    "titulo": "Tabela de preços - PME Baixada Santista — coparticipação total — 2 a 29 vidas",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p13.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       142.41,
+       192.23,
+       227.18,
+       237.36,
+       245.29,
+       269.82,
+       350.77,
+       456.0,
+       592.8,
+       854.4
+      ]
+     },
+     {
+      "produto_id": "p13.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       145.36,
+       196.21,
+       231.88,
+       242.27,
+       250.36,
+       275.4,
+       358.02,
+       465.43,
+       605.06,
+       872.07
+      ]
+     },
+     {
+      "produto_id": "p13.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       180.24,
+       243.29,
+       287.52,
+       300.4,
+       310.43,
+       341.47,
+       443.91,
+       577.08,
+       750.2,
+       1081.26
+      ]
+     },
+     {
+      "produto_id": "p13.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       216.32,
+       291.99,
+       345.07,
+       360.53,
+       372.57,
+       409.83,
+       532.78,
+       692.61,
+       900.39,
+       1297.73
+      ]
+     },
+     {
+      "produto_id": "p13.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       268.22,
+       362.04,
+       427.86,
+       447.03,
+       461.96,
+       508.16,
+       660.61,
+       858.79,
+       1116.43,
+       1609.11
+      ]
+     },
+     {
+      "produto_id": "p13.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       258.95,
+       349.53,
+       413.07,
+       431.58,
+       445.99,
+       490.59,
+       637.77,
+       829.1,
+       1077.83,
+       1553.48
+      ]
+     },
+     {
+      "produto_id": "p13.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       297.72,
+       401.86,
+       474.92,
+       496.2,
+       512.77,
+       564.05,
+       733.27,
+       953.25,
+       1239.23,
+       1786.1
+      ]
+     },
+     {
+      "produto_id": "p13.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       310.13,
+       418.61,
+       494.71,
+       516.87,
+       534.13,
+       587.54,
+       763.8,
+       992.94,
+       1290.82,
+       1860.46
+      ]
+     },
+     {
+      "produto_id": "p13.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       359.74,
+       485.58,
+       573.86,
+       599.57,
+       619.6,
+       681.56,
+       886.03,
+       1151.84,
+       1497.39,
+       2158.19
+      ]
+     },
+     {
+      "produto_id": "p13.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       487.8,
+       658.43,
+       778.13,
+       812.99,
+       840.14,
+       924.15,
+       1201.4,
+       1561.82,
+       2030.37,
+       2926.37
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 13,
+    "titulo": "Tabela de preços - PME Baixada Santista — coparticipação total — 30 a 99 vidas",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p13.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       131.03,
+       176.86,
+       209.01,
+       218.37,
+       225.66,
+       248.23,
+       322.7,
+       419.51,
+       545.36,
+       786.03
+      ]
+     },
+     {
+      "produto_id": "p13.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       133.73,
+       180.51,
+       213.33,
+       222.89,
+       230.33,
+       253.36,
+       329.37,
+       428.18,
+       556.63,
+       802.27
+      ]
+     },
+     {
+      "produto_id": "p13.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       165.81,
+       223.81,
+       264.5,
+       276.35,
+       285.58,
+       314.14,
+       408.38,
+       530.89,
+       690.16,
+       994.73
+      ]
+     },
+     {
+      "produto_id": "p13.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       199.03,
+       268.65,
+       317.49,
+       331.71,
+       342.79,
+       377.07,
+       490.19,
+       637.25,
+       828.43,
+       1194.02
+      ]
+     },
+     {
+      "produto_id": "p13.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       246.75,
+       333.06,
+       393.61,
+       411.24,
+       424.98,
+       467.48,
+       607.72,
+       790.04,
+       1027.05,
+       1480.29
+      ]
+     },
+     {
+      "produto_id": "p13.P6",
+      "coluna": "Advance600 enf",
+      "valores": [
+       238.2,
+       321.52,
+       379.97,
+       396.99,
+       410.25,
+       451.28,
+       586.66,
+       762.66,
+       991.46,
+       1428.99
+      ]
+     },
+     {
+      "produto_id": "p13.P7",
+      "coluna": "Advance600 apto",
+      "valores": [
+       273.91,
+       369.72,
+       436.94,
+       456.51,
+       471.76,
+       518.94,
+       674.62,
+       877.01,
+       1140.11,
+       1643.24
+      ]
+     },
+     {
+      "produto_id": "p13.P8",
+      "coluna": "Advance700 enf",
+      "valores": [
+       285.32,
+       385.12,
+       455.13,
+       475.52,
+       491.4,
+       540.54,
+       702.7,
+       913.51,
+       1187.56,
+       1711.63
+      ]
+     },
+     {
+      "produto_id": "p13.P9",
+      "coluna": "Advance700 apto",
+      "valores": [
+       331.0,
+       446.78,
+       528.0,
+       551.65,
+       570.08,
+       627.09,
+       815.22,
+       1059.79,
+       1377.73,
+       1985.72
+      ]
+     },
+     {
+      "produto_id": "p13.P10",
+      "coluna": "Premium900.1 CARE",
+      "valores": [
+       448.8,
+       605.79,
+       715.92,
+       747.99,
+       772.97,
+       850.27,
+       1105.35,
+       1436.96,
+       1868.05,
+       2692.42
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 14,
+    "titulo": "Tabela de preços - PME Baixada Santista — 2 a 29 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p14.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       203.46,
+       274.63,
+       324.56,
+       339.1,
+       350.43,
+       385.47,
+       501.11,
+       651.44,
+       846.87,
+       1220.59
+      ]
+     },
+     {
+      "produto_id": "p14.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       207.66,
+       280.3,
+       331.26,
+       346.1,
+       357.66,
+       393.43,
+       511.46,
+       664.9,
+       864.37,
+       1245.82
+      ]
+     },
+     {
+      "produto_id": "p14.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       257.5,
+       347.57,
+       410.76,
+       429.16,
+       443.49,
+       487.84,
+       634.19,
+       824.45,
+       1071.79,
+       1544.77
+      ]
+     },
+     {
+      "produto_id": "p14.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       309.04,
+       417.14,
+       492.98,
+       515.07,
+       532.27,
+       585.5,
+       761.15,
+       989.5,
+       1286.35,
+       1854.02
+      ]
+     },
+     {
+      "produto_id": "p14.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       383.19,
+       517.23,
+       611.26,
+       638.64,
+       659.97,
+       725.97,
+       943.76,
+       1226.89,
+       1594.96,
+       2298.82
+      ]
+     },
+     {
+      "produto_id": "p14.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       369.93,
+       499.33,
+       590.11,
+       616.55,
+       637.14,
+       700.85,
+       911.11,
+       1184.44,
+       1539.77,
+       2219.27
+      ]
+     },
+     {
+      "produto_id": "p14.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       425.3,
+       574.07,
+       678.44,
+       708.83,
+       732.5,
+       805.75,
+       1047.48,
+       1361.72,
+       1770.24,
+       2551.45
+      ]
+     },
+     {
+      "produto_id": "p14.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       443.04,
+       598.02,
+       706.74,
+       738.4,
+       763.06,
+       839.37,
+       1091.18,
+       1418.53,
+       1844.09,
+       2657.89
+      ]
+     },
+     {
+      "produto_id": "p14.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       513.93,
+       693.7,
+       819.81,
+       856.54,
+       885.15,
+       973.67,
+       1265.77,
+       1645.5,
+       2139.15,
+       3083.16
+      ]
+     },
+     {
+      "produto_id": "p14.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       696.86,
+       940.62,
+       1111.62,
+       1161.42,
+       1200.21,
+       1320.23,
+       1716.3,
+       2231.19,
+       2900.55,
+       4180.56
+      ]
+     },
+     {
+      "produto_id": "p14.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       864.47,
+       1166.86,
+       1379.0,
+       1440.78,
+       1488.9,
+       1637.79,
+       2129.13,
+       2767.87,
+       3598.23,
+       5186.13
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 14,
+    "titulo": "Tabela de preços - PME Baixada Santista — 30 a 99 vidas — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p14.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       187.17,
+       252.64,
+       298.57,
+       311.95,
+       322.37,
+       354.61,
+       460.99,
+       599.29,
+       779.08,
+       1122.89
+      ]
+     },
+     {
+      "produto_id": "p14.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       191.05,
+       257.88,
+       304.76,
+       318.41,
+       329.04,
+       361.94,
+       470.52,
+       611.68,
+       795.18,
+       1146.09
+      ]
+     },
+     {
+      "produto_id": "p14.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       236.87,
+       319.73,
+       377.86,
+       394.79,
+       407.98,
+       448.78,
+       583.41,
+       758.43,
+       985.96,
+       1421.06
+      ]
+     },
+     {
+      "produto_id": "p14.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       284.3,
+       383.75,
+       453.52,
+       473.84,
+       489.67,
+       538.64,
+       700.23,
+       910.3,
+       1183.39,
+       1705.62
+      ]
+     },
+     {
+      "produto_id": "p14.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       352.52,
+       475.83,
+       562.34,
+       587.53,
+       607.15,
+       667.87,
+       868.23,
+       1128.7,
+       1467.31,
+       2114.83
+      ]
+     },
+     {
+      "produto_id": "p14.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       340.31,
+       459.35,
+       542.86,
+       567.18,
+       586.12,
+       644.73,
+       838.15,
+       1089.6,
+       1416.48,
+       2041.57
+      ]
+     },
+     {
+      "produto_id": "p14.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       391.27,
+       528.14,
+       624.16,
+       652.12,
+       673.9,
+       741.29,
+       963.68,
+       1252.78,
+       1628.61,
+       2347.32
+      ]
+     },
+     {
+      "produto_id": "p14.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       407.58,
+       550.15,
+       650.17,
+       679.3,
+       701.99,
+       772.19,
+       1003.85,
+       1305.01,
+       1696.51,
+       2445.18
+      ]
+     },
+     {
+      "produto_id": "p14.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       472.85,
+       638.25,
+       754.28,
+       788.07,
+       814.39,
+       895.83,
+       1164.58,
+       1513.95,
+       1968.14,
+       2836.68
+      ]
+     },
+     {
+      "produto_id": "p14.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       641.13,
+       865.4,
+       1022.73,
+       1068.55,
+       1104.24,
+       1214.66,
+       1579.06,
+       2052.78,
+       2668.61,
+       3846.27
+      ]
+     },
+     {
+      "produto_id": "p14.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       795.32,
+       1073.52,
+       1268.69,
+       1325.53,
+       1369.8,
+       1506.78,
+       1958.81,
+       2546.45,
+       3310.39,
+       4771.27
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 15,
+    "titulo": "Tabela de preços - PME Rio de Janeiro — Coparticipação total — 2 a 29 vidas",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": "Rio de Janeiro",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p15.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       166.66,
+       224.96,
+       265.86,
+       277.77,
+       287.05,
+       315.76,
+       410.49,
+       533.64,
+       693.73,
+       999.87
+      ]
+     },
+     {
+      "produto_id": "p15.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       170.1,
+       229.6,
+       271.34,
+       283.5,
+       292.97,
+       322.27,
+       418.95,
+       544.64,
+       708.03,
+       1020.48
+      ]
+     },
+     {
+      "produto_id": "p15.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       210.92,
+       284.7,
+       336.46,
+       351.53,
+       363.27,
+       399.6,
+       519.48,
+       675.32,
+       877.92,
+       1265.35
+      ]
+     },
+     {
+      "produto_id": "p15.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       216.32,
+       291.99,
+       345.07,
+       360.53,
+       372.57,
+       409.83,
+       532.78,
+       692.61,
+       900.39,
+       1297.73
+      ]
+     },
+     {
+      "produto_id": "p15.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       268.22,
+       362.04,
+       427.86,
+       447.03,
+       461.96,
+       508.16,
+       660.61,
+       858.79,
+       1116.43,
+       1609.11
+      ]
+     },
+     {
+      "produto_id": "p15.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       248.99,
+       336.09,
+       397.19,
+       414.98,
+       428.84,
+       471.72,
+       613.24,
+       797.21,
+       1036.37,
+       1493.72
+      ]
+     },
+     {
+      "produto_id": "p15.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       286.27,
+       386.41,
+       456.66,
+       477.12,
+       493.06,
+       542.37,
+       705.08,
+       916.6,
+       1191.58,
+       1717.42
+      ]
+     },
+     {
+      "produto_id": "p15.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       298.2,
+       402.51,
+       475.69,
+       497.0,
+       513.6,
+       564.96,
+       734.45,
+       954.79,
+       1241.23,
+       1788.98
+      ]
+     },
+     {
+      "produto_id": "p15.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       345.91,
+       466.91,
+       551.79,
+       576.51,
+       595.77,
+       655.35,
+       851.96,
+       1107.55,
+       1439.82,
+       2075.21
+      ]
+     },
+     {
+      "produto_id": "p15.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       487.8,
+       658.43,
+       778.13,
+       812.99,
+       840.14,
+       924.15,
+       1201.4,
+       1561.82,
+       2030.37,
+       2926.37
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 15,
+    "titulo": "Tabela de preços - PME Rio de Janeiro — Coparticipação total — 30 a 99 vidas",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": "Rio de Janeiro",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p15.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       153.32,
+       206.95,
+       244.57,
+       255.53,
+       264.06,
+       290.47,
+       377.61,
+       490.89,
+       638.16,
+       919.78
+      ]
+     },
+     {
+      "produto_id": "p15.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       156.49,
+       211.23,
+       249.63,
+       260.81,
+       269.52,
+       296.47,
+       385.41,
+       501.03,
+       651.34,
+       938.78
+      ]
+     },
+     {
+      "produto_id": "p15.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       194.04,
+       261.92,
+       309.54,
+       323.41,
+       334.21,
+       367.63,
+       477.92,
+       621.3,
+       807.69,
+       1164.12
+      ]
+     },
+     {
+      "produto_id": "p15.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       199.03,
+       268.65,
+       317.49,
+       331.71,
+       342.79,
+       377.07,
+       490.19,
+       637.25,
+       828.43,
+       1194.02
+      ]
+     },
+     {
+      "produto_id": "p15.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       246.75,
+       333.06,
+       393.61,
+       411.24,
+       424.98,
+       467.48,
+       607.72,
+       790.04,
+       1027.05,
+       1480.29
+      ]
+     },
+     {
+      "produto_id": "p15.P6",
+      "coluna": "Advance600 enf",
+      "valores": [
+       229.04,
+       309.16,
+       365.37,
+       381.74,
+       394.49,
+       433.94,
+       564.12,
+       733.36,
+       953.37,
+       1374.09
+      ]
+     },
+     {
+      "produto_id": "p15.P7",
+      "coluna": "Advance600 apto",
+      "valores": [
+       263.37,
+       355.5,
+       420.13,
+       438.95,
+       453.61,
+       498.97,
+       648.66,
+       843.26,
+       1096.24,
+       1580.01
+      ]
+     },
+     {
+      "produto_id": "p15.P8",
+      "coluna": "Advance700 enf",
+      "valores": [
+       274.34,
+       370.3,
+       437.62,
+       457.23,
+       472.5,
+       519.75,
+       675.68,
+       878.38,
+       1141.89,
+       1645.81
+      ]
+     },
+     {
+      "produto_id": "p15.P9",
+      "coluna": "Advance700 apto",
+      "valores": [
+       318.27,
+       429.6,
+       507.7,
+       530.44,
+       548.16,
+       602.98,
+       783.87,
+       1019.03,
+       1324.74,
+       1909.35
+      ]
+     },
+     {
+      "produto_id": "p15.P10",
+      "coluna": "Premium900.1 CARE",
+      "valores": [
+       448.8,
+       605.79,
+       715.92,
+       747.99,
+       772.97,
+       850.27,
+       1105.35,
+       1436.96,
+       1868.05,
+       2692.42
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 16,
+    "titulo": "Tabela de preços - PME — sem coparticipação (exceto para terapias) — 2 a 29 vidas",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "sem",
+    "regiao": "RIO DE JANEIRO",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p16.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       238.09,
+       321.37,
+       379.8,
+       396.82,
+       410.07,
+       451.08,
+       586.4,
+       762.32,
+       991.02,
+       1428.36
+      ]
+     },
+     {
+      "produto_id": "p16.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       243.0,
+       328.0,
+       387.63,
+       405.0,
+       418.53,
+       460.38,
+       598.49,
+       778.04,
+       1011.45,
+       1457.8
+      ]
+     },
+     {
+      "produto_id": "p16.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       301.32,
+       406.72,
+       480.66,
+       502.19,
+       518.96,
+       570.86,
+       742.12,
+       964.76,
+       1254.19,
+       1807.66
+      ]
+     },
+     {
+      "produto_id": "p16.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       309.04,
+       417.14,
+       492.98,
+       515.07,
+       532.27,
+       585.5,
+       761.15,
+       989.5,
+       1286.35,
+       1854.02
+      ]
+     },
+     {
+      "produto_id": "p16.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       383.19,
+       517.23,
+       611.26,
+       638.64,
+       659.97,
+       725.97,
+       943.76,
+       1226.89,
+       1594.96,
+       2298.82
+      ]
+     },
+     {
+      "produto_id": "p16.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       355.7,
+       480.12,
+       567.41,
+       592.83,
+       612.63,
+       673.89,
+       876.06,
+       1138.88,
+       1480.54,
+       2133.9
+      ]
+     },
+     {
+      "produto_id": "p16.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       408.94,
+       551.99,
+       652.34,
+       681.56,
+       704.32,
+       774.75,
+       1007.18,
+       1309.33,
+       1702.13,
+       2453.28
+      ]
+     },
+     {
+      "produto_id": "p16.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       426.0,
+       575.01,
+       679.55,
+       709.99,
+       733.7,
+       807.07,
+       1049.19,
+       1363.95,
+       1773.14,
+       2555.63
+      ]
+     },
+     {
+      "produto_id": "p16.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       494.17,
+       667.03,
+       788.3,
+       823.62,
+       851.13,
+       936.24,
+       1217.11,
+       1582.24,
+       2056.91,
+       2964.62
+      ]
+     },
+     {
+      "produto_id": "p16.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       696.86,
+       940.62,
+       1111.62,
+       1161.42,
+       1200.21,
+       1320.23,
+       1716.3,
+       2231.19,
+       2900.55,
+       4180.56
+      ]
+     },
+     {
+      "produto_id": "p16.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       864.47,
+       1166.86,
+       1379.0,
+       1440.78,
+       1488.9,
+       1637.79,
+       2129.13,
+       2767.87,
+       3598.23,
+       5186.13
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 16,
+    "titulo": "Tabela de preços - PME — sem coparticipação (exceto para terapias) — 30 a 99 vidas",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "sem",
+    "regiao": "RIO DE JANEIRO",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p16.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       219.03,
+       295.65,
+       349.4,
+       365.05,
+       377.24,
+       414.96,
+       539.45,
+       701.29,
+       911.68,
+       1314.0
+      ]
+     },
+     {
+      "produto_id": "p16.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       223.58,
+       301.79,
+       356.66,
+       372.64,
+       385.09,
+       423.6,
+       550.68,
+       715.88,
+       930.64,
+       1341.33
+      ]
+     },
+     {
+      "produto_id": "p16.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       277.21,
+       374.18,
+       442.21,
+       462.02,
+       477.45,
+       525.2,
+       682.76,
+       887.59,
+       1153.87,
+       1663.07
+      ]
+     },
+     {
+      "produto_id": "p16.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       284.3,
+       383.75,
+       453.52,
+       473.84,
+       489.67,
+       538.64,
+       700.23,
+       910.3,
+       1183.39,
+       1705.62
+      ]
+     },
+     {
+      "produto_id": "p16.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       352.52,
+       475.83,
+       562.34,
+       587.53,
+       607.15,
+       667.87,
+       868.23,
+       1128.7,
+       1467.31,
+       2114.83
+      ]
+     },
+     {
+      "produto_id": "p16.P6",
+      "coluna": "ADVANCE600 ENF",
+      "valores": [
+       327.23,
+       441.7,
+       522.0,
+       545.39,
+       563.61,
+       619.97,
+       805.96,
+       1047.75,
+       1362.08,
+       1963.17
+      ]
+     },
+     {
+      "produto_id": "p16.P7",
+      "coluna": "ADVANCE600 APTO",
+      "valores": [
+       376.22,
+       507.82,
+       600.14,
+       627.03,
+       647.97,
+       712.77,
+       926.6,
+       1204.58,
+       1565.95,
+       2257.0
+      ]
+     },
+     {
+      "produto_id": "p16.P8",
+      "coluna": "ADVANCE700 ENF",
+      "valores": [
+       391.91,
+       529.0,
+       625.17,
+       653.18,
+       675.0,
+       742.5,
+       965.25,
+       1254.83,
+       1631.28,
+       2351.16
+      ]
+     },
+     {
+      "produto_id": "p16.P9",
+      "coluna": "ADVANCE700 APTO",
+      "valores": [
+       454.66,
+       613.7,
+       725.27,
+       757.76,
+       783.07,
+       861.38,
+       1119.79,
+       1455.73,
+       1892.45,
+       2727.59
+      ]
+     },
+     {
+      "produto_id": "p16.P10",
+      "coluna": "PREMIUM900.1 CARE",
+      "valores": [
+       641.13,
+       865.4,
+       1022.73,
+       1068.55,
+       1104.24,
+       1214.66,
+       1579.06,
+       2052.78,
+       2668.61,
+       3846.27
+      ]
+     },
+     {
+      "produto_id": "p16.P11",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       795.32,
+       1073.52,
+       1268.69,
+       1325.53,
+       1369.8,
+       1506.78,
+       1958.81,
+       2546.45,
+       3310.39,
+       4771.27
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "185,00",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Isento",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "Isento",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Isento",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Isento",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Internações",
+    "regra": "Isento",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "R$ 185,00 (** internação na rede credenciada)",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA EM PRODUTO SOCORRO",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS NEUROLOGICAS ESPECIAIS",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "DEMAIS TERAPIAS",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5",
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9",
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES** (internação na rede credenciada)",
+    "regra": "R$ 260,00",
+    "produtos": [
+     "p9.P1",
+     "p9.P2",
+     "p9.P3",
+     "p9.P4",
+     "p9.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES** (internação na rede credenciada)",
+    "regra": "R$ 310,00",
+    "produtos": [
+     "p9.P6",
+     "p9.P7",
+     "p9.P8",
+     "p9.P9"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES** (internação na rede credenciada)",
+    "regra": "R$ 540,00",
+    "produtos": [
+     "p9.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10",
+     "p10.P11"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "isento",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10",
+     "p10.P11"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "isento",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10",
+     "p10.P11"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "isento",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10",
+     "p10.P11"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "isento",
+    "produtos": [
+     "p10.P1",
+     "p10.P2",
+     "p10.P3",
+     "p10.P4",
+     "p10.P5",
+     "p10.P6",
+     "p10.P7",
+     "p10.P8",
+     "p10.P9",
+     "p10.P10"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": []
+   },
+   {
+    "procedimento": "CONSULTA EM PRODUTO SOCORRO",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": []
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "TERAPIAS NEUROLOGICAS ESPECIAIS",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": []
+   },
+   {
+    "procedimento": "DEMAIS TERAPIAS",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": []
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 260,00",
+    "produtos": [
+     "p11.P1",
+     "p11.P2",
+     "p11.P3",
+     "p11.P4",
+     "p11.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 310,00",
+    "produtos": [
+     "p11.P6",
+     "p11.P7",
+     "p11.P8",
+     "p11.P9"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 540,00",
+    "produtos": [
+     "p11.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "isento",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "isento",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "isento",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "isento",
+    "produtos": [
+     "p12.P1",
+     "p12.P2",
+     "p12.P3",
+     "p12.P4",
+     "p12.P5",
+     "p12.P6",
+     "p12.P7",
+     "p12.P8",
+     "p12.P9",
+     "p12.P10"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS NEUROLÓGICAS ESPECIAIS",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": []
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 260,00",
+    "produtos": [
+     "p13.P1",
+     "p13.P2",
+     "p13.P3",
+     "p13.P4",
+     "p13.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 310,00",
+    "produtos": [
+     "p13.P6",
+     "p13.P7",
+     "p13.P8",
+     "p13.P9"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "R$ 540,00",
+    "produtos": [
+     "p13.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "ISENTO",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "ISENTO",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "ISENTO",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "ISENTO",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "ISENTO",
+    "produtos": [
+     "p14.P1",
+     "p14.P2",
+     "p14.P3",
+     "p14.P4",
+     "p14.P5",
+     "p14.P6",
+     "p14.P7",
+     "p14.P8",
+     "p14.P9",
+     "p14.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "Valor fixo de R$ 53,00",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "Valor fixo de R$ 15,90",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "Valor fixo de R$ 106,00",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5",
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9",
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "R$ 260,00",
+    "produtos": [
+     "p15.P1",
+     "p15.P2",
+     "p15.P3",
+     "p15.P4",
+     "p15.P5"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "R$ 310,00",
+    "produtos": [
+     "p15.P6",
+     "p15.P7",
+     "p15.P8",
+     "p15.P9"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "R$ 540,00",
+    "produtos": [
+     "p15.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta em produto socorro",
+    "regra": "isento",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "isento",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "isento",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias neurológicas especiais",
+    "regra": "Valor fixo de R$ 68,90",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Demais terapias",
+    "regra": "Valor fixo de R$ 37,01",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Internações**",
+    "regra": "isento",
+    "produtos": [
+     "p16.P1",
+     "p16.P2",
+     "p16.P3",
+     "p16.P4",
+     "p16.P5",
+     "p16.P6",
+     "p16.P7",
+     "p16.P8",
+     "p16.P9",
+     "p16.P10"
+    ]
+   },
+   {
+    "procedimento": "Produto sem coparticipação",
+    "regra": "Produto sem coparticipação",
+    "produtos": [
+     "p16.P11"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Urgência e Emergência, Diagnóstico, Curativo, Intervenção Clínica e Extração SI",
+    "prazo_dias": 1,
+    "observacao": "24 horas; contratos de 2 a 29 vidas."
+   },
+   {
+    "cobertura": "Radiologia, Prevenção em Saúde Bucal, Dentística, Cirurgia, Periodontia e Endodontia",
+    "prazo_dias": 60,
+    "observacao": "Contratos de 2 a 29 vidas."
+   }
+  ],
+  "elegibilidade": [
+   "Contratação a partir de 2 vidas."
+  ],
+  "avisos": [
+   "p. 1: Página de capa: contém os dizeres “PME” e “TABELA DE PREÇOS”, mas não apresenta tabelas de preço nem outros dados de produto.",
+   "p. 2: A página apresenta valores mensais fixos, não discriminados por faixa etária: PREMIUM F — “Incluso no PLANO”; N-PREMIUM — R$ 11,53 por pessoa/mês; TOP PREMIUM LE — R$ 18,94 por pessoa/mês; PREMIUM PLUS DO LE — R$ 28,46 por pessoa/mês. Como o esquema exige valores por faixa etária e a página não informa faixas nem preços correspondentes, os valores nas linhas foram registrados como null.",
+   "p. 2: O cabeçalho da tabela informa franquia: PREMIUM F — SIM; N-PREMIUM — NÃO; TOP PREMIUM LE — NÃO; PREMIUM PLUS DO LE — NÃO. Não foi tratado como regra de coparticipação.",
+   "p. 2: Não há números de registro ANS legíveis para os produtos nesta página.",
+   "p. 3: A página não contém tabela de preços por faixa etária. A tabela intitulada “exemplos de reembolso” apresenta valores de reembolso por procedimento e produto, não preços de mensalidade; por isso, não foi transcrita como tabela de preço.",
+   "p. 3: A página não imprime números de registro ANS para os produtos.",
+   "p. 4: A página não apresenta número de registro ANS para o produto.",
+   "p. 4: A página indica validade a partir de 1 de julho de 2024; não informa data final.",
+   "p. 4: Os valores de coparticipação foram apresentados em colunas idênticas para Smart Ambulatorial SP e Smart Ambulatorial RJ; as regras foram transcritas uma vez por condição.",
+   "p. 5: A página não imprime número de registro ANS para os produtos.",
+   "p. 5: O material informa que a tabela é válida a partir de 1 de julho de 2024.",
+   "p. 6: Não há número de registro ANS impresso para as colunas de preço.",
+   "p. 6: A tabela de coparticipação apresenta os mesmos valores para as 12 variações regionais; a regra foi registrada uma vez para cada procedimento.",
+   "p. 6: ** Internação na rede credenciada.",
+   "p. 7: A página informa validade a partir de 1 de julho de 2024; não informa vigência final.",
+   "p. 7: Não há números de registro ANS impressos nesta página.",
+   "p. 7: O cabeçalho da grade de 2 a 29 vidas identifica a terceira coluna como “200 ABC + BAIXADA”; a tabela de coparticipação e a grade de 30 a 99 vidas mostram variações do rótulo “Smart 200 ABC + BS”.",
+   "p. 7: A tabela de valores de coparticipação apresenta 15 colunas de produtos, mas os valores exibidos são iguais em todas elas.",
+   "p. 8: Não há números de registro ANS impressos na página.",
+   "p. 8: A página informa que os valores de coparticipação para internações referem-se à rede credenciada.",
+   "p. 9: A página não apresenta números de registro ANS legíveis/impressos nos cabeçalhos dos produtos.",
+   "p. 10: A página não exibe números de registro ANS sobre as colunas dos produtos.",
+   "p. 10: A tabela inferior apresenta valores de coparticipação para os dez produtos até PREMIUM900.1 CARE; a coluna BASIC REFERÊNCIA está identificada como produto sem coparticipação.",
+   "p. 11: A página não mostra números de registro ANS para os produtos.",
+   "p. 11: A página informa vigência a partir de 1 de julho de 2024; não informa data final.",
+   "p. 11: A abrangência é identificada como Jundiaí, Sorocaba e Campinas.",
+   "p. 11: O rodapé especifica: ** internação na rede credenciada.",
+   "p. 12: O material não imprime números de registro ANS; por isso, os registros dos produtos estão como null.",
+   "p. 12: A tabela de coparticipação apresenta 10 colunas de produtos e uma coluna BASIC REFERÊNCIA identificada como “PRODUTO SEM COPARTICIPAÇÃO”; a tabela não especifica valores de coparticipação para essa coluna.",
+   "p. 12: A indicação lateral da tabela de preço informa “sem coparticipação (exceto para terapias)”.",
+   "p. 13: A página não imprime números de registro ANS; por isso foram deixados nulos.",
+   "p. 13: Nota impressa: '** INTERNAÇÃO NA REDE CREDENCIADA'.",
+   "p. 14: A página não imprime números de registro ANS dos produtos.",
+   "p. 14: A página apresenta a região Baixada Santista e a validade a partir de 1 de julho de 2024; não informa a UF explicitamente.",
+   "p. 14: Na coluna BASIC REFERÊNCIA, a tabela de coparticipação indica “PRODUTO SEM COPARTICIPAÇÃO”; as regras de coparticipação impressas abrangem as outras dez colunas.",
+   "p. 15: Não há números de registro ANS impressos junto aos produtos nesta página.",
+   "p. 15: A observação impressa informa: “** Internação na rede credenciada”.",
+   "p. 16: Não há números de registro ANS impressos na página; portanto, foram deixados como null. A tabela de coparticipação apresenta valores para dez produtos, de SMART300 ENF a PREMIUM900.1 CARE; BASIC REFERÊNCIA está indicado como produto sem coparticipação.",
+   "p. 17: A página não contém tabelas de preço.",
+   "p. 17: A página exibe os números «ANS nº 359017» e «ANS nº 368253», sem associá-los a nomes de produtos."
+  ]
+ }
+}

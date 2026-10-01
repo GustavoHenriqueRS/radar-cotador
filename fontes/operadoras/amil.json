@@ -1,0 +1,86 @@
+{
+  "operadora": {
+    "registro_ans": "326305",
+    "nome": "Amil",
+    "canal": "o Kit Corretor gera o preço na hora e os termos vedam robôs: autorização ou parceria",
+    "relatorio": "docs/operadoras/amil.md"
+  },
+  "fontes": [
+    {
+      "nome": "Amil (Kit Corretor)",
+      "tipo": "pdf_operadora",
+      "url": "https://kitcorretoramil.com.br/",
+      "confiabilidade": 5,
+      "observacoes": "Portal aberto da Amil para corretores (rodapé: Amil Assistência Médica Internacional S/A, CNPJ 29.309.127/0001-79). robots.txt só proíbe /wp-content/themes/kitcorretor/bkp. O preço é montado no navegador (POST em admin-ajax) e o PDF de preço é gerado sob demanda; em PDF fixo só há o manual de vendas (condições) e tabelas avulsas antigas. Os termos de uso da Amil vedam aplicações automatizadas: capturas inativas até haver autorização.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Manual de Vendas PME (página inicial do Kit)",
+          "ativa": false,
+          "config": {
+            "url": "https://kitcorretoramil.com.br/",
+            "incluir": "/wp-content/themes/kitcorretor/pdfs/Manual_de_Vendas_PME\\.pdf(\\?|$)"
+          }
+        },
+        {
+          "tipo": "wayback",
+          "nome": "Histórico do Manual de Vendas PME",
+          "ativa": false,
+          "config": {
+            "enderecos": [
+              "https://kitcorretoramil.com.br/wp-content/themes/kitcorretor/pdfs/"
+            ],
+            "incluir": "/Manual_de_Vendas_PME\\.pdf",
+            "desde": "2025",
+            "intervalo_s": 4
+          }
+        },
+        {
+          "tipo": "url_direta",
+          "nome": "Tabela Linha Especial (RJ, março de 2025)",
+          "ativa": false,
+          "config": {
+            "urls": [
+              {
+                "url": "https://kitcorretoramil.com.br/wp-content/uploads/2025/03/Linha-Especial-Amil-6.pdf",
+                "titulo": "Linha Especial - Tabela de Preço (grupo de municípios do RJ)"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Caixa que recebe os comunicados da Amil",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@amil.com.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Allcare",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Amil DF adesão: arquivo fora da página de materiais",
+          "ativa": false,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_amil_df_a.pdf",
+                "titulo": "Tabela de vendas Coletivo por adesão - Aberta - Distrito Federal (Amil, jun/2023)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

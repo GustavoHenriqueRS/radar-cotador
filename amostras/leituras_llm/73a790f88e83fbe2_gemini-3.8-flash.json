@@ -1,0 +1,201 @@
+{
+ "arquivo": "allcare_medsenior_adesao_df_2026-08-13.pdf",
+ "sha256": "73a790f88e83fbe2dfd6e445e50a31f85af080376a74c561efaa99d5c6a74549",
+ "gravada_em": "2026-09-30T21:01:34+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 6.8,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 10278,
+  "saida": 3018,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.019026,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "MedSênior",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Med Adesão",
+    "registro_ans": "492.186/22-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Med Adesão",
+    "registro_ans": "492.181/22-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": "504.127/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": "504.222/25-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p7.P1",
+    "nome": "Adesão Enfermaria",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P2",
+    "nome": "Adesão Apartamento",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P1",
+    "nome": "Black",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P2",
+    "nome": "Infinite",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços Ambulatorial + Hospitalar sem Obstetrícia - Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Med Adesão Municipal Enfermaria",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       723.14,
+       723.14,
+       867.77,
+       1136.78
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Med Adesão Municipal Apartamento",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       867.77,
+       867.77,
+       1041.32,
+       1364.13
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Black Adesão 5 Grupo de Municípios Apartamento",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1085.33,
+       1085.33,
+       1302.4,
+       1706.14
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Infinite Adesão Grupo de Municípios Apartamento",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1566.5,
+       1566.5,
+       1879.8,
+       2462.54
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Telemedicina (Atendimento online 24 horas por dia com clínico geral e pediatra)",
+    "regra": "sem coparticipação",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular: Deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Dependentes: O(a) cônjuge ou companheiro(a), devidamente reconhecido(a), desde que possua idade igual ou superior a 44 anos",
+   "Dependentes: Filhos, desde que possuam idade igual ou superior a 44 anos",
+   "Dependentes: Irmãos, desde que possuam idade igual ou superior a 44 anos",
+   "Dependentes: Ascendentes em linha reta consanguínea até o terceiro grau (pai, mãe, avô, avó, bisavô e bisavó), desde que possuam idade igual ou superior a 44 anos",
+   "Dependentes: Ascendentes por afinidade (padrasto e madrasta) desde que possuam idade igual ou superior a 44 anos",
+   "Dependentes: Sogro e Sogra, desde que possuam idade igual ou superior a 44 anos",
+   "Dependentes: Tio e Tia, consanguíneos ou por afinidade, desde que possuam idade igual ou superior a 44 anos",
+   "ANCEPLA - Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos: Administrador, Advogado, Agrônomo, Analista de Sistemas, Arquiteto, Assistente Social, Atuário, Bacharel em ciência da computação, comercio exterior, comunicação social, gastronomia, gestão financeira, Hotelaria e Recursos Humanos, Biólogo, Biomédico, Contabilista, Corretor de Imóveis, Corretor de Seguros, Dentista, Designer (gráfico, moda e Interiores), Despachante, Economista, Educador Físico, Enfermeiro, Engenheiro, Farmacêutico, Físico, Fisioterapeuta, Fonoaudiólogo, Jornalista, Matemático, Médico, Nutricionista, Pedagogo, Professor, Psicólogo, Publicitário, Tecnologia da Informação, Veterinário e Técnico de Enfermagem com COREN ATIVO.",
+   "UNASFEM - União Nacional de Assitência aos Servidores Federais, Estaduais e Municipais: Servidores Públicos Ativos, vinculados aos poderes FEDERAL, ESTADUAL e MUNICIPAL."
+  ],
+  "avisos": [
+   "p. 1: Página 1 é a capa do material de vendas, sem tabelas de preços ou produtos especificados com valores.",
+   "p. 2: Página de menu/índice sem tabelas de preço, produtos especificados ou valores.",
+   "p. 3: A página 3 (indicada no PDF como página 1) contém apenas conteúdo institucional com diferenciais da Allcare, sem tabelas de preços ou informações de planos específicos.",
+   "p. 4: Reajuste indicado: Março.",
+   "p. 4: Rodapé indica 'Versão: 08.2026' (ou provável erro de digitação de 08.2024 no impresso original).",
+   "p. 5: A página 5 não contém tabelas de preços, apresentando apenas regras de vigência, área de comercialização e regras de elegibilidade (quem pode aderir).",
+   "p. 7: A página 7 contém apenas informações sobre a Rede Credenciada Resumida, sem tabelas de preços.",
+   "p. 8: A página 8 contém apenas informações de rede credenciada resumida dos planos Black e Infinite no Distrito Federal, sem tabelas de valores/preços impressas.",
+   "p. 9: Página de contracapa sem tabelas de preços, valores ou produtos detalhados."
+  ]
+ }
+}

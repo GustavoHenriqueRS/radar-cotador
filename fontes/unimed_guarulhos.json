@@ -1,0 +1,41 @@
+{
+  "fontes": [
+    {
+      "nome": "Unimed Guarulhos",
+      "tipo": "pdf_operadora",
+      "url": "https://www.unimed.coop.br/site/web/guarulhos/tabela-de-vendas-corretor",
+      "confiabilidade": 5,
+      "observacoes": "Link direto em página pública; o robots.txt do domínio bloqueia /site/documents/ para robôs: em produção, entrada por upload ou parceria. Como o site bloqueia robôs, o canal automático é o e-mail: a captura lê a caixa que recebe as tabelas (na demonstração, um servidor de e-mail local com mensagens simuladas).",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Link da tabela vigente",
+          "ativa": true,
+          "config": {
+            "urls": [
+              "https://www.unimed.coop.br/site/documents/20553837/56687934/Nova-tabela-pme-2026.pdf/8bf3f93c-26db-132a-4d39-c9110b41e415"
+            ]
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "E-mail comercial (simulado)",
+          "ativa": false,
+          "config": {
+            "servidor": "localhost",
+            "servidor_env": "COLETA_EMAIL_SERVIDOR",
+            "porta": 3143,
+            "ssl": false,
+            "usuario": "tabelas@radar.test",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "pasta": "INBOX",
+            "remetentes": [
+              "@unimedguarulhos.exemplo"
+            ],
+            "autenticado_por": "mx.radar.test"
+          }
+        }
+      ]
+    }
+  ]
+}

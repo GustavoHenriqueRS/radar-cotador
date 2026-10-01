@@ -1,0 +1,69 @@
+{
+  "operadora": {
+    "registro_ans": "418170",
+    "nome": "Quallity Pró Saúde",
+    "canal": "só a tabela de 2022 do Sinpro-DF é pública: e-mail e parceria",
+    "relatorio": "docs/operadoras/quallity_pro_saude.md"
+  },
+  "fontes": [
+    {
+      "nome": "Quallity Pró Saúde",
+      "tipo": "site_operadora",
+      "url": "https://www.quallityprosaude.com.br/",
+      "confiabilidade": 5,
+      "observacoes": "ANS 418170, Brasília/DF. O site não publica tabela de preço (o simulador é formulário de contato); publica o guia de coparticipação e o reajuste do agrupamento de contratos com menos de 30 vidas. robots.txt só bloqueia /wp-admin/. Portal do corretor (WebPlan, Planium) exige login. A adesão é administrada pela Platinum (ANS 418986), do mesmo endereço.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Guia de coparticipação",
+          "ativa": false,
+          "config": {
+            "url": "https://www.quallityprosaude.com.br/coparticipacao/",
+            "incluir": "/wp-content/uploads/.*coparticipacao.*\\.pdf$"
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Reajuste do agrupamento (menos de 30 vidas)",
+          "ativa": false,
+          "config": {
+            "url": "https://www.quallityprosaude.com.br/reajustes/",
+            "incluir": "/wp-content/uploads/.*reajuste.*\\.pdf(\\?|$)"
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Tabelas da Quallity e da Platinum enviadas ao corretor",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@quallityprosaude.com.br",
+              "@platinumbeneficios.com.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Sinpro-DF (convênio Quallity)",
+      "tipo": "pdf_administradora",
+      "url": "https://www.sinprodf.org.br/sinpro-firma-convenio-com-a-quallity-e-professor-sindicalizado-tera-uma-serie-de-beneficios/",
+      "confiabilidade": 3,
+      "observacoes": "Sindicato dos professores do DF publica a tabela de adesão ambulatorial da Quallity/Platinum na notícia do convênio (2019). O arquivo foi trocado no mesmo endereço e hoje traz 'vigente: 08/2022'. robots.txt só bloqueia /wp-admin/.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Tabela de adesão Quallity na página do convênio",
+          "ativa": true,
+          "config": {
+            "url": "https://www.sinprodf.org.br/sinpro-firma-convenio-com-a-quallity-e-professor-sindicalizado-tera-uma-serie-de-beneficios/",
+            "incluir": "(?i)quallity[^/]*\\.pdf$"
+          }
+        }
+      ]
+    }
+  ]
+}

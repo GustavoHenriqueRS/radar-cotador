@@ -1,0 +1,18 @@
+[
+  {
+    "arquivo": "allcare_smile_adesao_df_2023-06.pdf",
+    "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_unica_adesao_smile_df.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "43a2663763466a1c358b51aaf2accb1235c43faf34e597f9d6d304f30fb39d4e",
+    "fonte": "Allcare (administradora de benefícios)",
+    "observacao": "Tabela de vendas Smile coletivo por adesão, Brasília-DF, 9 páginas, sem data impressa (Last-Modified 02/06/2023; 'Reajuste: Abril'). Saiu da página de materiais da Allcare, mas o arquivo segue no ar. 7 produtos: 5 cancelados e 2 suspensos na ANS. Rodapé: material de uso interno, destinado aos consultores. robots.txt da Allcare permite."
+  },
+  {
+    "arquivo": "wayback_allcare_smile_adesao_df_2023-01-23.pdf",
+    "url": "https://web.archive.org/web/20230123144053id_/https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_unica_adesao_smile_df.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "45d3ab389ef830f2386bb9d2a4ad98582af6fa6a3dcfe395565c93deec9c080d",
+    "fonte": "Allcare (administradora de benefícios), cópia do arquivo da web",
+    "observacao": "Versão anterior do mesmo endereço, guardada em 23/01/2023: 6 páginas, outro modelo de layout, mesmos 7 registros ANS. Os preços são 29,8% menores que os da versão de 06/2023 em todas as faixas lidas. O robots.txt da Allcare permite o endereço original."
+  }
+]

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+dados/
+saidas/
+node_modules/
+frontend/dist/
+backend/staticfiles/
+docs/desafio.pdf

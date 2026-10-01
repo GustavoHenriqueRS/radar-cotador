@@ -1,0 +1,1734 @@
+{
+ "arquivo": "unimed_guarulhos_pme_2026_ESCANEADA.pdf",
+ "sha256": "99d6500566da32047d3f8e66d48739952e8e26b75e1c71965234c21fc0476aba",
+ "gravada_em": "2026-09-30T20:39:43+00:00",
+ "esforco": "low",
+ "paginas": 3,
+ "segundos": 41.8,
+ "custo": {
+  "modelo": "gpt-6.1-sol",
+  "entrada": 11068,
+  "saida": 8276,
+  "cache_escrita": 0,
+  "cache_leitura": 3812,
+  "usd": 0.105277,
+  "raciocinio": 138
+ },
+ "leitura": {
+  "operadora": "Unimed Guarulhos",
+  "administradora": null,
+  "tipo_contratacao": "nao_informado",
+  "ufs": [],
+  "vigencia_inicio": "2026-06-01",
+  "vigencia_fim": "2026-12-31",
+  "produtos": [
+   {
+    "id": "p1.P1",
+    "nome": "ESSENCIAL I",
+    "registro_ans": "503.058/25-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P2",
+    "nome": "ESSENCIAL II",
+    "registro_ans": "503.060/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P3",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "503.063/25-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P4",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "503.062/25-5",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P5",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "505.140/25-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P6",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "505.139/25-8",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P7",
+    "nome": "ESSENCIAL III",
+    "registro_ans": "478.590/17-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P8",
+    "nome": "ESSENCIAL IV",
+    "registro_ans": "478.591/17-6",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P9",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "472.422/14-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P10",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "472.423/14-2",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P11",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "503.059/25-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p1.P12",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "503.061/25-7",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P1",
+    "nome": "ESSENCIAL I",
+    "registro_ans": "503.058/25-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P2",
+    "nome": "ESSENCIAL II",
+    "registro_ans": "503.060/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P3",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "503.063/25-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P4",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "503.062/25-5",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P5",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "505.140/25-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P6",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "505.139/25-8",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P7",
+    "nome": "ESSENCIAL III",
+    "registro_ans": "478.590/17-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P8",
+    "nome": "ESSENCIAL IV",
+    "registro_ans": "478.591/17-6",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P9",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "472.422/14-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P10",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "472.423/14-2",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P11",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "503.059/25-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P12",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "503.061/25-7",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P1",
+    "nome": "ESSENCIAL I",
+    "registro_ans": "503.058/25-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P2",
+    "nome": "ESSENCIAL II",
+    "registro_ans": "503.060/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P3",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "503.063/25-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P4",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "503.062/25-5",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P5",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "505.140/25-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P6",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "505.139/25-8",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P7",
+    "nome": "ESSENCIAL III",
+    "registro_ans": "478.590/17-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P8",
+    "nome": "ESSENCIAL IV",
+    "registro_ans": "478.591/17-6",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P9",
+    "nome": "REGIONAL BÁSICO",
+    "registro_ans": "472.422/14-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P10",
+    "nome": "REGIONAL ESPECIAL",
+    "registro_ans": "472.423/14-2",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P11",
+    "nome": "REGIONAL MAIS BÁSICO",
+    "registro_ans": "503.059/25-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P12",
+    "nome": "REGIONAL MAIS ESPECIAL",
+    "registro_ans": "503.061/25-7",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 1,
+    "titulo": "TABELA DE VENDAS 01 VIDA — COPARTICIPAÇÃO PARCIAL",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p1.P1",
+      "coluna": "ESSENCIAL I ENFERMARIA",
+      "valores": [
+       178.43,
+       228.39,
+       242.55,
+       249.56,
+       272.57,
+       310.7,
+       436.04,
+       582.46,
+       653.46,
+       1065.14
+      ]
+     },
+     {
+      "produto_id": "p1.P2",
+      "coluna": "ESSENCIAL II APARTAMENTO",
+      "valores": [
+       245.23,
+       313.89,
+       333.35,
+       342.98,
+       374.6,
+       427.01,
+       599.27,
+       800.5,
+       898.08,
+       1463.87
+      ]
+     },
+     {
+      "produto_id": "p1.P3",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       257.77,
+       329.92,
+       350.34,
+       360.46,
+       393.62,
+       448.73,
+       629.7,
+       841.22,
+       943.85,
+       1538.29
+      ]
+     },
+     {
+      "produto_id": "p1.P4",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       354.41,
+       453.57,
+       481.69,
+       495.71,
+       541.32,
+       618.62,
+       865.82,
+       1156.91,
+       1298.05,
+       2106.35
+      ]
+     },
+     {
+      "produto_id": "p1.P5",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       343.25,
+       439.33,
+       466.52,
+       480.0,
+       524.16,
+       597.54,
+       838.53,
+       1120.19,
+       1256.85,
+       2048.41
+      ]
+     },
+     {
+      "produto_id": "p1.P6",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       474.77,
+       607.61,
+       645.28,
+       664.06,
+       725.15,
+       828.7,
+       1159.85,
+       1549.79,
+       1738.86,
+       2821.65
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 1,
+    "titulo": "TABELA DE VENDAS 01 VIDA — COPARTICIPAÇÃO TOTAL",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p1.P7",
+      "coluna": "ESSENCIAL III ENFERMARIA",
+      "valores": [
+       139.04,
+       177.97,
+       189.0,
+       194.46,
+       212.39,
+       242.1,
+       339.76,
+       453.85,
+       509.17,
+       829.95
+      ]
+     },
+     {
+      "produto_id": "p1.P8",
+      "coluna": "ESSENCIAL IV APARTAMENTO",
+      "valores": [
+       185.2,
+       237.06,
+       251.76,
+       259.04,
+       282.92,
+       322.5,
+       452.6,
+       604.58,
+       678.28,
+       1105.6
+      ]
+     },
+     {
+      "produto_id": "p1.P9",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       200.86,
+       257.08,
+       272.99,
+       280.88,
+       306.72,
+       349.66,
+       490.57,
+       655.35,
+       735.3,
+       1198.39
+      ]
+     },
+     {
+      "produto_id": "p1.P10",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       267.5,
+       342.35,
+       363.58,
+       374.16,
+       408.58,
+       466.93,
+       653.52,
+       873.23,
+       979.76,
+       1589.86
+      ]
+     },
+     {
+      "produto_id": "p1.P11",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       264.05,
+       337.96,
+       358.88,
+       369.25,
+       403.22,
+       459.67,
+       645.05,
+       861.72,
+       966.85,
+       1575.77
+      ]
+     },
+     {
+      "produto_id": "p1.P12",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       365.22,
+       467.41,
+       496.39,
+       510.83,
+       557.83,
+       637.49,
+       892.23,
+       1192.2,
+       1337.65,
+       2170.6
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "TABELA DE VENDAS 02 - 29 VIDAS — COPARTICIPAÇÃO PARCIAL",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "ESSENCIAL I ENFERMARIA",
+      "valores": [
+       149.56,
+       191.44,
+       203.31,
+       209.19,
+       228.48,
+       260.44,
+       365.5,
+       488.23,
+       547.75,
+       892.83
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "ESSENCIAL II APARTAMENTO",
+      "valores": [
+       205.56,
+       263.12,
+       279.43,
+       287.51,
+       314.02,
+       357.95,
+       502.35,
+       671.04,
+       752.84,
+       1227.13
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       216.07,
+       276.55,
+       293.67,
+       302.16,
+       329.96,
+       376.15,
+       527.85,
+       705.15,
+       791.18,
+       1289.47
+      ]
+     },
+     {
+      "produto_id": "p2.P4",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       297.08,
+       380.2,
+       403.77,
+       415.52,
+       453.75,
+       518.55,
+       725.76,
+       969.76,
+       1088.07,
+       1765.61
+      ]
+     },
+     {
+      "produto_id": "p2.P5",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       265.6,
+       339.94,
+       360.98,
+       371.41,
+       405.58,
+       462.36,
+       648.83,
+       866.77,
+       972.52,
+       1585.01
+      ]
+     },
+     {
+      "produto_id": "p2.P6",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       367.36,
+       470.15,
+       499.3,
+       513.83,
+       561.1,
+       641.23,
+       897.47,
+       1199.2,
+       1345.5,
+       2183.34
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "TABELA DE VENDAS 02 - 29 VIDAS — COPARTICIPAÇÃO TOTAL",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P7",
+      "coluna": "ESSENCIAL III ENFERMARIA",
+      "valores": [
+       129.5,
+       165.76,
+       176.04,
+       181.13,
+       197.83,
+       225.51,
+       316.48,
+       422.75,
+       474.28,
+       773.08
+      ]
+     },
+     {
+      "produto_id": "p2.P8",
+      "coluna": "ESSENCIAL IV APARTAMENTO",
+      "valores": [
+       172.49,
+       220.79,
+       234.48,
+       241.26,
+       263.5,
+       300.36,
+       421.53,
+       563.08,
+       631.72,
+       1029.7
+      ]
+     },
+     {
+      "produto_id": "p2.P9",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       187.07,
+       239.43,
+       254.25,
+       261.6,
+       285.67,
+       325.66,
+       456.9,
+       610.37,
+       684.84,
+       1116.15
+      ]
+     },
+     {
+      "produto_id": "p2.P10",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       249.15,
+       318.86,
+       338.63,
+       348.48,
+       380.54,
+       434.88,
+       608.66,
+       813.29,
+       912.51,
+       1480.73
+      ]
+     },
+     {
+      "produto_id": "p2.P11",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       227.02,
+       290.56,
+       308.55,
+       317.47,
+       346.68,
+       395.22,
+       554.61,
+       740.9,
+       831.29,
+       1354.84
+      ]
+     },
+     {
+      "produto_id": "p2.P12",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       313.99,
+       401.84,
+       426.75,
+       439.17,
+       479.57,
+       548.05,
+       767.05,
+       1024.93,
+       1149.97,
+       1866.06
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "TABELA DE VENDAS 30 - 99 VIDAS — COPARTICIPAÇÃO PARCIAL",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "ESSENCIAL I ENFERMARIA",
+      "valores": [
+       149.57,
+       191.45,
+       203.32,
+       209.2,
+       228.49,
+       260.46,
+       365.53,
+       488.27,
+       547.79,
+       892.9
+      ]
+     },
+     {
+      "produto_id": "p3.P2",
+      "coluna": "ESSENCIAL II APARTAMENTO",
+      "valores": [
+       205.56,
+       263.12,
+       279.43,
+       287.51,
+       314.02,
+       357.95,
+       502.35,
+       671.04,
+       752.84,
+       1227.13
+      ]
+     },
+     {
+      "produto_id": "p3.P3",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       216.08,
+       276.56,
+       293.68,
+       302.17,
+       329.97,
+       376.17,
+       527.88,
+       705.19,
+       791.22,
+       1289.53
+      ]
+     },
+     {
+      "produto_id": "p3.P4",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       297.07,
+       380.19,
+       403.76,
+       415.51,
+       453.74,
+       518.53,
+       725.73,
+       969.72,
+       1088.03,
+       1765.55
+      ]
+     },
+     {
+      "produto_id": "p3.P5",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       265.6,
+       339.94,
+       360.98,
+       371.41,
+       405.58,
+       462.36,
+       648.83,
+       866.77,
+       972.52,
+       1585.01
+      ]
+     },
+     {
+      "produto_id": "p3.P6",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       367.36,
+       470.15,
+       499.3,
+       513.83,
+       561.1,
+       641.23,
+       897.47,
+       1199.2,
+       1345.5,
+       2183.34
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "TABELA DE VENDAS 30 - 99 VIDAS — COPARTICIPAÇÃO TOTAL",
+    "vidas_minimo": 30,
+    "vidas_maximo": 99,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P7",
+      "coluna": "ESSENCIAL III ENFERMARIA",
+      "valores": [
+       116.56,
+       149.2,
+       158.45,
+       163.03,
+       178.06,
+       202.97,
+       284.85,
+       380.5,
+       426.88,
+       695.81
+      ]
+     },
+     {
+      "produto_id": "p3.P8",
+      "coluna": "ESSENCIAL IV APARTAMENTO",
+      "valores": [
+       155.24,
+       198.71,
+       211.03,
+       217.13,
+       237.15,
+       270.33,
+       379.38,
+       506.78,
+       568.56,
+       926.75
+      ]
+     },
+     {
+      "produto_id": "p3.P9",
+      "coluna": "REGIONAL BÁSICO ENFERMARIA",
+      "valores": [
+       168.37,
+       215.5,
+       228.84,
+       235.45,
+       257.11,
+       293.11,
+       411.23,
+       549.36,
+       616.38,
+       1004.58
+      ]
+     },
+     {
+      "produto_id": "p3.P10",
+      "coluna": "REGIONAL ESPECIAL APARTAMENTO",
+      "valores": [
+       224.23,
+       286.97,
+       304.76,
+       313.63,
+       342.48,
+       391.39,
+       547.79,
+       731.96,
+       821.26,
+       1332.66
+      ]
+     },
+     {
+      "produto_id": "p3.P11",
+      "coluna": "REGIONAL MAIS BÁSICO ENFERMARIA",
+      "valores": [
+       204.32,
+       261.51,
+       277.7,
+       285.73,
+       312.02,
+       355.7,
+       499.15,
+       666.81,
+       748.16,
+       1219.35
+      ]
+     },
+     {
+      "produto_id": "p3.P12",
+      "coluna": "REGIONAL MAIS ESPECIAL APARTAMENTO",
+      "valores": [
+       282.6,
+       361.67,
+       384.09,
+       395.27,
+       431.63,
+       493.27,
+       690.38,
+       922.49,
+       1035.03,
+       1679.54
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 25,00",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 30,00",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 40,00",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 45,00",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30%",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30% com limite R$20,00",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30%",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30% com limite R$100,00",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "Isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30%",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30% com limite R$35,00",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50%",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50%",
+    "produtos": [
+     "p1.P7",
+     "p1.P8",
+     "p1.P9",
+     "p1.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p1.P11",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "Isento",
+    "produtos": [
+     "p1.P1",
+     "p1.P2",
+     "p1.P3",
+     "p1.P4",
+     "p1.P5",
+     "p1.P6"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 100,00",
+    "produtos": [
+     "p1.P7",
+     "p1.P9",
+     "p1.P11"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 180,00",
+    "produtos": [
+     "p1.P8",
+     "p1.P10",
+     "p1.P12"
+    ]
+   },
+   {
+    "procedimento": "Internação Psiquiátrica",
+    "regra": "50% a partir do 31º dia de internação",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações psiquiátricas — nota 01",
+    "regra": "Está previsto em contrato a participação de 50% do valor da internação para os casos de internações psiquiátricas.",
+    "produtos": []
+   },
+   {
+    "procedimento": "Coparticipação — nota 02",
+    "regra": "Para os produtos Regional Básico Enfermaria 472.422/14-4, Regional Especial Apartamento 472.423/14-2 e Essencial III 478.590/17-8 e Essencial IV 478.591/17-6, haverá limite de R$ 180,00 (cento e oitenta reais) por pessoa/mês, sendo que o referido limitador não contempla os valores de franquia de internação.",
+    "produtos": [
+     "p1.P9",
+     "p1.P10",
+     "p1.P7",
+     "p1.P8"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 25,00",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 30,00",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 40,00",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 45,00",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30%",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30% com limite R$20,00",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30%",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30% com limite R$100,00",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "Isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30%",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30% com limite R$35,00",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50%",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50%",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p2.P11",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "Isento",
+    "produtos": [
+     "p2.P1",
+     "p2.P2",
+     "p2.P3",
+     "p2.P4",
+     "p2.P5",
+     "p2.P6"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 100,00",
+    "produtos": [
+     "p2.P7",
+     "p2.P9",
+     "p2.P11"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 180,00",
+    "produtos": [
+     "p2.P8",
+     "p2.P10",
+     "p2.P12"
+    ]
+   },
+   {
+    "procedimento": "Limite de coparticipação — nota 02",
+    "regra": "Para os produtos Regional Básico Enfermaria 472.422/14-4, Regional Especial Apartamento 472.423/14-2 e Essencial III 478.590/17-8 e Essencial IV 478.591/17-6, haverá limite de R$ 180,00 (cento e oitenta reais) por pessoa/mês, sendo que o referido limitador não contempla os valores de franquia de internação.",
+    "produtos": [
+     "p2.P7",
+     "p2.P8",
+     "p2.P9",
+     "p2.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 25,00",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "R$ 30,00",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 40,00",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Consulta Urgência e Emergência",
+    "regra": "R$ 45,00",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30%",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Básicos",
+    "regra": "30% com limite R$20,00",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30%",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Exames Especiais",
+    "regra": "30% com limite R$100,00",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "Isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30%",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Atendimento ambulatorial (Básico e Especial)",
+    "regra": "30% com limite R$35,00",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50%",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Fisioterapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "40% com limite R$100,00 por sessão",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50%",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% com limite R$100,00 por sessão",
+    "produtos": [
+     "p3.P11",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "Isento",
+    "produtos": [
+     "p3.P1",
+     "p3.P2",
+     "p3.P3",
+     "p3.P4",
+     "p3.P5",
+     "p3.P6"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 100,00",
+    "produtos": [
+     "p3.P7",
+     "p3.P9",
+     "p3.P11"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "R$ 180,00",
+    "produtos": [
+     "p3.P8",
+     "p3.P10",
+     "p3.P12"
+    ]
+   },
+   {
+    "procedimento": "Internações psiquiátricas",
+    "regra": "Está previsto em contrato a participação de 50% do valor da internação para os casos de internações psiquiátricas.",
+    "produtos": []
+   },
+   {
+    "procedimento": "Coparticipação por pessoa/mês",
+    "regra": "Para os produtos Regional Básico Enfermaria 472.422/14-4, Regional Especial Apartamento 472.423/14-2 e Essencial III 478.590/17-8 e Essencial IV 478.591/17-6, haverá limite de R$ 180,00 (cento e oitenta reais) por pessoa/mês, sendo que o referido limitador não contempla os valores de franquia de internação.",
+    "produtos": [
+     "p3.P7",
+     "p3.P8",
+     "p3.P9",
+     "p3.P10"
+    ]
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [],
+  "avisos": [
+   "p. 1: Nota 03: Os valores estão sujeitos a alteração sem aviso prévio.",
+   "p. 2: Os valores estão sujeitos a alteração sem aviso prévio.",
+   "p. 3: Os valores estão sujeitos a alteração sem aviso prévio.",
+   "p. 3: Tabela passível de negociação. Em caso de dúvida, fale com sua gestora."
+  ]
+ }
+}

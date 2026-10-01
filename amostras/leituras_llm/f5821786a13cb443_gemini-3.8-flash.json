@@ -1,0 +1,285 @@
+{
+ "arquivo": "allcare_sao_camilo_adesao_ce_2026-07-31.pdf",
+ "sha256": "f5821786a13cb4439cd13e2080dad9645fc419d4e0c3cd43964073339cfab6df",
+ "gravada_em": "2026-09-30T21:01:42+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 7.6,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 10278,
+  "saida": 4583,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.024895,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "São Camilo",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "CE"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Essencial Adesão 10",
+    "registro_ans": "503.838/25-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Executivo Adesão 10",
+    "registro_ans": "503.836/25-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Essencial",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "Barbalha/CE, Crato/CE, Juazeiro do Norte/CE, Missão Velha/CE, Jardim/CE, Caririaçu/CE, Farias Brito/CE, Nova Olinda/CE e Santana do Cariri/CE"
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Executivo",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "Barbalha/CE, Crato/CE, Juazeiro do Norte/CE, Missão Velha/CE, Jardim/CE, Caririaçu/CE, Farias Brito/CE, Nova Olinda/CE e Santana do Cariri/CE"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Essencial Adesão 10 - Enfermaria",
+      "valores": [
+       225.39,
+       250.64,
+       297.68,
+       332.66,
+       354.81,
+       420.67,
+       649.66,
+       845.75,
+       1113.93,
+       1352.31
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Executivo Adesão 10 - Apartamento",
+      "valores": [
+       407.1,
+       452.7,
+       537.67,
+       600.85,
+       640.86,
+       759.81,
+       1173.41,
+       1527.58,
+       2011.96,
+       2442.58
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Essencial Adesão 10 - Enfermaria",
+      "valores": [
+       262.24,
+       291.61,
+       346.35,
+       387.04,
+       412.82,
+       489.44,
+       755.87,
+       984.02,
+       1296.03,
+       1573.39
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Telemedicina (Atendimento online 24 horas por dia com clínico geral e pediatra)",
+    "regra": "sem coparticipação",
+    "produtos": []
+   },
+   {
+    "procedimento": "PAC - Procedimentos de alta complexidade (Tomografia Computadorizada, Ressonância Magnética, Angio Tomografia Computadorizada e Ressonância Magnética, Broncoscopias, Endoscopias Terapêuticas, Medicina Nuclear, Métodos Intervencionistas por Imagem, Ultrassonografia Intervencionista, Tilt Test, Cirurgias ambulatórias, e demais procedimentos) - Enfermaria Total",
+    "regra": "Limitador de R$ 209,90 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "PAC - Procedimentos de alta complexidade (Tomografia Computadorizada, Ressonância Magnética, Angio Tomografia Computadorizada e Ressonância Magnética, Broncoscopias, Endoscopias Terapêuticas, Medicina Nuclear, Métodos Intervencionistas por Imagem, Ultrassonografia Intervencionista, Tilt Test, Cirurgias ambulatórias, e demais procedimentos) - Enfermaria Parcial",
+    "regra": "Limitador de R$ 219,90 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "PAC - Procedimentos de alta complexidade (Tomografia Computadorizada, Ressonância Magnética, Angio Tomografia Computadorizada e Ressonância Magnética, Broncoscopias, Endoscopias Terapêuticas, Medicina Nuclear, Métodos Intervencionistas por Imagem, Ultrassonografia Intervencionista, Tilt Test, Cirurgias ambulatórias, e demais procedimentos) - Apartamento Total",
+    "regra": "Limitador de R$ 229,90 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Exames - Enfermaria Total",
+    "regra": "Limitador de R$ 65,00 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Exames - Enfermaria Parcial",
+    "regra": "Limitador de R$ 65,00 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Exames - Apartamento Total",
+    "regra": "Limitador de R$ 75,00 de coparticipação para cada exame realizado",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Sessão de Fisioterapia - Enfermaria Total",
+    "regra": "Limitador de R$ 8,00 de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Sessão de Fisioterapia - Enfermaria Parcial",
+    "regra": "Limitador de R$ 8,00 de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Sessão de Fisioterapia - Apartamento Total",
+    "regra": "Limitador de R$ 10,00 de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Psicologia, nutrição, fonoaudiologia e terapia ocupacional - Enfermaria Total",
+    "regra": "30% de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Psicologia, nutrição, fonoaudiologia e terapia ocupacional - Enfermaria Parcial",
+    "regra": "30% de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias – Psicologia, nutrição, fonoaudiologia e terapia ocupacional - Apartamento Total",
+    "regra": "30% de coparticipação para cada sessão",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta médica - Enfermaria Total",
+    "regra": "Limitador de R$ 45,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta médica - Enfermaria Parcial",
+    "regra": "Limitador de R$ 45,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta médica - Apartamento Total",
+    "regra": "Limitador de R$ 55,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta Puericultura - Enfermaria Total",
+    "regra": "Limitador de R$ 45,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta Puericultura - Enfermaria Parcial",
+    "regra": "Limitador de R$ 45,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta Puericultura - Apartamento Total",
+    "regra": "Limitador de R$ 55,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em Pronto Socorro - Enfermaria Total",
+    "regra": "Limitador de R$ 60,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em Pronto Socorro - Enfermaria Parcial",
+    "regra": "Limitador de R$ 75,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta em Pronto Socorro - Apartamento Total",
+    "regra": "Limitador de R$ 90,00 de coparticipação cada consulta",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação/evento (*) - Enfermaria Total",
+    "regra": "R$ 200,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação/evento (*) - Enfermaria Parcial",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internação/evento (*) - Apartamento Total",
+    "regra": "R$ 300,00",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular: Deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação informado",
+   "Dependentes: Cônjuge",
+   "Dependentes: Companheiro(a)",
+   "Dependentes: Filhos(as) naturais ou adotivos(as), solteiros(as) até completar 24 anos",
+   "Dependentes: Filho inválido sem limite de idade",
+   "Dependentes: Enteado(a) solteiro(a) até completar 24 anos",
+   "Dependentes: Menor solteiro(a), que por força judicial, se ache sob guarda (provisória e/ou definitiva) ou tutela do beneficiário titular",
+   "AEB (Associação dos Estudantes do Brasil): Estudantes a partir de 12 anos completos matriculados no Ensino Fundamental, Médio, Pré vestibular, Graduação e Pós-Graduação, e Tecnólogo (Superior). Cursos Técnicos: duração mínima de 12 meses.",
+   "AFECOM DO BRASIL (Associação dos Funcionários das Empresas do Comércio de Bens e Serviços do Brasil): Profissionais do Comércio de Bens e Serviços",
+   "AncePla - Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos: Profissional Liberal (Administrador, Advogado, Aeronauta, Agrônomo, Anestesista, Arquiteto, Assistente Social, Atuário, Auditor, Autônomo, Bibliotecário, Biólogo, Biomédico, Comércio Exterior, Comunicação Social, Contabilista, Corretor de Imóveis e de Seguros, Despachante e Aduaneiro, Economista, Engenheiro, Estatístico, Farmacêutico, Filósofo, Físico, Fisioterapeuta, Fonoaudiólogo, Gastrônomo, Geógrafo, Geólogo, Gestão Financeira, Historiador, Jornalista, Letras, Marketing, Matemático, Médico, Músico, Nutricionista, Odontologista, Pedagogo, Professor, Profissional de Informática e Tecnologia da Informação, Profissional de Enfermagem, Profissional de Educação Física, Psicólogo, Psicoterapeuta, Publicitário, Químico, Radialista, Relações Públicas e Internacionais, Representante Comercial, Secretário, Sociólogo, Técnico Industrial, Tecnólogo, Teólogo, Tradutor, Urbanista e Veterinário)",
+   "UNASFEM - União Nacional de Assistência aos Servidores Federais, Estaduais e Municipais: Servidores Públicos Ativos vinculados aos poderes Federal, Estadual e Municipal"
+  ],
+  "avisos": [
+   "p. 1: Página de capa do manual de vendas; não contém tabelas de preços, produtos discriminados ou carências/coparticipação específicas.",
+   "p. 3: A página 1 (página 3 do material) não contém tabelas de preços de planos de saúde, apenas informações sobre os diferenciais da Allcare.",
+   "p. 4: Reajuste informado na página: Março",
+   "p. 4: Versão informada no rodapé: 07.2026",
+   "p. 5: Página 5 não contém tabelas de preços de mensalidades por faixa etária, contendo apenas tabela de coparticipação, vigências e área de comercialização.",
+   "p. 6: A página 1 (página 6 de 9 do material) não contém tabelas de preços nem dados de produtos, apenas critérios de elegibilidade e documentação (Quem pode aderir).",
+   "p. 7: A página 7 não contém tabelas de preços nem informações de planos/produtos, apenas regras de documentação de dependentes e elegibilidade de entidades de classe.",
+   "p. 8: A página 8 contém apenas informações de elegibilidade/documentação e rede credenciada, sem tabelas de preço impressas.",
+   "p. 9: Página de contracapa sem tabelas de preço, produtos ou condições comerciais impressas."
+  ]
+ }
+}

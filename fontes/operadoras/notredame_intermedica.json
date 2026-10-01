@@ -1,0 +1,83 @@
+{
+  "operadora": {
+    "registro_ans": "359017",
+    "nome": "NotreDame Intermédica",
+    "canal": "tabelas vigentes pela Allcare, com coleta ativa",
+    "relatorio": "docs/operadoras/notredame_intermedica.md"
+  },
+  "fontes": [
+    {
+      "nome": "NotreDame Intermédica",
+      "tipo": "pdf_operadora",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Tabelas da área do corretor (gndi.com.br)",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.gndi.com.br/documents/5787792/8772629/Tabela+de+Pre%C3%A7os+-+Super+Simples+2+a+29+vidas.pdf/026d2e60-7319-5b21-d681-7af7c8e51514",
+                "titulo": "Tabela de Preços - Super Simples 2 a 29 vidas"
+              },
+              {
+                "url": "https://www.gndi.com.br/documents/5787792/8772629/Tabela+de+Pre%C3%A7os+-+Super+Simples+1+Vida.pdf/5e8851a0-366b-da6d-04b2-42795c0d0e56",
+                "titulo": "Tabela de Preços - Super Simples 1 Vida"
+              },
+              {
+                "url": "https://www.gndi.com.br/documents/5787792/8772609/Tabela+de+Pre%C3%A7os+NotreLife+Individual+Familiar.pdf/2381922f-fe2c-7dc7-9aaf-5bfb3fc4bd65",
+                "titulo": "Tabela de Preços NotreLife Individual Familiar"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página do corretor PME (gndi.com.br)",
+          "ativa": false,
+          "config": {
+            "url": "https://www.gndi.com.br/corretor-pme",
+            "titulo": "title",
+            "incluir": "/documents/5787792/\\d+/Tabela\\+de\\+Pre[^/]*\\.pdf/"
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página do corretor individual (gndi.com.br)",
+          "ativa": false,
+          "config": {
+            "url": "https://www.gndi.com.br/corretor-individual",
+            "titulo": "title",
+            "incluir": "/documents/5787792/\\d+/Tabela\\+de\\+Pre[^/]*\\.pdf/"
+          }
+        },
+        {
+          "tipo": "wayback",
+          "nome": "Histórico do site antigo (www2.gndi.com.br)",
+          "ativa": false,
+          "config": {
+            "enderecos": [
+              "https://www2.gndi.com.br/documents/"
+            ],
+            "incluir": "(?i)/[^/]*tabela(\\+|%20|_|-)*((de(\\+|%20|_|-)*)?(pre|pme|pf\\b|valores)|notrelife)[^/]*\\.pdf",
+            "desde": "2023",
+            "intervalo_s": 4
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Caixa que recebe os comunicados da NotreDame",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@intermedica.com.br"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2422 @@
+{
+ "arquivo": "gndi_pme_1vida_2024-01.pdf",
+ "sha256": "47f6584d6faa235a4605807a6a4e66f90c7079141bf9fd294d9d072b0374b9c6",
+ "gravada_em": "2026-09-30T20:28:02+00:00",
+ "esforco": "low",
+ "paginas": 8,
+ "segundos": 21.9,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 46694,
+  "saida": 16487,
+  "cache_escrita": 0,
+  "cache_leitura": 15627,
+  "usd": 0.013069,
+  "raciocinio": 2019
+ },
+ "leitura": {
+  "operadora": "Hapvida NotreDame Intermédica",
+  "administradora": null,
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "RJ",
+   "SP"
+  ],
+  "vigencia_inicio": "2024-01-24",
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "Smart 150 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P2",
+    "nome": "Smart 150 ABC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P3",
+    "nome": "Smart 150 Grande Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P4",
+    "nome": "Smart 200 ABC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P5",
+    "nome": "Smart 200 Baixada Santista",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P6",
+    "nome": "Smart 200 Campinas",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P7",
+    "nome": "Smart 200 Jundiaí",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P8",
+    "nome": "Smart 200 Guarulhos",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P9",
+    "nome": "Smart 200 SP Oeste",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P10",
+    "nome": "Smart 200 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P11",
+    "nome": "Smart 200 SP Capital",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P12",
+    "nome": "Smart 200 Alto Tietê",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P13",
+    "nome": "Smart 200 Americana",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P14",
+    "nome": "Smart Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P15",
+    "nome": "Smart 200 GRU-MOGI",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p2.P16",
+    "nome": "Smart 200 UP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P1",
+    "nome": "Smart 150 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P2",
+    "nome": "Smart 150 ABC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P3",
+    "nome": "Smart 150 Grande Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P4",
+    "nome": "Smart 200 ABC + BS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P5",
+    "nome": "Smart 200 Baixada Santista",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P6",
+    "nome": "Smart 200 Campinas",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P7",
+    "nome": "Smart 200 Jundiaí",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P8",
+    "nome": "Smart 200 Guarulhos",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P9",
+    "nome": "Smart 200 SP Oeste",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P10",
+    "nome": "Smart 200 Sorocaba",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P11",
+    "nome": "Smart 200 SP Capital",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P12",
+    "nome": "Smart 200 Alto Tietê",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P13",
+    "nome": "Smart 200 Americana",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P14",
+    "nome": "Smart Rio",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P15",
+    "nome": "Smart 200 GRU - Mogi",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p3.P16",
+    "nome": "Smart 200 UP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P6",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P6",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P6",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P1",
+    "nome": "SMART300 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P2",
+    "nome": "SMART400 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P3",
+    "nome": "SMART400 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P4",
+    "nome": "SMART500 ENF",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P5",
+    "nome": "SMART500 APTO",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p7.P6",
+    "nome": "BASIC REFERÊNCIA",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Tabela de preços - PME — Smart Regionais — 1 vida — Linha Smart — Coparticipação completa",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "Smart 150 Sorocaba",
+      "valores": [
+       136.18,
+       183.82,
+       217.24,
+       217.24,
+       217.24,
+       258.02,
+       335.43,
+       436.06,
+       566.88,
+       817.04
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       116.52,
+       157.28,
+       185.87,
+       185.87,
+       185.87,
+       220.76,
+       286.99,
+       373.09,
+       485.02,
+       699.06
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       124.75,
+       169.41,
+       186.35,
+       203.12,
+       206.17,
+       216.48,
+       306.75,
+       414.11,
+       496.93,
+       748.38
+      ]
+     },
+     {
+      "produto_id": "p2.P4",
+      "coluna": "Smart 200 ABC",
+      "valores": [
+       140.37,
+       189.47,
+       223.92,
+       223.92,
+       223.92,
+       265.95,
+       345.74,
+       449.46,
+       584.3,
+       842.15
+      ]
+     },
+     {
+      "produto_id": "p2.P5",
+      "coluna": "Smart 200 Baixada Santista",
+      "valores": [
+       140.37,
+       189.47,
+       223.92,
+       223.92,
+       223.92,
+       265.95,
+       345.74,
+       449.46,
+       584.3,
+       842.15
+      ]
+     },
+     {
+      "produto_id": "p2.P6",
+      "coluna": "Smart 200 Campinas",
+      "valores": [
+       130.16,
+       175.69,
+       207.63,
+       207.63,
+       207.63,
+       246.6,
+       320.58,
+       416.75,
+       541.78,
+       780.87
+      ]
+     },
+     {
+      "produto_id": "p2.P7",
+      "coluna": "Smart 200 Jundiaí",
+      "valores": [
+       127.61,
+       172.25,
+       203.57,
+       203.57,
+       203.57,
+       241.78,
+       314.31,
+       408.6,
+       531.18,
+       765.59
+      ]
+     },
+     {
+      "produto_id": "p2.P8",
+      "coluna": "Smart 200 Guarulhos",
+      "valores": [
+       127.61,
+       172.25,
+       203.57,
+       203.57,
+       203.57,
+       241.78,
+       314.31,
+       408.6,
+       531.18,
+       765.59
+      ]
+     },
+     {
+      "produto_id": "p2.P9",
+      "coluna": "Smart 200 SP Oeste",
+      "valores": [
+       130.16,
+       175.69,
+       207.63,
+       207.63,
+       207.63,
+       246.6,
+       320.58,
+       416.75,
+       541.78,
+       780.87
+      ]
+     },
+     {
+      "produto_id": "p2.P10",
+      "coluna": "Smart 200 Sorocaba",
+      "valores": [
+       155.84,
+       210.35,
+       248.59,
+       248.59,
+       248.59,
+       295.25,
+       383.83,
+       498.98,
+       648.67,
+       934.93
+      ]
+     },
+     {
+      "produto_id": "p2.P11",
+      "coluna": "Smart 200 SP Capital",
+      "valores": [
+       127.61,
+       172.25,
+       203.57,
+       203.57,
+       203.57,
+       241.78,
+       314.31,
+       408.6,
+       531.18,
+       765.59
+      ]
+     },
+     {
+      "produto_id": "p2.P12",
+      "coluna": "Smart 200 Alto Tietê",
+      "valores": [
+       127.61,
+       172.25,
+       203.57,
+       203.57,
+       203.57,
+       241.78,
+       314.31,
+       408.6,
+       531.18,
+       765.59
+      ]
+     },
+     {
+      "produto_id": "p2.P13",
+      "coluna": "Smart 200 Americana",
+      "valores": [
+       133.99,
+       180.86,
+       213.74,
+       213.74,
+       213.74,
+       253.86,
+       330.02,
+       429.03,
+       557.74,
+       803.87
+      ]
+     },
+     {
+      "produto_id": "p2.P14",
+      "coluna": "Smart Rio",
+      "valores": [
+       134.2,
+       182.24,
+       200.46,
+       218.5,
+       221.78,
+       232.87,
+       329.98,
+       445.47,
+       534.56,
+       805.05
+      ]
+     },
+     {
+      "produto_id": "p2.P15",
+      "coluna": "Smart 200 GRU-MOGI",
+      "valores": [
+       131.43,
+       177.4,
+       209.65,
+       209.65,
+       209.65,
+       249.0,
+       323.7,
+       420.81,
+       547.05,
+       788.46
+      ]
+     },
+     {
+      "produto_id": "p2.P16",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       160.52,
+       216.67,
+       256.06,
+       256.06,
+       256.06,
+       304.12,
+       395.36,
+       513.97,
+       668.16,
+       963.02
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "1 vida — Linha Smart — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "Smart 150 Sorocaba",
+      "valores": [
+       181.55,
+       245.06,
+       289.61,
+       289.61,
+       289.61,
+       343.97,
+       447.16,
+       581.31,
+       755.7,
+       1089.19
+      ]
+     },
+     {
+      "produto_id": "p3.P2",
+      "coluna": "Smart 150 ABC",
+      "valores": [
+       155.35,
+       209.69,
+       247.81,
+       247.81,
+       247.81,
+       294.32,
+       382.62,
+       497.41,
+       646.63,
+       931.99
+      ]
+     },
+     {
+      "produto_id": "p3.P3",
+      "coluna": "Smart 150 Grande Rio",
+      "valores": [
+       145.08,
+       197.02,
+       216.72,
+       236.22,
+       239.76,
+       251.75,
+       356.73,
+       481.59,
+       577.91,
+       870.33
+      ]
+     },
+     {
+      "produto_id": "p3.P4",
+      "coluna": "Smart 200 ABC + BS",
+      "valores": [
+       187.19,
+       252.67,
+       298.61,
+       298.61,
+       298.61,
+       354.66,
+       461.06,
+       599.38,
+       779.19,
+       1123.05
+      ]
+     },
+     {
+      "produto_id": "p3.P5",
+      "coluna": "Smart 200 Baixada Santista",
+      "valores": [
+       187.19,
+       252.67,
+       298.61,
+       298.61,
+       298.61,
+       354.66,
+       461.06,
+       599.38,
+       779.19,
+       1123.05
+      ]
+     },
+     {
+      "produto_id": "p3.P6",
+      "coluna": "Smart 200 Campinas",
+      "valores": [
+       173.54,
+       234.24,
+       276.82,
+       276.82,
+       276.82,
+       328.78,
+       427.41,
+       555.63,
+       722.32,
+       1041.08
+      ]
+     },
+     {
+      "produto_id": "p3.P7",
+      "coluna": "Smart 200 Jundiaí",
+      "valores": [
+       170.13,
+       229.64,
+       271.39,
+       271.39,
+       271.39,
+       322.33,
+       419.03,
+       544.74,
+       708.16,
+       1020.67
+      ]
+     },
+     {
+      "produto_id": "p3.P8",
+      "coluna": "Smart 200 Guarulhos",
+      "valores": [
+       170.13,
+       229.64,
+       271.39,
+       271.39,
+       271.39,
+       322.33,
+       419.03,
+       544.74,
+       708.16,
+       1020.67
+      ]
+     },
+     {
+      "produto_id": "p3.P9",
+      "coluna": "Smart 200 SP Oeste",
+      "valores": [
+       173.54,
+       234.24,
+       276.82,
+       276.82,
+       276.82,
+       328.78,
+       427.41,
+       555.63,
+       722.32,
+       1041.08
+      ]
+     },
+     {
+      "produto_id": "p3.P10",
+      "coluna": "Smart 200 Sorocaba",
+      "valores": [
+       207.81,
+       280.5,
+       331.49,
+       331.49,
+       331.49,
+       393.71,
+       511.82,
+       665.37,
+       864.98,
+       1246.7
+      ]
+     },
+     {
+      "produto_id": "p3.P11",
+      "coluna": "Smart 200 SP Capital",
+      "valores": [
+       170.13,
+       229.64,
+       271.39,
+       271.39,
+       271.39,
+       322.33,
+       419.03,
+       544.74,
+       708.16,
+       1020.67
+      ]
+     },
+     {
+      "produto_id": "p3.P12",
+      "coluna": "Smart 200 Alto Tietê",
+      "valores": [
+       170.13,
+       229.64,
+       271.39,
+       271.39,
+       271.39,
+       322.33,
+       419.03,
+       544.74,
+       708.16,
+       1020.67
+      ]
+     },
+     {
+      "produto_id": "p3.P13",
+      "coluna": "Smart 200 Americana",
+      "valores": [
+       178.63,
+       241.11,
+       284.94,
+       284.94,
+       284.94,
+       338.42,
+       439.95,
+       571.94,
+       743.52,
+       1071.64
+      ]
+     },
+     {
+      "produto_id": "p3.P14",
+      "coluna": "Smart Rio",
+      "valores": [
+       145.08,
+       197.02,
+       216.72,
+       236.22,
+       239.76,
+       251.75,
+       356.73,
+       481.59,
+       577.91,
+       870.33
+      ]
+     },
+     {
+      "produto_id": "p3.P15",
+      "coluna": "Smart 200 GRU - Mogi",
+      "valores": [
+       175.24,
+       236.54,
+       279.54,
+       279.54,
+       279.54,
+       332.01,
+       431.61,
+       561.09,
+       729.42,
+       1051.31
+      ]
+     },
+     {
+      "produto_id": "p3.P16",
+      "coluna": "Smart 200 UP",
+      "valores": [
+       214.05,
+       288.92,
+       341.45,
+       341.45,
+       341.45,
+       405.54,
+       527.2,
+       685.36,
+       890.97,
+       1284.16
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços - PME — São Paulo, Região Metropolitana e ABC — 1 vida — Linha Smart — Coparticipação completa",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       203.44,
+       274.6,
+       324.52,
+       339.06,
+       350.38,
+       385.42,
+       501.05,
+       651.37,
+       846.78,
+       1220.46
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       230.36,
+       310.94,
+       367.47,
+       383.93,
+       396.75,
+       436.43,
+       567.36,
+       737.57,
+       958.84,
+       1381.98
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       285.6,
+       385.5,
+       455.58,
+       475.99,
+       491.89,
+       541.08,
+       703.4,
+       914.42,
+       1188.75,
+       1713.35
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       264.06,
+       356.43,
+       421.23,
+       440.1,
+       454.8,
+       500.28,
+       650.36,
+       845.47,
+       1099.11,
+       1584.15
+      ]
+     },
+     {
+      "produto_id": "p4.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       327.37,
+       441.88,
+       522.21,
+       545.61,
+       563.83,
+       620.21,
+       806.27,
+       1048.15,
+       1362.6,
+       1963.92
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços - PME — São Paulo, Região Metropolitana e ABC — 1 vida — Linha Smart — Sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "parcial",
+    "regiao": "São Paulo, Região Metropolitana e ABC",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       290.63,
+       392.29,
+       463.61,
+       484.38,
+       500.56,
+       550.62,
+       715.81,
+       930.55,
+       1209.72,
+       1743.57
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       329.06,
+       444.17,
+       524.92,
+       548.44,
+       566.76,
+       623.44,
+       810.47,
+       1053.61,
+       1369.69,
+       1974.13
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       407.99,
+       550.7,
+       650.82,
+       679.98,
+       702.69,
+       772.96,
+       1004.85,
+       1306.31,
+       1698.2,
+       2447.62
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       377.21,
+       509.16,
+       601.73,
+       628.69,
+       649.69,
+       714.66,
+       929.06,
+       1207.78,
+       1570.11,
+       2263.0
+      ]
+     },
+     {
+      "produto_id": "p4.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       467.65,
+       631.23,
+       745.99,
+       779.41,
+       805.44,
+       885.98,
+       1151.77,
+       1497.3,
+       1946.49,
+       2805.48
+      ]
+     },
+     {
+      "produto_id": "p4.P6",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       1014.49,
+       1369.36,
+       1618.32,
+       1690.85,
+       1747.31,
+       1922.03,
+       2498.66,
+       3248.25,
+       4222.7,
+       6086.15
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Jundiaí, Sorocaba e Campinas — 1 vida — Linha Smart — coparticipação completa",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       203.44,
+       274.6,
+       324.52,
+       339.06,
+       350.38,
+       385.42,
+       501.05,
+       651.37,
+       846.78,
+       1220.46
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       207.64,
+       280.27,
+       331.22,
+       346.06,
+       357.62,
+       393.38,
+       511.39,
+       664.81,
+       864.25,
+       1245.64
+      ]
+     },
+     {
+      "produto_id": "p5.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       257.47,
+       347.53,
+       410.71,
+       429.11,
+       443.44,
+       487.78,
+       634.11,
+       824.34,
+       1071.64,
+       1544.55
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       264.06,
+       356.43,
+       421.23,
+       440.1,
+       454.8,
+       500.28,
+       650.36,
+       845.47,
+       1099.11,
+       1584.15
+      ]
+     },
+     {
+      "produto_id": "p5.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       327.41,
+       441.94,
+       522.28,
+       545.68,
+       563.91,
+       620.3,
+       806.39,
+       1048.31,
+       1362.8,
+       1964.2
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Jundiaí, Sorocaba e Campinas — 1 vida — Linha Smart — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "parcial",
+    "regiao": "Jundiaí, Sorocaba e Campinas",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       290.63,
+       392.29,
+       463.61,
+       484.38,
+       500.56,
+       550.62,
+       715.81,
+       930.55,
+       1209.72,
+       1743.57
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       296.62,
+       400.38,
+       473.17,
+       494.37,
+       510.88,
+       561.97,
+       730.56,
+       949.73,
+       1234.65,
+       1779.5
+      ]
+     },
+     {
+      "produto_id": "p5.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       367.81,
+       496.47,
+       586.73,
+       613.02,
+       633.49,
+       696.84,
+       905.89,
+       1177.66,
+       1530.96,
+       2206.57
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       377.23,
+       509.19,
+       601.76,
+       628.72,
+       649.72,
+       714.69,
+       929.1,
+       1207.83,
+       1570.18,
+       2263.1
+      ]
+     },
+     {
+      "produto_id": "p5.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       467.74,
+       631.36,
+       746.14,
+       779.57,
+       805.61,
+       886.17,
+       1152.02,
+       1497.63,
+       1946.92,
+       2806.1
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       1014.49,
+       1369.36,
+       1618.32,
+       1690.85,
+       1747.31,
+       1922.03,
+       2498.66,
+       3248.25,
+       4222.7,
+       6086.15
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Baixada Santista — 1 vida — linha Smart — coparticipação completa",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       173.84,
+       234.65,
+       277.31,
+       289.73,
+       299.41,
+       329.35,
+       428.16,
+       556.61,
+       723.59,
+       1042.91
+      ]
+     },
+     {
+      "produto_id": "p6.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       177.44,
+       239.51,
+       283.05,
+       295.73,
+       305.61,
+       336.17,
+       437.02,
+       568.13,
+       738.57,
+       1064.5
+      ]
+     },
+     {
+      "produto_id": "p6.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       220.01,
+       296.97,
+       350.96,
+       366.68,
+       378.93,
+       416.82,
+       541.87,
+       704.43,
+       915.76,
+       1319.88
+      ]
+     },
+     {
+      "produto_id": "p6.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       264.06,
+       356.43,
+       421.23,
+       440.1,
+       454.8,
+       500.28,
+       650.36,
+       845.47,
+       1099.11,
+       1584.15
+      ]
+     },
+     {
+      "produto_id": "p6.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       327.41,
+       441.94,
+       522.28,
+       545.68,
+       563.91,
+       620.3,
+       806.39,
+       1048.31,
+       1362.8,
+       1964.2
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Baixada Santista — 1 vida — linha Smart — sem coparticipação (exceto para terapias)",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "sem",
+    "regiao": "Baixada Santista",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       248.35,
+       335.22,
+       396.16,
+       413.91,
+       427.73,
+       470.5,
+       611.65,
+       795.15,
+       1033.7,
+       1489.87
+      ]
+     },
+     {
+      "produto_id": "p6.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       253.49,
+       342.16,
+       404.36,
+       422.48,
+       436.59,
+       480.25,
+       624.33,
+       811.63,
+       1055.12,
+       1520.74
+      ]
+     },
+     {
+      "produto_id": "p6.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       314.31,
+       424.26,
+       501.39,
+       523.85,
+       541.35,
+       595.49,
+       774.14,
+       1006.38,
+       1308.29,
+       1885.64
+      ]
+     },
+     {
+      "produto_id": "p6.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       377.23,
+       509.19,
+       601.76,
+       628.72,
+       649.72,
+       714.69,
+       929.1,
+       1207.83,
+       1570.18,
+       2263.1
+      ]
+     },
+     {
+      "produto_id": "p6.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       467.74,
+       631.36,
+       746.14,
+       779.57,
+       805.61,
+       886.17,
+       1152.02,
+       1497.63,
+       1946.92,
+       2806.1
+      ]
+     },
+     {
+      "produto_id": "p6.P6",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       1014.49,
+       1369.36,
+       1618.32,
+       1690.85,
+       1747.31,
+       1922.03,
+       2498.66,
+       3248.25,
+       4222.7,
+       6086.15
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "RIO DE JANEIRO — 1 VIDA — LINHA SMART — COPARTICIPAÇÃO COMPLETA",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "total",
+    "regiao": "RIO DE JANEIRO",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "SMART300 ENF",
+      "valores": [
+       203.44,
+       274.6,
+       324.52,
+       339.06,
+       350.38,
+       385.42,
+       501.05,
+       651.37,
+       846.78,
+       1220.46
+      ]
+     },
+     {
+      "produto_id": "p7.P2",
+      "coluna": "SMART400 ENF",
+      "valores": [
+       207.64,
+       280.27,
+       331.22,
+       346.06,
+       357.62,
+       393.38,
+       511.39,
+       664.81,
+       864.25,
+       1245.64
+      ]
+     },
+     {
+      "produto_id": "p7.P3",
+      "coluna": "SMART400 APTO",
+      "valores": [
+       257.47,
+       347.53,
+       410.71,
+       429.11,
+       443.44,
+       487.78,
+       634.11,
+       824.34,
+       1071.64,
+       1544.55
+      ]
+     },
+     {
+      "produto_id": "p7.P4",
+      "coluna": "SMART500 ENF",
+      "valores": [
+       264.06,
+       356.43,
+       421.23,
+       440.1,
+       454.8,
+       500.28,
+       650.36,
+       845.47,
+       1099.11,
+       1584.15
+      ]
+     },
+     {
+      "produto_id": "p7.P5",
+      "coluna": "SMART500 APTO",
+      "valores": [
+       327.41,
+       441.94,
+       522.28,
+       545.68,
+       563.91,
+       620.3,
+       806.39,
+       1048.31,
+       1362.8,
+       1964.2
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "RIO DE JANEIRO — 1 VIDA — LINHA SMART — SEM COPARTICIPAÇÃO (EXCETO PARA TERAPIAS)",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "sem",
+    "regiao": "RIO DE JANEIRO",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "Smart300 enf",
+      "valores": [
+       290.63,
+       392.29,
+       463.61,
+       484.38,
+       500.56,
+       550.62,
+       715.81,
+       930.55,
+       1209.72,
+       1743.57
+      ]
+     },
+     {
+      "produto_id": "p7.P2",
+      "coluna": "Smart400 enf",
+      "valores": [
+       296.62,
+       400.38,
+       473.17,
+       494.37,
+       510.88,
+       561.97,
+       730.56,
+       949.73,
+       1234.65,
+       1779.5
+      ]
+     },
+     {
+      "produto_id": "p7.P3",
+      "coluna": "Smart400 apto",
+      "valores": [
+       367.81,
+       496.47,
+       586.73,
+       613.02,
+       633.49,
+       696.84,
+       905.89,
+       1177.66,
+       1530.96,
+       2206.57
+      ]
+     },
+     {
+      "produto_id": "p7.P4",
+      "coluna": "Smart500 enf",
+      "valores": [
+       377.23,
+       509.19,
+       601.76,
+       628.72,
+       649.72,
+       714.69,
+       929.1,
+       1207.83,
+       1570.18,
+       2263.1
+      ]
+     },
+     {
+      "produto_id": "p7.P5",
+      "coluna": "Smart500 apto",
+      "valores": [
+       467.74,
+       631.36,
+       746.14,
+       779.57,
+       805.61,
+       886.17,
+       1152.02,
+       1497.63,
+       1946.92,
+       2806.1
+      ]
+     },
+     {
+      "produto_id": "p7.P6",
+      "coluna": "BASIC REFERÊNCIA",
+      "valores": [
+       1014.49,
+       1369.36,
+       1618.32,
+       1690.85,
+       1747.31,
+       1922.03,
+       2498.66,
+       3248.25,
+       4222.7,
+       6086.15
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "30% limitado a R$26,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "30% limitado a R$52,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "30% limitado a R$21,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "30% limitado a R$105,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias simples",
+    "regra": "40% limitado a R$83,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias complexas",
+    "regra": "40% limitado a R$125,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações²",
+    "regra": "185,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consulta eletiva",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames especiais",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações²",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "30% limitado a R$31,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "30% limitado a R$62,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "30% limitado a R$26,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "30% limitado a R$115,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS SIMPLES",
+    "regra": "40% limitado a R$83,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS COMPLEXAS",
+    "regra": "40% limitado a R$145,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "260,00",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "ISENTO",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "ISENTO",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "ISENTO",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "ISENTO",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "ISENTO",
+    "produtos": [
+     "p4.P1",
+     "p4.P2",
+     "p4.P3",
+     "p4.P4",
+     "p4.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "30% limitado a R$31,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "30% limitado a R$62,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "30% limitado a R$26,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "30% limitado a R$115,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS SIMPLES",
+    "regra": "40% limitado a R$83,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS COMPLEXAS",
+    "regra": "40% limitado a R$145,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "260,00",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "ISENTO",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "ISENTO",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "ISENTO",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "ISENTO",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "ISENTO",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "30% limitado a R$31,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "30% limitado a R$62,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "30% limitado a R$26,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "30% limitado a R$115,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS SIMPLES",
+    "regra": "40% limitado a R$83,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS COMPLEXAS",
+    "regra": "40% limitado a R$145,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "260,00",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "ISENTO",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "ISENTO",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "ISENTO",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "ISENTO",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "ISENTO",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4",
+     "p6.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "30% limitado a R$31,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "30% limitado a R$62,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "30% limitado a R$26,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "30% limitado a R$115,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS SIMPLES",
+    "regra": "40% limitado a R$83,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "TERAPIAS COMPLEXAS",
+    "regra": "40% limitado a R$145,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "260,00",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "CONSULTA ELETIVA",
+    "regra": "ISENTO",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "P.S.",
+    "regra": "ISENTO",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES SIMPLES",
+    "regra": "ISENTO",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "EXAMES ESPECIAIS",
+    "regra": "ISENTO",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   },
+   {
+    "procedimento": "INTERNAÇÕES**",
+    "regra": "ISENTO",
+    "produtos": [
+     "p7.P1",
+     "p7.P2",
+     "p7.P3",
+     "p7.P4",
+     "p7.P5"
+    ]
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nem outros dados de produto impressos.",
+   "p. 2: Não há números de registro ANS legíveis/impressos sobre as colunas nesta página.",
+   "p. 2: A tabela inferior de coparticipação repete as condições para todos os 16 produtos; nas duas colunas centrais o cabeçalho aparece como “Smart 200 ABC + BS”.",
+   "p. 2: Nota impressa: “² Internação na rede credenciada”.",
+   "p. 3: O material não mostra números de registro ANS associados às colunas.",
+   "p. 3: Na tabela de valores de coparticipação, o cabeçalho repete “Smart 200 ABC + BS” em duas colunas consecutivas; a segunda coluna parece corresponder à coluna “Smart 200 Baixada Santista” da tabela de preços, mas o rótulo impresso está duplicado.",
+   "p. 3: Nota impressa: ² Internação na rede credenciada.",
+   "p. 4: A página não exibe números de registro ANS para os produtos.",
+   "p. 4: Na tabela de coparticipação do produto sem coparticipação, há cinco colunas Smart com regras impressas; a coluna BASIC REFERÊNCIA está identificada pela observação 'Produto Sem Coparticipação' e não apresenta regras por procedimento legíveis/alinhadas.",
+   "p. 4: A coparticipação sem coparticipação inclui cobranças de 40% limitadas a R$83,00 para terapias simples e R$145,00 para terapias complexas.",
+   "p. 4: ** INTERNAÇÃO NA REDE CREDENCIADA.",
+   "p. 5: A página não mostra números de registro ANS para os produtos.",
+   "p. 5: A tabela sem coparticipação identifica o BASIC REFERÊNCIA como 'Produto Sem Coparticipação'; as células dessa coluna na tabela de coparticipação estão em branco.",
+   "p. 5: A nota impressa é '** INTERNAÇÃO NA REDE CREDENCIADA'.",
+   "p. 6: A página não imprime números de registro ANS para os produtos.",
+   "p. 6: A coluna BASIC REFERÊNCIA aparece na tabela de preços sem coparticipação; na tabela de valores de coparticipação, a indicação impressa é “Produto Sem Coparticipação”.",
+   "p. 6: A tabela informa “1 VIDA”; foi transcrita literalmente como mínimo e máximo de 1 vida.",
+   "p. 7: Não há números de registro ANS impressos na página.",
+   "p. 7: A tabela sem coparticipação identifica BASIC REFERÊNCIA como “Produto Sem Coparticipação”; na tabela de coparticipação correspondente, essa coluna não apresenta valores de procedimentos, apenas essa indicação.",
+   "p. 7: A página informa a validade a partir de 24 de janeiro de 2024; não informa data final.",
+   "p. 7: A nota impressa é “** INTERNAÇÃO NA REDE CREDENCIADA”.",
+   "p. 8: Esta página não contém tabelas de preço nem informações sobre produtos, contratação, vigência ou cobertura. Impresso: VERSÃO 01 - JANEIRO/2024; contatos e endereços de unidades em São Paulo e Rio de Janeiro; WWW.GNDI.COM.BR."
+  ]
+ }
+}

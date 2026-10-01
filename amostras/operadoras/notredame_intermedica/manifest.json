@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "gndi_super_simples_pme_sp_2025-07.pdf",
+    "url": "https://www.gndi.com.br/documents/5787792/8772629/Tabela+de+Pre%C3%A7os+-+Super+Simples+2+a+29+vidas.pdf/026d2e60-7319-5b21-d681-7af7c8e51514",
+    "baixado_em": "2026-10-01",
+    "sha256": "2619c5a652e629c39c4b86328e5bc43b4bbe03426ea7067171e2368089b7d434",
+    "fonte": "NotreDame Intermédica",
+    "observacao": "Tabela de vendas promocional PME porte II (2 a 29 vidas), praças de SP e RJ, para contratos assinados de 01/07/2025 a 31/08/2025 (título interno: '20250701 a 20250930 - Super Simples 2 a 29 vidas.xlsx'). 27 páginas, registro ANS e código interno por coluna. Ligada em https://www.gndi.com.br/corretor-pme; baixada pelo endereço sem '?version=…&t=…', que o robots.txt bloqueia (Disallow: /*?version=*). Last-Modified 04/09/2025."
+  },
+  {
+    "arquivo": "gndi_notrelife_individual_sp_2025-06.pdf",
+    "url": "https://www.gndi.com.br/documents/5787792/8772609/Tabela+de+Pre%C3%A7os+NotreLife+Individual+Familiar.pdf/2381922f-fe2c-7dc7-9aaf-5bfb3fc4bd65",
+    "baixado_em": "2026-10-01",
+    "sha256": "f4eba16ae4c4d20320f92cec8a9e4c8985357e4b5193acc5b1b59c1df86d9f02",
+    "fonte": "NotreDame Intermédica",
+    "observacao": "Tabela de vendas promocional individual/familiar (NotreLife, NotreLife 50+, Nosso Médico e plano referência) por praça, para contratos assinados de 01/06/2025 a 30/06/2025. 18 páginas; cada produto tem duas colunas de preço ('Médica' e 'Médica + ROL') sob um único registro ANS. Ligada em https://www.gndi.com.br/corretor-individual, baixada sem a query bloqueada pelo robots.txt. Last-Modified 04/09/2025."
+  },
+  {
+    "arquivo": "allcare_ndi_pme_sp_2026-09-28.pdf",
+    "url": "https://www.corretorallcare.com.br/arquivos/tabelas/pme/sp/tabela_pme_hapvida_ndi_sp_28_09_2026.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "0241101be4c2701347190c7925d91504708b8b14245e3d35d3d395f2d8f82a7d",
+    "fonte": "Allcare",
+    "observacao": "Tabela de vendas coletivo empresarial de 02 a 29 vidas, São Paulo, 'Versão: 09.2026' (modelo Allcare, 12 páginas, 7,4 MB). Linha Smart 150/200 com coparticipação total e parcial; 10 registros ANS de produto, todos da 359017 e ativos. Listada em https://www.corretorallcare.com.br/materiais-de-vendas como 'Hapvida NDI'."
+  }
+]

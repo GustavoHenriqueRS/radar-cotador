@@ -1,0 +1,12 @@
+{
+  "fontes": [
+    {
+      "nome": "NotreDame Intermédica",
+      "tipo": "pdf_operadora",
+      "url": "https://www2.gndi.com.br",
+      "confiabilidade": 5,
+      "observacoes": "PDF oficial sem registro ANS dos produtos: exige mapeamento coluna → produto.",
+      "capturas": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "bradesco_manual_coparticipacao_2026-07-15.pdf",
+    "url": "https://www.bradescoseguros.com.br/wcm/connect/bb866622-807b-48e0-9583-c0a007d7141f/A.F.Dig.Manual_Coparticipacao_150726.pdf?MOD=AJPERES",
+    "baixado_em": "2026-10-01",
+    "sha256": "b26f5c9aaacb6e1bd9c135bea0fec810d8258967087f5743fa76fbcaf736b5a5",
+    "fonte": "Bradesco Saúde, site oficial (página Coparticipação Bradesco Saúde)",
+    "observacao": "10 páginas, com texto. Modelo de coparticipação de 30% (SPG) com limites em reais por grupo de procedimento e linha, para contratos implantados a partir de 23/06/2026. Não é tabela de preço."
+  },
+  {
+    "arquivo": "bradesco_portfolio_spg_2026-05-12.pdf",
+    "url": "https://www.bradescoseguros.com.br/wcm/connect/bdb975c5-5188-4ad0-959b-9772c67adef0/A.F.Portfolio.SPG.120526.pdf?MOD=AJPERES",
+    "baixado_em": "2026-10-01",
+    "sha256": "0c61a1e4eb5b9210842d34b71843c677941fdc640cc835e1dcaf00c7e203f42a",
+    "fonte": "Bradesco Saúde, site oficial (página Portfólios de Planos)",
+    "observacao": "20 páginas, com texto. Portfólio para empresas de 3 a 199 pessoas: linhas, abrangência, rede e serviços. Sem preço e sem registro ANS."
+  },
+  {
+    "arquivo": "bradesco_folder_efetivo_plus_nacional_2026-09-21.pdf",
+    "url": "https://www.bradescoseguros.com.br/wcm/connect/cfe02e3b-0d71-4f18-b8c3-c40a7d30d58a/260921_BRASAU_EfetivoPlus_Nacional_SP-DF-RS-PR-BA_RJ_AF.pdf?MOD=AJPERES",
+    "baixado_em": "2026-10-01",
+    "sha256": "8ddde03ee3d4d4204a6adc3ded89f27a033a24a6c574047cefbd4e6b3682a9c8",
+    "fonte": "Bradesco Saúde, site oficial (página Portfólios de Planos)",
+    "observacao": "11 páginas, com texto. Folder do Efetivo Plus (empresas a partir de 3 pessoas; coparticipação opcional de 30%; reembolso específico). Arquivo mais recente da página (21/09/2026). Sem preço e sem registro ANS."
+  }
+]

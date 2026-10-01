@@ -1,0 +1,353 @@
+{
+ "arquivo": "allcare_hapvida_pme_df_2026-07-16.pdf",
+ "sha256": "c3554f938281f0be4099f32cae442be9c419df1640e30e2b100f15c50ce79d5c",
+ "gravada_em": "2026-09-30T20:26:00+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 12.1,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 24396,
+  "saida": 5921,
+  "cache_escrita": 0,
+  "cache_leitura": 17154,
+  "usd": 0.005572,
+  "raciocinio": 1481
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "CE",
+   "DF"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "NOSSO PLANO A CE MUN CC CORP SV 420",
+    "registro_ans": "492.146/22-1",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": "MUN"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+    "registro_ans": "491.902/22-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "MUN"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+    "registro_ans": "491.898/22-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "MUN"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "+ODONTO PREMIUM NACIONAL EMP",
+    "registro_ans": "471.904/14-2",
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Com coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "NOSSO PLANO A CE MUN CC CORP SV 420",
+      "valores": [
+       136.62,
+       153.02,
+       171.37,
+       197.08,
+       226.64,
+       269.72,
+       337.14,
+       421.43,
+       716.41,
+       802.38
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+      "valores": [
+       157.12,
+       175.97,
+       197.09,
+       226.65,
+       260.65,
+       310.19,
+       387.73,
+       484.67,
+       823.94,
+       922.8
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+      "valores": [
+       235.69,
+       263.96,
+       295.64,
+       339.99,
+       390.98,
+       465.27,
+       581.59,
+       726.99,
+       1235.88,
+       1384.19
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Com coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "NOSSO PLANO A CE MUN CC CORP SV 420",
+      "valores": [
+       162.32,
+       181.69,
+       203.61,
+       234.16,
+       269.28,
+       320.43,
+       400.55,
+       500.68,
+       851.16,
+       953.3
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+      "valores": [
+       178.55,
+       199.97,
+       223.94,
+       257.54,
+       296.16,
+       352.42,
+       440.51,
+       550.63,
+       936.05,
+       1048.39
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+      "valores": [
+       267.83,
+       299.97,
+       335.96,
+       386.35,
+       444.31,
+       528.72,
+       660.89,
+       826.12,
+       1404.41,
+       1572.93
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Opcionais — +ODONTO PREMIUM NACIONAL EMP",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Valor",
+      "valores": [
+       25.44,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas — Copart. Parcial",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas — Copart. Total",
+    "regra": "Valor fixo R$ 26,47",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência — Copart. Parcial",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência — Copart. Total",
+    "regra": "Valor fixo R$ 45,44",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples — Copart. Parcial",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples — Copart. Total",
+    "regra": "40% limitado a R$ 47,70",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos — Copart. Parcial",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos — Copart. Total",
+    "regra": "40% limitado a R$ 119,25",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais — Copart. Parcial",
+    "regra": "Valor fixo R$ 82,16",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais — Copart. Total",
+    "regra": "Valor fixo R$ 82,16",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias — Copart. Parcial",
+    "regra": "Valor fixo R$ 25,28",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias — Copart. Total",
+    "regra": "Valor fixo R$ 25,28",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Carência Saúde — Urgência/Emergência",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 24 horas. Carência promocional: 24 horas."
+   },
+   {
+    "cobertura": "Carência Saúde — Consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e de Alta Complexidade (PAC – Procedimentos de Alta Complexidade), Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG))",
+    "prazo_dias": 30,
+    "observacao": "Carência contratual: 30 dias. Carência promocional: Isento."
+   },
+   {
+    "cobertura": "Carência Saúde — Procedimentos não classificados como de Alta Complexidade (PAC): exames cardiológicos simples (Teste Ergométrico, Holter, Ecocardiograma Convencional); exames oftalmológicos simples (Curva tensional, Tonometria, Campimetria, Mapeamento de retina); exames otorrinolaringológicos simples (Audiometrias e Impedanciometrias, Pesquisa de Potencial Evocado (BERA)); exames de Raio-X Contrastado; exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea",
+    "prazo_dias": 90,
+    "observacao": "Carência contratual: 90 dias. Carência promocional: 90 dias."
+   },
+   {
+    "cobertura": "Carência Saúde — Cirurgias ambulatoriais; Internação Hospitalar, clínica, cirúrgica ou obstétrica; internações em leitos de alta complexidade; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia; Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive com métodos específicos – ABA, BOBATH e outras – (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia e terapia ocupacional); todos os procedimentos não mencionados nos itens anteriores",
+    "prazo_dias": 180,
+    "observacao": "A tabela condiciona a cobertura a que os procedimentos não estejam relacionados à(s) patologia(s) para a(s) qual(is) o Beneficiário cumpre Cobertura Parcial Temporária (CPT). Carência contratual: 180 dias. Carência promocional: 180 dias."
+   },
+   {
+    "cobertura": "Carência Saúde — Parto",
+    "prazo_dias": 300,
+    "observacao": "Carência contratual: 300 dias. Carência promocional: 300 dias."
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT)",
+    "prazo_dias": null,
+    "observacao": "24 meses. Havendo informação de doença(s) ou lesão(ões) preexistente(s) pelo proponente titular e/ou dependente(s), poderá ser aplicada pela Operadora a CPT, que admite, por período ininterrupto de até 24 meses contados do início da vigência do benefício, a suspensão da cobertura de Procedimentos de Alta Complexidade (PAC), leitos de alta tecnologia e procedimentos cirúrgicos, desde que relacionados exclusivamente às doenças ou lesões preexistentes declaradas pelo beneficiário ou representante legal. A CPT não se confunde com carência contratual."
+   },
+   {
+    "cobertura": "Carência Dental — Atendimentos de urgência/emergência",
+    "prazo_dias": 1,
+    "observacao": null
+   },
+   {
+    "cobertura": "Carência Dental — Diagnóstico, Prevenção em Saúde Bucal e Dentística (Restaurações)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Carência Dental — Demais casos",
+    "prazo_dias": 180,
+    "observacao": null
+   }
+  ],
+  "elegibilidade": [
+   "Sócios",
+   "Funcionários",
+   "Administradores de empresa (estatutários)",
+   "Trabalhadores temporários",
+   "Estagiários",
+   "Menores aprendizes das empresas",
+   "Filhos(as) naturais ou adotivos solteiros até 24 anos incompletos",
+   "Enteados(as) até 24 anos incompletos",
+   "Filhos(as) PCD de qualquer idade",
+   "Tutelados(as) e menores sob guarda até 18 anos incompletos",
+   "Curatelados(as) até 24 anos incompletos"
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nesta página.",
+   "p. 1: A página informa “PME Boletado - De 01 a 29 vidas”, “Distrito Federal” e “Versão: 06.2026”.",
+   "p. 1: Aparecem os números ANS 41728-9 (sob Allcare) e 036825-3 (sob Hapvida), sem associação impressa a produtos nesta página.",
+   "p. 2: Página de menu; não há tabelas de preço nem informações de produtos, vigência, área de comercialização, elegibilidade, carências ou regras de coparticipação.",
+   "p. 3: A página não contém tabelas de preço nem informações sobre produtos de planos de saúde. Apresenta apenas diferenciais da Allcare: Clube de Vantagens, Desconto em Farmácias, Telemedicina, Desconto em exames e vacinas, Blog da Saúde, Além da Gestação (curso sobre maternidade), Bancorbrás Turismo e Podcare (o podcast de saúde da Allcare).",
+   "p. 4: A página informa “Reajuste: Junho” e “Versão: 06.2026”; não imprime datas de vigência.",
+   "p. 4: A página não informa faixa de número de vidas.",
+   "p. 4: O texto “MUN” aparece nos nomes dos produtos; foi mantido como abrangência impressa.",
+   "p. 5: A tabela de opcionais apresenta o valor de R$ 25,44 para +ODONTO PREMIUM NACIONAL EMP, sem discriminação por faixa etária; o valor foi colocado na primeira posição do campo valores por exigência do esquema.",
+   "p. 5: A página informa: cobrança de coparticipação por procedimento realizado.",
+   "p. 5: Vigência: adesão de 01 a 15 — dia 01 do primeiro mês subsequente; adesão de 16 a 31 — dia 01 do segundo mês subsequente. O vencimento segue a mesma regra e não poderá ser alterado a pedido do beneficiário.",
+   "p. 5: Área de comercialização impressa: Brasília, Águas Lindas de Goiás, Cidade Ocidental, Formosa, Novo Gama, Planaltina, Santo Antônio do Descoberto e Valparaíso de Goiás. A área de atuação consta definida na Proposta de Contratação, de acordo com o produto contratualizado.",
+   "p. 6: A página não contém tabelas de preço.",
+   "p. 6: O material informa “Versão: 06.2026”, sem indicar datas de vigência.",
+   "p. 7: A página não contém tabelas de preço.",
+   "p. 8: A página não contém tabelas de preço.",
+   "p. 8: A carência promocional para a linha de 90 dias aparece como 90 dias, e para a linha de 180 dias aparece como 180 dias.",
+   "p. 9: Página de capa, sem tabelas de preço.",
+   "p. 9: Estão impressos os números “ANS - nº 41728-9” junto ao logotipo Allcare e “ANS - nº 36825-3” junto ao logotipo Hapvida; não há registro ANS de produto impresso.",
+   "p. 9: Texto impresso: “Este material é de uso interno, destinado exclusivamente aos consultores e sujeito a alterações. Plano de Saúde Coletivo Empresarial de acordo com as Resoluções Normativas da Agência Nacional de Saúde Suplementar – ANS. REDE CREDENCIADA SUJEITA A ALTERAÇÕES PELA OPERADORA, SEM AVISO PRÉVIO. ESSE MATERIAL CONTÉM INFORMAÇÕES RESUMIDAS PREVALECENDO AS CONDIÇÕES DO CONTRATO DE ADESÃO.”"
+  ]
+ }
+}

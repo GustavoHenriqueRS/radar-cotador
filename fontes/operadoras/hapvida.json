@@ -1,0 +1,86 @@
+{
+  "operadora": {
+    "registro_ans": "368253",
+    "nome": "Hapvida",
+    "canal": "administradoras com coleta ativa: Allcare, CORPe, Safe e Affix",
+    "relatorio": "docs/operadoras/hapvida.md"
+  },
+  "fontes": [
+    {
+      "nome": "Hapvida",
+      "tipo": "pdf_operadora",
+      "url": "https://www2.hapvida.com.br/corretor",
+      "confiabilidade": 5,
+      "observacoes": "Registro ANS 368253. Sem tabela de preço pública: o material de venda fica no Conecta Corretor e no portal de vendas Planium, ambos com login. O site mostra só 'planos a partir de' e as carências do plano individual. O robots.txt de www2.hapvida.com.br libera /corretor e as páginas de planos (bloqueia /web, /w, /busca, /login).",
+      "capturas": [
+        {
+          "tipo": "caixa_email",
+          "nome": "Material enviado ao corretor (modelo)",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@hapvida.com.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Safe",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página Hapvida NotreDame (adesão RJ e SP)",
+          "ativa": true,
+          "config": {
+            "url": "https://safeadmin.com.br/produtos/hapvida/",
+            "incluir": "(?i)/wp-content/uploads/[^?]*hapvida[^/?]*\\.pdf$"
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Affix",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "wayback",
+          "nome": "Manuais do corretor Hapvida no arquivo da web",
+          "ativa": true,
+          "config": {
+            "enderecos": [
+              "https://affix.com.br/wp-content/uploads/"
+            ],
+            "incluir": "(?i)/wp-content/uploads/.*hapvida[^/]*\\.pdf$",
+            "desde": "2026",
+            "data_no_nome": "/20\\d{2}/\\d{2}(?=/)|[_-](?P<mes>\\d{2})-(?P<ano>\\d{2})[A-Z]?(?:-atualizado|-ok|-\\d)*(?=\\.pdf$)",
+            "intervalo_s": 4
+          }
+        }
+      ]
+    },
+    {
+      "nome": "CORPe Saúde",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "api_json",
+          "nome": "API de materiais (tabelas Hapvida)",
+          "ativa": true,
+          "config": {
+            "url": "https://api.corporeadministradora.com.br/api/support_material/listSupportMaterial",
+            "lista": "data",
+            "campo_url": "tables",
+            "campo_titulo": "title",
+            "incluir": "hapvida",
+            "data_no_nome": "/(?P<dia>\\d{2})\\.(?P<mes>\\d{2})\\.(?P<ano>20\\d{2})_"
+          }
+        }
+      ]
+    }
+  ]
+}

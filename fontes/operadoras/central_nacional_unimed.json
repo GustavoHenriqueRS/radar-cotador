@@ -1,0 +1,73 @@
+{
+  "operadora": {
+    "registro_ans": "339679",
+    "nome": "Central Nacional Unimed",
+    "canal": "o servidor dos PDFs não responde ao robots.txt: e-mail e parceria",
+    "relatorio": "docs/operadoras/central_nacional_unimed.md"
+  },
+  "fontes": [
+    {
+      "nome": "Unimed CNU",
+      "tipo": "pdf_operadora",
+      "url": "https://unimedcnu.coop.br/web/guest/portal-pme",
+      "confiabilidade": 5,
+      "observacoes": "Central Nacional Unimed, registro ANS 339679 (não confundir com as Unimeds singulares). O Portal Corretor PME é público e lista tabela, manual e portfólio de 7 praças, mas os PDFs ficam em comunicados.centralnacionalunimed.com.br, cujo robots.txt responde 504: pela RFC 9309 e pelo Http do projeto isso vale como proibição até o arquivo responder. robots.txt de unimedcnu.coop.br libera tudo.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Portal Corretor PME (tabelas por praça)",
+          "ativa": false,
+          "config": {
+            "url": "https://unimedcnu.coop.br/web/guest/portal-pme",
+            "incluir": "(?i)comunicados\\.centralnacionalunimed\\.com\\.br/.*Tabela_de_Precos[^/]*\\.pdf$"
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Material enviado ao corretor (modelo)",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@unimedcnu.coop.br",
+              "@unimednacional.coop.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Allcare",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Tabelas CNU PME fora da página de materiais (2022-2023)",
+          "ativa": false,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_df.pdf",
+                "titulo": "Unimed CNU PME - Brasília e Entorno (maio/2022)"
+              },
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_salvador_ba.pdf",
+                "titulo": "Unimed CNU PME - Salvador (junho/2023)"
+              },
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_feira_saj_ba.pdf",
+                "titulo": "Unimed CNU PME - Feira de Santana e Santo Antônio de Jesus (maio/2022)"
+              },
+              {
+                "url": "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/tabela_cnu_pme_ilheus_itabuna_ba.pdf",
+                "titulo": "Unimed CNU PME - Ilhéus e Itabuna"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

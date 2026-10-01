@@ -1,0 +1,590 @@
+{
+ "arquivo": "safe_unimed_jundiai_adesao_sp_2026-08.pdf",
+ "sha256": "53a10003afeef92cfec2c3ae79fd7994ac6a8f6f53b8da6ddff9ff71da392cc2",
+ "gravada_em": "2026-09-30T21:03:39+00:00",
+ "esforco": "low",
+ "paginas": 14,
+ "segundos": 8.3,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 16007,
+  "saida": 7268,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.03926,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed Jundiaí",
+  "administradora": "Safe",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "SP"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Flex Ideal Adesão",
+    "registro_ans": "476.696/16-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Com obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Flex Ideal Adesão",
+    "registro_ans": "476.696/16-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Com obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Unimed Fácil Adesão Ideal",
+    "registro_ans": "500.788/24-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial e hospitalar com obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Unimed Fácil Adesão Plus",
+    "registro_ans": "500.786/24-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial e hospitalar com obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Clássico II Regional Enfermaria",
+    "registro_ans": "503.311/25-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial e hospitalar sem obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Clássico II Regional Apartamento",
+    "registro_ans": "503.312/25-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial e hospitalar sem obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p5.P5",
+    "nome": "Clássico II Estadual Enfermaria",
+    "registro_ans": "503.306/25-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial e hospitalar sem obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p5.P6",
+    "nome": "Clássico II Estadual Apartamento",
+    "registro_ans": "503.307/25-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial e hospitalar sem obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Unimed Fácil",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "Clássico II",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços - Planos com obstetrícia | Flex Ideal Adesão • Reajuste: Julho 2027",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Flex Ideal Adesão 476.696/16-2 Enfermaria",
+      "valores": [
+       195.95,
+       225.32,
+       258.62,
+       297.81,
+       342.89,
+       397.76,
+       480.07,
+       625.09,
+       844.57,
+       1173.77
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Flex Ideal Adesão 476.696/16-4 Apartamento",
+      "valores": [
+       250.83,
+       288.41,
+       331.02,
+       381.18,
+       438.92,
+       509.15,
+       614.49,
+       800.1,
+       1081.04,
+       1502.42
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços - Planos com obstetrícia | Unimed Fácil • Reajuste: Julho 2027",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Unimed Fácil Adesão Ideal 500.788/24-7 Enfermaria",
+      "valores": [
+       156.19,
+       179.62,
+       206.16,
+       237.4,
+       273.32,
+       317.05,
+       382.64,
+       498.23,
+       673.18,
+       935.59
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Unimed Fácil Adesão Plus 500.786/24-1 Apartamento",
+      "valores": [
+       221.27,
+       254.47,
+       292.08,
+       336.33,
+       387.22,
+       449.17,
+       542.1,
+       705.88,
+       953.71,
+       1325.47
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços - Planos sem obstetrícia | Clássico II Regional e Estadual • Reajuste: Julho 2027",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "nao_informado",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P3",
+      "coluna": "503.311/25-0 Regional Enfermaria",
+      "valores": [
+       265.98,
+       305.87,
+       351.08,
+       404.27,
+       465.43,
+       539.9,
+       651.61,
+       848.46,
+       1146.35,
+       1593.2
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "503.312/25-8 Regional Apartamento",
+      "valores": [
+       345.77,
+       397.64,
+       456.41,
+       525.55,
+       605.07,
+       701.88,
+       847.1,
+       1103.0,
+       1490.27,
+       2071.18
+      ]
+     },
+     {
+      "produto_id": "p5.P5",
+      "coluna": "503.306/25-3 Estadual Enfermaria",
+      "valores": [
+       310.03,
+       356.53,
+       409.22,
+       471.22,
+       542.52,
+       629.32,
+       759.53,
+       988.98,
+       1336.21,
+       1857.07
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "503.307/25-1 Estadual Apartamento",
+      "valores": [
+       402.9,
+       463.33,
+       531.82,
+       612.38,
+       705.04,
+       817.85,
+       987.06,
+       1285.25,
+       1736.5,
+       2413.39
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas eletivas (consultório)",
+    "regra": "R$ 35,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Urgência/emergência (pronto-socorro)",
+    "regra": "R$ 45,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples (Grupo 2)",
+    "regra": "30% - limite de R$ 30,00 por procedimento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais (Grupo 1)",
+    "regra": "30% - limite de R$ 100,00 por procedimento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples (Grupo 2)",
+    "regra": "30% - limite de R$ 50,00 por sessão",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias especiais (Grupo 1)",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Atendimentos realizados em nível ambulatorial",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Internações eletivas e de urgência/emergência",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias Isentas",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples",
+    "regra": "40% do valor de cada terapia, com limite de R$ 60,00 por sessão",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias de alta complexidade",
+    "regra": "Isento",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Internações eletivas e de urgência/emergência",
+    "regra": "Isento, exceto regra de internação psiquiátrica",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação psiquiátrica",
+    "regra": "Coparticipação de 50% a partir da 31ª diária, observados os limites regulatórios",
+    "produtos": [
+     "p6.P2"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Urgência e Emergência (Carência ANS)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Consultas eletivas (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames simples (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames Especiais (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames de alta complexidade - PAC (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapia Simples (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias de alta complexidade - PAC (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações clínicas, cirúrgicas e UTIs (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Procedimentos ambulatoriais (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações Psiquiatrias (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Transplantes (Carência ANS)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Partos a termo (Carência ANS)",
+    "prazo_dias": 300,
+    "observacao": null
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária – CPT (Carência ANS)",
+    "prazo_dias": 730,
+    "observacao": null
+   },
+   {
+    "cobertura": "Urgência e Emergência (Sem Plano Anterior)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Consultas eletivas (Sem Plano Anterior)",
+    "prazo_dias": 15,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames simples (Sem Plano Anterior)",
+    "prazo_dias": 15,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames Especiais (Sem Plano Anterior)",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames de alta complexidade - PAC (Sem Plano Anterior)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapia Simples (Sem Plano Anterior)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias de alta complexidade - PAC (Sem Plano Anterior)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações clínicas, cirúrgicas e UTIs (Sem Plano Anterior)",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Procedimentos ambulatoriais (Sem Plano Anterior)",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações Psiquiatrias (Sem Plano Anterior)",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Transplantes (Sem Plano Anterior)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Partos a termo (Sem Plano Anterior)",
+    "prazo_dias": 300,
+    "observacao": null
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária – CPT (Sem Plano Anterior)",
+    "prazo_dias": 730,
+    "observacao": null
+   },
+   {
+    "cobertura": "Urgência e Emergência (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Consultas eletivas (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Exames simples (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Exames Especiais (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 1,
+    "observacao": "24 Horas"
+   },
+   {
+    "cobertura": "Exames de alta complexidade - PAC (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapia Simples (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 120,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias de alta complexidade - PAC (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações clínicas, cirúrgicas e UTIs (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Procedimentos ambulatoriais (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações Psiquiatrias (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Transplantes (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Partos a termo (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 300,
+    "observacao": null
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária – CPT (Com mais de 12 meses no plano anterior)",
+    "prazo_dias": 730,
+    "observacao": null
+   }
+  ],
+  "elegibilidade": [
+   "Coletivo por adesão vinculado às entidades de classe informadas. Titular: Deve estar vinculado à respectiva entidade de classe.",
+   "Cônjuge: Permitido.",
+   "Companheiro(a): Permitido, havendo união estável na forma da lei civil, devidamente comprovada, sem eventual concorrência com cônjuge.",
+   "Filho(a) solteiro(a) natural ou adotivo: Permitido até 40 anos de idade, conforme arquivo Sami. Consta até 40 anos, 11 meses e 29 dias.",
+   "Enteado(a) solteiro(a): Permitido até 64 anos, 11 meses e 29 dias.",
+   "Menor solteiro(a) sob guarda ou tutela: Permitido quando, por força judicial, estiver sob guarda ou tutela do beneficiário titular.",
+   "ABREC: COMERCIANTE - Sócios ou proprietários de empresas do ramo do Comércio e Serviços filiados à ABREC (Taxa: R$ 5,00 mês)",
+   "ACOMSESP: COMERCIÁRIO - Trabalhadores de empresas do Comércio, Indústria e Serviços filiados à ACOMSESP (Taxa: R$ 3,00 mês)",
+   "SIPESP: POLÍCIA CIVIL - Investigadores de Polícia e das Carreiras de Policiais Congêneres filiados ao SIPESP (Taxa: Consultar Entidade)",
+   "UCE: ESTUDANTE - Ensino fundamental (a partir de 10 anos), Médio e Superior Filiados a UCE (Taxa: R$ 3,50 mês)",
+   "ABRAINF: PROFISSIONAL DE INFORMATICA - Com formação técnica ou formação superior em tecnologia da informação, filiados à ABRAINF (Taxa: R$ 5,00 mês)",
+   "CAB: ADVOGADOS - Advogados filiados à CAB (Taxa: R$ 5,00 mês)"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é capa comercial do material de vendas, sem tabelas de preços, produtos detalhados ou informações de vigência.",
+   "p. 2: A página 2 (página 1 do arquivo) é uma tela de menu/sumário com links de navegação e não contém tabelas de preços, produtos ou regras comerciais.",
+   "p. 3: Página institucional com diferenciais comerciais da administradora Safe Admin, sem tabelas de preços, produtos específicos ou dados cadastrais de planos.",
+   "p. 4: A página menciona 'Reajuste: Julho 2027'.",
+   "p. 6: A página contém apenas regras e observações de coparticipação para os planos Unimed Fácil e Clássico II, sem tabelas de preços.",
+   "p. 7: A página 7 não contém tabelas de preços, contendo apenas tabelas de vigência, vencimento, carências e regras de redução de carências.",
+   "p. 8: A página 8 contém apenas informações sobre área de comercialização e regras de admissão/elegibilidade, sem tabelas de preços.",
+   "p. 10: A página contém apenas a listagem da rede credenciada de hospitais, sem tabelas de preços de planos de saúde.",
+   "p. 11: A página 11 não contém tabelas de preços, produtos ou regras de carência/coparticipação; trata-se exclusivamente de uma listagem de rede credenciada (Clínica e Tipo de Atendimento em Jundiaí).",
+   "p. 12: A página 12 contém apenas a rede credenciada de clínicas e tipos de atendimento por município, sem tabelas de preços, valores ou carências.",
+   "p. 13: A página contém apenas a relação da rede credenciada (clínicas e laboratórios) e legendas de atendimento, não contendo tabelas de preços de planos de saúde.",
+   "p. 14: Página de contracapa sem tabelas de preços, produtos ou regras comerciais."
+  ]
+ }
+}

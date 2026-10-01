@@ -1,0 +1,39 @@
+{
+  "fontes": [
+    {
+      "nome": "Allcare",
+      "tipo": "pdf_administradora",
+      "url": "https://www.corretorallcare.com.br/materiais-de-vendas",
+      "confiabilidade": 4,
+      "observacoes": "56 tabelas públicas por UF; robots.txt permite; nome do arquivo traz a data da versão.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Página de materiais de venda",
+          "ativa": true,
+          "config": {
+            "url": "https://www.corretorallcare.com.br/materiais-de-vendas",
+            "atributos": [
+              "data-url",
+              "href"
+            ],
+            "titulo": "data-titulo",
+            "incluir": "/arquivos/(pdf/)?tabelas/.*\\.pdf$"
+          }
+        },
+        {
+          "tipo": "wayback",
+          "nome": "Histórico no arquivo da web",
+          "ativa": false,
+          "config": {
+            "enderecos": [
+              "https://www.corretorallcare.com.br/arquivos/pdf/tabelas/"
+            ],
+            "somente_series_conhecidas": true,
+            "intervalo_s": 4
+          }
+        }
+      ]
+    }
+  ]
+}

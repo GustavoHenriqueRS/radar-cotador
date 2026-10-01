@@ -1,0 +1,313 @@
+{
+ "arquivo": "allcare_hapvida_adesao_df_2026-07-16.pdf",
+ "sha256": "427bd3bc0f79f74d5e69bc7c8375f447a6d45660996752a0408edd9f9430e8eb",
+ "gravada_em": "2026-09-30T20:25:48+00:00",
+ "esforco": "low",
+ "paginas": 10,
+ "segundos": 12.2,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 31224,
+  "saida": 6508,
+  "cache_escrita": 0,
+  "cache_leitura": 19060,
+  "usd": 0.006567,
+  "raciocinio": 1419
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF",
+   "GO"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "AMBULATORIAL*",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P2",
+    "nome": "AMB + HOSP + OBST",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P3",
+    "nome": "AMB + HOSP + OBST",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Com coparticipação Parcial — NOSSO PLANO + ODONTO — Com Odonto*",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [
+     "Odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "AMBULATORIAL*",
+      "valores": [
+       157.94,
+       207.83,
+       236.85,
+       264.16,
+       277.97,
+       312.01,
+       381.43,
+       528.83,
+       712.71,
+       925.48
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "AMB + HOSP + OBST — Enfermaria",
+      "valores": [
+       259.7,
+       335.75,
+       382.8,
+       426.09,
+       446.29,
+       501.44,
+       606.92,
+       829.16,
+       1111.65,
+       1438.53
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "AMB + HOSP + OBST — Apartamento",
+      "valores": [
+       378.54,
+       492.62,
+       563.2,
+       628.14,
+       658.44,
+       741.17,
+       899.37,
+       1232.75,
+       1656.5,
+       2146.83
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Com coparticipação Total — NOSSO PLANO + ODONTO — Com Odonto*",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [
+     "Odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "AMBULATORIAL*",
+      "valores": [
+       124.09,
+       163.05,
+       185.71,
+       207.03,
+       217.82,
+       244.4,
+       298.61,
+       413.71,
+       557.29,
+       723.44
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "AMB + HOSP + OBST — Enfermaria",
+      "valores": [
+       207.65,
+       267.04,
+       303.79,
+       337.59,
+       353.37,
+       396.44,
+       478.81,
+       652.37,
+       872.99,
+       1128.28
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "AMB + HOSP + OBST — Apartamento",
+      "valores": [
+       300.46,
+       389.55,
+       444.67,
+       495.39,
+       519.06,
+       583.67,
+       707.22,
+       967.58,
+       1298.52,
+       1681.46
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "Valor fixo R$ 25,42",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "Valor fixo R$ 43,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "40,00% Limitado a R$ 45,79",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40,00% Limitado a R$ 114,48",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais",
+    "regra": "Valor fixo R$ 78,87",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias",
+    "regra": "Valor fixo R$ 24,27",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações",
+    "regra": "-",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Saúde — Garantia de cobertura para atendimentos decorrentes de acidentes pessoais, ocorridos comprovadamente a partir da vigência do Contrato; demais condições de atendimento para urgência/emergência conforme cláusula de Urgência/Emergência, em conformidade com a Consu nº 13/1998.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 24 horas. Carência promocional: 24 horas."
+   },
+   {
+    "cobertura": "Saúde — Consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e PAC), Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG).",
+    "prazo_dias": 30,
+    "observacao": "Carência contratual: 30 dias. Carência promocional: Isento."
+   },
+   {
+    "cobertura": "Saúde — Exames cardiológicos simples (Teste Ergométrico, Holter, Ecocardiograma Convencional); exames oftalmológicos simples (Curva tensional, Tonometria, Campimetria, Mapeamento de retina); exames otorrinolaringológicos simples (Audiometrias e Impedanciometria, Pesquisa de Potencial Evocado (BERA)); exames de Raio-X Contrastado; exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Carência contratual: 90 dias. Carência promocional: 90 dias."
+   },
+   {
+    "cobertura": "Saúde — Cirurgias ambulatoriais; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia, e todos os procedimentos não mencionados nos itens anteriores; Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive com métodos específicos – ABA, BOBATH e outras – (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia e terapia ocupacional).",
+    "prazo_dias": 180,
+    "observacao": "Carência contratual: 180 dias. Carência promocional: 180 dias."
+   },
+   {
+    "cobertura": "Saúde — Partos a termo.",
+    "prazo_dias": 300,
+    "observacao": "Carência contratual: 300 dias. Carência promocional: 300 dias."
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT): suspensão da cobertura de Procedimentos de Alta Complexidade (PAC), leitos de alta tecnologia e procedimentos cirúrgicos, desde que relacionados exclusivamente às doenças ou lesões preexistentes declaradas.",
+    "prazo_dias": null,
+    "observacao": "Até 24 meses, por período ininterrupto. A CPT não se confunde com carência contratual."
+   },
+   {
+    "cobertura": "Dental — Atendimentos decorrentes de urgência/emergência.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 24 horas."
+   },
+   {
+    "cobertura": "Dental — Procedimentos odontológicos das especialidades de Diagnóstico, Prevenção em Saúde Bucal e Dentística (restaurações).",
+    "prazo_dias": 60,
+    "observacao": "Carência contratual: 60 dias."
+   },
+   {
+    "cobertura": "Dental — Demais procedimentos odontológicos, não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Carência contratual: 180 dias."
+   }
+  ],
+  "elegibilidade": [
+   "Titulares devem ter vínculo associativo com a Entidade Classista, comprovado por documentação.",
+   "Contratação a partir de 5 anos de idade.",
+   "Para menores de 17 anos completos, é facultada a inclusão como dependentes dos pais (pai/mãe) e irmãos.",
+   "A partir de 18 anos, podem ser incluídos como dependentes: cônjuge ou companheiro(a); enteados e filhos naturais ou adotivos solteiros até 24 anos incompletos, ou de qualquer idade se PCD em caráter permanente, mediante comprovação da incapacidade; tutelados, curatelados ou menores sob guarda nos limites etários indicados no documento; pai/mãe; irmãos até 24 anos incompletos, sem idade mínima; tios; sobrinhos de 5 a 24 anos incompletos.",
+   "Tios(as) e sobrinhos(as) consanguíneos não são aceitos nas entidades estudantis. Pai, mãe e irmãos menores solteiros são aceitos sem idade mínima.",
+   "Associação do Estudante do Brasil: estudante cursando Ensino Fundamental, Médio, Superior, Pós-graduação, Mestrados, Sequenciais, Supletivo, Educação a distância, Cursos de Ensino Técnico e Profissionalizante, Pré-vestibular, Educação de Jovens e Adultos. Comprovação: comprovante de vínculo com a entidade; documento comprobatório da matrícula do estudante em instituições de ensino reconhecidas pelo MEC; estudantes titulares a partir de 5 anos, desde que matriculados no ensino infantil. Estudante com idade inferior a 18 anos poderá eleger pai, mãe e irmãos, sem limite de idade, como dependentes. Se tiver 18 anos ou mais, poderão ser incluídos como dependentes cônjuge ou companheiro(a), enteados e filhos naturais ou adotivos solteiros até 24 anos incompletos, ou de qualquer idade se inválidos física ou mentalmente em caráter permanente mediante comprovação; filhos inválidos de qualquer idade; tutelados/curatelados e menor sob guarda com respectivo termo, nos limites etários até 21 anos incompletos, conforme Código Civil e ECA. Comprovação: vínculo com a entidade e matrícula em instituição reconhecida pelo MEC.",
+   "Associação nacional dos Consultores Empresariais Profissionais Liberais e Autônomos: público elegível, profissional liberal. Profissões listadas: Advogado, Administrador, Aeronauta, Agrônomo, Anestesista, Arquiteto, Arquivista, Artista, Assistente Social, Atleta Profissional, Atuário, Auditores Independentes, Autônomos, Bibliotecário, Biólogo, Biomédico, Cinema Áudio Visual, Cinema e Mídias Digitais, Comércio Exterior, Comunicação Social, Contabilista, Corretor de Seguros de Imóveis, Desenhista Industrial, Designer, Despachante Aduaneiro, Economista, Engenheiro, Estatístico, Farmacêutico, Filósofo, Físico, Fisioterapeuta, Fonoaudiólogo, Fotógrafo, Gastrônomo, Geógrafo, Geólogo, Gráficos, Historiador, Jornalista, Letras, Logística, Marketing, Matemático, Médico, Músico, Nutricionista, Odontólogo, Pedagogo, Professor, Profissional de Educação Física, Profissional de Enfermagem (Enfermeiro, Técnico e Auxiliar), Profissional de Finanças, Profissional da Tecnologia da Informação, Profissional de Recursos Humanos, Profissional da Saúde, Profissional de Segurança no Trabalho, Profissional de Segurança Privada, Profissional de Seguros, Profissional de Hotelaria e Turismo, Profissionais com Formação Técnica, Técnico em Contabilidade, Técnico em Informática, Técnico em Radiologia, Técnico Industrial, Técnico Laboratorial, Técnico de Radiologia, Protéticos, Psicólogo, Psicoterapeuta, Publicitário, Químico, Radialista, TV e INTERNET, Relações Públicas e Internacionais, Representante Comercial, Secretário, Sociólogo, Tecnólogo, Tradutores, Urbanista e veterinário. Comprovação: comprovante de vínculo com a entidade; para autônomos, comprovante de vínculo com a entidade e declaração de autônomo; cópia simples do diploma (frente e verso), ou certificado/declaração de conclusão de curso, ou carteira do conselho regional, ou certificado de pagamento de anuidade do conselho regional, ou comprovante de inscrição no conselho regional. Representante comercial autônomo deverá apresentar carteirinha do CORE.",
+   "União Nacional de Assistência aos Servidores Federais, Estaduais e Municipais: servidor público municipal, estadual e federal. Comprovação: comprovante de vínculo com a entidade; holerite atual ou com menos de 60 dias, carteira funcional ativa ou nomeação no diário oficial, comprovando vínculo CLT ou estatutário com órgãos públicos.",
+   "Associação dos Funcionários das Empresas do Comércio de Bens e Serviços do Brasil: profissional que atua como representante ou empregado no comércio de bens e serviços correlatos ao setor comercial. Comprovação: vínculo com a entidade e contracheque com até 90 dias, carteira profissional, contrato de trabalho, contrato social ou firma individual (CEI, MEI, Req. Empresário Individual). Associações privadas ou indústrias, independentemente do CNAE, não são elegíveis."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nem produtos identificados. A página informa “Versão: 05.2026” e exibe “ANS - nº41728-9” junto ao logotipo Allcare e “ANS - nº36825-3” junto ao logotipo Hapvida.",
+   "p. 2: A página contém apenas um menu de navegação; não há tabelas de preços nem informações sobre vigência, cobertura, elegibilidade ou condições do plano.",
+   "p. 3: A página apresenta diferenciais da Allcare, mas não contém tabelas de preço nem outras informações de contratação.",
+   "p. 4: A página apresenta duas tabelas, identificadas como coparticipação Parcial e Total; não informa quantidade mínima ou máxima de vidas.",
+   "p. 4: O material informa: Proteção Odontológica CA — Registro ANS 485.365/20-2, disponível somente para o plano Ambulatorial; Odonto Premium adesão — Registro ANS 476.835/16-3, disponível somente para os planos Enfermaria/Apartamento. A cobertura indicada é somente Urgência/Emergência e Consultas Eletivas.",
+   "p. 4: Reajuste: Fevereiro.",
+   "p. 5: A página contém tabelas de coparticipação, não tabelas de preço.",
+   "p. 5: A observação impressa para ambas as modalidades é: Cobrança de coparticipação por procedimento realizado.",
+   "p. 5: A área de atuação impressa é Brasília/DF e Entorno do DF: Águas Lindas de Goiás, Cidade Ocidental, Formosa, Novo Gama, Planaltina, Santo Antônio do Descoberto e Valparaíso de Goiás.",
+   "p. 5: A página também informa as regras de vigência por data de adesão: de 01 a 10, vigência dia 01 do mês subsequente e vencimento todo dia 01; de 11 a 20, vigência dia 10 do mês subsequente e vencimento todo dia 10; de 21 a 30, vigência dia 20 do mês subsequente e vencimento todo dia 20.",
+   "p. 6: A página não contém tabelas de preço.",
+   "p. 6: A CPT está indicada como 24 meses; o prazo não foi convertido para dias.",
+   "p. 7: A página não apresenta tabelas de preço.",
+   "p. 8: Página de elegibilidade; não há tabelas de preço, regras de coparticipação ou carências impressas. A versão indicada no rodapé é 05.2026.",
+   "p. 9: A página não contém tabelas de preço.",
+   "p. 9: O material indica versão 05.2026; não há datas de vigência impressas.",
+   "p. 10: Página de encerramento institucional; não há tabelas de preço nem nomes de produtos impressos.",
+   "p. 10: A página apresenta “ANS - nº41728-9” junto ao logotipo Allcare e “ANS - nº36825-3” junto ao logotipo Hapvida; não são números de registro de produto."
+  ]
+ }
+}

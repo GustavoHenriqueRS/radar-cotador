@@ -1,0 +1,147 @@
+{
+  "operadora": {
+    "registro_ans": "006246",
+    "nome": "SulAmérica Saúde",
+    "canal": "condições no site; preço pela Qualicorp, que bloqueia robôs: e-mail e parceria",
+    "relatorio": "docs/operadoras/sulamerica_saude.md"
+  },
+  "fontes": [
+    {
+      "nome": "SulAmérica Saúde",
+      "tipo": "site_operadora",
+      "url": "https://portal.sulamericaseguros.com.br/para-empresa/saude/planos-nacionais/",
+      "confiabilidade": 5,
+      "observacoes": "O portal e sulamerica.com.br (robots.txt só veda /convite/, /cp/, /emkt/ e /relatorioanual2007/) publicam condições gerais, tabelas de coparticipação e exemplos de reembolso, sem tabela de preço. Preço só no Saúde Cotador (login), nas administradoras ou por e-mail ao corretor.",
+      "capturas": [
+        {
+          "tipo": "pagina_publica",
+          "nome": "Documentos do PME (3 a 29 vidas)",
+          "ativa": true,
+          "config": {
+            "url": "https://portal.sulamericaseguros.com.br/para-empresa/saude/planos-nacionais/",
+            "incluir": "(?i)(coparticipa|reembolso|_CG(_|%20)|plano_referencia)[^/]*\\.pdf$",
+            "excluir": "(?i)/vida/|viagem|odonto"
+          }
+        },
+        {
+          "tipo": "pagina_publica",
+          "nome": "Documentos do PME Mais (30 a 99 vidas)",
+          "ativa": true,
+          "config": {
+            "url": "https://portal.sulamericaseguros.com.br/para-empresa/saude/planos-nacionais/sulamerica-saude-pme-mais-30-a-99-pessoas/",
+            "incluir": "(?i)(coparticipa|reembolso|_CG(_|%20)|plano_referencia)[^/]*\\.pdf$",
+            "excluir": "(?i)/vida/|viagem|odonto"
+          }
+        },
+        {
+          "tipo": "url_direta",
+          "nome": "Tabelas de coparticipação e reembolso em endereço fixo",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_PME_I.pdf",
+                "titulo": "Tabela de Coparticipação PME I"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_PME.pdf",
+                "titulo": "Tabela de Coparticipação PME"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_PME_MAIS_.pdf",
+                "titulo": "Tabela de Coparticipação PME Mais"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_Adesao_I.pdf",
+                "titulo": "Tabela de Coparticipação Adesão I"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Tabela_de_Coparticipacao_Adesao.pdf",
+                "titulo": "Tabela de Coparticipação Adesão"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Exemplos_de_Reembolso_Saude.pdf",
+                "titulo": "Exemplos de reembolso SulAmérica Saúde"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "url_direta",
+          "nome": "Folhetos de apoio às vendas",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://www.sulamerica.com.br/saude/Folheto.Apoio.Vendas.PME.pdf",
+                "titulo": "Folheto de apoio às vendas PME"
+              },
+              {
+                "url": "https://www.sulamerica.com.br/saude/Folheto.Apoio.Vendas.PMEMais.pdf",
+                "titulo": "Folheto de apoio às vendas PME Mais"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "wayback",
+          "nome": "Histórico das tabelas de coparticipação e folhetos",
+          "ativa": false,
+          "config": {
+            "enderecos": [
+              "https://www.sulamerica.com.br/saude/"
+            ],
+            "incluir": "(?i)/saude/(Tabela[_-]de[_-]Coparticipacao|Folheto\\.Apoio\\.Vendas)[^/]*\\.pdf$",
+            "desde": "2023",
+            "somente_series_conhecidas": true,
+            "intervalo_s": 4
+          }
+        },
+        {
+          "tipo": "caixa_email",
+          "nome": "Tabelas enviadas ao corretor",
+          "ativa": false,
+          "config": {
+            "servidor": "imap.exemplo.com.br",
+            "usuario": "tabelas@cotador.exemplo",
+            "senha_env": "COLETA_EMAIL_SENHA",
+            "remetentes": [
+              "@sulamerica.com.br"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Qualicorp",
+      "tipo": "pdf_administradora",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "SulAmérica adesão SP na página da CAASP",
+          "ativa": true,
+          "config": {
+            "urls": [
+              {
+                "url": "https://caasp.qualicorp.com.br/QUALIPRO_SAS_SP_F_23_NP.pdf",
+                "titulo": "QualiPRO SulAmérica São Paulo OUT/2023 (validade setembro/2023 a agosto/2024)"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "url_direta",
+          "nome": "SulAmérica adesão SP em tabelasdevendas",
+          "ativa": false,
+          "config": {
+            "urls": [
+              "https://tabelasdevendas.qualicorp.com.br/tabelas/QUALIPRO_SAS_SP_A_25_NP_AN_001.pdf",
+              "https://tabelasdevendas.qualicorp.com.br/tabelas/QUALIPRO_SAS_SP_F_25_NP_AN_002_NEW.pdf",
+              "https://tabelasdevendas.qualicorp.com.br/tabelas/QUALIPRO_SAS_506_SP_F_25_NP.pdf"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

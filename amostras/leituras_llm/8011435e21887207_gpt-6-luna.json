@@ -1,0 +1,516 @@
+{
+ "arquivo": "allcare_unimed_bh_adesao_mg_2026-09-08.pdf",
+ "sha256": "8011435e218872071aaf6fe23bc84677b85f4a1f747a02c901dba68390620372",
+ "gravada_em": "2026-09-30T20:26:36+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 18.2,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 27435,
+  "saida": 7213,
+  "cache_escrita": 0,
+  "cache_leitura": 17154,
+  "usd": 0.006522,
+  "raciocinio": 1915
+ },
+ "leitura": {
+  "operadora": "Unimed Belo Horizonte",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "MG"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Unifácil Flex",
+    "registro_ans": "459.579/09-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Unipart Flex",
+    "registro_ans": "459.619/09-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Unipart Flex",
+    "registro_ans": "459.576/09-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "Unipart Flex",
+    "registro_ans": "459.443/09-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P5",
+    "nome": "Unipart Flex",
+    "registro_ans": "459.445/09-2",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P6",
+    "nome": "Unimax",
+    "registro_ans": "459.581/09-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P7",
+    "nome": "Unimax",
+    "registro_ans": "459.624/09-2",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p4.P8",
+    "nome": "Unimax",
+    "registro_ans": "459.430/09-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P9",
+    "nome": "Unimax",
+    "registro_ans": "459.826/09-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Unifácil Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Unipart Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Odontologia Unimed — Odonto Estendido",
+    "registro_ans": "459.819/09-9",
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Odontológico — Odontoprev",
+    "registro_ans": "460.367/09-2",
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P1",
+    "nome": "Unifácil Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P2",
+    "nome": "Unipart Flex",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p8.P3",
+    "nome": "Unimax",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Regional — Enfermaria",
+      "valores": [
+       206.26,
+       247.52,
+       306.93,
+       380.55,
+       426.23,
+       443.27,
+       558.5,
+       636.71,
+       757.71,
+       1235.04
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Regional — Enfermaria",
+      "valores": [
+       288.04,
+       345.61,
+       428.62,
+       531.47,
+       595.22,
+       619.03,
+       779.99,
+       889.17,
+       1058.14,
+       1724.74
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Regional — Apartamento",
+      "valores": [
+       388.85,
+       466.61,
+       578.59,
+       717.46,
+       803.57,
+       835.71,
+       1052.99,
+       1200.39,
+       1428.48,
+       2328.42
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Estadual — Enfermaria",
+      "valores": [
+       331.05,
+       397.32,
+       492.66,
+       610.89,
+       684.19,
+       711.57,
+       896.59,
+       1022.1,
+       1216.29,
+       1982.55
+      ]
+     },
+     {
+      "produto_id": "p4.P5",
+      "coluna": "Estadual — Apartamento",
+      "valores": [
+       446.89,
+       536.26,
+       664.95,
+       824.57,
+       923.53,
+       960.44,
+       1210.15,
+       1379.6,
+       1641.72,
+       2675.96
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P6",
+      "coluna": "Regional — Enfermaria",
+      "valores": [
+       543.88,
+       652.67,
+       809.3,
+       1003.57,
+       1123.97,
+       1168.94,
+       1472.87,
+       1679.08,
+       1998.12,
+       3256.86
+      ]
+     },
+     {
+      "produto_id": "p4.P7",
+      "coluna": "Regional — Apartamento",
+      "valores": [
+       734.27,
+       881.11,
+       1092.57,
+       1354.8,
+       1517.36,
+       1578.08,
+       1988.36,
+       2266.74,
+       2697.43,
+       4396.79
+      ]
+     },
+     {
+      "produto_id": "p4.P8",
+      "coluna": "Estadual — Enfermaria",
+      "valores": [
+       603.93,
+       724.71,
+       898.68,
+       1114.37,
+       1248.08,
+       1298.01,
+       1635.49,
+       1864.47,
+       2219.01,
+       3616.49
+      ]
+     },
+     {
+      "produto_id": "p4.P9",
+      "coluna": "Estadual — Apartamento",
+      "valores": [
+       815.29,
+       978.36,
+       1213.17,
+       1504.33,
+       1684.83,
+       1752.25,
+       2207.85,
+       2516.95,
+       2995.14,
+       4882.13
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Telemedicina (atendimento online com clínico geral e pediatra)",
+    "regra": "sem coparticipação",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Médicas em Consultório — Unifácil Flex, Rede Preferencial, Enfermaria",
+    "regra": "Valor fixo: R$ 72,52",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas em Consultório — Unifácil Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 72,52",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas em Consultório — Unipart Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 72,52",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas em Consultório — Unipart Flex, Rede Ampla, Apartamento",
+    "regra": "Valor fixo: R$ 72,52",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas de Urgência e Emergência - PA — Unifácil Flex, Rede Preferencial, Enfermaria",
+    "regra": "Valor fixo: R$ 85,53",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas de Urgência e Emergência - PA — Unifácil Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 90,59",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas de Urgência e Emergência - PA — Unipart Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 90,59",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas de Urgência e Emergência - PA — Unipart Flex, Rede Ampla, Apartamento",
+    "regra": "Valor fixo: R$ 90,59",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias (diálise, quimioterapia, radioterapia, transfusão) — Unifácil Flex, Rede Preferencial, Enfermaria",
+    "regra": "Valor fixo: R$ 0,00",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias (diálise, quimioterapia, radioterapia, transfusão) — Unifácil Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 0,00",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias (diálise, quimioterapia, radioterapia, transfusão) — Unipart Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 0,00",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias (diálise, quimioterapia, radioterapia, transfusão) — Unipart Flex, Rede Ampla, Apartamento",
+    "regra": "Valor fixo: R$ 0,00",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação — Unifácil Flex, Rede Preferencial, Enfermaria",
+    "regra": "Valor fixo: R$ 174,10",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Internação — Unifácil Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 212,98",
+    "produtos": [
+     "p5.P1"
+    ]
+   },
+   {
+    "procedimento": "Internação — Unipart Flex, Rede Ampla, Enfermaria",
+    "regra": "Valor fixo: R$ 212,98",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação — Unipart Flex, Rede Ampla, Apartamento",
+    "regra": "Valor fixo: R$ 427,67",
+    "produtos": [
+     "p5.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames e terapias de coparticipação reduzida — Rede Preferencial",
+    "regra": "50%, máximo R$ 67,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames e terapias de coparticipação reduzida — Rede Ampla",
+    "regra": "50%, máximo R$ 67,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames e terapias de coparticipação diferenciada — Rede Preferencial",
+    "regra": "50%, máximo R$ 202,86",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames e terapias de coparticipação diferenciada — Rede Ampla",
+    "regra": "50%, máximo R$ 202,86",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de coparticipação reduzida — Rede Preferencial",
+    "regra": "50%, máximo R$ 67,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de coparticipação reduzida — Rede Ampla",
+    "regra": "50%, máximo R$ 67,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de coparticipação diferenciada — Rede Preferencial",
+    "regra": "50%, máximo R$ 202,86",
+    "produtos": []
+   },
+   {
+    "procedimento": "Procedimentos de coparticipação diferenciada — Rede Ampla",
+    "regra": "50%, máximo R$ 202,86",
+    "produtos": []
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Associação Nacional dos Trabalhadores da Construção Civil.",
+   "Trabalhadores e profissionais liberais do Setor da Construção Civil.",
+   "Titular: associados à Entidade de Classe.",
+   "Cônjuge: cópias de CPF, RG e Certidão de Casamento.",
+   "Filho natural, adotivo ou enteado, com até 29 anos, 11 meses e 29 dias: cópias de CPF e RG ou Certidão de Nascimento.",
+   "Companheiro(a): Declaração Pública de União Estável.",
+   "Comprovação: declaração de vínculo emitida pela associação no prazo máximo de 30 dias da data de adesão ou comprovante de pagamento da anuidade associativa do ano vigente; e documento que comprove o exercício da profissão e/ou atividade no segmento da Construção Civil, como registro profissional válido, contracheque emitido em até 90 dias ou contrato de prestação de serviços firmado entre contratante CNPJ e profissional contratado.",
+   "Se o contrato de prestação de serviços demonstrar que o beneficiário faz parte da listagem de profissionais elencados no artigo 4º do Estatuto, o documento é válido: Arquiteto, Engenheiro Civil, Engenheiro Eletricista, Eletricista, Pintor, Vidraceiro, Mestre de Obras, Pedreiro, Técnico em edificações, Armador, Carpinteiro, Gesseiro ou Encanador."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nem informações sobre produtos, coparticipação, carências ou elegibilidade.",
+   "p. 1: A página informa “Versão: 08.2026”; isso não foi apresentado como data de vigência.",
+   "p. 1: Também aparece o nome ANTRACC — Associação Nacional dos Trabalhadores da Construção Civil.",
+   "p. 2: A página contém apenas um menu de navegação; não há tabelas de preço nem informações de produto ou condições de venda.",
+   "p. 3: A página não contém tabelas de preço nem informações de produtos ou condições de venda.",
+   "p. 4: O material informa reajuste em outubro e versão 08.2026; não imprime datas de vigência.",
+   "p. 4: Não há informação impressa sobre número de vidas, UFs, carências ou elegibilidade.",
+   "p. 5: A página apresenta preços de opcionais — R$ 43,48 para cada uma das duas opções odontológicas e R$ 7,80 para Transporte Aeromédico —, mas não informa faixas etárias. Como o esquema de tabelas de preço exige dez faixas etárias, esses valores não foram transpostos como tabela etária.",
+   "p. 5: A página identifica os opcionais odontológicos com números de registro, mas não informa registros ANS para Unifácil Flex e Unipart Flex.",
+   "p. 5: A tabela percentual de coparticipação mostra Rede Preferencial e Rede Ampla, sem identificar explicitamente os produtos a que essas regras se aplicam.",
+   "p. 6: Não há tabelas de preço nesta página.",
+   "p. 6: A página informa regras de adesão, vigência e vencimento, mas não apresenta datas de vigência do material em formato de data.",
+   "p. 6: A área de comercialização lista municípios para UNIPART e demais produtos Saúde; informa abrangência nacional para Odontológico e Aeromédico.",
+   "p. 7: A página não apresenta tabelas de preço.",
+   "p. 7: O material informa “Versão: 08.2026”; não é indicada uma data de vigência.",
+   "p. 8: A página 8 de 9 apresenta informações de rede credenciada, mas não contém tabelas de preço.",
+   "p. 8: O material informa que se trata de Plano de Saúde Coletivo por Adesão; não especifica entidades ou profissões elegíveis.",
+   "p. 8: Versão impressa: 08.2026; não há datas de vigência informadas.",
+   "p. 9: Página de capa, sem tabelas de preço nem nomes de produtos. Estão impressos os logotipos Allcare (ANS nº 41728-9) e Unimed Belo Horizonte (ANS nº 34388-9); esses números não são apresentados como registros de produtos."
+  ]
+ }
+}

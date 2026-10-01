@@ -1,0 +1,2375 @@
+{
+ "arquivo": "qualicorp_sulamerica_adesao_sp_2024-11.pdf",
+ "sha256": "71b1baf0ba3b6e81495ab88a27363832bf2e88ec8c69dc57c9908518b91aea69",
+ "gravada_em": "2026-09-30T20:29:06+00:00",
+ "esforco": "low",
+ "paginas": 48,
+ "segundos": 48.6,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 347959,
+  "saida": 34366,
+  "cache_escrita": 0,
+  "cache_leitura": 91643,
+  "usd": 0.052895,
+  "raciocinio": 8081
+ },
+ "leitura": {
+  "operadora": "SulAmérica Saúde",
+  "administradora": "Qualicorp",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF",
+   "SP"
+  ],
+  "vigencia_inicio": "2024-01-01",
+  "vigencia_fim": "2024-12-31",
+  "produtos": [
+   {
+    "id": "p14.P1",
+    "nome": "Odonto Mais - Adesão Odonto - Rol Ampliado",
+    "registro_ans": "476.270/16-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Odontológico",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p19.P1",
+    "nome": "Clássico Adesão Trad. 23 F AHO — QC COP RM",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P2",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM RC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P3",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM R1",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P4",
+    "nome": "Especial Mais Adesão Trad. 23 F AHO — QP COP RM",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P5",
+    "nome": "Executivo Adesão Trad. 23 F AHO — QP COP RM R1",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P6",
+    "nome": "Direto Nacional Adesão Trad. 23 F AHO — QC COP RM",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P7",
+    "nome": "Direto Nacional Adesão Trad. 23 F AHO — QP COP RM",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P8",
+    "nome": "Direto Camp VCs Adesão Trad. 23 F AHO — QC COP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P9",
+    "nome": "Direto Camp VCs Adesão Trad. 23 F AHO — QP COP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p22.P1",
+    "nome": "Direto Nacional Adesão Trad. 23 F — AHO QC COP RM",
+    "registro_ans": "496.892/23-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p22.P2",
+    "nome": "Direto Nacional Adesão Trad. 23 F — AHO QP COP RM",
+    "registro_ans": "496.893/23-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p23.P1",
+    "nome": "Direto Nacional Adesão Trad. 23 F — AHO QC COP RM",
+    "registro_ans": "496.892/23-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p23.P2",
+    "nome": "Direto Nacional Adesão Trad. 23 F — AHO QP COP RM",
+    "registro_ans": "496.893/23-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p24.P1",
+    "nome": "Direto CAMP VCs Adesão Trad. 23 F — AHO QC COP",
+    "registro_ans": "495.669/23-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p24.P2",
+    "nome": "Direto CAMP VCs Adesão Trad. 23 F — AHO QP COP",
+    "registro_ans": "495.670/23-2",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p25.P1",
+    "nome": "Clássico Adesão Trad. 23 F AHO",
+    "registro_ans": "495.762/23-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p25.P2",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO",
+    "registro_ans": "495.735/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p25.P3",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO",
+    "registro_ans": "495.737/23-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p25.P4",
+    "nome": "Especial Mais Adesão Trad. 23 F",
+    "registro_ans": "496.567/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p25.P5",
+    "nome": "Executivo Adesão Trad. 23 F",
+    "registro_ans": "495.756/23-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p26.P1",
+    "nome": "Clássico Adesão Trad. 23 F AHO",
+    "registro_ans": "495.762/23-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p26.P2",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM RC",
+    "registro_ans": "495.735/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p26.P3",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM R1",
+    "registro_ans": "495.737/23-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p26.P4",
+    "nome": "Especial Mais Adesão Trad. 23 F",
+    "registro_ans": "496.567/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p26.P5",
+    "nome": "Executivo Adesão Trad. 23 F",
+    "registro_ans": "495.756/23-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p27.P1",
+    "nome": "Clássico Adesão Trad. 23 F AHO",
+    "registro_ans": "495.762/23-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p27.P2",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM RC",
+    "registro_ans": "495.735/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p27.P3",
+    "nome": "Especial 100 Adesão Trad. 23 F AHO — QP COP RM R1",
+    "registro_ans": "495.737/23-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p27.P4",
+    "nome": "Especial Mais Adesão Trad. 23 F",
+    "registro_ans": "496.567/23-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p27.P5",
+    "nome": "Executivo Adesão Trad. 23 F",
+    "registro_ans": "495.756/23-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p29.P1",
+    "nome": "Direto Nacional Adesão",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p29.P2",
+    "nome": "Clássico",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p29.P3",
+    "nome": "Especial",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p29.P4",
+    "nome": "Especial Mais",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p29.P5",
+    "nome": "Executivo",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P1",
+    "nome": "Direto CAMP VCs Adesão",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P2",
+    "nome": "Direto Nacional Adesão",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P3",
+    "nome": "Clássico",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P4",
+    "nome": "Especial",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P5",
+    "nome": "Especial Mais",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p30.P6",
+    "nome": "Executivo",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p40.P1",
+    "nome": "Clássico QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p40.P2",
+    "nome": "Especial 100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p40.P3",
+    "nome": "Especial Mais",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p40.P4",
+    "nome": "Executivo QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p41.P1",
+    "nome": "CLÁSSICO QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p41.P2",
+    "nome": "ESPECIAL100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p41.P3",
+    "nome": "ESPECIAL MAIS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p41.P4",
+    "nome": "EXECUTIVO QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p42.P1",
+    "nome": "Clássico QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p42.P2",
+    "nome": "Especial100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p42.P3",
+    "nome": "Especial Mais",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p42.P4",
+    "nome": "Executivo QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p43.P1",
+    "nome": "CLÁSSICO QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Interior 1 e 2"
+   },
+   {
+    "id": "p43.P2",
+    "nome": "ESPECIAL100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Interior 1 e 2"
+   },
+   {
+    "id": "p43.P3",
+    "nome": "ESPECIAL MAIS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Interior 1 e 2"
+   },
+   {
+    "id": "p43.P4",
+    "nome": "EXECUTIVO QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Interior 1 e 2"
+   },
+   {
+    "id": "p44.P1",
+    "nome": "CLÁSSICO QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p44.P2",
+    "nome": "ESPECIAL 100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p44.P3",
+    "nome": "ESPECIAL MAIS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p44.P4",
+    "nome": "EXECUTIVO QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p45.P1",
+    "nome": "Clássico QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p45.P2",
+    "nome": "Especial 100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p45.P3",
+    "nome": "Especial Mais",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p45.P4",
+    "nome": "Executivo QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p46.P1",
+    "nome": "CLÁSSICO QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p46.P2",
+    "nome": "ESPECIAL 100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p46.P3",
+    "nome": "ESPECIAL MAIS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p46.P4",
+    "nome": "EXECUTIVO QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p47.P1",
+    "nome": "CLÁSSICO QC",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p47.P2",
+    "nome": "ESPECIAL 100 QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p47.P3",
+    "nome": "ESPECIAL MAIS",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p47.P4",
+    "nome": "EXECUTIVO QP",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 22,
+    "titulo": "PLANOS DIRETO - CAPITAL COM COPARTICIPAÇÃO — TITULAR",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p22.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       462.17,
+       636.49,
+       691.37,
+       820.35,
+       895.02,
+       990.67,
+       1132.06,
+       1392.33,
+       1733.58,
+       2772.79
+      ]
+     },
+     {
+      "produto_id": "p22.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       512.41,
+       705.69,
+       766.53,
+       909.54,
+       992.32,
+       1098.38,
+       1255.14,
+       1543.69,
+       1922.06,
+       3074.24
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 22,
+    "titulo": "PLANOS DIRETO - CAPITAL COM COPARTICIPAÇÃO — TITULAR + 1 DEPENDENTE",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p22.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       420.15,
+       578.62,
+       628.52,
+       745.77,
+       813.65,
+       900.61,
+       1029.15,
+       1265.75,
+       1575.98,
+       2520.71
+      ]
+     },
+     {
+      "produto_id": "p22.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       465.83,
+       641.53,
+       696.84,
+       826.86,
+       902.11,
+       998.52,
+       1141.04,
+       1403.36,
+       1747.32,
+       2794.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 22,
+    "titulo": "PLANOS DIRETO - CAPITAL COM COPARTICIPAÇÃO — TITULAR + 2 ou MAIS DEPENDENTES",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p22.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       404.4,
+       556.93,
+       604.94,
+       717.81,
+       783.14,
+       866.84,
+       990.56,
+       1218.28,
+       1516.88,
+       2426.18
+      ]
+     },
+     {
+      "produto_id": "p22.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       448.36,
+       617.48,
+       670.71,
+       795.85,
+       868.27,
+       961.08,
+       1098.24,
+       1350.72,
+       1681.79,
+       2689.95
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 23,
+    "titulo": "Planos Direto - Interior 1 com coparticipação — Titular",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p23.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       437.61,
+       602.66,
+       654.62,
+       776.76,
+       847.44,
+       938.02,
+       1071.89,
+       1318.32,
+       1641.43,
+       2625.4
+      ]
+     },
+     {
+      "produto_id": "p23.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       485.86,
+       669.11,
+       726.79,
+       862.4,
+       940.89,
+       1041.45,
+       1190.09,
+       1463.68,
+       1822.42,
+       2914.9
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 23,
+    "titulo": "Planos Direto - Interior 1 com coparticipação — Titular + 1 dependente",
+    "vidas_minimo": 2,
+    "vidas_maximo": 2,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p23.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       397.82,
+       547.86,
+       595.1,
+       706.13,
+       770.4,
+       852.73,
+       974.44,
+       1198.46,
+       1492.2,
+       2386.71
+      ]
+     },
+     {
+      "produto_id": "p23.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       441.68,
+       608.28,
+       660.73,
+       784.0,
+       855.35,
+       946.77,
+       1081.89,
+       1330.62,
+       1656.75,
+       2649.9
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 23,
+    "titulo": "Planos Direto - Interior 1 com coparticipação — Titular + 2 ou mais dependentes",
+    "vidas_minimo": 3,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p23.P1",
+      "coluna": "AHO QC COP RM",
+      "valores": [
+       382.9,
+       527.32,
+       572.79,
+       679.66,
+       741.51,
+       820.76,
+       937.9,
+       1153.53,
+       1436.26,
+       2297.23
+      ]
+     },
+     {
+      "produto_id": "p23.P2",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       425.13,
+       585.47,
+       635.95,
+       754.6,
+       823.27,
+       911.27,
+       1041.32,
+       1280.72,
+       1594.62,
+       2550.53
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 24,
+    "titulo": "PLANOS DIRETO - INTERIOR 1 COM COPARTICIPAÇÃO — TITULAR",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p24.P1",
+      "coluna": "AHO QC COP",
+      "valores": [
+       381.39,
+       525.24,
+       570.52,
+       676.97,
+       738.58,
+       817.52,
+       934.19,
+       1148.97,
+       1430.58,
+       2288.15
+      ]
+     },
+     {
+      "produto_id": "p24.P2",
+      "coluna": "AHO QP COP",
+      "valores": [
+       423.45,
+       583.17,
+       633.45,
+       751.63,
+       820.04,
+       907.69,
+       1037.22,
+       1275.69,
+       1588.36,
+       2540.51
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 24,
+    "titulo": "PLANOS DIRETO - INTERIOR 1 COM COPARTICIPAÇÃO — TITULAR + 1 DEPENDENTE",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p24.P1",
+      "coluna": "AHO QC COP",
+      "valores": [
+       346.71,
+       477.49,
+       518.65,
+       615.43,
+       671.43,
+       743.2,
+       849.27,
+       1044.51,
+       1300.52,
+       2080.13
+      ]
+     },
+     {
+      "produto_id": "p24.P2",
+      "coluna": "AHO QP COP",
+      "valores": [
+       384.95,
+       530.16,
+       575.86,
+       683.3,
+       745.49,
+       825.16,
+       942.93,
+       1159.71,
+       1443.95,
+       2309.54
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 24,
+    "titulo": "PLANOS DIRETO - INTERIOR 1 COM COPARTICIPAÇÃO — TITULAR + 2 ou MAIS DEPENDENTES",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p24.P1",
+      "coluna": "AHO QC COP",
+      "valores": [
+       333.71,
+       459.59,
+       499.21,
+       592.35,
+       646.26,
+       715.33,
+       817.42,
+       1005.34,
+       1251.76,
+       2002.13
+      ]
+     },
+     {
+      "produto_id": "p24.P2",
+      "coluna": "AHO QP COP",
+      "valores": [
+       370.52,
+       510.27,
+       554.27,
+       657.68,
+       717.54,
+       794.23,
+       907.58,
+       1116.23,
+       1389.82,
+       2222.95
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 25,
+    "titulo": "Demais planos - Capital com coparticipação — Titular",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p25.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       511.83,
+       704.88,
+       765.65,
+       908.51,
+       991.19,
+       1097.12,
+       1253.7,
+       1541.93,
+       1919.86,
+       3070.72
+      ]
+     },
+     {
+      "produto_id": "p25.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       638.47,
+       879.29,
+       955.09,
+       1133.28,
+       1236.43,
+       1368.57,
+       1563.9,
+       1923.44,
+       2394.88,
+       3830.49
+      ]
+     },
+     {
+      "produto_id": "p25.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       672.06,
+       925.56,
+       1005.36,
+       1192.93,
+       1301.51,
+       1440.61,
+       1646.21,
+       2024.67,
+       2520.91,
+       4032.1
+      ]
+     },
+     {
+      "produto_id": "p25.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       825.2,
+       1136.45,
+       1234.43,
+       1464.74,
+       1598.04,
+       1768.84,
+       2021.29,
+       2485.99,
+       3095.29,
+       4950.8
+      ]
+     },
+     {
+      "produto_id": "p25.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1672.24,
+       2302.97,
+       2501.54,
+       2968.26,
+       3238.39,
+       3584.51,
+       4096.09,
+       5037.79,
+       6272.53,
+       10032.63
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 25,
+    "titulo": "Demais planos - Capital com coparticipação — Titular + 1 dependente",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p25.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       465.29,
+       640.79,
+       696.05,
+       825.9,
+       901.08,
+       997.38,
+       1139.73,
+       1401.75,
+       1745.31,
+       2791.54
+      ]
+     },
+     {
+      "produto_id": "p25.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       580.42,
+       799.35,
+       868.26,
+       1030.26,
+       1124.02,
+       1244.16,
+       1421.72,
+       1748.58,
+       2177.15,
+       3482.26
+      ]
+     },
+     {
+      "produto_id": "p25.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       610.98,
+       841.42,
+       913.96,
+       1084.5,
+       1183.19,
+       1309.65,
+       1496.56,
+       1840.62,
+       2291.75,
+       3665.56
+      ]
+     },
+     {
+      "produto_id": "p25.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       750.18,
+       1033.14,
+       1122.21,
+       1331.59,
+       1452.78,
+       1608.04,
+       1837.54,
+       2260.0,
+       2813.91,
+       4500.72
+      ]
+     },
+     {
+      "produto_id": "p25.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1520.21,
+       2093.61,
+       2274.12,
+       2698.41,
+       2943.99,
+       3258.64,
+       3723.7,
+       4579.79,
+       5702.29,
+       9120.56
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 25,
+    "titulo": "Demais planos - Capital com coparticipação — Titular + 2 ou mais dependentes",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Capital",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p25.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       447.85,
+       616.77,
+       669.94,
+       794.94,
+       867.28,
+       959.99,
+       1096.99,
+       1349.19,
+       1679.87,
+       2686.89
+      ]
+     },
+     {
+      "produto_id": "p25.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       558.66,
+       769.38,
+       835.72,
+       991.64,
+       1081.88,
+       1197.52,
+       1368.42,
+       1683.02,
+       2095.52,
+       3351.7
+      ]
+     },
+     {
+      "produto_id": "p25.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       588.06,
+       809.86,
+       879.69,
+       1043.82,
+       1138.82,
+       1260.53,
+       1440.44,
+       1771.59,
+       2205.8,
+       3528.09
+      ]
+     },
+     {
+      "produto_id": "p25.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       722.05,
+       994.39,
+       1080.13,
+       1281.65,
+       1398.3,
+       1547.74,
+       1768.64,
+       2175.25,
+       2708.39,
+       4331.95
+      ]
+     },
+     {
+      "produto_id": "p25.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1463.21,
+       2015.1,
+       2188.83,
+       2597.22,
+       2833.59,
+       3136.44,
+       3584.07,
+       4408.04,
+       5488.44,
+       8778.54
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 26,
+    "titulo": "Demais Planos - Interior 1 com coparticipação — Titular",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p26.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       463.89,
+       638.85,
+       693.94,
+       823.4,
+       898.34,
+       994.35,
+       1136.27,
+       1397.5,
+       1740.03,
+       2783.1
+      ]
+     },
+     {
+      "produto_id": "p26.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       544.27,
+       749.55,
+       814.17,
+       966.08,
+       1054.0,
+       1166.65,
+       1333.16,
+       1639.65,
+       2041.53,
+       3265.34
+      ]
+     },
+     {
+      "produto_id": "p26.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       572.91,
+       789.0,
+       857.02,
+       1016.92,
+       1109.47,
+       1228.05,
+       1403.31,
+       1725.95,
+       2148.97,
+       3437.17
+      ]
+     },
+     {
+      "produto_id": "p26.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       701.42,
+       965.98,
+       1049.26,
+       1245.03,
+       1358.35,
+       1503.52,
+       1718.1,
+       2113.09,
+       2631.0,
+       4208.18
+      ]
+     },
+     {
+      "produto_id": "p26.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1354.67,
+       1865.63,
+       2026.48,
+       2404.57,
+       2623.4,
+       2903.79,
+       3318.21,
+       4081.07,
+       5081.35,
+       8127.39
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 26,
+    "titulo": "Demais Planos - Interior 1 com coparticipação — Titular + 1 dependente",
+    "vidas_minimo": 2,
+    "vidas_maximo": 2,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p26.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       421.72,
+       580.78,
+       630.85,
+       748.56,
+       816.69,
+       903.97,
+       1032.98,
+       1270.46,
+       1581.86,
+       2530.1
+      ]
+     },
+     {
+      "produto_id": "p26.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       494.79,
+       681.41,
+       740.17,
+       878.25,
+       958.19,
+       1060.6,
+       1211.96,
+       1490.6,
+       1855.93,
+       2968.49
+      ]
+     },
+     {
+      "produto_id": "p26.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       520.83,
+       717.28,
+       779.12,
+       924.48,
+       1008.62,
+       1116.41,
+       1275.75,
+       1569.05,
+       1953.61,
+       3124.72
+      ]
+     },
+     {
+      "produto_id": "p26.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       637.65,
+       878.17,
+       953.88,
+       1131.84,
+       1234.86,
+       1366.84,
+       1561.91,
+       1921.0,
+       2391.83,
+       3825.62
+      ]
+     },
+     {
+      "produto_id": "p26.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1231.51,
+       1696.02,
+       1842.25,
+       2185.96,
+       2384.91,
+       2639.8,
+       3016.56,
+       3710.07,
+       4619.4,
+       7388.52
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 26,
+    "titulo": "Demais Planos - Interior 1 com coparticipação — Titular + 2 ou mais dependentes",
+    "vidas_minimo": 3,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Interior 1",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p26.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       405.91,
+       559.01,
+       607.2,
+       720.49,
+       786.06,
+       870.07,
+       994.25,
+       1222.83,
+       1522.54,
+       2435.23
+      ]
+     },
+     {
+      "produto_id": "p26.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       476.24,
+       655.86,
+       712.41,
+       845.33,
+       922.25,
+       1020.83,
+       1166.52,
+       1434.7,
+       1786.34,
+       2857.17
+      ]
+     },
+     {
+      "produto_id": "p26.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       501.29,
+       690.38,
+       749.89,
+       889.81,
+       970.79,
+       1074.54,
+       1227.91,
+       1510.2,
+       1880.34,
+       3007.53
+      ]
+     },
+     {
+      "produto_id": "p26.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       613.74,
+       845.23,
+       918.11,
+       1089.4,
+       1188.55,
+       1315.57,
+       1503.34,
+       1848.96,
+       2302.13,
+       3682.14
+      ]
+     },
+     {
+      "produto_id": "p26.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1185.33,
+       1632.43,
+       1773.17,
+       2104.0,
+       2295.48,
+       2540.82,
+       2903.44,
+       3570.95,
+       4446.17,
+       7111.47
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 27,
+    "titulo": "DEMAIS PLANOS - INTERIOR 2 COM COPARTICIPAÇÃO — TITULAR",
+    "vidas_minimo": 1,
+    "vidas_maximo": 1,
+    "coparticipacao": "com",
+    "regiao": "Interior 2",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p27.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       386.51,
+       532.3,
+       578.19,
+       686.07,
+       748.5,
+       828.5,
+       946.75,
+       1164.4,
+       1449.8,
+       2318.88
+      ]
+     },
+     {
+      "produto_id": "p27.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       477.03,
+       656.96,
+       713.61,
+       846.74,
+       923.81,
+       1022.54,
+       1168.48,
+       1437.12,
+       1789.34,
+       2861.99
+      ]
+     },
+     {
+      "produto_id": "p27.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       502.15,
+       691.55,
+       751.17,
+       891.31,
+       972.43,
+       1076.36,
+       1229.99,
+       1512.76,
+       1883.54,
+       3012.63
+      ]
+     },
+     {
+      "produto_id": "p27.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       614.51,
+       846.29,
+       919.25,
+       1090.76,
+       1190.04,
+       1317.23,
+       1505.22,
+       1851.27,
+       2305.01,
+       3686.75
+      ]
+     },
+     {
+      "produto_id": "p27.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1104.73,
+       1521.41,
+       1652.59,
+       1960.91,
+       2139.38,
+       2368.04,
+       2706.0,
+       3328.11,
+       4143.82,
+       6627.86
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 27,
+    "titulo": "DEMAIS PLANOS - INTERIOR 2 COM COPARTICIPAÇÃO — TITULAR + 1 DEPENDENTE",
+    "vidas_minimo": 2,
+    "vidas_maximo": 2,
+    "coparticipacao": "com",
+    "regiao": "Interior 2",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p27.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       351.37,
+       483.91,
+       525.63,
+       623.69,
+       680.46,
+       753.18,
+       860.69,
+       1058.55,
+       1318.0,
+       2108.09
+      ]
+     },
+     {
+      "produto_id": "p27.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       433.67,
+       597.25,
+       648.74,
+       769.77,
+       839.82,
+       929.59,
+       1062.25,
+       1306.47,
+       1626.68,
+       2601.8
+      ]
+     },
+     {
+      "produto_id": "p27.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       456.49,
+       628.68,
+       682.88,
+       810.29,
+       884.04,
+       978.52,
+       1118.17,
+       1375.24,
+       1712.3,
+       2738.76
+      ]
+     },
+     {
+      "produto_id": "p27.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       558.65,
+       769.35,
+       835.69,
+       991.6,
+       1081.85,
+       1197.48,
+       1368.38,
+       1682.98,
+       2095.47,
+       3351.61
+      ]
+     },
+     {
+      "produto_id": "p27.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       1004.31,
+       1383.11,
+       1502.36,
+       1782.66,
+       1944.9,
+       2152.76,
+       2460.0,
+       3025.56,
+       3767.12,
+       6025.34
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 27,
+    "titulo": "DEMAIS PLANOS - INTERIOR 2 COM COPARTICIPAÇÃO — TITULAR + 2 ou MAIS DEPENDENTES",
+    "vidas_minimo": 3,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Interior 2",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p27.P1",
+      "coluna": "QC COP RM",
+      "valores": [
+       338.2,
+       465.76,
+       505.91,
+       600.31,
+       654.94,
+       724.94,
+       828.4,
+       1018.85,
+       1268.57,
+       2029.03
+      ]
+     },
+     {
+      "produto_id": "p27.P2",
+      "coluna": "QP COP RM RC",
+      "valores": [
+       417.41,
+       574.85,
+       624.41,
+       740.9,
+       808.34,
+       894.73,
+       1022.42,
+       1257.47,
+       1565.69,
+       2504.24
+      ]
+     },
+     {
+      "produto_id": "p27.P3",
+      "coluna": "QP COP RM R1",
+      "valores": [
+       439.37,
+       605.09,
+       657.26,
+       779.9,
+       850.87,
+       941.82,
+       1076.23,
+       1323.66,
+       1648.08,
+       2636.04
+      ]
+     },
+     {
+      "produto_id": "p27.P4",
+      "coluna": "AHO QP COP RM",
+      "valores": [
+       537.69,
+       740.5,
+       804.35,
+       954.41,
+       1041.28,
+       1152.58,
+       1317.06,
+       1619.86,
+       2016.88,
+       3225.92
+      ]
+     },
+     {
+      "produto_id": "p27.P5",
+      "coluna": "AHO QP COP RM R1",
+      "valores": [
+       966.64,
+       1331.24,
+       1446.01,
+       1715.81,
+       1871.96,
+       2072.04,
+       2367.75,
+       2912.1,
+       3625.86,
+       5799.4
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas médicas",
+    "regra": "30% do valor do evento; limite R$ 40,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas médicas",
+    "regra": "30% do valor do evento; limite R$ 75,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Consultas médicas",
+    "regra": "30% do valor do evento; limite R$ 150,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Consultas médicas",
+    "regra": "30% do valor do evento; limite R$ 30,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Atendimento em pronto-socorro",
+    "regra": "30% do valor do evento; limite R$ 125,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Atendimento em pronto-socorro",
+    "regra": "30% do valor do evento; limite R$ 140,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Atendimento em pronto-socorro",
+    "regra": "30% do valor do evento; limite R$ 320,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Atendimento em pronto-socorro",
+    "regra": "30% do valor do evento; limite R$ 90,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares A¹",
+    "regra": "30% do valor do evento; limite R$ 60,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares A¹",
+    "regra": "30% do valor do evento; limite R$ 70,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares A¹",
+    "regra": "30% do valor do evento; limite R$ 80,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares A¹",
+    "regra": "30% do valor do evento; limite R$ 50,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares B¹",
+    "regra": "30% do valor do evento; limite R$ 150,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares B¹",
+    "regra": "30% do valor do evento; limite R$ 170,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares B¹",
+    "regra": "30% do valor do evento; limite R$ 200,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Exames Complementares B¹",
+    "regra": "30% do valor do evento; limite R$ 120,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais²",
+    "regra": "30% do valor do evento; limite R$ 160,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais²",
+    "regra": "30% do valor do evento; limite R$ 200,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais²",
+    "regra": "30% do valor do evento; limite R$ 250,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais²",
+    "regra": "30% do valor do evento; limite R$ 150,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Terapias³",
+    "regra": "30% do valor do evento; limite R$ 60,00",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias³",
+    "regra": "30% do valor do evento; limite R$ 70,00",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Terapias³",
+    "regra": "30% do valor do evento; limite R$ 90,00",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Terapias³",
+    "regra": "30% do valor do evento; limite R$ 50,00",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   },
+   {
+    "procedimento": "Internações, exceto psiquiátricas⁴",
+    "regra": "Coparticipação indicada: -; limite R$ 320,00 por evento",
+    "produtos": [
+     "p19.P1"
+    ]
+   },
+   {
+    "procedimento": "Internações, exceto psiquiátricas⁴",
+    "regra": "Coparticipação indicada: -; limite R$ 500,00 por evento",
+    "produtos": [
+     "p19.P2",
+     "p19.P3",
+     "p19.P4"
+    ]
+   },
+   {
+    "procedimento": "Internações, exceto psiquiátricas⁴",
+    "regra": "Coparticipação indicada: -; limite R$ 570,00 por evento",
+    "produtos": [
+     "p19.P5"
+    ]
+   },
+   {
+    "procedimento": "Internações, exceto psiquiátricas⁴",
+    "regra": "Coparticipação indicada: -; limite R$ 270,00 por evento",
+    "produtos": [
+     "p19.P6",
+     "p19.P7",
+     "p19.P8",
+     "p19.P9"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Acidentes pessoais — Prazos contratuais",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Acidentes pessoais — Tabela 1",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Acidentes pessoais — Tabela 2",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Atendimentos de urgência e/ou emergência, incluindo os decorrentes de complicações gestacionais — Prazos contratuais",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Atendimentos de urgência e/ou emergência, incluindo os decorrentes de complicações gestacionais — Tabela 1",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 0 — Atendimentos de urgência e/ou emergência, incluindo os decorrentes de complicações gestacionais — Tabela 2",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 1 — Consultas médicas, procedimentos ambulatoriais sem necessidades de anestesia ou realizados sob anestesia local, serviços auxiliares de diagnose (exames laboratoriais, raio x simples), ultrassonografia sem doppler em regime ambulatorial, exceto os serviços descritos nos itens subsequentes — Prazos contratuais",
+    "prazo_dias": 15,
+    "observacao": "15 (quinze) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 1 — Consultas médicas, procedimentos ambulatoriais sem necessidades de anestesia ou realizados sob anestesia local, serviços auxiliares de diagnose (exames laboratoriais, raio x simples), ultrassonografia sem doppler em regime ambulatorial, exceto os serviços descritos nos itens subsequentes — Tabela 1",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 1 — Consultas médicas, procedimentos ambulatoriais sem necessidades de anestesia ou realizados sob anestesia local, serviços auxiliares de diagnose (exames laboratoriais, raio x simples), ultrassonografia sem doppler em regime ambulatorial, exceto os serviços descritos nos itens subsequentes — Tabela 2",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 2 — Internações clínicas ou cirúrgicas e em hospital dia, ultrassonografias com doppler, tomografias computadorizadas, tilt tests, ressonância magnética, todos os procedimentos de radiologia intervencionistas, medicina nuclear, ecodopplercadiograma, holter cardíaco 24 horas, cateterismo cardíaco, e angioplastias, arteriografias, endoscopias e laparoscopias, oxigenoterapia hiperbárica, quimioterapia, radioterapia, medicamentos antineoplásicos orais definidos no Rol de Procedimentos e Eventos em Saúde da ANS, vigente à época do evento, litotripsias, terapias com imunobiológicos e pulsoterapia e todos os demais procedimentos cobertos pelo seguro, exceto os procedimentos descritos para os grupos de carência subsequentes — Prazos contratuais",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 2 — Internações clínicas ou cirúrgicas e em hospital dia, ultrassonografias com doppler, tomografias computadorizadas, tilt tests, ressonância magnética, todos os procedimentos de radiologia intervencionistas, medicina nuclear, ecodopplercadiograma, holter cardíaco 24 horas, cateterismo cardíaco, e angioplastias, arteriografias, endoscopias e laparoscopias, oxigenoterapia hiperbárica, quimioterapia, radioterapia, medicamentos antineoplásicos orais definidos no Rol de Procedimentos e Eventos em Saúde da ANS, vigente à época do evento, litotripsias, terapias com imunobiológicos e pulsoterapia e todos os demais procedimentos cobertos pelo seguro, exceto os procedimentos descritos para os grupos de carência subsequentes — Tabela 1",
+    "prazo_dias": 60,
+    "observacao": "60 (sessenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 2 — Internações clínicas ou cirúrgicas e em hospital dia, ultrassonografias com doppler, tomografias computadorizadas, tilt tests, ressonância magnética, todos os procedimentos de radiologia intervencionistas, medicina nuclear, ecodopplercadiograma, holter cardíaco 24 horas, cateterismo cardíaco, e angioplastias, arteriografias, endoscopias e laparoscopias, oxigenoterapia hiperbárica, quimioterapia, radioterapia, medicamentos antineoplásicos orais definidos no Rol de Procedimentos e Eventos em Saúde da ANS, vigente à época do evento, litotripsias, terapias com imunobiológicos e pulsoterapia e todos os demais procedimentos cobertos pelo seguro, exceto os procedimentos descritos para os grupos de carência subsequentes — Tabela 2",
+    "prazo_dias": 1,
+    "observacao": "24 (vinte e quatro) horas. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 3 — Parto a termo — Prazos contratuais",
+    "prazo_dias": 300,
+    "observacao": "300 (trezentos) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 3 — Parto a termo — Tabela 1",
+    "prazo_dias": 300,
+    "observacao": "300 (trezentos) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 3 — Parto a termo — Tabela 2",
+    "prazo_dias": 300,
+    "observacao": "300 (trezentos) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 4 — Transplantes de órgãos e tecidos, todos os procedimentos cirúrgicos associados a OPME /DMI (Órteses, Próteses, Materiais Especiais/Dispositivos Médicos Implantáveis), além de internações de obesidade mórbida, bucomaxilo e ortopédicas — Prazos contratuais",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 4 — Transplantes de órgãos e tecidos, todos os procedimentos cirúrgicos associados a OPME /DMI (Órteses, Próteses, Materiais Especiais/Dispositivos Médicos Implantáveis), além de internações de obesidade mórbida, bucomaxilo e ortopédicas — Tabela 1",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 4 — Transplantes de órgãos e tecidos, todos os procedimentos cirúrgicos associados a OPME /DMI (Órteses, Próteses, Materiais Especiais/Dispositivos Médicos Implantáveis), além de internações de obesidade mórbida, bucomaxilo e ortopédicas — Tabela 2",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 5 — Internações psiquiátricas incluindo hospital dia, diálise peritoneal, hemodiálise, cirurgias de refração em oftalmologia e acupuntura — Prazos contratuais",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 5 — Internações psiquiátricas incluindo hospital dia, diálise peritoneal, hemodiálise, cirurgias de refração em oftalmologia e acupuntura — Tabela 1",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 5 — Internações psiquiátricas incluindo hospital dia, diálise peritoneal, hemodiálise, cirurgias de refração em oftalmologia e acupuntura — Tabela 2",
+    "prazo_dias": 120,
+    "observacao": "120 (cento e vinte) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 6 — Terapias aqui descritas incluindo as especialidades, técnicas e métodos terapêuticos a elas relacionadas, desde que reconhecidos pelo respectivo conselho de classe e constantes no Rol da ANS vigente à época do evento: fisioterapia, psicologia, fonoaudiologia, terapia ocupacional e nutrição — Prazos contratuais",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 6 — Terapias aqui descritas incluindo as especialidades, técnicas e métodos terapêuticos a elas relacionadas, desde que reconhecidos pelo respectivo conselho de classe e constantes no Rol da ANS vigente à época do evento: fisioterapia, psicologia, fonoaudiologia, terapia ocupacional e nutrição — Tabela 1",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano de saúde — Grupo 6 — Terapias aqui descritas incluindo as especialidades, técnicas e métodos terapêuticos a elas relacionadas, desde que reconhecidos pelo respectivo conselho de classe e constantes no Rol da ANS vigente à época do evento: fisioterapia, psicologia, fonoaudiologia, terapia ocupacional e nutrição — Tabela 2",
+    "prazo_dias": 180,
+    "observacao": "180 (cento e oitenta) dias. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano Odonto — Grupo 0 — Urgências e emergências.",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano Odonto — Grupo 1 — Diagnóstico, radiologia, prevenção, dentística, peridontia, odontopediatria e Disfunção Têmpora Mandibular (DTM).",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano Odonto — Grupo 2 — Endodontia e cirurgia.",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Plano Odonto — Grupo 3 — Prótese do Rol de Procedimentos e Eventos em Saude, da ANS, vigente à época do evento.",
+    "prazo_dias": 0,
+    "observacao": "0 (zero) hora. Prazo contado a partir da data de início de vigência do benefício."
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT): suspensão de cobertura para Procedimentos de Alta Complexidade (PAC), leitos de alta tecnologia e procedimentos cirúrgicos relacionados a doença(s) ou lesão(ões) preexistente(s) declarada(s)",
+    "prazo_dias": null,
+    "observacao": "Período ininterrupto de 24 meses, contados a partir da data de início de vigência do benefício."
+   }
+  ],
+  "elegibilidade": [
+   "Profissionais devidamente registrados em sua respectiva entidade",
+   "Dependentes legais",
+   "AASP — advogados e estagiários em Direito inscritos na OAB-SP e associados à Associação dos Advogados de São Paulo.",
+   "ABRABDIR — bacharéis em Direito associados à Associação Brasileira de Advogados e Bacharéis em Direito.",
+   "ACRESP — servidores públicos municipais, estaduais e federais ativos associados à Associação Cultural e Recreativa dos Servidores Públicos.",
+   "ADPESP — delegados associados à Associação dos Delegados de Polícia do Estado de São Paulo.",
+   "AFB — fisioterapeutas e terapeutas ocupacionais associados à Associação de Fisioterapeutas do Brasil e registrados em um dos CREFITOs.",
+   "AFPESP — servidores públicos domiciliados no Estado de São Paulo que obedeçam às condições de comercialização estabelecidas pela AFPESP.",
+   "AJUFE: associados à Associação dos Juízes Federais do Brasil.",
+   "AMB: magistrados estaduais ou federais filiados ao membro institucional (Associações Regionais) a que estiverem vinculados e associados à AMB.",
+   "AMN: militares e funcionários civis da Marinha do Brasil, ativos e inativos, pensionistas, cônjuges e companheiros(as), todos com vínculo associativo com o Abrigo do Marinheiro.",
+   "ANADEF: defensores públicos da União associados à ANADEF.",
+   "ANADEP: defensoras e defensores públicos ativos associados à ANADEP.",
+   "ANAMATRA: associados à ANAMATRA vinculados à respectiva associação regional (AMATRA).",
+   "ANASPS: servidores públicos ativos e aposentados da previdência e seguridade social associados à ANASPS.",
+   "ANOREG/SP: Tabeliães e Oficiais de Cartórios de Registros Públicos no Estado de São Paulo associados à ANOREG/SP.",
+   "ANPR: Procuradores da República associados à ANPR.",
+   "ANPT: Associados à ANPT.",
+   "AOPP: Policiais militares do Estado de São Paulo associados à AOPP.",
+   "APADEP: Defensores públicos do Estado de São Paulo associados à APADEP.",
+   "APAMAGIS: Associados à APAMAGIS em conformidade com o estatuto da entidade.",
+   "APATEJ: Servidores judiciais associados à APATEJ.",
+   "APCD: profissionais da área odontológica reconhecidos pelo CRO-UF, com domicílio residencial ou profissional no Estado de São Paulo e associados à APCD: cirurgiões-dentistas, técnicos em higiene bucal, técnicos em prótese dentária, auxiliares em saúde bucal e auxiliares de prótese dentária.",
+   "APESP: procuradores do Estado de São Paulo regularmente inscritos na APESP.",
+   "APM: médicos, residentes e estudantes de Medicina associados à APM, em conformidade com o estatuto da entidade.",
+   "APMSP: procuradores da prefeitura do município de São Paulo associados à APMSP.",
+   "ASCAF: servidores públicos associados à ASCAF.",
+   "CAASP: advogados e estagiários de direito regularmente inscritos na OAB-SP e residentes no Estado de São Paulo.",
+   "CNSP: servidores públicos dos poderes executivo, legislativo e judiciário, nos níveis federal, estadual e municipal, devidamente filiados à Confederação Nacional dos Servidores Públicos.",
+   "CORECON-SP: economistas e estudantes de economia devidamente registrados no CORECON-SP.",
+   "CRBM-1: profissionais de Biomedicina devidamente registrados no Conselho Regional de Biomedicina.",
+   "CREF4-SP: profissionais de educação física devidamente inscritos no Conselho Regional de Educação Física da 4ª Região - São Paulo.",
+   "CREFITO-3: fisioterapeutas e terapeutas ocupacionais registrados no Conselho Regional de Fisioterapia e Terapia Ocupacional da 3ª Região.",
+   "CRF-SP: farmacêuticos devidamente registrados no Conselho Regional de Farmácia do Estado de São Paulo.",
+   "CRFa2-SP: fonoaudiólogos devidamente registrados no Conselho Regional de Fonoaudiologia - 2ª Região - São Paulo.",
+   "CRMV-SP: profissionais devidamente registrados no CRMV-SP e residentes no Estado de São Paulo.",
+   "CRN-3: nutricionistas e técnicos em nutrição e dietética registrados no Conselho Regional de Nutricionistas – 3ª Região – SP.",
+   "CRQ-IV: profissionais de química registrados no Conselho Regional de Química – IV Região – São Paulo.",
+   "FNA: profissionais de arquitetura e urbanismo em exercício, registrados nos respectivos conselhos de classe e associados a sindicato filiado à FNA.",
+   "GASP: servidores públicos ativos estaduais, municipais e federais associados ao GASP.",
+   "IPC: profissionais de contabilidade registrados no CRC SP e associados ao Instituto Paulista de Contabilidade.",
+   "MÚTUA: profissionais registrados em um dos CREAs e associados à Mútua.",
+   "SAESP: administradores registrados no CRA-SP, bacharéis e estudantes de cursos superiores de administração ou tecnologia na área de administração, associados ao SAESP.",
+   "SAPESP — atletas profissionais de São Paulo devidamente associados ao Sindicato de Atletas Profissionais de São Paulo.",
+   "SCIESP — corretores e estagiários de imóveis registrados no Conselho Profissional do Estado de São Paulo e filiados ao Sindicato dos Corretores de Imóveis no Estado de São Paulo.",
+   "SEESP — enfermeiros, técnicos em enfermagem e auxiliares de enfermagem registrados no COREN-SP e devidamente associados ao Sindicato dos Enfermeiros do Estado de São Paulo.",
+   "SEESP — engenheiros, agrônomos, geólogos, geógrafos, meteorologistas, tecnólogos, técnicos industriais e agrícolas, e estudantes dessas profissões passíveis de registro no CREA-SP, devidamente associados ao Sindicato dos Engenheiros do Estado de São Paulo.",
+   "SINBIESP — profissionais de biomedicina registrados no CRBM-1 e estudantes de biomedicina, ambos associados ao Sindicato dos Biomédicos Profissionais do Estado de São Paulo.",
+   "SINCOR-SP — corretores de seguros e sócios cotistas (donos/sócios de Corretoras de Seguros) devidamente associados ao SINCOR-SP.",
+   "SINDCONT-SP — Contabilista: contabilistas e estudantes de contabilidade de nível universitário ou técnico, regularmente inscritos no Sindicato dos Contabilistas de São Paulo (SINDCONT-SP). Documentação: profissional: cópia da carteira do CRC SP ou do diploma e declaração de associação do SINDCONT-SP; estudante: declaração/atestado da universidade ou escola técnica ou cópia da última mensalidade quitada e declaração original de associado emitida pela entidade.",
+   "SINDHOSP — Profissional associado: profissionais que atuem em estabelecimento de Saúde do Estado de São Paulo representado pelo SINDHOSP. Documentação: dentista, enfermeiro, farmacêutico e médico: carteira do Conselho Regional correspondente e declaração de vínculo associativo com a entidade (carteirinha, declaração original ou comprovante de contribuição associativa); demais profissionais: CTPS ou holerite que comprove vínculo profissional com empresa que atue como estabelecimento de saúde no estado de São Paulo e declaração de vínculo associativo com a entidade.",
+   "SINDIPESP — Profissional Pedagogo: profissionais pedagogos devidamente filiados ao Sindicato dos Profissionais da Pedagogia e Psicoterapia Autônomos e Empregados em Órgão públicos e privados do Estado de São Paulo (SINDIPESP). Documentação: registro no Conselho Federal de Educadores e Pedagogos ou diploma, e comprovante de vínculo associativo com o SINDIPESP (carteirinha, declaração original ou comprovante de pagamento em favor do Sindicato).",
+   "SINDMUSSP — Músicos: músicos inscritos no Conselho Regional do Estado de São Paulo da Ordem dos Músicos do Brasil e associados ao Sindicato dos Músicos Profissionais no Estado de São Paulo (SINDMUSSP). Documentação: carteira do Conselho Regional do Estado de São Paulo da Ordem dos Músicos do Brasil; ou diploma e comprovante de vínculo associativo com o SINDMUSSP (declaração emitida pelo Sindicato ou comprovante de pagamento em favor da entidade).",
+   "SINDPF-SP — Delegado de Polícia Federal: delegados de polícia federal associados ao Sindicato dos Delegados de Polícia Federal no Estado de São Paulo (SINDPF-SP). Documentação: comprovante de pagamento relativo à mensalidade e contribuição sindical em favor do SINDPF-SP ou comprovante de associado.",
+   "SINDPUB-SP — Publicitário: profissionais de publicidade e propaganda filiados ao SINDPUB-SP. Documentação: documento que comprove vínculo profissional em Propaganda e Publicidade (Carteira do Registro Profissional, diploma em curso superior, CTPS ou Holerite) e comprovante de vínculo associativo com a entidade (carteirinha, declaração original ou comprovante de pagamento de taxa associativa).",
+   "Farmacêuticos e farmacêuticos bioquímicos associados ao SINFAR.",
+   "Profissionais de educação do ensino municipal de São Paulo associados ao SINPEEM.",
+   "Professores associados ao SINPRO-ABC.",
+   "Professores de instituições de ensino privado associados ao SINPRO-SP.",
+   "Psicólogos registrados no CRP-SP e inscritos no SINPSI.",
+   "Representantes comerciais pessoas físicas e empregados e diretores de empresas de representação comercial registrados no CORE-SP.",
+   "Jornalistas profissionais e estudantes de jornalismo associados ao SJSP.",
+   "Poderão ser considerados beneficiários titulares todos os servidores públicos (ativos e inativos), associados à União Nacional de Assistência aos Servidores Públicos - UNASP.",
+   "Documentação necessária do titular: cópia do holerite atualizado com o desconto da contribuição social em favor da UNASP; ou cópia do holerite atualizado e comprovante de vínculo associativo com a UNASP (cópia da carteirinha, cópia do comprovante de pagamento da mensalidade ou declaração emitida pela entidade).",
+   "Para redução de carências, possuir plano de saúde de uma operadora congênere por período igual ou maior que 6 meses e menor que 12 meses ininterruptos (redução indicada na Tabela 1), ou por período igual ou maior que 12 meses ininterruptos (redução indicada na Tabela 2).",
+   "O plano anteriormente contratado deve estar ativo ou ter sido cancelado há, no máximo, 60 dias do início de vigência do benefício.",
+   "Operadoras congêneres listadas: Allianz, Amil, Bradesco, Care Plus, Lincx, Mediservice, Omint, One Health, Porto Seguro, Seguros Unimed, Sompo Seguros e SulAmérica; Unimed somente das regiões sul e sudeste, exceto Unimed Nacional.",
+   "Não há redução para proponentes oriundos de planos cuja segmentação seja diferente da contratada; do sistema Nipomed, Sinam, Sinasa e similares; de planos não regulamentados; ou cujo pagamento do último valor mensal do plano anterior tenha ocorrido há mais de 60 dias da data de início de vigência do benefício.",
+   "O plano Direto Nacional Adesão não é válido para AMN | Militar e Servidor Civil da Marinha do Brasil."
+  ],
+  "avisos": [
+   "p. 1: Página de capa, identificada como NOV/2024; não há tabelas de preço nem condições de venda impressas nesta página.",
+   "p. 2: A página não contém tabelas de preço.",
+   "p. 3: A página contém apenas o texto “QualiPRO | Entidades e Públicos” e não apresenta tabelas de preço nem outras informações dos campos solicitados.",
+   "p. 4: A página não contém tabelas de preço.",
+   "p. 4: A página não informa produtos específicos nem números de registro ANS.",
+   "p. 5: A página não contém tabelas de preço.",
+   "p. 6: A página não contém tabelas de preço.",
+   "p. 7: A página não contém tabelas de preço.",
+   "p. 8: A página 8 não contém tabelas de preço.",
+   "p. 8: A documentação necessária impressa para os titulares é: CNSP — cópia do holerite com a indicação do desconto mensal devido à CNSP ou cópia do holerite e declaração original de associado emitida pela CNSP; CORECON-SP — declaração original emitida pelo CORECON-SP ou cópia da carteira do CORECON-SP, e, em caso de troca ou 1ª via da carteira de registro profissional, cópia do protocolo emitido pelo CORECON-SP; CRBM-1 — cópia da carteira de Biomédico; CREF4-SP — cópia da carteira do CREF4-SP; CREFITO-3 — cópia da carteira do CREFITO-3; CRF-SP — cópia da carteira do CRF-SP; CRFa2-SP — cópia da carteirinha do Conselho/UF e comprovante de quitação referente à anuidade do Conselho/UF; CRMV-SP — cópia da carteira do CRMV-SP ou cópia do comprovante de pagamento da anuidade da entidade.",
+   "p. 9: A página apresenta critérios de elegibilidade e documentação necessária; não há tabelas de preço, produtos, regras de coparticipação ou carências.",
+   "p. 10: A página não contém tabelas de preço.",
+   "p. 10: Não há informação impressa sobre tipo de contratação, produtos, coparticipação, carências ou vigência.",
+   "p. 11: A página 11 apresenta critérios de elegibilidade e documentação necessária; não há tabelas de preços, informações de produtos, coparticipação ou carências impressas.",
+   "p. 12: A página 12 não contém tabelas de preço.",
+   "p. 13: A página não contém tabelas de preço.",
+   "p. 15: A página não contém tabela de preços de planos de saúde. A tabela impressa é de benefício opcional: produto Plenus 2; subsídio mensal de R$ 150,00; valor por beneficiário de R$ 26,90. O valor por beneficiário será reajustado anualmente, no mês de novembro.",
+   "p. 15: O benefício Epharma é descrito como programa de benefícios em medicamentos. Após o limite mensal de subsídio, o beneficiário poderá comprar medicamentos com descontos de até 80% pelo autorizador Epharma.",
+   "p. 16: A página 16 contém documentação exigida para dependentes, mas não apresenta tabelas de preço.",
+   "p. 16: O documento informa que a Administradora de Benefícios/Estipulante poderá requisitar outros documentos para comprovar as informações da proposta.",
+   "p. 17: A página não contém tabelas de preços.",
+   "p. 17: A página apresenta carências contratuais e Tabelas 1 e 2 de redução de carências; os respectivos prazos foram registrados separadamente.",
+   "p. 17: O cabeçalho identifica o material como “QualiPRO | Carências” e exibe qualicorp.com.br.",
+   "p. 18: A página 18 não contém tabelas de preço.",
+   "p. 18: A página menciona as Tabelas 1 e 2 de redução de carências, mas elas não estão nesta página.",
+   "p. 18: Para CPT, o prazo está impresso em meses; não foi convertido para dias.",
+   "p. 19: Página 19 contém quadros de limites de coparticipação, não tabelas de mensalidade por faixa etária; por isso, não foram transcritos como TabelaDePreco.",
+   "p. 19: Não há registro ANS impresso junto aos nomes dos produtos nesta página.",
+   "p. 19: A página informa que os valores de coparticipação e limitador poderão ser reajustados anualmente. Notas: ¹ relação detalhada dos Exames Complementares A e B disponível no site da Operadora; ² inclui todos os insumos decorrentes do atendimento ambulatorial; ³ Nutrição, Psicoterapia, Terapia ocupacional, Fisioterapia, Fonoaudiologia e Acupuntura; ⁴ internação cobrada por evento, independentemente da quantidade de dias internado.",
+   "p. 20: A página 20 não contém tabelas de preço.",
+   "p. 21: A página contém apenas os títulos “PLANOS DIRETO”, “DEMAIS PLANOS” e “TABELAS COM COPARTICIPAÇÃO”, sem tabelas de preços ou valores para transcrever.",
+   "p. 22: A página informa validade das tabelas de Janeiro/2024 até Dezembro/2024, sem dias específicos; as datas foram deixadas null.",
+   "p. 22: O padrão de acomodação impresso é Coletivo para a coluna AHO QC COP RM e Individual para AHO QP COP RM; mapeado para enfermaria e apartamento, respectivamente.",
+   "p. 22: A página informa múltiplo de reembolso de consultas de urgência e emergência de 2,00 e reembolso em Pronto Socorro de R$ 90,00 para ambas as colunas; esses valores não são preços por faixa etária.",
+   "p. 23: A validade está impressa como Março/2024 até Fevereiro/2025; os dias não são especificados, por isso as datas de vigência foram deixadas nulas.",
+   "p. 23: A data base de reajuste impressa é Março.",
+   "p. 23: A página informa reembolso de consulta médica de urgência e emergência: múltiplo 2,00 e reembolso de consultas em Pronto Socorro de R$ 90,00 para ambas as colunas; esses valores não são faixas de preço.",
+   "p. 23: A página indica coparticipação, mas não informa regras ou valores específicos de coparticipação.",
+   "p. 24: A acomodação foi associada pelo alinhamento das colunas: AHO QC COP corresponde a Coletivo e AHO QP COP a Individual; o esquema não oferece uma opção específica para essas categorias.",
+   "p. 24: A página informa múltiplo de reembolso de consulta médica de urgência e emergência de 2,00 para ambos os produtos e reembolso de R$ 90,00 em pronto-socorro; não há campo específico para esses dados no esquema.",
+   "p. 25: A tabela informa a validade como Janeiro/2024 até Dezembro/2024; foram representadas as datas como 2024-01-01 e 2024-12-31.",
+   "p. 25: Os rótulos Titular, Titular + 1 dependente e Titular + 2 ou mais dependentes não especificam número mínimo ou máximo de vidas.",
+   "p. 26: A página informa acomodação coletiva para Clássico e individual para os demais produtos.",
+   "p. 26: As informações de segmentação, abrangência, acomodação e reembolso aparecem impressas nas grades, mas não são valores de preço.",
+   "p. 26: O documento indica data base de reajuste: Janeiro; validade das tabelas: Janeiro/2024 até Dezembro/2024.",
+   "p. 27: O documento identifica a condição apenas como “COM COPARTICIPAÇÃO”; não discrimina regras, percentuais ou limites de coparticipação.",
+   "p. 27: A faixa de vidas da terceira tabela corresponde a “Titular + 2 ou MAIS Dependentes”; o máximo de vidas não é informado.",
+   "p. 27: A tabela imprime o padrão de acomodação como “Coletivo” para P1 e “Individual” para os demais; foram representados como enfermaria e apartamento, respectivamente.",
+   "p. 27: A data de validade está impressa como Janeiro/2024 até Dezembro/2024; os dias não são especificados.",
+   "p. 29: A página não contém tabelas de preço.",
+   "p. 29: A página informa áreas de comercialização na capital e municípios da Grande São Paulo, mas não fornece preços, registros ANS nem detalhes de acomodação ou segmentação.",
+   "p. 29: Direto Nacional Adesão: comercialização permitida nos municípios de Barueri, Diadema, Guarulhos, Jandira, Mauá, Osasco, Ribeirão Pires, Rio Grande da Serra, Santo André, São Bernardo do Campo, São Caetano, São Paulo, Caieiras, Cajamar, Carapicuíba, Cotia, Embu das Artes, Francisco Morato, Franco da Rocha, Itapevi, Arujá, Itapecerica da Serra, Santana de Parnaíba e Taboão da Serra.",
+   "p. 29: Clássico, Especial, Especial Mais e Executivo: comercialização permitida nos municípios de Arujá, Barueri, Caieiras, Cajamar, Carapicuíba, Cotia, Diadema, Embu, Embu das Artes, Embu-Guaçu, Ferraz de Vasconcelos, Francisco Morato, Franco da Rocha, Guarulhos, Itapecerica da Serra, Itapevi, Itaquaquecetuba, Jandira, Juquitiba, Mairiporã, Mauá, Mogi das Cruzes, Osasco, Pirapora do Bom Jesus, Poá, Ribeirão Pires, Rio Grande da Serra, Santa Isabel, Santana de Parnaíba, Santo André, São Bernardo do Campo, São Caetano do Sul, São Lourenço da Serra, São Paulo, Suzano, Taboão da Serra e Vargem Grande Paulista.",
+   "p. 30: A página 30 contém informações de área de comercialização, mas não apresenta tabelas de preço.",
+   "p. 30: Os municípios listados não indicam explicitamente a UF nesta página.",
+   "p. 30: Não há registros ANS, acomodação ou segmentação impressos para os planos.",
+   "p. 31: A página 31 contém o título “INTERIOR 2” e uma relação de municípios da área de comercialização; não contém tabelas de preço.",
+   "p. 31: O texto impresso informa que os planos Clássico, Especial, Especial Mais e Executivo COM Coparticipação podem ser comercializados nos municípios listados na página.",
+   "p. 32: Página divisória com os títulos “PLANOS DIRETO” e “DEMAIS PLANOS”; não há tabelas de preço nem outras informações de produto impressas.",
+   "p. 33: A página 33 apresenta uma relação de hospitais e serviços da rede médica sob o título “Planos Direto Nacional | Capital”; não há tabelas de preço nem valores impressos.",
+   "p. 33: A rede relaciona cidades e hospitais, com as siglas PS, INT e MAT explicadas no rodapé.",
+   "p. 34: A página 34 não contém tabelas de preço; apresenta uma lista de hospitais por cidade para os planos Direto Nacional | Capital.",
+   "p. 35: A página 35 contém uma relação de rede médica e laboratorial para “Planos Direto Nacional | Capital”; não há tabelas de preços nem valores de preços impressos.",
+   "p. 36: A página 36 contém uma relação de cidades e laboratórios da rede médica, não contém tabelas de preço.",
+   "p. 37: A página 37 apresenta tabelas de rede médica e laboratorial para Direto Nacional | Interior 1 (colunas QC e QP), não tabelas de preços.",
+   "p. 38: A página contém tabelas de rede médica e laboratorial, não tabelas de preços.",
+   "p. 39: A página 39 apresenta uma tabela de rede médica e laboratorial, não uma tabela de preços. Portanto, não há tabelas de preço para transcrever.",
+   "p. 39: A tabela lista os hospitais de São Paulo e a cobertura por plano: CLÁSSICO QC, ESPECIAL100 QP, ESPECIAL MAIS e EXECUTIVO QP. Esses dados não correspondem a preços e não foram incluídos como produtos ou linhas de preço.",
+   "p. 39: A página informa que as informações são resumidas e sujeitas a alterações.",
+   "p. 40: A página 40 apresenta uma tabela de rede médica e laboratorial, não uma tabela de preços.",
+   "p. 40: Na tabela de rede, a cidade indicada é São Paulo. As colunas são Clássico QC, Especial 100 QP, Especial Mais e Executivo QP; a legenda informa: LAB – Laboratório.",
+   "p. 40: A rede listada varia por plano. A marcação impressa é LAB ou hífen (–); não há campo correspondente para transcrevê-la no esquema.",
+   "p. 41: A página 41 apresenta uma tabela de rede médica e laboratorial, não uma tabela de preços. Portanto, não há tabelas de preço nem valores etários impressos nesta página.",
+   "p. 41: Os produtos listados nos cabeçalhos são CLÁSSICO QC, ESPECIAL100 QP, ESPECIAL MAIS e EXECUTIVO QP; não há números de registro ANS impressos.",
+   "p. 41: Administradora Qualicorp inferida da marca QualiPRO/Qualicorp impressa; operadora não informada.",
+   "p. 41: A página não informa tipo de contratação, UF de cobertura, segmentação ou acomodação; esses dados não foram especificados no material apresentado.",
+   "p. 42: A página contém uma tabela de rede médica e laboratorial, não uma tabela de preços.",
+   "p. 43: A página contém uma tabela de rede médica e laboratorial (hospitais por cidade e planos), não uma tabela de preços. Portanto, não há tabelas de preço para transcrever.",
+   "p. 43: Acomodação, registro ANS, tipo de contratação e vigência não estão impressos nesta página.",
+   "p. 44: A página contém uma tabela de rede médica e laboratorial, não tabelas de preços. Não há preços nem registros ANS impressos.",
+   "p. 44: A tabela está identificada como «DEMAIS PLANOS | INTERIOR 1 E 2». Para Barueri, a linha «Fleury Med. e Saúde e Unid. Avanç. Einstein Alphaville» mostra «-» nos três primeiros planos e «LAB» em EXECUTIVO QP.",
+   "p. 44: LAB significa «Laboratório», conforme a legenda impressa.",
+   "p. 45: A página apresenta uma tabela de rede médica e laboratorial, não uma tabela de preços. As células indicam LAB (laboratório) para os quatro planos; não há valores de preço nem condições de venda impressos.",
+   "p. 45: O título da seção é “Demais planos | Interior 1 e 2”.",
+   "p. 45: Não há número de registro ANS impresso para os planos nesta página.",
+   "p. 46: Página 46: contém uma tabela de rede médica e laboratorial, intitulada “DEMAIS PLANOS | INTERIOR 1 E 2”, sem tabela de preços.",
+   "p. 46: Os nomes dos quatro planos foram transcritos dos cabeçalhos; não há registros ANS, acomodação, segmentação ou abrangência impressos nesta página.",
+   "p. 47: A página 47 apresenta uma tabela de rede médica e laboratorial, não tabelas de preços.",
+   "p. 47: As colunas dos produtos indicam disponibilidade de laboratório com “LAB”; os traços impressos indicam ausência dessa indicação. Não há valores de preço nem condições de venda nesta página.",
+   "p. 48: A página 48 contém informações importantes e contatos, mas não apresenta tabelas de preço, produtos com registro ANS, regras de coparticipação, carências ou critérios de elegibilidade.",
+   "p. 48: A administradora/estipulante impressa é Qualicorp Administradora de Benefícios S.A. A contratação coletiva por adesão é sugerida pelo contexto do material, mas não está declarada explicitamente nesta página; tipo_contratacao foi registrado como nao_informado.",
+   "p. 48: A página informa que a SulAmérica Saúde disponibiliza para contratação o plano Referência, sem dados adicionais do produto."
+  ]
+ }
+}

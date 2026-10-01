@@ -1,0 +1,548 @@
+{
+ "arquivo": "allcare_unimed_rio_preto_adesao_sp_2026-08-14.pdf",
+ "sha256": "f497223370651fa80ec18010af82971ef11b2c6f7315231ed2d45f0d30939858",
+ "gravada_em": "2026-09-30T21:01:59+00:00",
+ "esforco": "low",
+ "paginas": 10,
+ "segundos": 7.5,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 11431,
+  "saida": 6651,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.033515,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed São José do Rio Preto",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "SP"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.805/24-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.778/24-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.806/24-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ",
+    "registro_ans": "499.777/24-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P5",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.796/24-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P6",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.776/24-0",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P7",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.797/24-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p4.P8",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL RP",
+    "registro_ans": "499.775/24-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo municipal"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.766/24-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de municípios"
+   },
+   {
+    "id": "p5.P2",
+    "nome": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.774/24-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de municípios"
+   },
+   {
+    "id": "p5.P3",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.767/24-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de municípios"
+   },
+   {
+    "id": "p5.P4",
+    "nome": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL",
+    "registro_ans": "499.773/24-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de municípios"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "CORPORATIVO 30",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "CORPORATIVO 50",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação - Regional VFJ",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "REGIONAL VFJ",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ Enfermaria",
+      "valores": [
+       192.83,
+       192.83,
+       237.17,
+       265.63,
+       289.55,
+       344.57,
+       447.94,
+       586.79,
+       774.56,
+       1030.17
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL VFJ Apartamento",
+      "valores": [
+       251.99,
+       251.99,
+       309.94,
+       347.13,
+       378.39,
+       450.27,
+       585.35,
+       766.8,
+       1012.2,
+       1346.22
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ Enfermaria",
+      "valores": [
+       234.07,
+       234.07,
+       287.91,
+       322.45,
+       351.48,
+       418.26,
+       543.74,
+       712.29,
+       940.24,
+       1250.51
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL VFJ Apartamento",
+      "valores": [
+       290.3,
+       290.3,
+       357.07,
+       399.91,
+       435.91,
+       518.74,
+       674.37,
+       883.41,
+       1166.11,
+       1550.93
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação - Regional RP",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "REGIONAL RP",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P5",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL RP Enfermaria",
+      "valores": [
+       227.39,
+       227.39,
+       279.68,
+       313.24,
+       341.44,
+       406.32,
+       528.21,
+       691.96,
+       913.39,
+       1214.8
+      ]
+     },
+     {
+      "produto_id": "p4.P6",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL RP Apartamento",
+      "valores": [
+       299.23,
+       299.23,
+       368.05,
+       412.22,
+       449.32,
+       534.68,
+       695.09,
+       910.56,
+       1201.95,
+       1598.59
+      ]
+     },
+     {
+      "produto_id": "p4.P7",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL RP Enfermaria",
+      "valores": [
+       275.39,
+       275.39,
+       338.73,
+       379.38,
+       413.51,
+       492.1,
+       639.72,
+       838.02,
+       1106.2,
+       1471.26
+      ]
+     },
+     {
+      "produto_id": "p4.P8",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL RP Apartamento",
+      "valores": [
+       341.54,
+       341.54,
+       420.1,
+       470.5,
+       512.85,
+       610.28,
+       793.38,
+       1039.33,
+       1371.9,
+       1824.63
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços - Ambulatorial + Hospitalar com Obstetrícia - Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL - Enfermaria",
+      "valores": [
+       261.43,
+       261.43,
+       321.55,
+       360.13,
+       392.56,
+       467.15,
+       607.28,
+       795.54,
+       1050.11,
+       1396.65
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "CORPORATIVO 50 - ADESÃO REGIONAL TOTAL - Apartamento",
+      "valores": [
+       341.72,
+       341.72,
+       420.32,
+       470.76,
+       513.12,
+       610.61,
+       793.79,
+       1039.88,
+       1372.63,
+       1825.6
+      ]
+     },
+     {
+      "produto_id": "p5.P3",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL - Enfermaria",
+      "valores": [
+       316.68,
+       316.68,
+       389.52,
+       436.27,
+       475.52,
+       565.88,
+       735.63,
+       963.68,
+       1272.06,
+       1691.84
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "CORPORATIVO 30 - ADESÃO REGIONAL TOTAL - Apartamento",
+      "valores": [
+       392.77,
+       392.77,
+       483.11,
+       541.07,
+       589.78,
+       701.83,
+       912.39,
+       1195.21,
+       1577.7,
+       2098.32
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Teto Sobre A Copart. Geral",
+    "regra": "R$ 450,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Teto Sobre A Copart. Geral",
+    "regra": "R$ 600,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Consultas (*)",
+    "regra": "25% com limite de R$ 35,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas (*)",
+    "regra": "35% com limite de R$ 55,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta urgência (*)",
+    "regra": "35% com limite de R$ 45,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta urgência (*)",
+    "regra": "50% com limite de R$ 65,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais (grupo 1)",
+    "regra": "30% com limite de R$ 50,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames especiais (grupo 1)",
+    "regra": "50% com limite de R$ 110,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames simples (grupo 2)",
+    "regra": "30% com limite de R$ 50,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples (grupo 2)",
+    "regra": "50% com limite de R$ 110,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias especiais (grupo 1)",
+    "regra": "30% com limite de R$ 250,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias especiais (grupo 1)",
+    "regra": "50% com limite de R$ 250,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples (grupo 2)",
+    "regra": "30% com limite de R$ 50,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples (grupo 2)",
+    "regra": "50% com limite de R$ 110,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Outros atendimentos ambulatoriais",
+    "regra": "30% com limite de R$ 250,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Outros atendimentos ambulatoriais",
+    "regra": "50% com limite de R$ 250,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Demais despesas assistenciais",
+    "regra": "30% com limite de R$ 50,00",
+    "produtos": [
+     "p6.P1"
+    ]
+   },
+   {
+    "procedimento": "Demais despesas assistenciais",
+    "regra": "50% com limite de R$ 110,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Internações psiquiátricas",
+    "regra": "50%",
+    "produtos": [
+     "p6.P2"
+    ]
+   },
+   {
+    "procedimento": "Internações",
+    "regra": "R$ 230,00",
+    "produtos": [
+     "p6.P2"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Recém-nascido, filho natural ou adotivo inscrito nos primeiros 30 dias do nascimento ou da adoção",
+    "prazo_dias": 0,
+    "observacao": "Isento do cumprimento dos períodos de carência, não cabendo alegação de DLP, CPT ou agravo."
+   },
+   {
+    "cobertura": "Filho adotivo menor de 12 anos",
+    "prazo_dias": null,
+    "observacao": "Aproveitando os períodos de carência já cumpridos pelo beneficiário adotante, não cabendo DLP, CPT ou agravo."
+   }
+  ],
+  "elegibilidade": [
+   "Titular: Deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação",
+   "Dependentes: Cônjuge; companheiro(a) na união homoafetiva; companheiro(a) que comprove união estável conforme Lei Civil",
+   "Dependentes: Pensionados com percepção de pensão alimentícia",
+   "Dependentes: Filhos(as) solteiros(as) até 21 anos de idade",
+   "Dependentes: Filhos(as) entre 21 e 24 anos de idade, dependentes economicamente do titular e estudantes de curso regular reconhecido pelo MEC",
+   "Dependentes: Enteado e menores sob guarda ou tutela judicial",
+   "Dependentes: Filho(s) adotivo(s) ou não e enteado(s), solteiros até a data em que completarem 24 anos sob guarda definitiva ou tutela",
+   "Dependentes: Filhos(as) comprovadamente inválidos(as) ou enquanto durar a invalidez",
+   "AFECOM (Associação Dos Funcionarios Das Empresas Do Comercio De Bens E Serviços Do Brasil): Profissionais do Comercio de Bens e Serviços",
+   "AncePla (Associacao Nacional Dos Consultores Empresariais, Profissionais Liberais E Autonomos): Administrador, Advogado, Arquiteto, Assistente Social, Biólogo, Biomédico, Contadores, Corretor de Imóveis, Designer, Economista, Educador Físico, Enfermeiros e Técnicos de Enfermagem, Engenheiro, Fisioterapeuta, Fonoaudiólogo, Gestão Financeira, Jornalista, Logística, Marketing, Médico, Médico Veterinário, Nutricionista, Professor, Profissional de Recursos Humanos, Psicólogo, Publicitário, Relações Públicas, Segurança do Trabalho, Químicos e Tecnologia da Informação",
+   "UNASFEM (Uniao Nacional De Assistencia Aos Servidores Federais, Estaduais E Municipais): Servidores públicos, federais, estaduais e municipais, em exceto magistrados, promotores e procuradores"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é a capa do material de vendas, sem tabelas de preços impressas.",
+   "p. 2: Página de menu/sumário, sem tabelas de preços ou dados detalhados de produtos.",
+   "p. 3: A página 3 do material não contém tabelas de preços, produtos com dados cadastrais ou regras de carência/coparticipação; trata-se de página institucional sobre diferenciais da administradora Allcare.",
+   "p. 4: Reajuste informado como Abril.",
+   "p. 4: Rodapé indica 'Versão: 08.2026'.",
+   "p. 5: No rodapé consta 'Versão: 08.2026', aparentemente erro de digitação do material no ano (possivelmente 08.2024).",
+   "p. 6: A página não contém tabela de preços por faixa etária, apresentando apenas a tabela de coparticipação e a área de comercialização dos produtos.",
+   "p. 6: A coluna de registros ANS do Corporativo 30 lista múltiplos registros (499797242, 499775241, 499806245, 499777248, 499767241, 499773245) e do Corporativo 50 lista (499796244, 499776240, 499805247, 499778246, 499766242, 499774243).",
+   "p. 7: A página 7 não contém tabelas de preços, apresentando apenas listagem de municípios de abrangência, regras de vigência e rodapé com identificação da operadora/administradora.",
+   "p. 8: A página 8 contém apenas regras de elegibilidade ('Quem pode aderir') e regras específicas de carência para dependentes recém-nascidos e adotivos, sem tabelas de preços.",
+   "p. 10: A página é a capa/contracapa do material e não contém tabelas de preços, produtos ou regras de carência e coparticipação."
+  ]
+ }
+}

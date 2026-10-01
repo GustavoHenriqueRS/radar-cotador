@@ -1,0 +1,34 @@
+[
+  {
+    "arquivo": "affix_hapvida_pme_pe_2026-03.pdf",
+    "url": "https://affix.com.br/wp-content/uploads/2026/04/Affix-PME-Hapvida-Manual-Corretor-RECIFE-DESCONTO-03-26.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "0e90c4d4b50012875d077960e3c23767e196e42add4500bcb10c6829bbe6cded",
+    "fonte": "Affix (administradora de benefícios, ANS 41.742-4); endereço achado no arquivo da web, PDF baixado do site da Affix (robots.txt libera tudo)",
+    "observacao": "Manual do corretor PME Hapvida (coletivo empresarial via Affix Empresas), Recife/PE, versão '03-26' no nome; Last-Modified 01/04/2026. 8 páginas. Três produtos Nosso Plano da 368253 (484.248/19-1, 484.252/19-9, 484.251/19-1), cada um com coparticipação total e parcial em colunas separadas sob um cabeçalho comum; odonto opcional a R$ 25,63; reajuste em fevereiro/2027. O próprio PDF diz 'material de uso interno destinado exclusivamente aos consultores', embora esteja aberto no site."
+  },
+  {
+    "arquivo": "corpe_hapvida_pme_am_2026-02-24.pdf",
+    "url": "https://api.corporeadministradora.com.br/storage/tables/24.02.2026_TABELA%20HAPVIDA%20PME_MANAUS_V.1.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "ed4feddf2d0b38e8e9475049ffc601962904b4a016f6ea7a8663d1f92554bcb1",
+    "fonte": "CORPe Saúde (administradora de benefícios, ANS 41.896-0); listado pela API pública /api/support_material/listSupportMaterial (sem login; robots.txt libera tudo)",
+    "observacao": "Tabela de vendas PME boletado, 1 a 29 vidas, Manaus/AM, 'v.fevereiro.2026'; Last-Modified 02/06/2026. 8 páginas. Mesmos três registros Nosso Plano do manual da Affix em Recife, com preços da praça de Manaus (ex.: 484.248/19-1, total, 0 a 18: R$ 119,56 aqui e R$ 145,95 em Recife). Reajuste em fevereiro/2027. A API lista 53 tabelas Hapvida da CORPe (26 praças de adesão, 26 de PME e CCG no RS), com a data no começo do nome do arquivo."
+  },
+  {
+    "arquivo": "safe_hapvida_adesao_rj_2026-03.pdf",
+    "url": "https://safeadmin.com.br/wp-content/uploads/Tabela-Hapvida-RJ.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "fb53545c9c4018d803f7795b5b3ebfeb01e7e23f0424b73c586ac778b741428c",
+    "fonte": "Safe/Safelife (administradora de benefícios, ANS 41.843-9); linkado na página pública https://safeadmin.com.br/produtos/hapvida/ (robots.txt só bloqueia /wp-admin/)",
+    "observacao": "Tabela de adesão Rio de Janeiro com a marca Hapvida NotreDame, criada no Canva em 03/03/2026 (Last-Modified 04/05/2026). A capa cita a Hapvida (ANS 36.825-3), mas os 12 registros de produto (linha Smart, Advance e Premium) são da NotreDame Intermédica, 359017. Defeitos do próprio PDF: as duas tabelas de cada página dizem 'COPARTICIPAÇÃO TOTAL' (a segunda, mais cara, deve ser a parcial); 'SMART 400 APARTAMENTO' repete o registro da enfermaria (474.464/15-1); 'SMART 900 CARE ENFERMARIA' usa 476.794/16-2, que a ANS registra como apartamento; as linhas 'ANS' e 'Acomodação' estão com os rótulos trocados."
+  },
+  {
+    "arquivo": "corpe_hapvida_adesao_bh_2026-09-15.pdf",
+    "url": "https://api.corporeadministradora.com.br/storage/tables/15.09.2026_TABELA HAPVIDA_BELO HORIZONTE_V.1.pdf",
+    "baixado_em": "2026-10-01",
+    "sha256": "d09692296f4f185880e469445ef6cb6eff8b3c4bdf0b032fc61ebe0360a18baa",
+    "fonte": "CORPe Saúde",
+    "observacao": "coletada pela captura api_json; página 2 com negrito falso (cada letra desenhada duas vezes)"
+  }
+]

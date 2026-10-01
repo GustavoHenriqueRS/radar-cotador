@@ -1,0 +1,692 @@
+{
+ "arquivo": "unimed_ferj_pme_rj_2026-08-17.pdf",
+ "sha256": "8c7163fceeceecdd06fe6966ab9addf5ee1077dd14198ef800f705adde5b3ce3",
+ "gravada_em": "2026-09-30T21:03:51+00:00",
+ "esforco": "low",
+ "paginas": 24,
+ "segundos": 19.7,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 27327,
+  "saida": 10612,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.06029,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Unimed Ferj",
+  "administradora": null,
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "RJ"
+  ],
+  "vigencia_inicio": "2026-08-17",
+  "vigencia_fim": "2026-09-30",
+  "produtos": [
+   {
+    "id": "p3.P1",
+    "nome": "Saúde Unimed Estadual Empresarial Enfermaria com Copart",
+    "registro_ans": "508.318/26-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "Saúde Unimed Estadual Empresarial Apartamento com Copart",
+    "registro_ans": "508.317/26-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p4.P1",
+    "nome": "Estadual Empresarial Enfermaria com Copart.",
+    "registro_ans": "508.318/26-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Estadual Empresarial Apartamento com Copart",
+    "registro_ans": "508.317/26-6",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Estadual Empresarial Enfermaria com Copart.",
+    "registro_ans": "508.318/26-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p7.P1",
+    "nome": "Estadual Empresarial Apartamento com Copart",
+    "registro_ans": "508.317/26-6",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p8.P1",
+    "nome": "Saúde Unimed Estadual Empresarial Enfermaria com Copart",
+    "registro_ans": "508.318/26-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p8.P2",
+    "nome": "Saúde Unimed Estadual Empresarial Apartamento com Copart",
+    "registro_ans": "508.317/26-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p9.P1",
+    "nome": "Saúde Unimed Estadual Empresarial Enfermaria com Copart",
+    "registro_ans": "508.318/26-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p9.P2",
+    "nome": "Saúde Unimed Estadual Empresarial Apartamento com Copart",
+    "registro_ans": "508.317/26-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p19.P1",
+    "nome": "Produto 508317266",
+    "registro_ans": "508317266",
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p19.P2",
+    "nome": "Produto 508318264",
+    "registro_ans": "508318264",
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Planos Empresariais - PME (03 a 29 beneficiários) - Enfermaria - Com coparticipação total - em %",
+    "vidas_minimo": 3,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Estadual Empresarial Enfermaria com Copart.",
+      "valores": [
+       191.99,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "PME (03 a 29 beneficiários) - Apartamento - Com coparticipação total - em %",
+    "vidas_minimo": 3,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Estadual Empresarial Apartamento com Copart",
+      "valores": [
+       239.99,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "MEI (02 a 29 beneficiários) - Enfermaria - Com coparticipação total - em %",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Estadual Empresarial Enfermaria com Copart.",
+      "valores": [
+       252.14,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "MEI (02 a 29 beneficiários) - Apartamento - Com coparticipação total - em %",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "Estadual Empresarial Apartamento com Copart",
+      "valores": [
+       315.18,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Tabela de Preços | PME I - Coparticipação Total - PME I - 03 A 29 VIDAS - COMPULSÓRIO",
+    "vidas_minimo": 3,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P1",
+      "coluna": "Saúde Unimed Estadual Empresarial Enfermaria com Copart - COMPULSÓRIO",
+      "valores": [
+       191.99,
+       236.15,
+       280.85,
+       301.2,
+       312.37,
+       363.3,
+       470.32,
+       617.86,
+       850.55,
+       1151.87
+      ]
+     },
+     {
+      "produto_id": "p8.P2",
+      "coluna": "Saúde Unimed Estadual Empresarial Apartamento com Copart - COMPULSÓRIO",
+      "valores": [
+       239.99,
+       295.18,
+       351.05,
+       376.49,
+       390.46,
+       454.12,
+       587.89,
+       772.34,
+       1063.19,
+       1439.84
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Tabela de Preços | PME I - Coparticipação Total - PME I - 03 A 29 VIDAS - LIVRE ADESÃO",
+    "vidas_minimo": 3,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P1",
+      "coluna": "Saúde Unimed Estadual Empresarial Enfermaria com Copart - LIVRE ADESÃO",
+      "valores": [
+       214.27,
+       263.56,
+       313.44,
+       336.15,
+       348.62,
+       405.46,
+       524.9,
+       689.58,
+       949.27,
+       1285.57
+      ]
+     },
+     {
+      "produto_id": "p8.P2",
+      "coluna": "Saúde Unimed Estadual Empresarial Apartamento com Copart - LIVRE ADESÃO",
+      "valores": [
+       267.84,
+       329.44,
+       391.8,
+       420.19,
+       435.78,
+       506.83,
+       656.13,
+       861.99,
+       1186.59,
+       1606.97
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 9,
+    "titulo": "Tabela de Preços | MEI - Coparticipação Total - MEI - 02 A 29 VIDAS",
+    "vidas_minimo": 2,
+    "vidas_maximo": 29,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p9.P1",
+      "coluna": "LIVRE ADESÃO",
+      "valores": [
+       252.14,
+       310.14,
+       368.84,
+       395.57,
+       410.23,
+       477.11,
+       617.68,
+       811.47,
+       1117.05,
+       1512.79
+      ]
+     },
+     {
+      "produto_id": "p9.P2",
+      "coluna": "LIVRE ADESÃO",
+      "valores": [
+       315.18,
+       387.67,
+       461.05,
+       494.46,
+       512.8,
+       596.41,
+       772.1,
+       1014.34,
+       1396.31,
+       1890.99
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "30% com Limite do item R$ 30,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de urgência em pronto-socorro",
+    "regra": "40% com Limite do item R$ 90,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames",
+    "regra": "30% com Limite do item R$ 110,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Simples / Convencionais",
+    "regra": "30% com Limite do item R$ 60,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias intensivas ou multidisciplinares",
+    "regra": "30% com Limite do item R$ 100,00 por evento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Outros procedimentos Ambulatoriais",
+    "regra": "30% com Limite do item R$ 150,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações (exceto psiquiátricas)",
+    "regra": "Isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações Psiquiátricas",
+    "regra": "Haverá coparticipação quando ultrapassados 30 (trinta) dias de internação psiquiátrica contínuos ou não, a cada 12 meses. A coparticipação será aplicada no percentual de 50% (cinquenta por cento), ou o percentual máximo definido pela Agência Nacional de Saúde Suplementar - ANS, sobre as despesas médico-hospitalares relativas à internação psiquiátrica.",
+    "produtos": []
+   },
+   {
+    "procedimento": "Teto Geral",
+    "regra": "A soma mensal referente à coparticipação total por beneficiário ao mês possui teto de R$900,00 (novecentos reais) limitado ao valor da mensalidade.",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "30% com limite de R$ 30,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de urgência em pronto-socorro",
+    "regra": "40% com limite de R$ 90,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames",
+    "regra": "30% com limite de R$ 110,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Simples / Convencionais",
+    "regra": "30% com limite de R$ 60,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias intensivas ou multidisciplinares",
+    "regra": "30% com limite de R$ 100,00 por evento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Outros procedimentos Ambulatoriais",
+    "regra": "30% com limite de R$ 150,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas eletivas",
+    "regra": "30% (limite de R$ 30,00)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Consultas de urgência em Pronto-Socorro",
+    "regra": "40% (limite de R$ 90,00)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Exames",
+    "regra": "30% (limite de R$ 110,00)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Procedimentos ambulatoriais",
+    "regra": "30% (limite de R$ 150,00)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias simples",
+    "regra": "30% (limite de R$ 60,00)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Terapias multidisciplinares",
+    "regra": "30% (limite de R$ 100,00 por evento)",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação",
+    "regra": "Isento",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   },
+   {
+    "procedimento": "Internação psiquiátrica",
+    "regra": "50% sobre as despesas médico-hospitalares a partir do 31º dia de internação",
+    "produtos": [
+     "p19.P1",
+     "p19.P2"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Parto a termo",
+    "prazo_dias": 300,
+    "observacao": "Sem redução promocional em qualquer hipótese"
+   },
+   {
+    "cobertura": "Urgência e emergência (Padrão / Condição 1 / Condição 2 / Condição 3)",
+    "prazo_dias": 1,
+    "observacao": "24 horas em todas as condições"
+   },
+   {
+    "cobertura": "Consultas eletivas - Padrão",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Consultas eletivas - Condição 1",
+    "prazo_dias": 20,
+    "observacao": null
+   },
+   {
+    "cobertura": "Consultas eletivas - Condição 2",
+    "prazo_dias": 10,
+    "observacao": null
+   },
+   {
+    "cobertura": "Consultas eletivas - Condição 3",
+    "prazo_dias": 0,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos básicos - Padrão",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos básicos - Condição 1",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos básicos - Condição 2",
+    "prazo_dias": 10,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos básicos - Condição 3",
+    "prazo_dias": 0,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos especiais - Padrão",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos especiais - Condição 1",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos especiais - Condição 2",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames e procedimentos especiais - Condição 3",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações e day hospital - Padrão",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações e day hospital - Condição 1",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações e day hospital - Condição 2",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internações e day hospital - Condição 3",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias simples - Padrão",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias simples - Condição 1",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias simples - Condição 2",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias simples - Condição 3",
+    "prazo_dias": 0,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias especiais - Padrão",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias especiais - Condição 1",
+    "prazo_dias": 90,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias especiais - Condição 2",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Terapias especiais - Condição 3",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Parto a termo (todas as condições)",
+    "prazo_dias": 300,
+    "observacao": "300 dias em todas as condições"
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT)",
+    "prazo_dias": 720,
+    "observacao": "24 (vinte e quatro) meses para doenças e lesões preexistentes"
+   }
+  ],
+  "elegibilidade": [
+   "MEI",
+   "MEI (02 a 29 beneficiários)",
+   "PME MEI: Mínimo de 2 vidas, mínimo de 1 titular. Destinada exclusivamente às empresas classificadas como Microempreendedor Individual (MEI).",
+   "PME I (Livre Adesão): De 3 a 29 vidas, mínimo de 3 titulares. Aplicável às empresas de qualquer natureza jurídica, incluindo ME, EPP, CAEPF e Produtor Rural com CNPJ ativo, exceto MEI. Aplicável também quando NÃO houver contratação de 100% dos sócios, funcionários ou da massa vinculada ao plano anterior.",
+   "PME I (Compulsória): De 3 a 29 vidas, mínimo de 3 titulares. Destinada a empresas de qualquer natureza jurídica quando a inclusão contemplar 100% dos sócios, 100% dos funcionários titulares com vínculo empregatício registrados no e-Social e pelo menos 80% do quadro de funcionários e sócios para contratos com até 9 titulares.",
+   "Empresas enquadradas como LTDA, S/S, S/A e Empresário Individual (MEI, ME e EPP)",
+   "Cartórios e Produtor Rural, desde que inscritos no CNPJ e com situação ATIVA",
+   "Sócios e acionistas: 100% do Contrato Social",
+   "Administradores e diretores: nomeados no Contrato Social por período mínimo de 6 meses",
+   "Titulares (funcionários): inscritos no e-Social (empregados, intermitentes, inativos, estagiários e aprendizes)",
+   "Estagiários: Vínculo de estágio ativo",
+   "Dependentes: Conforme grau de dependência aceito",
+   "Titulares",
+   "Cônjuge ou companheiro(a)",
+   "Filhos e equiparados, com até 24 anos, 11 meses e 29 dias",
+   "filhos inválidos, elegíveis como dependentes para fins de declaração do Imposto de Renda do titular, sem limite de idade",
+   "Empresas elegíveis: LTDA, S/C, S/A, CAEPF, MEI, ME, EPP e outras naturezas jurídicas"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é capa informativa/material de vendas, não contém tabela de preços com valores.",
+   "p. 2: A página 1 (página 2 do documento) consiste apenas no Sumário / Índice do informativo de vendas ('Condições para venda Saúde Unimed PME'), sem tabelas de preços.",
+   "p. 3: A página apresenta apenas características dos produtos e relação de materiais de comercialização, sem valores de tabela de preços.",
+   "p. 4: Página promocional/destaque contendo apenas o valor inicial 'A partir de R$ 191,99' para a faixa etária de 0 a 18 anos.",
+   "p. 5: Página promocional/capa com valor a partir de impresso apenas para a faixa etária de 0 a 18 anos (R$ 239,99). Demais faixas etárias ausentes nesta página.",
+   "p. 6: A página é uma lâmina promocional/resumo de produto e apresenta apenas o valor inicial da faixa etária 0 a 18 anos ('A partir de: R$ 252,14*'). As demais faixas etárias não constam na página e foram preenchidas com null.",
+   "p. 7: A página é uma lâmina promocional/resumo de produto informando apenas o valor 'A partir de: R$ 315,18' referente à faixa etária de 0 a 18 anos. Demais faixas etárias não constam nesta página.",
+   "p. 8: O rodapé menciona 'Tabela válida a partir de 17/08/2026 a 30/09/2006' (provável erro tipográfico no original impresso para o ano final 2026, grafado como 2006 em uma das menções e 2026 na barra de rodapé).",
+   "p. 9: No rodapé há texto impresso 'Tabela válida a partir de 17/08/2026 a 30/09/2006' (com erro de digitação de ano '2006'), complementado pelo rodapé 'VÁLIDO DE 17/08/2026 A 30/09/2026'.",
+   "p. 10: A página 10 não contém tabelas de preços, tratando-se exclusivamente de apresentação de serviços diferenciais (Conexa Teleconsulta, Unipsico e Unimed Farmácia).",
+   "p. 11: A página 11 contém apenas regras comerciais, portes de contratação e condições de elegibilidade/compulsoriedade, não apresentando tabelas com valores de mensalidades.",
+   "p. 12: A página 12 não contém tabelas de preços de planos de saúde, apenas regras contratuais, de encampação e de elegibilidade empresarial.",
+   "p. 13: A página 13 apresenta apenas regras de elegibilidade, dependentes e documentação para contratação PME, não contendo tabelas de preços.",
+   "p. 14: A página 14 (indicada como página 1 do envio) não contém tabelas de preços, produtos ou regras de carência/coparticipação com valores numéricos; trata-se exclusivamente de regras de documentação e contratação para empresas e coligadas do Saúde Unimed PME.",
+   "p. 15: A página 15 não contém tabelas de preços nem informações de planos específicos, consistindo apenas em regras de condições de venda para PME (documentação e critérios de beneficiários).",
+   "p. 16: A página 16 não contém tabelas de preços nem produtos específicos listados, apenas regras de condições promocionais, elegibilidade e enquadramento de carências para contratos de 2 a 29 vidas.",
+   "p. 17: A página 17 não contém tabelas de preços, tratando apenas de requisitos e documentação para redução de carência.",
+   "p. 18: Página não contém tabelas de preços de planos de saúde, apenas tabela de reversão de carências e regras de CPT/Teleentrevista.",
+   "p. 19: A página 19 não contém tabelas de mensalidade/preço por faixa etária, apenas tabela e regras de coparticipação (fator moderador).",
+   "p. 20: A página 20 apresenta apenas informações de rotina operacional do PME, sem tabelas de preços de planos de saúde.",
+   "p. 21: A página 21 (do PDF página 1) é uma página de anexos com links/listagem de documentos, sem tabelas de preços impressas.",
+   "p. 22: A página 22 (identificada no rodapé como Informativo de Vendas PME V08|2026) não contém tabelas de preço, apenas informações institucionais sobre aplicativo, canais de atendimento e espaços de relacionamento.",
+   "p. 23: A página 23 é informativa/institucional sobre o Portal Empresa Unimed Ferj e não contém tabelas de preços de planos de saúde.",
+   "p. 24: A página é uma capa/contracapa institucional informativa para corretores ('Material e Informativo de Vendas: MEI - 02 a 29 vidas / PME I - 03 a 29 vidas') e não contém tabelas de preços."
+  ]
+ }
+}

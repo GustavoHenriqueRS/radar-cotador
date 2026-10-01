@@ -1,0 +1,217 @@
+{
+ "arquivo": "allcare_plamed_adesao_se_2026-08-07.pdf",
+ "sha256": "115ed5fa67460ae7e3c13d4fe81663f33105b899c6b163c8a24211616b05eb31",
+ "gravada_em": "2026-09-30T21:01:39+00:00",
+ "esforco": "low",
+ "paginas": 8,
+ "segundos": 6.0,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 9136,
+  "saida": 3180,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.018777,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Plamed",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "SE"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "IDEAL CLÁSSICO",
+    "registro_ans": "497.112/23-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "GOLD ADESÃO",
+    "registro_ans": "497.796/24-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "GOLD ADESÃO",
+    "registro_ans": "497.797/24-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços Ambulatorial + Hospitalar com Obstetrícia - Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "IDEAL CLÁSSICO - MUNICIPAL - Enfermaria",
+      "valores": [
+       164.32,
+       215.79,
+       247.66,
+       276.96,
+       290.73,
+       327.98,
+       399.38,
+       549.84,
+       725.25,
+       914.26
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "GOLD ADESÃO - ESTADUAL - Enfermaria",
+      "valores": [
+       306.51,
+       352.47,
+       419.44,
+       482.38,
+       516.15,
+       598.69,
+       754.38,
+       965.59,
+       1293.88,
+       1772.78
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "GOLD ADESÃO - ESTADUAL - Apartamento",
+      "valores": [
+       413.75,
+       475.81,
+       566.25,
+       651.18,
+       696.76,
+       808.22,
+       1018.41,
+       1293.88,
+       1746.69,
+       2393.02
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Telemedicina (Atendimento online 24 horas por dia com clínico geral e pediatra)",
+    "regra": "sem coparticipação",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "R$ 28,54",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "R$ 30,57",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "R$ 42,80",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "R$ 45,84",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "40% limitado a R$ 14,27",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "40% limitado a R% 15,28",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40% limitado a R$ 72,50",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40% limitado a R$ 77,65",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% limitado a R$ 85,61",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% limitado a R$ 91,69",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular: Deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Esposa(o) ou companheira(o), comprovada a união por meio dos documentos de certidão de casamento ou declaração pública de união estável (realizada em cartório de títulos e documentos), respectivamente;",
+   "Filhos(as) solteiros(as) naturais, adotivos, com guarda provisória ou definitiva, enteados e os tutelados na forma da lei, desde que possuam até 24 (vinte e quatro) anos completos;",
+   "Filhos(as) inválidos, declarados no Imposto de Renda do BENEFICIÁRIO titular.",
+   "AEB - ASSOCIACAO DOS ESTUDANTES DO BRASIL: Titulares Estudantes a partir de 07 anos completos matriculados no Ensino Fundamental, Médio, Pré vestibular, Graduação e Pós-Graduação, e Tecnólogo (Superior). Para Cursos Técnicos: Que todos tenham duração de pelo menos 12 meses (1 ano). Titulares a partir de 18 anos podem incluir cônjuge e filhos até 24 anos.",
+   "AFECOM - ASSOCIAÇÃO DOS FUNCIONÁRIOS DO COMÉRCIO DE BENS E SERVIÇOS CORRELATOS DO BRASIL: Profissionais do Comercio de Bens e Serviços",
+   "ANCEPLA - ASSOCIAÇÃO NACIONAL DOS CONSULTORES EMPRESARIAIS, PROFISSIONAIS LIBERAIS E AUTÔNOMOS: Profissional Liberal (Administrador, Advogado, Aeronauta, Agrônomo, Anestesista, Arquiteto, Assistente Social, Atuário, Auditor, Autônomo, Bibliotecário, Biólogo, Biomédico, Comércio Exterior, Comunicação Social, Contabilista, Corretor de Imóveis e de Seguros, Despachante e Aduaneiro, Economista, Engenheiro, Estatístico, Farmacêutico, Filósofo, Físico, Fisioterapeuta, Fonoaudiólogo, Gastrônomo, Geógrafo, Geólogo, Gestão Financeira, Historiador, Jornalista, Letras, Marketing, Matemático, Médico, Músico, Nutricionista, Odontologista, Pedagogo, Professor, Profissional de Informática e Tecnologia da Informação, Profissional de Enfermagem, Profissional de Educação Física, Psicólogo, Psicoterapeuta, Publicitário, Químico, Radialista, Relações Públicas e Internacionais, Representante Comercial, Secretário, Sociólogo, Técnico Industrial, Tecnólogo, Teólogo, Tradutor, Urbanista e Veterinário)",
+   "UNASFEM - UNIÃO NACIONAL DE ASSISTÊNCIA AOS SERVIDORES FEDERAIS, ESTADUAIS E MUNICIPAIS: Servidores Públicos Ativos, vinculados aos poderes FEDERAL, ESTADUAL e MUNICIPAL"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é a capa do material de vendas, sem tabelas de preço impressas. Contém a indicação 'Versão: 03.2026'.",
+   "p. 2: Página 2 do material contém apenas um sumário/menu interativo navegável, sem tabelas de preços, produtos ou regras detalhadas impressas.",
+   "p. 3: A página apresenta apenas diferenciais institucionais e benefícios da Allcare (Telemedicina, Clube de Vantagens, Blog da Saúde, Além da Gestação), sem tabelas de preços.",
+   "p. 4: Na tabela de coparticipação, para Exames simples do Gold Adesão, está impresso literalmente 'R% 15,28'.",
+   "p. 5: A página 5 não contém tabelas de preços de planos de saúde.",
+   "p. 6: A página 6 contém apenas informações de elegibilidade/entidades de classe e documentação necessária; não há tabelas de preço impressas nesta página.",
+   "p. 7: Página de elegibilidade e documentação; não contém tabelas de preços de produtos.",
+   "p. 8: Página de contracapa / encerramento, não contém tabelas de preços nem informações de planos."
+  ]
+ }
+}

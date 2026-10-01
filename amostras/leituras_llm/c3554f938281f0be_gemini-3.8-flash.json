@@ -1,0 +1,316 @@
+{
+ "arquivo": "allcare_hapvida_pme_df_2026-07-16.pdf",
+ "sha256": "c3554f938281f0be4099f32cae442be9c419df1640e30e2b100f15c50ce79d5c",
+ "gravada_em": "2026-09-30T21:01:33+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 5.7,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 10278,
+  "saida": 4318,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.023901,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_empresarial",
+  "ufs": [
+   "CE",
+   "DF",
+   "GO"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "NOSSO PLANO A CE MUN CC CORP SV 420",
+    "registro_ans": "492.146/22-1",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": "municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+    "registro_ans": "491.902/22-5",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "municipal"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+    "registro_ans": "491.898/22-3",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "municipal"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "+ODONTO PREMIUM NACIONAL EMP",
+    "registro_ans": "471.904/14-2",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Odontológico",
+    "abrangencia": "Nacional"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "NOSSO PLANO A CE MUN CC CORP SV 420",
+      "valores": [
+       136.62,
+       153.02,
+       171.37,
+       197.08,
+       226.64,
+       269.72,
+       337.14,
+       421.43,
+       716.41,
+       802.38
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+      "valores": [
+       157.12,
+       175.97,
+       197.09,
+       226.65,
+       260.65,
+       310.19,
+       387.73,
+       484.67,
+       823.94,
+       922.8
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+      "valores": [
+       235.69,
+       263.96,
+       295.64,
+       339.99,
+       390.98,
+       465.27,
+       581.59,
+       726.99,
+       1235.88,
+       1384.19
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "NOSSO PLANO A CE MUN CC CORP SV 420",
+      "valores": [
+       162.32,
+       181.69,
+       203.61,
+       234.16,
+       269.28,
+       320.43,
+       400.55,
+       500.68,
+       851.16,
+       953.3
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "NOSSO PLANO AHO CE MUN ENF CC CORP 382",
+      "valores": [
+       178.55,
+       199.97,
+       223.94,
+       257.54,
+       296.16,
+       352.42,
+       440.51,
+       550.63,
+       936.05,
+       1048.39
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "NOSSO PLANO AHO CE MUN APT CC CORP 384",
+      "valores": [
+       267.83,
+       299.97,
+       335.96,
+       386.35,
+       444.31,
+       528.72,
+       660.89,
+       826.12,
+       1404.41,
+       1572.93
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas (Copart. Parcial)",
+    "regra": "Isento / Não se aplica",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas (Copart. Total)",
+    "regra": "Valor fixo R$ 26,47",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência (Copart. Parcial)",
+    "regra": "Isento / Não se aplica",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência (Copart. Total)",
+    "regra": "Valor fixo R$ 45,44",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples (Copart. Parcial)",
+    "regra": "Isento / Não se aplica",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples (Copart. Total)",
+    "regra": "40% Limitado a R$ 47,70",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos (Copart. Parcial)",
+    "regra": "Isento / Não se aplica",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos (Copart. Total)",
+    "regra": "40% Limitado a R$ 119,25",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais (Copart. Parcial)",
+    "regra": "Valor fixo R$ 82,16",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais (Copart. Total)",
+    "regra": "Valor fixo R$ 82,16",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias (Copart. Parcial)",
+    "regra": "Valor fixo R$ 25,28",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias (Copart. Total)",
+    "regra": "Valor fixo R$ 25,28",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Urgência/Emergência",
+    "prazo_dias": 1,
+    "observacao": "Carência Contratual: 24 horas; Carência Promocional: 24 horas"
+   },
+   {
+    "cobertura": "Consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG)",
+    "prazo_dias": 30,
+    "observacao": "Carência Contratual: 30 dias; Carência Promocional: Isento"
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não sejam de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS): - Exames Cardiológicos simples: Teste Ergométrico, Holter, Ecocardiograma Convencional; - Exames Oftalmológicos simples: Curva tensional, Tonometria, Campimetria, Mapeamento de retina; - Exames Otorrinolaringológicos simples: Audiometrias e Impedanciometrias, Pesquisa de Potencial Evocado (BERA); - Exames de Raio-X Contrastado; - Exames de Ultrassonografia (exceto endoscópicos); - Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Carência Contratual: 90 dias; Carência Promocional: 90 dias"
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não estejam relacionados à(s) patologia(s) para a(s) qual(is) o Beneficiário cumpre Cobertura Parcial Temporária - CPT: - Cirurgias ambulatoriais; - Internação Hospitalar, clinica, cirúrgica ou obstétrica; - Internações em leitos de alta complexidade; - Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia; - Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive, com métodos específicos – ABA, BOBATH e outras - (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia, e terapia ocupacional); - Todos os procedimentos não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Carência Contratual: 180 dias; Carência Promocional: 180 dias"
+   },
+   {
+    "cobertura": "Parto",
+    "prazo_dias": 300,
+    "observacao": "Carência Contratual: 300 dias; Carência Promocional: 300 dias"
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT)",
+    "prazo_dias": 720,
+    "observacao": "24 meses"
+   },
+   {
+    "cobertura": "Carência Dental - Atendimentos de urgência/emergência",
+    "prazo_dias": 1,
+    "observacao": "24 horas"
+   },
+   {
+    "cobertura": "Carência Dental - Diagnóstico, Prevenção em Saúde Bucal e Dentística (Restaurações)",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Carência Dental - Demais casos",
+    "prazo_dias": 180,
+    "observacao": null
+   }
+  ],
+  "elegibilidade": [
+   "Sócios",
+   "Funcionários",
+   "Administradores de empresa (estatutários)",
+   "Trabalhadores temporários",
+   "Estagiários e Menores aprendizes das empresas",
+   "Cônjuge",
+   "Companheiro(a)",
+   "Filhos (as) naturais ou adotivos solteiros até 24 (vinte e quatro) anos incompletos",
+   "Enteados (as) até 24 anos incompletos",
+   "Filhos(as) PCD de qualquer idade",
+   "Os tutelados(as) e os menores sob guarda até 18 (dezoito) anos de idade incompletos",
+   "Os curatelados(as) até 24 (vinte e quatro) anos incompletos"
+  ],
+  "avisos": [
+   "p. 1: Página de capa: não contém tabelas de preços, produtos com valores ou regras detalhadas.",
+   "p. 3: A página 1 (página 3 do material) é puramente institucional/promocional ('Diferenciais Allcare') e não contém tabelas de preços, produtos com registro ANS ou dados contratuais.",
+   "p. 4: Reajuste indicado no cabeçalho: Junho.",
+   "p. 4: Rodapé indica versão '06.2026'.",
+   "p. 5: A página contém apenas a tabela de opcional odontológico com valor mensal único (R$ 25,44), regras de coparticipação, vigência e área de comercialização, sem tabelas de preços por faixa etária para planos de saúde médicos.",
+   "p. 6: A página 6 de 9 não contém tabelas de preços de planos de saúde, apenas regras de elegibilidade e documentação.",
+   "p. 8: A página 8 contém apenas informações de Carências (Saúde, CPT e Dental) e Rede Credenciada, sem tabelas de preços de mensalidades.",
+   "p. 9: Página de contracapa sem tabelas de preços, produtos, regras de carência ou coparticipação."
+  ]
+ }
+}

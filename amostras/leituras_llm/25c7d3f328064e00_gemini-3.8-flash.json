@@ -1,0 +1,317 @@
+{
+ "arquivo": "corpe_hapvida_adesao_df_2026-09-15.pdf",
+ "sha256": "25c7d3f328064e007ddcabb40a571181a49b64ac6eaaf23a6a8d1a92c9a33b26",
+ "gravada_em": "2026-09-30T21:02:17+00:00",
+ "esforco": "low",
+ "paginas": 9,
+ "segundos": 7.1,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 10278,
+  "saida": 5237,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.027347,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "CORPe Saúde",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF",
+   "GO"
+  ],
+  "vigencia_inicio": "2026-09-01",
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "NOSSO PLANO A CA MUN CC SV 426",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar + Obstetrícia",
+    "abrangencia": "Municipal"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial - Com Franquia - Coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC SV 426",
+      "valores": [
+       124.09,
+       163.05,
+       185.71,
+       207.03,
+       217.82,
+       244.4,
+       298.61,
+       413.71,
+       557.29,
+       723.44
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial - Com Franquia - Coparticipação Parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC SV 426",
+      "valores": [
+       157.94,
+       207.83,
+       236.85,
+       264.16,
+       277.97,
+       312.01,
+       381.43,
+       528.83,
+       712.71,
+       925.48
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "Ambulatorial + Hospitalar + Obstetrícia - Com Franquia - Coparticipação Total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       207.65,
+       267.04,
+       303.79,
+       337.59,
+       353.37,
+       396.44,
+       478.81,
+       652.37,
+       872.99,
+       1128.28
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       300.46,
+       389.55,
+       444.67,
+       495.39,
+       519.06,
+       583.67,
+       707.22,
+       967.58,
+       1298.52,
+       1681.46
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "Ambulatorial + Hospitalar + Obstetrícia - Com Franquia - Coparticipação Parcial - Com Odonto",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       259.7,
+       335.75,
+       382.8,
+       426.09,
+       446.29,
+       501.44,
+       606.92,
+       829.16,
+       1111.65,
+       1438.53
+      ]
+     },
+     {
+      "produto_id": "p3.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       378.54,
+       492.62,
+       563.2,
+       628.14,
+       658.44,
+       741.17,
+       899.37,
+       1232.75,
+       1656.5,
+       2146.83
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "Coparticipação Parcial: Isento | Coparticipação Total: Valor fixo R$ 25,42",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "Coparticipação Parcial: Isento | Coparticipação Total: Valor fixo R$ 45,79",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "Coparticipação Parcial: Isento | Coparticipação Total: 40% Limitado a R$ 42,40",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "Coparticipação Parcial: Isento | Coparticipação Total: 40% Limitado a R$ 114,48",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais",
+    "regra": "Coparticipação Parcial: Valor fixo R$ 78,87 | Coparticipação Total: Valor fixo de R$ 78,87",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias",
+    "regra": "Coparticipação Parcial: Valor fixo R$ 24,27 | Coparticipação Total: Valor fixo de R$ 24,27",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Atendimentos decorrentes de acidentes pessoais, ocorridos comprovadamente a partir da vigência do Contrato, sendo que as demais condições de atendimento para urgência/emergência estão detalhadas no anexo I, em conformidade com a CONSU Nº 13/98. Para a cobertura de consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS).",
+    "prazo_dias": 1,
+    "observacao": "Vinte e quatro (24) horas"
+   },
+   {
+    "cobertura": "Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG). (Radiografia não contrastada) e Eletrocardiograma (ECG).",
+    "prazo_dias": 30,
+    "observacao": "Trinta (30) dias"
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não sejam de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS): Exames Cardiológicos simples: Teste Ergométrico, Holter, Ecocardiograma Convencional; Exames Oftalmológicos simples: Curva tensional, Tonometria, Campimetria, Mapeamento de retina; Exames Otorrinolaringológicos simples: Audiometrias e Impedanciometrias, Pesquisa de Potencial Evocado (BERA); Exames de Raio-X Contrastado; Exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Noventa (90) dias"
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não estejam relacionados à(s) patologia(s) para a(s) qual(is) o beneficiário cumpre Cobertura Parcial Temporária - CPT: Cirurgias ambulatoriais; Internação Hospitalar, clinica, cirúrgica ou obstétrica; Internações em leitos de alta complexidade; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia; Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive, com métodos específicos – ABA, BOBATH e outras - (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia, e terapia ocupacional); Todos os procedimentos não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Cento e oitenta (180) dias"
+   },
+   {
+    "cobertura": "Cobertura de partos a termo.",
+    "prazo_dias": 300,
+    "observacao": "Trezentos (300) dias"
+   },
+   {
+    "cobertura": "CPT (Cobertura Parcial Temporária)",
+    "prazo_dias": 720,
+    "observacao": "24 meses"
+   },
+   {
+    "cobertura": "Beneficiário vinculado há mais de 1 ano na operadora de origem",
+    "prazo_dias": null,
+    "observacao": "Redução em 100% do número de dias de adimplência junto à referida Operadora, exceto para partos, Sessões e Terapias Simples, Especiais e Multidisciplinares (ABA, BOBATH etc.) e CPT"
+   },
+   {
+    "cobertura": "Beneficiário vinculado entre 180 dias e 1 ano na operadora de origem",
+    "prazo_dias": null,
+    "observacao": "Redução em 50% do número de dias de adimplência junto à referida Operadora, exceto para partos, Sessões e Terapias Simples, Especiais e Multidisciplinares (ABA, BOBATH etc.) e CPT"
+   },
+   {
+    "cobertura": "Beneficiário vinculado entre 30 dias e 179 dias na operadora de origem",
+    "prazo_dias": 30,
+    "observacao": "Prazo de carência reduzido em 30 dias, devendo cumprir o restante originalmente contratado, exceto para partos, Sessões e Terapias Simples, Especiais e Multidisciplinares (ABA, BOBATH etc.) e CPT"
+   }
+  ],
+  "elegibilidade": [
+   "Estudantil (titulares a partir de 18 anos e menores de 17 anos 11 meses e 29 dias)",
+   "ASMUP: Servidores Público. Taxa associativa: R$ 5,00",
+   "ALIANÇA: Profissionais Liberais: Administrador, Arquivista, Artistas e Atores, Cenógrafos, Compositores, Corretores, Enólogos, Leiloeiros, Parteiras, Publicitários, Músicos, Relações Publicas, Agrônomo, Médico, Zoólogos, Zootecnistas, Florestal, Médico Veterinário, Profissionais de Tecnologia da Informação, Arqueólogo, Geólogo, Geógrafo, Arquiteto e Urbanista, Assistente Social, Bibliotecário, Biólogo, Biomédico, Botânico, Ecólogo, Bioquímico, Químico, Contador, Auditor, Atuário, Economista, Enfermeiro, Engenheiro (todas as modalidades), Estatístico e Matemático, Farmacêutico, Físico, Geofísico, Astrônomo e Meteorologista, Fisioterapeuta e Terapeuta Ocupacional, Historiador e Museólogo, Jornalista, Comunicólogo, Relações Publicas, Repórter, Médicos, Nutricionista, Dentista, Professor Particular (Primário, línguas, Universitário, de Pós Graduação). Pesquisadores em Geral, Psicólogo, Sociólogo, Antropólogo, Cientista Político, Etnógrafo e Demógrafo, Tradutor e Interprete, Profissionais com formação e comunicação Social com Ênfase em: (Rádio, TV e Internet), Radialismo, Comunicação organizacional, Cinema e Audiovisual, Mídias Digitais, Produção Editorial). Taxa associativa: R$ 8,00",
+   "Empregados profissionais lojistas e comerciários do Brasil. Taxa associativa: R$ 5,00",
+   "ASSINDICOM: Empregados de empresas do Ramo do Comércio, Serviços ou Sócios. Devidamente associados a entidade do comércio. Taxa associativa: R$ 9,00",
+   "Estudantes (a partir de 05 anos). Taxa associativa: R$ 8,00"
+  ],
+  "avisos": [
+   "p. 1: Página de capa sem tabelas de preços.",
+   "p. 2: A página menciona 'Reajuste: fevereiro/2027'.",
+   "p. 3: A tabela médica indica 'Com Odonto', contudo a nota esclarece: 'Os preços contidos na tabela dos produtos \"Nosso Plano\" abrange exclusivamente a cobertura de assistência médica', tratando-se de valor com desconto para contratação concomitante de plano odontológico à parte.",
+   "p. 3: A página apresenta tabela separada para planos exclusivamente odontológicos (PROTEÇÃO ODONTOLÓGICA CA a R$ 3,47 e +ODONTO PREMIUM ADESÃO a R$ 22,05).",
+   "p. 4: A página 4 de 9 não contém tabelas de preços nem produtos listados, contendo apenas regras de dependentes/documentação necessária, área de atuação e área de comercialização.",
+   "p. 5: A página 5 não contém tabelas de preços por faixa etária de planos de saúde, constando apenas tabelas de valores de coparticipação e regras/documentos de elegibilidade por entidade.",
+   "p. 6: A página 6 contém apenas prazos de carências e informações sobre Cobertura Parcial Temporária (CPT), não apresentando tabelas de preços.",
+   "p. 7: A página 7 contém apenas o Termo de Concordância - Redução de Carência de Contratos Coletivos e a lista de operadoras congêneres, não apresentando tabelas de preços.",
+   "p. 8: A página 8 contém apenas informações sobre a Rede de Atendimento e não possui tabelas de preços ou produtos listados.",
+   "p. 9: Página final de contracapa contendo apenas contatos e canais de atendimento, sem tabelas de preço, produtos ou regras comerciais."
+  ]
+ }
+}

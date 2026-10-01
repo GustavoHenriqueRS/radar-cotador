@@ -1,0 +1,346 @@
+{
+ "arquivo": "affix_hapvida_adesao_df_2025-08.pdf",
+ "sha256": "9548fe6ceae9a3201e3fc15f22b029326a2d21bba7e6e7089b514b66343a9502",
+ "gravada_em": "2026-09-30T20:25:36+00:00",
+ "esforco": "low",
+ "paginas": 8,
+ "segundos": 11.3,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 3907,
+  "saida": 5685,
+  "cache_escrita": 0,
+  "cache_leitura": 39481,
+  "usd": 0.003628,
+  "raciocinio": 1143
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "Affix",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "NOSSO PLANO A CA MUN CC SV 426",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Amb +Hosp +Obst",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Amb +Hosp +Obst",
+    "abrangencia": "Municipal"
+   },
+   {
+    "id": "p7.P1",
+    "nome": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "DF: Brasília"
+   },
+   {
+    "id": "p7.P2",
+    "nome": "NOSSO PLANO AHO CA MUN APT CCF 374",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "DF: Brasília"
+   },
+   {
+    "id": "p7.P3",
+    "nome": "NOSSO PLANO A CA MUN CC SV 426",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": null,
+    "abrangencia": "DF: Brasília"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Tabela sem desconto — coparticipação total",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": "Municipal",
+    "preco_inclui": [
+     "Proteção Odontológica CA (Ambulatorial) para P1",
+     "Odonto Premium Adesão (Enfermaria/Apartamento) para P2 e P3"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC SV 426",
+      "valores": [
+       112.08,
+       147.24,
+       167.69,
+       186.94,
+       196.67,
+       220.66,
+       269.58,
+       373.46,
+       503.04,
+       652.98
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       188.0,
+       241.6,
+       274.76,
+       305.27,
+       319.51,
+       358.38,
+       432.72,
+       589.35,
+       788.44,
+       1018.82
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       271.76,
+       352.16,
+       401.9,
+       447.66,
+       469.02,
+       527.33,
+       638.83,
+       873.79,
+       1172.43,
+       1518.01
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 2,
+    "titulo": "Tabela sem desconto — coparticipação parcial",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": "Municipal",
+    "preco_inclui": [
+     "Proteção Odontológica CA (Ambulatorial) para P1",
+     "Odonto Premium Adesão (Enfermaria/Apartamento) para P2 e P3"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "NOSSO PLANO A CA MUN CC QC 209",
+      "valores": [
+       142.62,
+       187.64,
+       213.83,
+       238.47,
+       250.94,
+       281.66,
+       344.3,
+       477.33,
+       643.26,
+       835.27
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "NOSSO PLANO AHO CA MUN ENF CCF 368",
+      "valores": [
+       234.98,
+       303.6,
+       346.07,
+       385.13,
+       403.35,
+       453.13,
+       548.31,
+       748.87,
+       1003.79,
+       1298.77
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "NOSSO PLANO AHO CA MUN APT CCF 374",
+      "valores": [
+       342.22,
+       445.17,
+       508.87,
+       567.47,
+       594.82,
+       669.47,
+       812.24,
+       1113.09,
+       1495.49,
+       1937.98
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "Valor fixo R$ 23,53",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "Valor fixo R$ 40,39",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "40% limitando a R$ 42,40",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40% limitando a R$ 106,00",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "-",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Neurológicas Especiais",
+    "regra": "Valor fixo R$ 73,03",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias",
+    "regra": "Valor fixo R$ 22,47",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Atendimentos decorrentes de acidentes pessoais, ocorridos comprovadamente a partir da vigência do Contrato, sendo que as demais condições de atendimento para urgência/emergência estão detalhadas na cláusula 5.1, em conformidade com a CONSU Nº 13/98.",
+    "prazo_dias": 1,
+    "observacao": "Plano de saúde — carência contratual e promocional: 24 horas."
+   },
+   {
+    "cobertura": "Cobertura de consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS)), Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG).",
+    "prazo_dias": 30,
+    "observacao": "Plano de saúde — carência contratual: 30 dias; carência promocional: isento."
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não sejam de Alta Complexidade (PAC – Procedimentos de Alta Complexidade, na definição estabelecida no Rol de Procedimentos e Eventos em Saúde, da ANS): Exames Cardiológicos simples: Teste Ergométrico, Holter, Ecocardiograma Convencional; Exames Otorrinolaringológicos simples: Audiometrias e Impedanciometrias, Pesquisa de Potencial Evocado (BERA); Exames de Raio-X Contrastado; Exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Plano de saúde — carência contratual e promocional: 90 dias."
+   },
+   {
+    "cobertura": "Cobertura dos seguintes procedimentos, desde que não estejam relacionados à(s) patologia(s) para a(s) qual(is) o beneficiário cumpre Cobertura Parcial Temporária - CPT: Cirurgias ambulatoriais; Internação Hospitalar, clínica, cirúrgica ou obstétrica; Internações em leitos de alta complexidade; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia; Todos os procedimentos não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": "Plano de saúde — carência contratual e promocional: 180 dias."
+   },
+   {
+    "cobertura": "Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive, com métodos específicos - ABA, BOBATH e outras - (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia e terapia ocupacional).",
+    "prazo_dias": 180,
+    "observacao": "Plano de saúde — carência contratual e promocional: 180 dias."
+   },
+   {
+    "cobertura": "Cobertura de parto a termo.",
+    "prazo_dias": 300,
+    "observacao": "Plano de saúde — carência contratual e promocional: 300 dias."
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT) para procedimentos de Alta Complexidade (PAC), leitos de alta tecnologia e procedimentos cirúrgicos relacionados exclusivamente às doenças ou lesões preexistentes declaradas pelo beneficiário ou seu representante legal.",
+    "prazo_dias": null,
+    "observacao": "CPT - 24 MESES. O texto informa período ininterrupto de até 24 meses, contados a partir da data de início de vigência do benefício. A CPT não se confunde com carência contratual."
+   },
+   {
+    "cobertura": "Atendimentos de urgência/emergência.",
+    "prazo_dias": 1,
+    "observacao": "Plano odontológico — carência contratual: 24 horas."
+   },
+   {
+    "cobertura": "Diagnóstico, Prevenção em Saúde Bucal e Dentística (Restaurações).",
+    "prazo_dias": 60,
+    "observacao": "Plano odontológico — carência contratual."
+   },
+   {
+    "cobertura": "Demais procedimentos.",
+    "prazo_dias": 180,
+    "observacao": "Plano odontológico — carência contratual."
+   }
+  ],
+  "elegibilidade": [
+   "FNEL - Federação Nacional dos Estudantes Livres: estudantes a partir de 5 anos, do ensino infantil, fundamental, ensino médio, graduação e pós-graduação do ensino superior, devidamente comprovado. Exige comprovante de matrícula ou comprovante da mensalidade quitado ou declaração de escolaridade em papel timbrado com carimbo do CNPJ e assinatura da instituição (últimos 60 dias), além de ficha associativa à FNEL devidamente assinada. Taxa: R$ 10,00 por mês.",
+   "UNIPRO - Associação Brasileira de Desenvolvimento Social dos Profissionais Liberais: profissionais liberais. Exige cópia do diploma (frente e verso) ou cópia do Registro de Inscrição no Conselho de Classe da respectiva categoria profissional, além de declaração de filiação à UNIPRO devidamente assinada e datada, ou cópia do cartão de associado. Taxa: R$ 5,00 por mês.",
+   "ASCOSERVI - Associação Profissional do Comércio e Indústria: profissionais do comércio, indústria e serviços. Taxa: R$ 10,00 por mês.",
+   "FADESP - Federação Nacional dos Advogados Estagiários e Bacharéis: advogados, bacharéis e estagiários de Direito. Exige cópia do diploma (frente e verso) ou cópia da carteira da OAB, além de ficha associativa devidamente assinada e datada ou cópia do cartão de associado. Taxa: R$ 7,00 por mês.",
+   "ANSP - Associação Nacional dos Servidores Públicos: servidores públicos ativos municipais, estaduais e federais. Exige cópia do contracheque atual, além de declaração de filiação devidamente assinada e datada ou cópia do cartão de associado. Taxa: R$ 10,00 por mês.",
+   "Titular: associado; exige declaração de filiação assinada e datada ou cartão do associado.",
+   "Cônjuge.",
+   "Companheiro(a), mediante comprovação de união estável conforme documentação indicada.",
+   "Filhos naturais, adotivos e enteados solteiros até 24 anos incompletos.",
+   "Filhos inválidos, de qualquer idade.",
+   "Tutelados(as), curatelados(as) e menor sob guarda até 21 anos incompletos, conforme regras do Código Civil e do ECA.",
+   "Pai e mãe.",
+   "Avô e avó.",
+   "Irmão(ã).",
+   "Tio(a).",
+   "Sobrinho(a).",
+   "Neto(a)."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço.",
+   "p. 1: A página informa “10% de desconto nas 3 primeiras mensalidades*”, mas não apresenta as condições indicadas pelo asterisco.",
+   "p. 1: Os números “ANS - nº 36.825-3” (Hapvida) e “ANS - nº 41.742-4” (Affix) aparecem junto às marcas, não como registros de produtos.",
+   "p. 2: A tabela informa que os preços estão sem desconto. O material também anuncia desconto nas 3 primeiras mensalidades, sujeito a condição e vigências de outubro; não informa com clareza as datas de vigência.",
+   "p. 3: A tabela distingue as colunas COPARTICIPAÇÃO TOTAL e COPARTICIPAÇÃO PARCIAL, nessa ordem; as regras foram transcritas em pares nessa ordem.",
+   "p. 3: Obs.: cobrança de coparticipação por procedimento realizado.",
+   "p. 4: A página não contém tabelas de preço.",
+   "p. 5: A página contém documentação necessária para titular e dependentes; não há tabelas de preço nem informações de produtos, valores, carências ou coparticipação.",
+   "p. 6: A página contém informações importantes e não apresenta tabelas de preço.",
+   "p. 6: O material informa que o mês do reajuste anual é junho/2026; não informa data de vigência.",
+   "p. 6: A taxa de angariação é negociada entre corretor e beneficiário, deve ser inferior ao valor da mensalidade e não se confunde com ela.",
+   "p. 6: A venda será considerada administrativa para ex-beneficiários do contrato Hapvida que retornem até 90 dias após o cancelamento.",
+   "p. 7: Esta página não contém tabelas de preço.",
+   "p. 7: A página informa vigência nos dias 01, 10 e 20, com vencimento no mesmo dia de cada mês; não indica datas de início ou fim.",
+   "p. 7: A acomodação do produto P3 foi interpretada como sem_internacao a partir da abreviação impressa «SV».",
+   "p. 8: A página contém tabelas de carências, não tabelas de preços.",
+   "p. 8: Para a carência promocional do plano de saúde, a segunda cobertura aparece como “Isento”; a carência contratual correspondente é de 30 dias.",
+   "p. 8: A página informa que as carências são contadas a partir do início da vigência do benefício."
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "fontes": [
+    {
+      "nome": "Qualicorp",
+      "tipo": "pdf_administradora",
+      "url": "",
+      "confiabilidade": 4,
+      "observacoes": "PDF encontrado por buscador; robots.txt responde 403.",
+      "capturas": [
+        {
+          "tipo": "url_direta",
+          "nome": "Link da tabela vigente",
+          "ativa": true,
+          "config": {
+            "urls": [
+              "https://tabelasdevendas.qualicorp.com.br/tabelas/QUALIPRO_SAS_SP_F_25_NP.pdf"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

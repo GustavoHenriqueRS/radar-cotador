@@ -1,0 +1,329 @@
+{
+ "arquivo": "corpe_medsenior_adesao_pr_2026-08-10.pdf",
+ "sha256": "4c1a5c4f1556096e94fbbf9427e5ceea5ea98c2c1ca25922ad835b5ac7bbf6f5",
+ "gravada_em": "2026-09-30T20:27:46+00:00",
+ "esforco": "low",
+ "paginas": 7,
+ "segundos": 14.9,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 22594,
+  "saida": 5774,
+  "cache_escrita": 0,
+  "cache_leitura": 13342,
+  "usd": 0.00528,
+  "raciocinio": 1313
+ },
+ "leitura": {
+  "operadora": "MedSênior",
+  "administradora": "CORPe Saúde",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "PR"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": "2026-12-01",
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": "504.131/25-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": "504.132/25-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": "504.127/25-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p2.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": "504.222/25-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar sem Obstetrícia",
+    "abrangencia": "G. de Municípios"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "MEDSÊNIOR ADESÃO - ENF. - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "MEDSÊNIOR ADESÃO - APT. - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P3",
+    "nome": "BLACK ADESÃO 5",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p3.P4",
+    "nome": "INFINITE ADESÃO",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Curitiba, Campo Largo e São José dos Pinhais"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "MedSênior Adesão - Enf - PR",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "MedSênior Adesão - Apt - PR",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P3",
+    "nome": "Black Adesão 5",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P4",
+    "nome": "Infinite Adesão",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Sem Coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "G. de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "MedSênior Adesão - Enf - PR",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       512.78,
+       512.78,
+       615.33,
+       806.09
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "MedSênior Adesão - Apt - PR",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       640.97,
+       640.97,
+       769.17,
+       1007.61
+      ]
+     },
+     {
+      "produto_id": "p2.P3",
+      "coluna": "Black Adesão 5",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1085.33,
+       1085.33,
+       1302.4,
+       1706.14
+      ]
+     },
+     {
+      "produto_id": "p2.P4",
+      "coluna": "Infinite Adesão",
+      "valores": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       1566.5,
+       1566.5,
+       1879.8,
+       2462.54
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [],
+  "carencias": [
+   {
+    "cobertura": "1. Urgência, Emergência e Acidente Pessoal.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 24 horas; carência promocional: 24 horas; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "2. Consultas Médicas.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 30 dias; carência promocional: 24 horas; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "3. Exames simples: Exames simples de radiografias, laboratório e eletrocardiograma.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 30 dias; carência promocional: 24 horas; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "4. Exames e Procedimentos Complexos I: Exames de laboratório – biologia molecular, imunológicos e hormonais; radiografias contrastadas; ultrassom simples; mamografia; teste ergométrico.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 90 dias; carência promocional: 24 horas; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "5. Exames e Procedimentos Complexos II: Teste alérgico; densitometria.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 120 dias; carência promocional: 90 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "6. Exames e Procedimentos Especiais: Endoscopia intervencionista e diagnósticas; ultrassonografia intervencionista; holter; mapa; ultrassonografia diagnóstica com doppler; ecocardiograma com doppler; pequena cirurgia ambulatorial de porte anestésico zero; exames e testes específicos; eletrofisiológicos funcionais.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 90 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "7. Fisioterapias: Fisioterapias, fonoterapia, acupuntura; e demais terapias; exceto as ligadas à saúde mental.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 90 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "8. Exames e Procedimentos de Alta Complexidade: Ressonância magnética nuclear; hemodinâmica, hemoterapia, radioterapia; hemodiálise de curta ou longa duração, quimioterapia; tomografia computadorizada; exames e procedimentos de medicina nuclear e demais exames e procedimentos cobertos por este contrato e não especificados nos grupos anteriores.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 180 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "9. Saúde Mental: Atendimento à Saúde Mental ambulatorial.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 180 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "10. Internações: Internações Clínicas, Cirúrgicas e UTI.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 180 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "11. Internações Psiquiátricas.",
+    "prazo_dias": 1,
+    "observacao": "Carência contratual: 180 dias; carência promocional: 180 dias; redução de carência: 24 horas."
+   },
+   {
+    "cobertura": "12. Doenças e lesões preexistentes com opção de Cobertura Parcial Temporária - CPT.",
+    "prazo_dias": null,
+    "observacao": "Carência contratual: 24 meses; carência promocional: 24 meses; redução de carência: 24 meses."
+   }
+  ],
+  "elegibilidade": [
+   "Titular: cópias de RG, CPF e comprovante de endereço.",
+   "Cônjuge ou companheiro(a), devidamente reconhecido(a), com idade igual ou superior a 44 anos; documentos: cópias de RG, CPF, certidão de casamento e união estável.",
+   "Ascendentes em linha reta consanguínea até o terceiro grau (pai, mãe, avô, avó, bisavô e bisavó), com idade igual ou superior a 44 anos; documentos: cópias de RG, CPF e documento que comprove vínculo com o titular.",
+   "Ascendentes por afinidade (padrasto e madrasta); documentos: cópias de RG, CPF e documento que comprove vínculo com o titular.",
+   "Sogro e sogra, com idade igual ou superior a 44 anos; documentos: cópias de RG, CPF e documento que comprove vínculo com o titular.",
+   "Tio e tia, consanguíneos ou por afinidade, com idade igual ou superior a 44 anos; documentos: cópias de RG, CPF e documento que comprove vínculo com o titular.",
+   "ALIANÇA — Profissionais Liberais: Administrador, Advogado, Agrônomo, Analista de Sistemas, Arquiteto, Assistente Social, Atuário, Bacharel em Ciência da Computação, Bacharel em Comércio Exterior, Bacharel em Comunicação Social, Bacharel em Gastronomia, Bacharel em Gestão Financeira, Bacharel em Hotelaria, Bacharel em Recursos Humanos, Biólogo, Biomédico, Contabilista, Corretor de Imóveis, Corretor de Seguros, Dentista, Designer (Gráfico, Moda e Interiores), Despachante, Economista, Educador Físico, Enfermeiro, Engenheiro, Farmacêutico, Fonoaudiólogo, Jornalista, Marqueteiro, Matemático, Médico, Nutricionista, Pedagogo, Professor, Psicólogo, Publicitário, Tecnólogo de Informação e Veterinário. Taxa associativa: R$ 8,00. Documentos: cópia do Diploma ou Registro em Conselho de Classe ou em Sindicato da Categoria | Ficha Associativa.",
+   "OBPP — Profissionais da Pedagogia e Psicopedagogia, Empregados em Órgãos Públicos e Privados. Taxa associativa: R$ 8,00. Documentos: cópia do Diploma e Carteira de Trabalho (CTPS), páginas Foto, CNPJ da Empresa, Nome Completo e Cargo do Empregado | Ficha Associativa.",
+   "União Nacional dos Servidores Públicos — Servidores Públicos. Taxa associativa: R$ 5,00. Documentos: cópia do Holerite Atual ou Nomeação de cargo | Ficha Associativa.",
+   "ANEC — Empregados de empresas do Ramo do Comércio, Serviços ou Sócios, devidamente associados a entidade do comércio. Taxa associativa: R$ 10,00. Documentos: Comerciante: cópia do Contrato Social ou Última Alteração | Requerimento de Empresário ou MEI (com no mínimo 6 meses de registro e ativo). Comerciário: cópia da Carteira de Trabalho (CTPS), páginas Foto, CNPJ da Empresa, Nome Completo e Cargo do Empregado ou Holerite Atual. Necessário o envio do Cartão do CNPJ | Ficha Associativa."
+  ],
+  "avisos": [
+   "p. 1: Página de capa: não há tabelas de preço nem nomes de produtos impressos.",
+   "p. 1: A capa informa CORPe Saúde — ANS nº 418960 e MedSênior — ANS nº 335614; esses números aparecem associados às entidades, não a produtos.",
+   "p. 1: A indicação de versão impressa é «v.agosto.2026»; não informa uma data exata de vigência.",
+   "p. 2: A tabela apresenta preços apenas para as faixas etárias 44–48, 49–53, 54–58 e 59/+; as seis faixas anteriores foram preenchidas com null.",
+   "p. 2: O material informa que os planos Black e Infinite contam com adicional de seguro viagem sem custo adicional; as condições e demais informações constam nos aditivos contratuais.",
+   "p. 2: A tabela informa: valores exemplificados; poderá haver reajuste no aniversário do contrato. Reajuste: março/2027.",
+   "p. 3: A página apresenta área de comercialização e elegibilidade, mas não contém tabelas de preço por faixa etária.",
+   "p. 3: Não há números de registro ANS impressos nesta página.",
+   "p. 3: CORPe Saúde e MedSênior aparecem como marcas no cabeçalho; as funções de operadora e administradora não são explicitadas na página.",
+   "p. 4: A página não contém tabelas de preço.",
+   "p. 4: Os prazos são apresentados em três colunas (carência contratual, carência promocional e redução de carência); foram mantidos em observacao, pois o campo prazo_dias não representa os três valores simultaneamente.",
+   "p. 4: A página informa: poderá haver prática de redução/aproveitamento de carências, a critério da Operadora, para beneficiários oriundos de outras Operadoras/Administradoras, desde que o plano de origem esteja com comercialização ativa na ANS, o beneficiário tenha permanecido no plano anterior por pelo menos 06 meses e esteja com as 03 últimas mensalidades quitadas.",
+   "p. 4: A página informa que, para qualquer nova adesão durante o período promocional, não é necessário apresentar comprovação de plano anterior e que a redução de carência será aplicada automaticamente nas adesões feitas dentro do prazo estabelecido. Campanha válida até a vigência 01/12/2026.",
+   "p. 5: A página apresenta uma tabela de rede de atendimento, não contém tabelas de preço. A tabela de rede lista prestadores e tipos de atendimento para os quatro produtos.",
+   "p. 5: O texto informa que a rede está sujeita a alteração pela operadora União Médica, sem aviso prévio, e orienta consultar o App União Saúde ou o site medsenior.com.br para a rede completa e atualizada.",
+   "p. 6: A página apresenta uma tabela de rede de atendimento, não tabelas de preço.",
+   "p. 6: Nenhum registro ANS está impresso nesta página.",
+   "p. 7: A página contém informações de atendimento e contato da Corpesaúde, mas não apresenta tabelas de preço nem dados de produtos."
+  ]
+ }
+}

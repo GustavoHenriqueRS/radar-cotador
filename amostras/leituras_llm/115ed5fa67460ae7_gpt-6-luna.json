@@ -1,0 +1,231 @@
+{
+ "arquivo": "allcare_plamed_adesao_se_2026-08-07.pdf",
+ "sha256": "115ed5fa67460ae7e3c13d4fe81663f33105b899c6b163c8a24211616b05eb31",
+ "gravada_em": "2026-09-30T20:26:18+00:00",
+ "esforco": "low",
+ "paginas": 8,
+ "segundos": 12.2,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 23175,
+  "saida": 3949,
+  "cache_escrita": 0,
+  "cache_leitura": 15248,
+  "usd": 0.004444,
+  "raciocinio": 986
+ },
+ "leitura": {
+  "operadora": "Plamed",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "SE"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Ideal Clássico",
+    "registro_ans": "497.112/23-4",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "municipal"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Gold Adesão",
+    "registro_ans": "497.796/24-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Gold Adesão",
+    "registro_ans": "497.797/24-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "estadual"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "municipal",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Ideal Clássico",
+      "valores": [
+       164.32,
+       215.79,
+       247.66,
+       276.96,
+       290.73,
+       327.98,
+       399.38,
+       549.84,
+       725.25,
+       914.26
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Tabela de preços — com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Gold Adesão — Enfermaria",
+      "valores": [
+       306.51,
+       352.47,
+       419.44,
+       482.38,
+       516.15,
+       598.69,
+       754.38,
+       965.59,
+       1293.88,
+       1772.78
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Gold Adesão — Apartamento",
+      "valores": [
+       413.75,
+       475.81,
+       566.25,
+       651.18,
+       696.76,
+       808.22,
+       1018.41,
+       1293.88,
+       1746.69,
+       2393.02
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "R$ 28,54",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas Eletivas",
+    "regra": "R$30,57",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "R$ 42,80",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Consultas de Urgência",
+    "regra": "R$ 45,84",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "40% limitado a R$ 14,27",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames simples",
+    "regra": "40% limitado a R% 15,28",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40% limitado a R$ 72,50",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos",
+    "regra": "40% limitado a R$ 77,65",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% limitado a R$ 85,61",
+    "produtos": [
+     "p4.P1"
+    ]
+   },
+   {
+    "procedimento": "Terapias",
+    "regra": "50% limitado a R$ 91,69",
+    "produtos": [
+     "p4.P2",
+     "p4.P3"
+    ]
+   }
+  ],
+  "carencias": [],
+  "elegibilidade": [
+   "Titular: deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Dependentes: pessoas com grau de parentesco e dependência econômica com o beneficiário titular.",
+   "Esposa(o) ou companheira(o), comprovada a união por certidão de casamento ou declaração pública de união estável realizada em cartório de títulos e documentos, respectivamente.",
+   "Filhos(as) solteiros(as) naturais, adotivos, com guarda provisória ou definitiva, enteados e tutelados na forma da lei, até 24 anos completos.",
+   "Filhos(as) inválidos, declarados no Imposto de Renda do beneficiário titular.",
+   "AEB - Associação dos Estudantes do Brasil: titulares estudantes a partir de 07 anos completos matriculados no Ensino Fundamental, Médio, Pré-vestibular, Graduação, Pós-Graduação ou curso Tecnólogo (Superior). Cursos técnicos devem ter duração de pelo menos 12 meses (1 ano), conforme declaração de escolaridade. É necessário comprovante de vínculo com a entidade e documento comprobatório da matrícula em instituição reconhecida pelo MEC. Titulares a partir de 18 anos podem incluir como dependentes o cônjuge e filhos até 24 anos.",
+   "AFECOM - Associação dos Funcionários do Comércio de Bens e Serviços Correlatos do Brasil: profissionais do Comércio de Bens e Serviços. Comprovar vínculo empregatício por contracheque com até 90 dias do mês de competência, carteira profissional ou contrato de trabalho; também são aceitos contrato social ou firma individual (CEI, CAEPF/MEI, Requerimento de Empresário Individual) comprovando atividade em empresas do comércio de bens e serviços correlatos.",
+   "ANCEPLA - Associação Nacional dos Consultores Empresariais, Profissionais Liberais e Autônomos: profissionais liberais das profissões listadas na página; para autônomos, comprovante de vínculo com a entidade e declaração de autônomo. Documentação: comprovante de vínculo com a entidade; cópia do diploma ou certificado de conclusão de curso, registro no conselho de classe ou comprovante de contribuição sindical da categoria.",
+   "UNASFEM - União Nacional de Assistência aos Servidores Federais, Estaduais e Municipais: servidores públicos ativos vinculados aos poderes federal, estadual e municipal. Documentação: comprovante de vínculo com a entidade; cópia do holerite atual ou com menos de 60 dias, carteira funcional ativa ou nomeação no diário oficial comprovando vínculo CLT ou estatutário com órgãos públicos."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nesta página.",
+   "p. 1: Versão impressa: 03.2026.",
+   "p. 2: Página de menu, sem tabelas de preços. Itens impressos: Diferenciais Allcare; Tabela de preços; Coparticipação; Vigência; Área de comercialização; Quem pode aderir; Entidades de classe; Rede credenciada.",
+   "p. 3: A página 3 de 8 apresenta diferenciais da Allcare (Telemedicina, Clube de Vantagens, Blog da Saúde e Além da Gestação), mas não contém tabelas de preço nem informações de produtos, contratação, coparticipação, carências ou elegibilidade.",
+   "p. 4: A tabela de coparticipação imprime o cabeçalho “Gold Adesão” para uma coluna que corresponde às duas opções estaduais Gold Adesão; os valores foram associados a P2 e P3.",
+   "p. 4: O material informa “Reajuste: Fevereiro” e “Versão: 03.2026”; não imprime datas de vigência.",
+   "p. 5: A página não contém tabelas de preço.",
+   "p. 5: Área de comercialização impressa: Municipal — Aracaju/SE; Estadual — Sergipe.",
+   "p. 5: Vigência impressa: adesão de 01 a 10 do mês — vigência dia 01 do mês subsequente; adesão de 11 a 20 — vigência dia 10 do mês subsequente; adesão de 21 a 31 — vigência dia 20 do mês subsequente. Vencimentos: todo dia 01, 10 ou 20 de cada mês, respectivamente.",
+   "p. 5: Documentação cadastral do titular: comprovante de filiação à entidade, carteira de identidade e CPF.",
+   "p. 6: A página não contém tabelas de preço.",
+   "p. 7: A página não contém tabelas de preço.",
+   "p. 7: A página informa a versão 03.2026; não apresenta datas de vigência.",
+   "p. 8: A página é uma capa e não contém tabelas de preço.",
+   "p. 8: Estão impressos os números institucionais ANS nº 41728-9 (Allcare) e ANS nº 34.346-3 (Plamed); não há número de registro de produto impresso."
+  ]
+ }
+}

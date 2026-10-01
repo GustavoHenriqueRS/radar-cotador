@@ -1,0 +1,3320 @@
+{
+ "arquivo": "allcare_unimed_vitoria_adesao_es_2026-08-13.pdf",
+ "sha256": "4f3226661d8255d9881da83c12676926cede85dfe7701f61d2d9ca62a39a350d",
+ "gravada_em": "2026-09-30T20:27:40+00:00",
+ "esforco": "low",
+ "paginas": 27,
+ "segundos": 49.4,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 87036,
+  "saida": 33900,
+  "cache_escrita": 0,
+  "cache_leitura": 51462,
+  "usd": 0.026168,
+  "raciocinio": 5928
+ },
+ "leitura": {
+  "operadora": "Unimed Vitória",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "ES"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p2.P1",
+    "nome": "Unimed Premium Nacional 7613",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p2.P2",
+    "nome": "Unimed Premium Nacional 7613",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P1",
+    "nome": "Unimed Premium Nacional 2028",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p3.P2",
+    "nome": "Unimed Premium Nacional 2028",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p4.P1",
+    "nome": "Participativo Estadual 3131",
+    "registro_ans": "458.015/08-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Participativo Estadual 3131",
+    "registro_ans": "458.021/08-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Participativo Nacional 1627",
+    "registro_ans": "462.577/10-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p4.P4",
+    "nome": "Participativo Nacional 1627",
+    "registro_ans": "462.576/10-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p4.P5",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p4.P6",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p5.P1",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Enfermaria",
+    "registro_ans": "458.015/08-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p5.P2",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Apartamento",
+    "registro_ans": "458.021/08-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p5.P3",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Enfermaria",
+    "registro_ans": "462.577/10-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p5.P4",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Apartamento",
+    "registro_ans": "462.576/10-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p5.P5",
+    "nome": "VITORIAMED 5338 — Enfermaria",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p5.P6",
+    "nome": "VITORIAMED 5338 — Apartamento",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p6.P1",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Enfermaria",
+    "registro_ans": "458.015/08-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p6.P2",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Apartamento",
+    "registro_ans": "458.021/08-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p6.P3",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Enfermaria",
+    "registro_ans": "462.577/10-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p6.P4",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Apartamento",
+    "registro_ans": "462.576/10-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p6.P5",
+    "nome": "VITORIAMED 5338 — Enfermaria",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p6.P6",
+    "nome": "VITORIAMED 5338 — Apartamento",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p7.P1",
+    "nome": "Participativo Estadual 3131 — Enfermaria",
+    "registro_ans": "458.015/08-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p7.P2",
+    "nome": "Participativo Estadual 3131 — Apartamento",
+    "registro_ans": "458.021/08-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p7.P3",
+    "nome": "Participativo Nacional 1627 — Enfermaria",
+    "registro_ans": "462.577/10-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p7.P4",
+    "nome": "Participativo Nacional 1627 — Apartamento",
+    "registro_ans": "462.576/10-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p7.P5",
+    "nome": "Vitoriamed 5338 — Enfermaria",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p7.P6",
+    "nome": "Vitoriamed 5338 — Apartamento",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p8.P1",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Enfermaria",
+    "registro_ans": "458.015/08-0",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p8.P2",
+    "nome": "PARTICIPATIVO ESTADUAL 3131 — Apartamento",
+    "registro_ans": "458.021/08-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p8.P3",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Enfermaria",
+    "registro_ans": "462.577/10-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p8.P4",
+    "nome": "PARTICIPATIVO NACIONAL 1627 — Apartamento",
+    "registro_ans": "462.576/10-5",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p8.P5",
+    "nome": "VITORIAMED 5338 — Enfermaria",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p8.P6",
+    "nome": "VITORIAMED 5338 — Apartamento",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p9.P1",
+    "nome": "Participativo Estadual 8244 — Estadual — Enfermaria",
+    "registro_ans": "475.374/16-7",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p9.P2",
+    "nome": "Participativo Estadual 8244 — Estadual — Apartamento",
+    "registro_ans": "475.372/16-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p9.P3",
+    "nome": "Premium Nacional 7816 — Nacional — Enfermaria",
+    "registro_ans": "474.527/15-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p9.P4",
+    "nome": "Premium Nacional 7816 — Nacional — Apartamento",
+    "registro_ans": "474.526/15-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p10.P1",
+    "nome": "Perfil Regional 1087",
+    "registro_ans": "485.097/20-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "grupo de municípios"
+   },
+   {
+    "id": "p10.P2",
+    "nome": "Perfil Regional 1087",
+    "registro_ans": "485.099/20-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "grupo de municípios"
+   },
+   {
+    "id": "p10.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "nacional"
+   },
+   {
+    "id": "p10.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "nacional"
+   },
+   {
+    "id": "p10.P5",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "nacional"
+   },
+   {
+    "id": "p10.P6",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "nacional"
+   },
+   {
+    "id": "p11.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p11.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p11.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p11.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p12.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p12.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p12.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": null,
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p12.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": null,
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p13.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p13.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p13.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p13.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p14.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p14.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p14.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p14.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p15.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p15.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p15.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p15.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p16.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p16.P2",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p17.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p17.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p17.P3",
+    "nome": "Perfil Regional 1087",
+    "registro_ans": "485.097/20-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p17.P4",
+    "nome": "Perfil Regional 1087",
+    "registro_ans": "485.099/20-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Grupo de Municípios"
+   },
+   {
+    "id": "p17.P5",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p17.P6",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p18.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p18.P2",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p19.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p19.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p19.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p19.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p20.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p20.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p20.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p20.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p21.P1",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.347/10-9",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p21.P2",
+    "nome": "Vitoriamed 5338",
+    "registro_ans": "462.578/10-1",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p21.P3",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.263/12-6",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p21.P4",
+    "nome": "Premium Nacional 5341",
+    "registro_ans": "466.267/12-9",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p22.P1",
+    "nome": "Perfil Regional",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Regional"
+   },
+   {
+    "id": "p22.P2",
+    "nome": "Premium Nacional",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p22.P3",
+    "nome": "Participativo Nacional",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p22.P4",
+    "nome": "Participativo Estadual",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Estadual"
+   },
+   {
+    "id": "p22.P5",
+    "nome": "Unimed Premium Nacional",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Nacional"
+   },
+   {
+    "id": "p22.P6",
+    "nome": "Participativo Estadual / Premium Nacional",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": "Estadual / Nacional"
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 2,
+    "titulo": "Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p2.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       238.19,
+       266.79,
+       306.8,
+       337.52,
+       398.25,
+       458.03,
+       595.42,
+       774.06,
+       1037.22,
+       1421.0
+      ]
+     },
+     {
+      "produto_id": "p2.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       326.31,
+       365.39,
+       420.25,
+       462.28,
+       545.52,
+       627.42,
+       815.59,
+       1060.27,
+       1420.71,
+       1946.42
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 3,
+    "titulo": "Unimed Premium Nacional 2028 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p3.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       384.1,
+       430.28,
+       494.75,
+       544.21,
+       642.24,
+       738.51,
+       960.13,
+       1248.04,
+       1672.43,
+       2291.33
+      ]
+     },
+     {
+      "produto_id": "p3.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       526.01,
+       589.2,
+       677.49,
+       745.37,
+       879.42,
+       1011.32,
+       1314.76,
+       1709.25,
+       2290.39,
+       3137.77
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação — Participativo Estadual 3131",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       344.8,
+       386.23,
+       444.25,
+       488.54,
+       576.54,
+       662.99,
+       861.93,
+       1120.52,
+       1501.41,
+       2056.91
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       472.63,
+       529.32,
+       608.76,
+       669.69,
+       790.08,
+       908.62,
+       1181.24,
+       1535.69,
+       2057.83,
+       2819.12
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação — Participativo Nacional 1627",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       367.2,
+       411.17,
+       472.79,
+       520.07,
+       613.8,
+       705.81,
+       917.59,
+       1192.96,
+       1598.52,
+       2189.88
+      ]
+     },
+     {
+      "produto_id": "p4.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       532.39,
+       596.3,
+       685.78,
+       754.34,
+       890.09,
+       1023.66,
+       1330.68,
+       1729.9,
+       2318.11,
+       3175.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Sem coparticipação — Vitoriamed 5338",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p4.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p4.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Com coparticipação — PARTICIPATIVO ESTADUAL 3131",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       344.8,
+       386.23,
+       444.25,
+       488.54,
+       576.54,
+       662.99,
+       861.93,
+       1120.52,
+       1501.41,
+       2056.91
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       472.63,
+       529.32,
+       608.76,
+       669.69,
+       790.08,
+       908.62,
+       1181.24,
+       1535.69,
+       2057.83,
+       2819.12
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Com coparticipação — PARTICIPATIVO NACIONAL 1627",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       367.2,
+       411.17,
+       472.79,
+       520.07,
+       613.8,
+       705.81,
+       917.59,
+       1192.96,
+       1598.52,
+       2189.88
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       532.39,
+       596.3,
+       685.78,
+       754.34,
+       890.09,
+       1023.66,
+       1330.68,
+       1729.9,
+       2318.11,
+       3175.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Sem coparticipação — VITORIAMED 5338",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Com coparticipação — PARTICIPATIVO ESTADUAL 3131",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       344.8,
+       386.23,
+       444.25,
+       488.54,
+       576.54,
+       662.99,
+       861.93,
+       1120.52,
+       1501.41,
+       2056.91
+      ]
+     },
+     {
+      "produto_id": "p6.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       472.63,
+       529.32,
+       608.76,
+       669.69,
+       790.08,
+       908.62,
+       1181.24,
+       1535.69,
+       2057.83,
+       2819.12
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Com coparticipação — PARTICIPATIVO NACIONAL 1627",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       367.2,
+       411.17,
+       472.79,
+       520.07,
+       613.8,
+       705.81,
+       917.59,
+       1192.96,
+       1598.52,
+       2189.88
+      ]
+     },
+     {
+      "produto_id": "p6.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       532.39,
+       596.3,
+       685.78,
+       754.34,
+       890.09,
+       1023.66,
+       1330.68,
+       1729.9,
+       2318.11,
+       3175.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 6,
+    "titulo": "Sem coparticipação — VITORIAMED 5338",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p6.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p6.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Com coparticipação — Participativo Estadual 3131",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       344.8,
+       386.23,
+       444.25,
+       488.54,
+       576.54,
+       662.99,
+       861.93,
+       1120.52,
+       1501.41,
+       2056.91
+      ]
+     },
+     {
+      "produto_id": "p7.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       472.63,
+       529.32,
+       608.76,
+       669.69,
+       790.08,
+       908.62,
+       1181.24,
+       1535.69,
+       2057.83,
+       2819.12
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Com coparticipação — Participativo Nacional 1627",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       367.2,
+       411.17,
+       472.79,
+       520.07,
+       613.8,
+       705.81,
+       917.59,
+       1192.96,
+       1598.52,
+       2189.88
+      ]
+     },
+     {
+      "produto_id": "p7.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       532.39,
+       596.3,
+       685.78,
+       754.34,
+       890.09,
+       1023.66,
+       1330.68,
+       1729.9,
+       2318.11,
+       3175.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 7,
+    "titulo": "Sem coparticipação — Vitoriamed 5338",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p7.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p7.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Com coparticipação — PARTICIPATIVO ESTADUAL 3131",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Estadual",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       344.8,
+       386.23,
+       444.25,
+       488.54,
+       576.54,
+       662.99,
+       861.93,
+       1120.52,
+       1501.41,
+       2056.91
+      ]
+     },
+     {
+      "produto_id": "p8.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       472.63,
+       529.32,
+       608.76,
+       669.69,
+       790.08,
+       908.62,
+       1181.24,
+       1535.69,
+       2057.83,
+       2819.12
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Com coparticipação — PARTICIPATIVO NACIONAL 1627",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       367.2,
+       411.17,
+       472.79,
+       520.07,
+       613.8,
+       705.81,
+       917.59,
+       1192.96,
+       1598.52,
+       2189.88
+      ]
+     },
+     {
+      "produto_id": "p8.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       532.39,
+       596.3,
+       685.78,
+       754.34,
+       890.09,
+       1023.66,
+       1330.68,
+       1729.9,
+       2318.11,
+       3175.76
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 8,
+    "titulo": "Sem coparticipação — VITORIAMED 5338",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p8.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p8.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 9,
+    "titulo": "Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [
+     "SOS Emergências Médicas"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p9.P1",
+      "coluna": "Participativo Estadual 8244 — Estadual — Enfermaria",
+      "valores": [
+       409.14,
+       458.34,
+       527.2,
+       579.69,
+       684.17,
+       786.81,
+       1022.96,
+       1329.84,
+       1781.89,
+       2441.22
+      ]
+     },
+     {
+      "produto_id": "p9.P2",
+      "coluna": "Participativo Estadual 8244 — Estadual — Apartamento",
+      "valores": [
+       560.91,
+       628.2,
+       722.52,
+       794.59,
+       937.72,
+       1078.36,
+       1401.77,
+       1822.51,
+       2437.77,
+       3345.49
+      ]
+     },
+     {
+      "produto_id": "p9.P3",
+      "coluna": "Premium Nacional 7816 — Nacional — Enfermaria",
+      "valores": [
+       459.6,
+       514.76,
+       591.99,
+       651.27,
+       768.5,
+       883.72,
+       1148.68,
+       1493.28,
+       2001.34,
+       2741.54
+      ]
+     },
+     {
+      "produto_id": "p9.P4",
+      "coluna": "Premium Nacional 7816 — Nacional — Apartamento",
+      "valores": [
+       666.55,
+       746.6,
+       858.48,
+       944.52,
+       1114.34,
+       1281.53,
+       1665.91,
+       2165.72,
+       2902.24,
+       3975.82
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 10,
+    "titulo": "Com coparticipação — Grupo de Municípios",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p10.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       519.74,
+       582.05,
+       669.28,
+       736.21,
+       868.79,
+       999.12,
+       1298.94,
+       1688.51,
+       2262.64,
+       3099.69
+      ]
+     },
+     {
+      "produto_id": "p10.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       623.51,
+       698.45,
+       803.17,
+       883.47,
+       1042.54,
+       1198.02,
+       1558.56,
+       2026.15,
+       2715.08,
+       3719.67
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 10,
+    "titulo": "Com coparticipação — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p10.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p10.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 10,
+    "titulo": "Sem coparticipação — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p10.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p10.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 11,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p11.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p11.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 11,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p11.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p11.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 12,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p12.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p12.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 12,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p12.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p12.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 13,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p13.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p13.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 13,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p13.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p13.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 14,
+    "titulo": "Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p14.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p14.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 14,
+    "titulo": "Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p14.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p14.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 15,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p15.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p15.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 15,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p15.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p15.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 16,
+    "titulo": "Sem coparticipação — Vitoriamed 5338 — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p16.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p16.P1",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 16,
+    "titulo": "Com coparticipação — Premium Nacional 5341 — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p16.P2",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p16.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 17,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p17.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p17.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 17,
+    "titulo": "Com coparticipação — Perfil Regional 1087 — Grupo de Municípios",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Grupo de Municípios",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p17.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       519.74,
+       582.05,
+       669.28,
+       736.21,
+       868.79,
+       999.12,
+       1298.94,
+       1688.51,
+       2262.64,
+       3099.69
+      ]
+     },
+     {
+      "produto_id": "p17.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       623.51,
+       698.45,
+       803.17,
+       883.47,
+       1042.54,
+       1198.02,
+       1558.56,
+       2026.15,
+       2715.08,
+       3719.67
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 17,
+    "titulo": "Com coparticipação — Premium Nacional 5341 — Nacional",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p17.P5",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p17.P6",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 18,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p18.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p18.P1",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 18,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p18.P2",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p18.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 19,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p19.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p19.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 19,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p19.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p19.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 20,
+    "titulo": "Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p20.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p20.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 20,
+    "titulo": "Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p20.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p20.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 21,
+    "titulo": "Vitoriamed 5338 — Sem coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "sem",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p21.P1",
+      "coluna": "Enfermaria",
+      "valores": [
+       1723.03,
+       1929.92,
+       2219.29,
+       2441.18,
+       2880.7,
+       3312.83,
+       4306.61,
+       5598.5,
+       7502.07,
+       10277.85
+      ]
+     },
+     {
+      "produto_id": "p21.P2",
+      "coluna": "Apartamento",
+      "valores": [
+       2067.73,
+       2315.63,
+       2663.17,
+       2929.5,
+       3456.78,
+       3975.12,
+       5167.75,
+       6718.14,
+       9002.53,
+       12333.38
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 21,
+    "titulo": "Premium Nacional 5341 — Com coparticipação",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": "Nacional",
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p21.P3",
+      "coluna": "Enfermaria",
+      "valores": [
+       822.49,
+       921.38,
+       1059.59,
+       1165.4,
+       1375.23,
+       1581.57,
+       2056.1,
+       2672.81,
+       3581.58,
+       4906.74
+      ]
+     },
+     {
+      "produto_id": "p21.P4",
+      "coluna": "Apartamento",
+      "valores": [
+       987.12,
+       1105.5,
+       1271.47,
+       1397.86,
+       1650.23,
+       1897.87,
+       2467.18,
+       3207.36,
+       4297.87,
+       5888.17
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 37,42",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 58,80",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 2,67",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 5,35",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 10,69",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 26,73",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 58,80",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Diárias de Internação Psiquiátrica",
+    "regra": "-",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 42,76",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 69,49",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 3,21",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 6,41",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 12,83",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 32,07",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 69,49",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Diárias de Internação Psiquiátrica",
+    "regra": "50%*",
+    "produtos": [
+     "p22.P2"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 47,73",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 74,24",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 2,65",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 7,42",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 11,67",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 37,12",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 74,24",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Teto limite de Coparticipação Mês/Beneficiário",
+    "regra": "R$ 328,78",
+    "produtos": [
+     "p22.P3"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 51,03",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 79,38",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 3,40",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 6,80",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 13,61",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 34,01",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 72,57",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Teto limite de Coparticipação Mês/Beneficiário",
+    "regra": "R$ 521,60",
+    "produtos": [
+     "p22.P4"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 45,61",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 73,18",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 3,17",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 6,36",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 13,79",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 33,94",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 73,18",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Teto limite de Coparticipação Mês/Beneficiário",
+    "regra": "R$ 328,78",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 45,84",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 72,03",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 3,28",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 6,54",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 13,10",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 32,74",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 72,03",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Teto limite de Coparticipação Mês/Beneficiário",
+    "regra": "R$ 327,41",
+    "produtos": [
+     "p22.P5"
+    ]
+   },
+   {
+    "procedimento": "Consulta Eletiva",
+    "regra": "R$ 45,35",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Consulta Pronto-socorro",
+    "regra": "R$ 73,70",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 1",
+    "regra": "R$ 0,00",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 2",
+    "regra": "R$ 3,40",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 3",
+    "regra": "R$ 6,80",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 4",
+    "regra": "R$ 13,61",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 5",
+    "regra": "R$ 34,01",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Grupo 6",
+    "regra": "R$ 73,70",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Teto limite de Coparticipação Mês/Beneficiário",
+    "regra": "R$ 523,85",
+    "produtos": [
+     "p22.P6"
+    ]
+   },
+   {
+    "procedimento": "Limitador por beneficiário/competência",
+    "regra": "Perfil Regional 1087: R$ 267,28",
+    "produtos": [
+     "p22.P1"
+    ]
+   },
+   {
+    "procedimento": "Limitador por beneficiário/competência",
+    "regra": "Participativo Estadual 5339 / Premium Nacional 5341: R$ 310,04",
+    "produtos": [
+     "p22.P2",
+     "p22.P4"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Urgência e Emergência / Acidente Pessoal",
+    "prazo_dias": 1,
+    "observacao": null
+   },
+   {
+    "cobertura": "Consultas",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames Simples (análises clínicas, RX simples)",
+    "prazo_dias": 30,
+    "observacao": null
+   },
+   {
+    "cobertura": "Exames especializados (ultrassonografias, exames obstétricos)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Procedimentos (PAC, ressonâncias magnéticas, tomografias, terapias)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Internação clínica e cirúrgica",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Padrão individual de acomodação em internação (apartamento)",
+    "prazo_dias": 180,
+    "observacao": null
+   },
+   {
+    "cobertura": "Partos a termo",
+    "prazo_dias": 300,
+    "observacao": null
+   },
+   {
+    "cobertura": "Tratamento de doenças preexistentes com opção de cobertura parcial temporária (CPT)",
+    "prazo_dias": null,
+    "observacao": "24 meses"
+   }
+  ],
+  "elegibilidade": [
+   "Profissionais do Comércio e Serviços",
+   "Servidores Públicos",
+   "Técnicos Industriais",
+   "Administradores",
+   "Contabilistas",
+   "Médicos",
+   "Arquitetos",
+   "Engenheiros e Agrônomos",
+   "Técnicos industriais de nível médio do Estado do Espírito Santo",
+   "CRA/ES – Conselho Regional de Administração: profissionais e estudantes de administração e tecnólogos na área de gestão",
+   "Engenheiros e Agrônomos. Documento: Cópia da carteira de identidade profissional ou certificado de regularidade profissional + Cópia de anuidade.",
+   "Arquitetos e Urbanistas. Documento: cópia da carteira de identidade profissional ou certificado de regularidade profissional + Ficha Associativa.",
+   "CRC/ES – Conselho Regional de Contabilidade do Espírito Santo: contadores e técnicos em contabilidade aprovados no teste de ciência. Documento: cópia da carteira de identidade profissional ou certificado de regularidade profissional + cópia de anuidade.",
+   "Todos os advogados registrados no ES inscritos na OAB (Ordem dos Advogados do Brasil). Documento: cópia da carteira de regularidade + cópia de anuidade.",
+   "Funcionários e sócios de empresas do ramo de comércio e serviço.",
+   "Sócios: ficha associativa, cópia do contrato social que comprove o quadro societário e Cartão CNPJ.",
+   "Funcionários: ficha associativa, contracheque ou GFIP.",
+   "MEI: Certificado da Condição de Microempreendedor Individual.",
+   "Não há exigência de mínimo 6 meses de abertura para contrato CNPJ.",
+   "Aceita MEI com menos de 6 meses de abertura.",
+   "Todo e qualquer profissional formado no ramo de Economia",
+   "Documento: Cópia da Carteira de identidade profissional ou certificado de regularidade profissional + Cópia de Anuidade.",
+   "Conselho Regional de Economia da 17º Região do Espírito Santo",
+   "Conselho Regional de Enfermagem do Espírito Santo",
+   "Todo e qualquer profissional formado no ramo de Enfermagem",
+   "Corretores de imóveis",
+   "Conselho Regional de Corretor de Imóveis – 13º Região/ES",
+   "Documento: Cópia da Carteira de identidade profissional ou certificado de regularidade profissional + Cópia de Anuidade",
+   "Fisioterapeuta e Terapia Ocupacional",
+   "Conselho Regional de Farmácia do Estado do Espírito Santo",
+   "Todos os profissionais formados em Farmácia",
+   "Conselho Regional de Química 21º Região: Técnicos, tecnólogos e/ou formados nos cursos de química, meio ambiente, metalurgia, alimentos e petróleo e gás.",
+   "Estudante de nível superior reconhecido pelo MEC.",
+   "Documento: declaração escolar datada com até 30 dias + ficha de filiação com a entidade + histórico escolar com até 30 dias.",
+   "Corretores de Seguros",
+   "Categoria Profissional dos Psicólogos legalmente habilitados",
+   "Professores da rede particular de ensino",
+   "Documento: Declaração do Sindicato datada com até 30 dias",
+   "Motoristas de Aplicativo do Estado do Espírito Santo",
+   "Documento: Vínculo (print) com o aplicativo que atue no ES + Ficha associativa",
+   "ACS/ES, CORECON-ES, COREN-ES, CRECI-ES, CREFITO15/ES, CRFES, CRQ XXI, SINCOR-ES, SINDPSI/ES, SINPRO/ES e AMAPES",
+   "CAAES, CRC/ES, IAB/ES, CREA/ES, e CRA/ES",
+   "AMES",
+   "SINTEC",
+   "ABTS",
+   "CRC/ES, CREA/ES, IAB/ES, CREA/ES, SINTEC e AMES",
+   "ABTS — Perfil",
+   "ABTS — Participativo e Premium",
+   "Titular: deverá obrigatoriamente ter vínculo associativo com a entidade de classe, comprovado através do envio de documentação.",
+   "Dependentes: beneficiários com grau de parentesco e dependência econômica com o titular.",
+   "Cônjuges: RG e CPF; certidão de casamento.",
+   "Companheiro(a), havendo união estável na forma da lei, sem eventual concorrência com o cônjuge salvo por decisão judicial: RG e CPF; escritura pública declaratória de união estável.",
+   "Enteados(as), menores sob guarda ou tutelados(as), com até 24 anos incompletos: certidão de nascimento ou RG; CPF; cartão de vacina (menores de 02 anos); alta da maternidade e laudo UTIN (menores de 02 anos); certidão de casamento.",
+   "Filhos(as) solteiros(as) de até 24 anos: certidão de nascimento ou RG; CPF; Cartão Nacional de Saúde; laudo da UTIN, cartão de vacina e alta da maternidade (menores de 02 anos); comprovante de escolaridade somente para universitários.",
+   "Filhos(as) inválidos solteiros de qualquer idade."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; não há tabelas de preço nem produtos identificados.",
+   "p. 1: A página informa “Tabela de Venda — Versão: 08.06.2026”; a data é uma versão, não uma vigência.",
+   "p. 2: O material informa reajuste em novembro de 2026, mas não apresenta datas de vigência.",
+   "p. 2: A taxa associativa de R$ 36,00 está impressa separadamente da tabela; não foi indicada como inclusa nos preços.",
+   "p. 3: A página informa reajuste em setembro de 2027, mas não indica datas de início ou fim da vigência.",
+   "p. 3: A página informa cobrança de taxa associativa mensal de R$ 16,00 no boleto do plano; não está indicado que essa taxa esteja incluída nos preços da tabela.",
+   "p. 3: A página indica coparticipação, sem detalhar regras por procedimento.",
+   "p. 5: A página não informa número mínimo ou máximo de vidas.",
+   "p. 5: A página informa reajuste: Janeiro (Participativo) e Agosto (Vitoriamed).",
+   "p. 6: A página informa: Reajuste: Janeiro (Participativo) e Agosto (Vitoriamed).",
+   "p. 6: Taxa Associativa: R$ 15,00.",
+   "p. 6: O material não informa quantidade mínima ou máxima de vidas.",
+   "p. 7: A página não informa número mínimo ou máximo de vidas.",
+   "p. 7: Reajuste impresso: Janeiro (Participativo) e Agosto (Vitoriamed).",
+   "p. 8: A página indica reajuste em janeiro para Participativo e em agosto para Vitoriamed.",
+   "p. 8: Os nomes de produto e os números de registro foram associados conforme o alinhamento dos cabeçalhos da tabela.",
+   "p. 9: A página informa Taxa Associativa de R$ 18,90, sem indicar que esteja incluída nos preços.",
+   "p. 9: Documento exigido: Contracheque + Ficha associativa da ABTS ou Nomeação no Diário Oficial.",
+   "p. 9: Competência: Pode ser apresentado o contracheque da última competência emitida ou o atual.",
+   "p. 9: Reajuste: Setembro (Participativo Estadual e Premium Nacional); Novembro (Perfil Regional).",
+   "p. 10: O material informa reajuste em agosto de 2026; não apresenta uma data de início ou fim de vigência.",
+   "p. 10: Não há informação de quantidade mínima ou máxima de vidas.",
+   "p. 11: A página não informa a quantidade mínima ou máxima de vidas.",
+   "p. 11: Está impresso: Reajuste: Agosto - 2026.",
+   "p. 12: A tabela não informa número de vidas.",
+   "p. 12: Os registros ANS estão impressos sobre cada coluna de acomodação: Vitoriamed Enfermaria 462.347/10-9; Vitoriamed Apartamento 462.578/10-1; Premium Nacional Enfermaria 466.263/12-6; Premium Nacional Apartamento 466.267/12-9. O esquema associa o registro ao produto e não há campo de registro por coluna.",
+   "p. 12: Reajuste impresso: Agosto - 2026.",
+   "p. 13: O documento informa reajuste em agosto de 2026.",
+   "p. 13: A página não informa quantidade mínima ou máxima de vidas nem datas de vigência.",
+   "p. 13: A página identifica os planos como com ou sem coparticipação, mas não detalha regras de cobrança.",
+   "p. 14: O material informa reajuste em agosto de 2026; não informa datas de início ou fim da vigência.",
+   "p. 14: Não há quantidade de vidas indicada nas tabelas.",
+   "p. 14: O documento exigido para elegibilidade está impresso como: Cópia da Carteira de identidade profissional ou certificado de regularidade profissional + Cópia de Anuidade.",
+   "p. 15: O material informa reajuste em agosto de 2026; não há datas de vigência impressas.",
+   "p. 15: O documento exigido para adesão é cópia da carteira de identidade profissional ou certificado de regularidade profissional, mais cópia de anuidade.",
+   "p. 15: A tabela não informa quantidade mínima ou máxima de vidas.",
+   "p. 15: A condição do produto Premium Nacional 5341 está impressa como “Com coparticipação”; não há detalhamento de regras de coparticipação nesta página.",
+   "p. 16: O material não imprime número de registro ANS para os produtos; os números junto às colunas foram tratados como registros dos planos: Vitoriamed 5338 — Enfermaria 462.347/10-9, Apartamento 462.578/10-1; Premium Nacional 5341 — Enfermaria 466.263/12-6, Apartamento 466.267/12-9. O esquema permite apenas um registro por produto.",
+   "p. 16: A página informa reajuste em agosto de 2026, mas não especifica datas de vigência.",
+   "p. 16: Número de vidas não informado.",
+   "p. 17: O material informa reajuste em agosto de 2026; não informa data de vigência.",
+   "p. 17: A tabela não informa limites de vidas nem regras específicas de coparticipação.",
+   "p. 18: Os registros ANS estão impressos sobre as colunas de acomodação: Vitoriamed 5338 — Enfermaria: 462.347/10-9; Apartamento: 462.578/10-1. Premium Nacional 5341 — Enfermaria: 466.263/12-6; Apartamento: 466.267/12-9.",
+   "p. 18: A página informa reajuste em agosto de 2026.",
+   "p. 18: Documento exigido: Declaração do Sindicato datada com até 30 dias.",
+   "p. 19: O material informa reajuste em agosto de 2026; não informa data de vigência.",
+   "p. 19: A página não informa quantidade mínima ou máxima de vidas.",
+   "p. 19: A página identifica o plano Premium Nacional 5341 como com coparticipação, mas não especifica regras ou valores de coparticipação.",
+   "p. 19: Documento exigido: Ficha Associativa + Declaração da associação. A associação é realizada por cadastro no site do SINPSI/ES.",
+   "p. 20: A página informa reajuste em agosto de 2026; não há data de vigência impressa.",
+   "p. 20: Não há limite de vidas impresso nas tabelas.",
+   "p. 20: A página identifica a condição como “Com coparticipação”, sem detalhar regras ou valores de coparticipação.",
+   "p. 21: A página informa reajuste em Agosto - 2026; não há datas de vigência impressas.",
+   "p. 21: Não há quantidade mínima ou máxima de vidas impressa.",
+   "p. 21: A condição 'Com coparticipação' está impressa, mas não há regras ou percentuais de coparticipação especificados.",
+   "p. 22: A página contém tabelas de coparticipação, não tabelas de preços por faixa etária.",
+   "p. 22: Os números junto aos nomes dos planos (1087, 5341, 1627, 3131, 7613, 2028, 8244 e 7816) não estão impressos no formato de registro ANS; por isso, registro_ans ficou null.",
+   "p. 22: No quadro de AMES, SINTEC e ABTS, a coluna ABTS reúne os rótulos Participativo Estadual 8244 e Premium Nacional 7816, mas há apenas uma coluna de valores. Foi mantida como um único produto combinado.",
+   "p. 22: A tabela imprime os limitadores Perfil Regional 1087 — R$ 267,28 e Participativo Estadual 5339 / Premium Nacional 5341 — R$ 310,04. O segundo rótulo não coincide com os produtos da tabela CAAES/CRC/ES/IAB/ES/CREA/ES/CRA/ES.",
+   "p. 22: A nota de Diárias de Internação Psiquiátrica traz 50%* para Premium Nacional e um traço para Perfil Regional; o asterisco não tem explicação visível nesta página.",
+   "p. 23: A página não contém tabelas de preço.",
+   "p. 23: Área de comercialização — CRC/ES, CREA/ES, IAB/ES, CREA/ES, SINTEC e AMES; ACS/ES, CORECON-ES, COREN-ES, CRECI-ES, CREFITO15/ES, CRFES, CRQ XXI, SINCOR-ES, SINDPSI/ES, SINPRO/ES e AMAPES: Vitória, Vila Velha, Cariacica, Serra, Viana, Guarapari, Domingos Martins, Marechal Floriano, Anchieta, Aracruz, Ibiraçu, João Neiva, Fundão, Santa Teresa, Santa Maria de Jetibá, Santa Leopoldina, Itarana, Laranja da Terra e Itaguaçu.",
+   "p. 23: Área de comercialização — ABTS Perfil: Anchieta, Cariacica, Domingos Martins, Guarapari, Marechal Floriano, Serra, Viana, Vila Velha e Vitória/ES.",
+   "p. 23: Área de comercialização — ABTS Participativo e Premium: Vitória, Vila Velha, Cariacica, Serra, Viana, Guarapari, Domingos Martins, Marechal Floriano, Anchieta, Aracruz, Ibiraçu, João Neiva, Fundão, Santa Teresa, Santa Maria de Jetibá, Santa Leopoldina, Itarana, Laranja da Terra e Itaguaçu/ES.",
+   "p. 23: Alterações cadastrais entregues até o dia 10 do mês serão efetivadas a partir do dia 01 do mês subsequente.",
+   "p. 23: Inclusões entregues até o dia 10 do mês serão efetivadas a partir do dia 01 do mês subsequente; até o dia 20, a partir do dia 10 do mês subsequente; até o dia 30, a partir do dia 20 do mês subsequente.",
+   "p. 25: A página não contém tabelas de preço nem informações de produtos ou valores.",
+   "p. 26: A página apresenta diferenciais da Allcare, sem tabelas de preço nem informações sobre produtos, contratação, vigência, carências ou elegibilidade.",
+   "p. 27: A página não contém tabelas de preço nem identifica produtos.",
+   "p. 27: A página mostra as inscrições “ANS - nº 41728-9” junto à Allcare e “ANS - nº 357391” junto à Unimed Vitória; não há número de registro de produto impresso."
+  ]
+ }
+}

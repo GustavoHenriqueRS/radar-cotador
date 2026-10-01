@@ -1,0 +1,316 @@
+{
+ "arquivo": "allcare_hapvida_adesao_df_2026-07-16.pdf",
+ "sha256": "427bd3bc0f79f74d5e69bc7c8375f447a6d45660996752a0408edd9f9430e8eb",
+ "gravada_em": "2026-09-30T21:01:27+00:00",
+ "esforco": "low",
+ "paginas": 10,
+ "segundos": 6.4,
+ "custo": {
+  "modelo": "gemini-3.8-flash",
+  "entrada": 11431,
+  "saida": 4748,
+  "cache_escrita": 0,
+  "cache_leitura": 0,
+  "usd": 0.026378,
+  "raciocinio": 0
+ },
+ "leitura": {
+  "operadora": "Hapvida",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "DF",
+   "GO"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Nosso Plano Ambulatorial",
+    "registro_ans": "492.128/22-3",
+    "acomodacao": "sem_internacao",
+    "segmentacao": "Ambulatorial",
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Nosso Plano AMB + HOSP + OBST",
+    "registro_ans": "491.923/22-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P3",
+    "nome": "Nosso Plano AMB + HOSP + OBST",
+    "registro_ans": "491.915/22-7",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Total - NOSSO PLANO + ODONTO",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "total",
+    "regiao": null,
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "AMBULATORIAL*",
+      "valores": [
+       124.09,
+       163.05,
+       185.71,
+       207.03,
+       217.82,
+       244.4,
+       298.61,
+       413.71,
+       557.29,
+       723.44
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "AMB + HOSP + OBST - Enfermaria",
+      "valores": [
+       207.65,
+       267.04,
+       303.79,
+       337.59,
+       353.37,
+       396.44,
+       478.81,
+       652.37,
+       872.99,
+       1128.28
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "AMB + HOSP + OBST - Apartamento",
+      "valores": [
+       300.46,
+       389.55,
+       444.67,
+       495.39,
+       519.06,
+       583.67,
+       707.22,
+       967.58,
+       1298.52,
+       1681.46
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 4,
+    "titulo": "Com coparticipação Parcial - NOSSO PLANO + ODONTO",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "parcial",
+    "regiao": null,
+    "preco_inclui": [
+     "odonto"
+    ],
+    "linhas": [
+     {
+      "produto_id": "p4.P1",
+      "coluna": "AMBULATORIAL*",
+      "valores": [
+       157.94,
+       207.83,
+       236.85,
+       264.16,
+       277.97,
+       312.01,
+       381.43,
+       528.83,
+       712.71,
+       925.48
+      ]
+     },
+     {
+      "produto_id": "p4.P2",
+      "coluna": "AMB + HOSP + OBST - Enfermaria",
+      "valores": [
+       259.7,
+       335.75,
+       382.8,
+       426.09,
+       446.29,
+       501.44,
+       606.92,
+       829.16,
+       1111.65,
+       1438.53
+      ]
+     },
+     {
+      "produto_id": "p4.P3",
+      "coluna": "AMB + HOSP + OBST - Apartamento",
+      "valores": [
+       378.54,
+       492.62,
+       563.2,
+       628.14,
+       658.44,
+       741.17,
+       899.37,
+       1232.75,
+       1656.5,
+       2146.83
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Consultas Eletivas (Total)",
+    "regra": "Valor fixo R$ 25,42",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência (Total)",
+    "regra": "Valor fixo R$ 43,63",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples (Total)",
+    "regra": "40,00% Limitado a R$ 45,79",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos (Total)",
+    "regra": "40,00% Limitado a R$ 114,48",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais (Total)",
+    "regra": "Valor fixo R$ 78,87",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias (Total)",
+    "regra": "Valor fixo R$ 24,27",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas Eletivas (Parcial)",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Consultas de Urgência (Parcial)",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Simples (Parcial)",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Exames Complexos (Parcial)",
+    "regra": "isento",
+    "produtos": []
+   },
+   {
+    "procedimento": "Terapias Especiais (Parcial)",
+    "regra": "Valor fixo R$ 78,87",
+    "produtos": []
+   },
+   {
+    "procedimento": "Demais Terapias (Parcial)",
+    "regra": "Valor fixo R$ 24,27",
+    "produtos": []
+   },
+   {
+    "procedimento": "Internações (Parcial)",
+    "regra": "isento",
+    "produtos": []
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Garantia de cobertura para atendimentos decorrentes de acidentes pessoais, ocorridos comprovadamente a partir da vigência do Contrato, sendo que as demais condições de atendimento para urgência/emergência estão detalhadas na cláusula de Urgência/ Emergência, em conformidade com a Consu nº 13/1998.",
+    "prazo_dias": 1,
+    "observacao": "Carência Promocional: 24 horas"
+   },
+   {
+    "cobertura": "Consultas médicas e exames laboratoriais simples (exceto Imunológicos, Hormonais e PAC), Raio-X simples (Radiografia não contrastada) e Eletrocardiograma (ECG).",
+    "prazo_dias": 30,
+    "observacao": "Carência Promocional: Isento"
+   },
+   {
+    "cobertura": "Exames Cardiológicos simples como: Teste Ergométrico, Holter, Ecocardiograma Convencional; Exames Oftalmológicos simples como: Curva tensional, Tonometria, Campimetria, Mapeamento de retina; Exames Otorrinolaringológicos simples como: Audiometrias e Impedanciometria, Pesquisa de Potencial Evocado (BERA); Exames de Raio-X Contrastado; Exames de Ultrassonografia (exceto endoscópicos); Mamografia Convencional e Densitometria Óssea.",
+    "prazo_dias": 90,
+    "observacao": "Carência Promocional: 90 dias"
+   },
+   {
+    "cobertura": "Cirurgias ambulatoriais; Tomografia Computadorizada, Ressonância Magnética, Endoscopias, Colonoscopia, Procedimentos de Medicina Nuclear, Angiografias, Procedimentos que necessitam de Hemodinâmica (como Cateterismo Cardiológico), Radioterapia e Quimioterapia, e para todos os procedimentos não mencionados nos itens anteriores. Consultas/Sessões e Terapias Simples, Especiais, Isoladas e Multidisciplinares, inclusive, com métodos específicos – ABA, BOBATH e outras - (como psicoterapia, fonoaudiologia, nutricionista, fisioterapia, e terapia ocupacional).",
+    "prazo_dias": 180,
+    "observacao": "Carência Promocional: 180 dias"
+   },
+   {
+    "cobertura": "Partos a termo",
+    "prazo_dias": 300,
+    "observacao": "Carência Promocional: 300 dias"
+   },
+   {
+    "cobertura": "Cobertura Parcial Temporária (CPT)",
+    "prazo_dias": 720,
+    "observacao": "24 meses para doenças ou lesões preexistentes (procedimentos de alta complexidade, leitos de alta tecnologia e cirúrgicos)"
+   },
+   {
+    "cobertura": "Carência Dental - Grupo A: Atendimentos decorrentes de urgência/emergência",
+    "prazo_dias": 1,
+    "observacao": null
+   },
+   {
+    "cobertura": "Carência Dental - Grupo B: Procedimentos odontológicos das especialidades de Diagnóstico, Prevenção em Saúde Bucal e Dentística (restaurações).",
+    "prazo_dias": 60,
+    "observacao": null
+   },
+   {
+    "cobertura": "Carência Dental - Grupo C: Demais procedimentos odontológicos, não mencionados nos itens anteriores.",
+    "prazo_dias": 180,
+    "observacao": null
+   }
+  ],
+  "elegibilidade": [
+   "Titulares: Deverão obrigatoriamente ter vínculo associativo com a Entidade Classista, comprovado através do envio de documentação. Contratação a partir de 5 anos de idade.",
+   "Para menores de 17 anos completos (16 anos, 11 meses e 29 dias): facultada inclusão como dependentes os pais e irmãos.",
+   "Dependentes a partir de 18 anos do titular: cônjuge ou companheiro(a); enteados(as) e filhos(as) solteiros até 24 anos incompletos ou qualquer idade se PCD permanente; tutelados/curatelados/menor sob guarda até 21 anos incompletos; pai/mãe; irmão(ã) até 24 anos incompletos; tio(a); sobrinho(a) de 5 até 24 anos incompletos.",
+   "Co-sanguíneos tios(as) e sobrinhos(as) não são aceitos nas entidades estudantis. Pai, mãe e irmãos (menores solteiros, sem idade mínima) serão aceitos.",
+   "Associação do Estudante do Brasil (AEB): Estudante cursando Ensino Fundamental, Médio, Superior, Pós-graduação, Mestrados, Sequenciais, Supletivo, Educação a distância, Cursos de Ensino Técnico e Profissionalizante, Pré-vestibular, Educação de Jovens e Adultos",
+   "Associação Nacional dos Consultores Empresariais Profissionais Liberais e Autônomos (AncePla): Profissional Liberal (diversas profissões listadas, incluindo autônomos e profissionais com formação técnica)",
+   "AFECOM DO BRASIL (Associação dos Funcionários das Empresas do Comercio de Bens e Serviços do Brasil): Profissional que atuam como representante ou empregado no comércio de bens e serviços correlatos ao setor comercial.",
+   "UNASFEM (União Nacional de Assistencia aos Servidores Federais, Estaduais e Municipais): Servidor Público Municipal, Estadual e Federal"
+  ],
+  "avisos": [
+   "p. 1: Página 1 é uma capa; não contém tabelas de preços, rol de coparticipação ou carências.",
+   "p. 2: Página de menu/índice sem tabelas de preços, produtos ou valores expressos.",
+   "p. 3: A página 3 do material não contém tabelas de preços, produtos, carências ou regras de coparticipação; trata-se de página institucional/publicitária com diferenciais da Allcare.",
+   "p. 4: Reajuste indicado: Fevereiro.",
+   "p. 4: Nota de rodapé indica: Proteção Odontológica CA – Registro ANS 485.365/20-2 disponível somente para o plano Ambulatorial. Odonto Premium adesão – Registro ANS 476.835/16-3 disponível somente para os planos Enfermaria/Apartamento.",
+   "p. 4: Nota de rodapé para o plano Ambulatorial: *Cobertura somente Urgência/Emergência e Consultas Eletivas.",
+   "p. 5: A página 5 não contém tabelas de preços por faixa etária, apresentando apenas regras de coparticipação, regras de vigência e área de atuação.",
+   "p. 6: A página 6 de 10 contém exclusivamente prazos de carência e cobertura parcial temporária (CPT), não apresentando tabelas de preço.",
+   "p. 7: A página 7 não contém tabelas de preços de produtos, apenas critérios de elegibilidade e regras de dependentes.",
+   "p. 8: A página 1 (página 8 de 10 do material) não contém tabelas de preços nem produtos listados, contendo apenas informações de entidades de classe e elegibilidade.",
+   "p. 9: A página não contém tabelas de preços, abrangendo apenas regras de elegibilidade das entidades AFECOM DO BRASIL e UNASFEM e aviso sobre rede credenciada.",
+   "p. 10: A página é a contracapa do material e não contém tabelas de preços, produtos ou regras comerciais."
+  ]
+ }
+}

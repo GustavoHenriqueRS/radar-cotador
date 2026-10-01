@@ -1,0 +1,466 @@
+{
+ "arquivo": "allcare_unimed_fortaleza_adesao_ce_2026-02.pdf",
+ "sha256": "d21769821c57066cc5b32819aab4577b991c8c000fa0c4a379019509889fc23e",
+ "gravada_em": "2026-09-30T20:26:41+00:00",
+ "esforco": "low",
+ "paginas": 12,
+ "segundos": 14.5,
+ "custo": {
+  "modelo": "gpt-6-luna",
+  "entrada": 31944,
+  "saida": 7479,
+  "cache_escrita": 0,
+  "cache_leitura": 22872,
+  "usd": 0.007163,
+  "raciocinio": 1653
+ },
+ "leitura": {
+  "operadora": "Unimed Fortaleza",
+  "administradora": "Allcare",
+  "tipo_contratacao": "coletivo_adesao",
+  "ufs": [
+   "CE"
+  ],
+  "vigencia_inicio": null,
+  "vigencia_fim": null,
+  "produtos": [
+   {
+    "id": "p4.P1",
+    "nome": "Interplano",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p4.P2",
+    "nome": "Salute UNI ENF/APTO",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P1",
+    "nome": "Unifácil",
+    "registro_ans": "495.143/23-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P2",
+    "nome": "Interplano Leste CA",
+    "registro_ans": "502.514/25-1",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P3",
+    "nome": "Salute UNI",
+    "registro_ans": "500.149/24-8",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P4",
+    "nome": "Salute UNI",
+    "registro_ans": "500.152/24-8",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P5",
+    "nome": "Salute Max",
+    "registro_ans": "484.149/19-2",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P6",
+    "nome": "Salute Max",
+    "registro_ans": "484.150/19-6",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P7",
+    "nome": "Multiplan",
+    "registro_ans": "489.388/21-3",
+    "acomodacao": "enfermaria",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p5.P8",
+    "nome": "Multiplan",
+    "registro_ans": "489.379/21-4",
+    "acomodacao": "apartamento",
+    "segmentacao": "Ambulatorial + Hospitalar com Obstetrícia",
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P1",
+    "nome": "Unifácil",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P2",
+    "nome": "Interplano",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P3",
+    "nome": "Salute",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   },
+   {
+    "id": "p6.P4",
+    "nome": "Multiplan",
+    "registro_ans": null,
+    "acomodacao": "nao_informado",
+    "segmentacao": null,
+    "abrangencia": null
+   }
+  ],
+  "tabelas": [
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços — com coparticipação 30%",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P1",
+      "coluna": "Unifácil",
+      "valores": [
+       249.74,
+       287.19,
+       330.31,
+       379.81,
+       417.76,
+       480.47,
+       611.85,
+       813.67,
+       1082.2,
+       1498.2
+      ]
+     },
+     {
+      "produto_id": "p5.P2",
+      "coluna": "Interplano Leste CA",
+      "valores": [
+       249.85,
+       287.31,
+       330.46,
+       379.99,
+       417.94,
+       480.68,
+       612.11,
+       814.03,
+       1082.67,
+       1498.86
+      ]
+     },
+     {
+      "produto_id": "p5.P3",
+      "coluna": "Salute UNI",
+      "valores": [
+       321.24,
+       369.4,
+       424.87,
+       488.55,
+       537.35,
+       618.02,
+       787.0,
+       1046.61,
+       1392.0,
+       1927.1
+      ]
+     },
+     {
+      "produto_id": "p5.P4",
+      "coluna": "Salute UNI",
+      "valores": [
+       430.74,
+       495.31,
+       569.69,
+       655.1,
+       720.54,
+       828.7,
+       1055.26,
+       1403.41,
+       1866.5,
+       2584.0
+      ]
+     }
+    ]
+   },
+   {
+    "pagina": 5,
+    "titulo": "Tabela de preços — com coparticipação 30%",
+    "vidas_minimo": null,
+    "vidas_maximo": null,
+    "coparticipacao": "com",
+    "regiao": null,
+    "preco_inclui": [],
+    "linhas": [
+     {
+      "produto_id": "p5.P5",
+      "coluna": "Salute Max",
+      "valores": [
+       352.25,
+       405.07,
+       465.89,
+       535.72,
+       589.26,
+       677.7,
+       862.98,
+       1147.67,
+       1526.39,
+       2113.15
+      ]
+     },
+     {
+      "produto_id": "p5.P6",
+      "coluna": "Salute Max",
+      "valores": [
+       471.14,
+       541.77,
+       623.14,
+       716.55,
+       788.14,
+       906.43,
+       1154.25,
+       1535.04,
+       2041.59,
+       2826.39
+      ]
+     },
+     {
+      "produto_id": "p5.P7",
+      "coluna": "Multiplan",
+      "valores": [
+       392.19,
+       450.98,
+       518.71,
+       596.47,
+       656.05,
+       754.54,
+       960.82,
+       1277.8,
+       1699.48,
+       2352.77
+      ]
+     },
+     {
+      "produto_id": "p5.P8",
+      "coluna": "Multiplan",
+      "valores": [
+       525.08,
+       603.77,
+       694.46,
+       798.55,
+       878.33,
+       1010.16,
+       1286.34,
+       1710.7,
+       2275.25,
+       3149.84
+      ]
+     }
+    ]
+   }
+  ],
+  "coparticipacao": [
+   {
+    "procedimento": "Coparticipação",
+    "regra": "30%",
+    "produtos": [
+     "p5.P1",
+     "p5.P2",
+     "p5.P3",
+     "p5.P4",
+     "p5.P5",
+     "p5.P6",
+     "p5.P7",
+     "p5.P8"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas Eletivas.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Consultas Médicas em Pronto Socorro.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Simples.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Exames Complexos.",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Terapias incluindo sessões de psicologia, fisioterapia, fonoaudiologia, terapia ocupacional, nutrição e acupuntura",
+    "regra": "30%",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   },
+   {
+    "procedimento": "Internações psiquiátricas.",
+    "regra": "30%. Será cobrada a coparticipação a partir do 31º (trigésimo primeiro) dia de internação, contínuos ou não, a cada período de 12 (doze) meses de vigência contratual.",
+    "produtos": [
+     "p6.P1",
+     "p6.P2",
+     "p6.P3",
+     "p6.P4"
+    ]
+   }
+  ],
+  "carencias": [
+   {
+    "cobertura": "Atendimentos Ambulatoriais em situação de urgência/emergência.",
+    "prazo_dias": 1,
+    "observacao": "Carências impressas: Contratuais: 24 horas; De 3 a 12 meses: 24 horas; Acima de 12 meses: 24 horas."
+   },
+   {
+    "cobertura": "Consultas médicas e exames simples.",
+    "prazo_dias": 30,
+    "observacao": "Carências impressas: Contratuais: 30 dias; De 3 a 12 meses: 4 dias; Acima de 12 meses: 4 dias."
+   },
+   {
+    "cobertura": "Ultrassonografia, ecocardiograma, teste ergométrico, prova de holter.",
+    "prazo_dias": 90,
+    "observacao": "Carências impressas: Contratuais: 90 dias; De 3 a 12 meses: 60 dias; Acima de 12 meses: 4 dias."
+   },
+   {
+    "cobertura": "Cintilografia",
+    "prazo_dias": 90,
+    "observacao": "Carências impressas: Contratuais: 90 dias; De 3 a 12 meses: 90 dias; Acima de 12 meses: 4 dias."
+   },
+   {
+    "cobertura": "Fonoaudiologia, Psicologia, Terapia ocupacional, Fisioterapia, Nutricionista.",
+    "prazo_dias": 180,
+    "observacao": "Carências impressas: Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias."
+   },
+   {
+    "cobertura": "Tomografia computadorizada e Ressonância Magnética.",
+    "prazo_dias": 180,
+    "observacao": "Carências impressas: Contratuais: 180 dias; De 3 a 12 meses: 120 dias; Acima de 12 meses: 45 dias."
+   },
+   {
+    "cobertura": "Cirurgias eletivas ambulatoriais, Hemodinâmica, Internações clínicas e cirúrgicas, Diatermia, Litotripsia, Quimioterapia, Diálise e Hemodiálise.",
+    "prazo_dias": 180,
+    "observacao": "Carências impressas: Contratuais: 180 dias; De 3 a 12 meses: 120 dias; Acima de 12 meses: 60 dias."
+   },
+   {
+    "cobertura": "Acupuntura",
+    "prazo_dias": 180,
+    "observacao": "Carências impressas: Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias."
+   },
+   {
+    "cobertura": "Internação decorrente de transtornos psiquiátricos.",
+    "prazo_dias": 180,
+    "observacao": "Carências impressas: Contratuais: 180 dias; De 3 a 12 meses: 180 dias; Acima de 12 meses: 180 dias."
+   },
+   {
+    "cobertura": "Parto a termo",
+    "prazo_dias": 300,
+    "observacao": "Carências impressas: Contratuais: 300 dias; De 3 a 12 meses: 300 dias; Acima de 12 meses: 300 dias."
+   },
+   {
+    "cobertura": "Cobertura parcial temporária para o tratamento de doenças e lesões pré existentes.",
+    "prazo_dias": 720,
+    "observacao": "Carências impressas: Contratuais: 720 dias; De 3 a 12 meses: 720 dias; Acima de 12 meses: 720 dias."
+   }
+  ],
+  "elegibilidade": [
+   "Titulares: vínculo associativo obrigatório com a entidade de classe, comprovado por documentação.",
+   "Dependentes: cônjuge, companheiro(a) e filhos(as) com até 38 anos, conforme documentação indicada no material.",
+   "Filho(a) inválido(a) de qualquer idade",
+   "Menor sob guarda, tutela ou curatelado do Beneficiário Titular",
+   "Neto(a) com até 38 (trinta e oito) anos",
+   "Genro/Nora com até 38 (trinta e oito) anos",
+   "Enteado(a) com até 38 (trinta e oito) anos",
+   "Enteado(a) inválido(a) de qualquer idade",
+   "Titular com companheiro(a): são listados documentos comprobatórios, incluindo declaração de união estável registrada em cartório, documento de identificação, CPF, Cartão Nacional de Saúde e Certidão de Invalidez emitida pelo INSS.",
+   "Sobrinho(a) com até 38 anos.",
+   "Irmão(a) com até 38 anos.",
+   "Cunhado(a) com até 38 anos.",
+   "Associação dos Funcionarios das Empresas do Comercio de Bens e Serviços do Brasil: profissional que atuam como representante ou empregado no comércio de bens e serviços correlatos ao setor comercial. Comprovação: comprovante de vínculo com a entidade; contracheque com até 90 dias do mês de competência, carteira profissional ou contrato de trabalho comprovando vínculo empregatício com empresas do comércio de bens e serviços, ou contrato social ou firma individual (CEI, MEI, Req. Empresário Individual). Associações privadas ou indústrias, independente do CNAE, não são elegíveis.",
+   "Para menor titular, são aceitos comprovantes em nome de parentes de até 2º grau consanguíneo, mediante comprovação de documento. Caso titular/responsável financeiro não tenha comprovação em seu nome, são aceitos comprovantes em nome de parentes de até 2º grau consanguíneo, mediante comprovação de documento. Ao enviar a comprovação, especificar quais são os parentes. Parentes de 1º grau: pai, mãe e filhos; de 2º grau: avôs, avós, netos e irmãos. A referência do grau de parentesco depende de quem será o titular ou responsável de endereço. A Administradora de Benefícios/Contratante poderá requisitar outros documentos para comprovar as informações prestadas na Proposta.",
+   "União Nacional de Assistencia aos Servidores Federais, Estaduais e Municipais: servidor público municipal, estadual e federal. Comprovação: comprovante de vínculo com a entidade; cópia do holerite atual ou com menos de 60 dias, carteira funcional ativa ou nomeação no diário oficial comprovando vínculo, CLT ou estatutário, com órgãos públicos.",
+   "Público elegível: Profissional Liberal.",
+   "Profissões elegíveis: Advogado, Administrador, Aeronauta, Agrônomo, Anestesista, Arquiteto, Arquivista, Artista, Assistente Social, Atleta Profissional, Atuário, Auditores Independentes, Autônomo, Bibliotecário, Biólogo, Biomédico, Cinema Áudio Visual, Cinema e Mídias Digitais, Comércio Exterior, Comunicação Social, Contabilista, Corretor de Seguros de Imóveis, Desenhista Industrial, Designer, Despachante Aduaneiro, Economista, Engenheiro, Estatístico, Farmacêutico, Filósofo, Físico, Fisioterapeuta, Fonoaudiólogo, Fotógrafo, Gastrônomo, Geógrafo, Geólogo, Gráficos, Historiador, Jornalista, Letras, Logística, Marketing, Matemático, Médico, Musico, Nutricionista, Odontólogo, Pedagogo, Professor, Profissional de Educação Física, Profissional de Enfermagem (Enfermeiro, Técnico e Auxiliar), Profissional de Finanças, Profissional da Tecnologia da Informação, Profissional de Recursos Humanos, Profissional da Saúde, Profissional de Segurança no Trabalho, Profissional de Segurança Privada, Profissional de Seguros, Profissional de Hotelaria e Turismo, Profissionais com Formação Técnica, Técnico em Contabilidade, Técnico em Informática, Técnico em Radiologia, Técnico Industrial, Técnico Laboratorial, Técnico de Radiologia, Protéticos, Psicólogo, Psicoterapeuta, Publicitário, Químico, Radialista, TV e INTERNET, Relações Públicas e Internacionais, Representante Comercial, Secretário, Sociólogo, Tecnólogo, Tradutores, Urbanista e veterinário.",
+   "Comprovação: comprovante de vínculo com a entidade; e cópia simples do diploma (frente e verso) OU cópia simples do certificado / declaração de conclusão de curso OU cópia da carteira do conselho regional OU certificado de pagamento de anuidade do conselho regional OU comprovante que está escrito no conselho regional.",
+   "Representante comercial autônomo deverá apresentar carteirinha do CORE para comprovar a elegibilidade.",
+   "Comprovante de elegibilidade Autônomo: Declaração de autônomo."
+  ],
+  "avisos": [
+   "p. 1: Página de capa; informa Fortaleza - CE e Fevereiro/2026, mas não apresenta tabelas de preço nem datas de vigência.",
+   "p. 2: Página de menu; não há tabelas de preço nem informações adicionais de contratação impressas.",
+   "p. 3: A página apresenta diferenciais da Allcare, sem tabelas de preço. Diferenciais impressos: Clube de Vantagens; Desconto em Farmácias; Telemedicina; Desconto em exames e vacinas; Blog da Saúde; Além da Gestação (curso sobre maternidade); Bancorbrás Turismo; Podcare (o podcast de saúde da Allcare).",
+   "p. 4: A página não contém tabelas de preço.",
+   "p. 4: A página anuncia os diferenciais Unimed Urgente (remoção exclusivamente na área urbana de Fortaleza/CE) e Seguro Vida Protegida, além de benefícios gratuitos; informa para ver as condições contratuais.",
+   "p. 4: O texto informa que os produtos Interplano e Salute UNI ENF/APTO não contemplam os opcionais acima.",
+   "p. 6: A página não contém tabelas de preços.",
+   "p. 6: A página informa que a coparticipação, quando aplicada, não será cobrada sobre valores referentes às internações clínicas e cirúrgicas, cirurgias ambulatoriais, quimioterapias, radioterapias e hemodiálise, inclusive sobre consultas e exames realizados durante a internação do beneficiário.",
+   "p. 6: A página informa que os beneficiários poderão consultar detalhadamente os exames e demais procedimentos médicos em www.unimedfortaleza.com.br.",
+   "p. 7: A página não contém tabelas de preço.",
+   "p. 8: A página fornecida contém apenas documentação de elegibilidade e não apresenta tabelas de preço nem informações suficientes para identificar produtos.",
+   "p. 9: A página não contém tabelas de preço.",
+   "p. 10: A página não contém tabelas de preço.",
+   "p. 11: A página não contém tabelas de preço.",
+   "p. 11: O material informa que a rede credenciada está sujeita a alterações pela operadora, sem aviso prévio, e que as condições do contrato de adesão prevalecem sobre as informações resumidas.",
+   "p. 12: A página não contém tabelas de preço nem nomes de produtos. Os números exibidos são identificados como ANS junto aos logotipos: Unimed Fortaleza, nº 31714-4; Allcare, nº 41728-9."
+  ]
+ }
+}
