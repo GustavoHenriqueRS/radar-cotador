@@ -1,0 +1,15 @@
+{
+	admin off
+	auto_https off
+}
+
+# O TLS fica com a Cloudflare, na ponta do túnel; aqui só a senha e o repasse para o app.
+:8080 {
+	basic_auth {
+		{$ACESSO_USUARIO} {$ACESSO_HASH}
+	}
+	# A senha é do Caddy: o cabeçalho não segue para o app, senão a API tenta autenticar o usuário nela.
+	reverse_proxy app:8000 {
+		header_up -Authorization
+	}
+}

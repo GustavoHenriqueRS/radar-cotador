@@ -6,4 +6,4 @@ python manage.py migrate --noinput
 if [ "${CARREGAR_DEMO:-1}" = "1" ] && ! python manage.py shell -c "import sys; from radar.models import Documento; sys.exit(0 if Documento.objects.exists() else 1)" >/dev/null 2>&1; then
   python manage.py carregar_demo
 fi
-exec gunicorn config.wsgi --bind 0.0.0.0:8000 --workers 2 --threads 4 --timeout 600
+exec gunicorn config.wsgi --bind 0.0.0.0:8000 --workers "${GUNICORN_WORKERS:-2}" --threads 4 --timeout 600

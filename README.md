@@ -49,6 +49,14 @@ Abra http://localhost:8000. A primeira subida leva de 5 a 10 minutos:
 - baixa uns 130 MB de dados abertos da ANS e monta o índice local;
 - processa os 23 PDFs do acervo de demonstração.
 
+Para mostrar o protótipo completo a outras pessoas a partir de qualquer máquina com Docker, sem abrir porta nem configurar domínio:
+
+```bash
+ACESSO_SENHA=uma-senha ./deploy/subir-com-tunel.sh
+```
+
+O script sobe o mesmo protótipo atrás de senha (usuário `avaliador`), com limite de memória, e o publica por um túnel da Cloudflare. O endereço `https://...trycloudflare.com` aparece no fim e muda se o túnel reiniciar.
+
 A segunda leitura, por LLM, liga sozinha quando há uma chave de API no `.env`:
 
 ```bash

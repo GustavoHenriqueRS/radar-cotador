@@ -1,0 +1,35 @@
+# O protótipo completo numa máquina compartilhada, atrás de senha e de um túnel da Cloudflare.
+# Nenhuma porta é publicada no servidor: só o túnel chega ao Caddy, e só o Caddy chega ao app.
+# Os limites de memória impedem o Radar de disputar RAM com o que já roda na máquina; o excedente vai para o swap
+# do próprio contêiner. Uso: deploy/subir-com-tunel.sh.
+services:
+  db:
+    mem_limit: 256m
+    memswap_limit: 512m
+
+  app:
+    ports: !reset []
+    environment:
+      GUNICORN_WORKERS: "1"
+    mem_limit: 900m
+    memswap_limit: 2g
+
+  acesso:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    environment:
+      ACESSO_USUARIO: ${ACESSO_USUARIO:-avaliador}
+      ACESSO_HASH: ${ACESSO_HASH:?defina ACESSO_HASH ou ACESSO_SENHA}
+    volumes:
+      - ./deploy/Caddyfile.tunel:/etc/caddy/Caddyfile:ro
+    depends_on:
+      - app
+    mem_limit: 64m
+
+  tunel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://acesso:8080
+    depends_on:
+      - acesso
+    mem_limit: 128m
