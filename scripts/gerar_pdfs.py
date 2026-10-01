@@ -102,7 +102,7 @@ def montar(nome: str, doc: dict) -> str:
         f'<li class="n{nivel}"><a href="#{alvo}">{html.escape(re.sub(r"[*`]", "", texto))}</a></li>'
         for nivel, texto, alvo in sumario if nivel <= (0 if len(sumario) > 40 else 1))
     bloco_sumario = f'<nav class="sumario"><h2>Sumário</h2><ol>{linhas_sumario}</ol></nav>' if doc["sumario"] and sumario else ""
-    autoria_html = MarkdownIt().renderInline(autoria) if autoria else "Radar do Cotador · desafio técnico do Cotador de Planos de Saúde"
+    autoria_html = MarkdownIt().renderInline(autoria) if autoria else "Radar do Cotador · proposta para o Cotador de Planos de Saúde"
     folhas = "".join(f'<link rel="stylesheet" href="{(FONTES / caminho).as_uri()}">' for caminho in (
         "fira-sans/400.css", "fira-sans/400-italic.css", "fira-sans/500.css", "fira-sans/600.css", "fira-sans/700.css",
         "fira-code/400.css", "fira-code/600.css"))

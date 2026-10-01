@@ -274,7 +274,7 @@ Nenhuma dessas correções mudou a leitura do acervo de demonstração (10.573 p
 
 ### 3.6 Rede, reembolso e coparticipação: o registro oficial ao lado do material
 
-O material de venda traz o preço. Rede, reembolso e coparticipação, o desafio também pede, e o material traz pouco ou de forma desigual. A ANS registra os três para cada produto, e os dados são abertos:
+O material de venda traz o preço. Rede, reembolso e coparticipação também pesam na escolha do corretor, e o material traz pouco ou de forma desigual. A ANS registra os três para cada produto, e os dados são abertos:
 
 - **Reembolso, coparticipação, acomodação e abrangência** vêm do registro do produto (livre escolha, fator moderador). A cotação mostra os quatro ao lado do preço, e o leitor já confere o material contra eles: tabela que diz "sem coparticipação" num produto registrado com coparticipação vira alerta.
 - **Rede hospitalar por plano.** A ANS publica a rede de cada produto num zip de 1,4 GB, dividido por UF. O sistema baixa por HTTP Range só o trecho de cada UF, descompacta em fluxo e guarda só os planos acompanhados. Para os 392 planos do acervo: 82.888 vínculos de hospital em todas as UFs, em 5,6 minutos, num arquivo de 14 MB. Na cotação, o corretor escolhe a UF do cliente e vê quantos hospitais o plano tem ali, quantos com pronto-socorro, e a lista.

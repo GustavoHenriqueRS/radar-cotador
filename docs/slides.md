@@ -3,7 +3,7 @@
 
 Tabelas de preço que se conferem sozinhas
 
-**Gustavo Henrique** · desafio técnico do Cotador de Planos de Saúde · outubro de 2026
+**Gustavo Henrique** · proposta para o Cotador de Planos de Saúde · outubro de 2026
 
 ---
 

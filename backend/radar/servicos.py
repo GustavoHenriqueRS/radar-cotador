@@ -76,7 +76,7 @@ def baixar_dados_ans():
         if destino.exists():
             continue
         log.info("baixando %s", url)
-        pedido = urllib.request.Request(url, headers={"User-Agent": "desafio-cotador/0.1"})
+        pedido = urllib.request.Request(url, headers={"User-Agent": "radar-cotador/0.1"})
         with urllib.request.urlopen(pedido, timeout=600) as r, open(destino, "wb") as f:
             while bloco := r.read(1 << 20):
                 f.write(bloco)

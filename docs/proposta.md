@@ -1,6 +1,6 @@
 # Radar do Cotador: tabelas obtidas, conferidas e atualizadas sem digitação
 
-**Gustavo Henrique** · desafio técnico do Cotador de Planos de Saúde · outubro de 2026
+**Gustavo Henrique** · proposta para o Cotador de Planos de Saúde · outubro de 2026
 
 ## Resumo
 
@@ -16,7 +16,7 @@ O protótipo roda com material público real:
 
 O protótipo sobe com `docker compose up`, e o roteiro da demonstração está em `docs/roteiro-demo.md`. A versão completa, com o back-end, está publicada na AWS (endereço no `README.md`). Sem instalar nada, dá para abrir também a versão estática no navegador, em [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), ver o [resumo em vídeo de 41 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-motion.mp4), a [demonstração completa](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 36 s, ou passar pelos [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf).
 
-| Pedido do desafio | Onde está |
+| Tema | Onde está |
 |---|---|
 | O problema, as premissas e o escopo | seções 1 e 2 |
 | Obtenção dos dados, acessos, fontes indisponíveis ou restritas | seção 3 e `docs/operadoras/` |
@@ -31,7 +31,7 @@ O protótipo sobe com `docker compose up`, e o roteiro da demonstração está e
 
 ## 1. O problema
 
-O desafio descreve dois problemas que se alimentam. O acesso é limitado: parte do material fica em portal restrito ou depende de contato interno, e o que está no sistema pode divergir das condições vigentes. A atualização é manual: cada informação precisa ser lida e cadastrada, plano por plano, com retrabalho, erro de digitação e atraso. Quanto mais difícil é conseguir o material, mais tarde ele é digitado, e mais tempo o dado velho fica no ar. Na ponta, o corretor recebe uma cotação que pode estar desatualizada e não tem como saber de onde veio o número.
+São dois problemas que se alimentam. O acesso é limitado: parte do material fica em portal restrito ou depende de contato interno, e o que está no sistema pode divergir das condições vigentes. A atualização é manual: cada informação precisa ser lida e cadastrada, plano por plano, com retrabalho, erro de digitação e atraso. Quanto mais difícil é conseguir o material, mais tarde ele é digitado, e mais tempo o dado velho fica no ar. Na ponta, o corretor recebe uma cotação que pode estar desatualizada e não tem como saber de onde veio o número.
 
 A pesquisa trouxe três fatos que guiaram a proposta:
 
@@ -216,7 +216,7 @@ Leitura, cálculo, regras e histórico são determinísticos, e um teste lê o m
 
 | Parte | Escolha | Por quê |
 |---|---|---|
-| Aplicação | Django + Django REST Framework | a stack do desafio; admin, migrações e ORM prontos |
+| Aplicação | Django + Django REST Framework | admin, migrações e ORM prontos |
 | Interface | React | a tela de revisão, com o PDF ao lado e a célula destacada, pede interação rica |
 | Banco | PostgreSQL | versões, avisos e dados semiestruturados na mesma base, com transação na publicação |
 | PDFs originais | disco no protótipo; armazenamento de objetos em produção | o PDF é a prova da origem e nunca se apaga |

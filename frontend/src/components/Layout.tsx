@@ -47,7 +47,7 @@ export function Layout() {
           ))}
         </nav>
         <p className="hidden px-5 pt-6 text-xs leading-relaxed text-slate-500 lg:block">
-          Protótipo do desafio técnico. Dados públicos reais (ANS, operadoras e administradoras) e um PDF escaneado simulado.
+          Protótipo com dados públicos reais (ANS, operadoras e administradoras) e um PDF escaneado simulado.
         </p>
       </aside>
       <main id="conteudo" tabIndex={-1} className="min-w-0 flex-1 px-4 py-5 outline-none sm:px-6 lg:px-8">

@@ -10,7 +10,7 @@ Protótipo Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas
 - **Documentos em PDF:** [proposta](docs/pdf/proposta.pdf), [detalhes técnicos](docs/pdf/detalhes-tecnicos.pdf), [como evoluir](docs/pdf/como-evoluir.pdf), [as 9 operadoras](docs/pdf/operadoras.pdf), [pesquisa](docs/pdf/pesquisa.pdf) e [roteiro da demonstração](docs/pdf/roteiro-demo.pdf).
 
 **Os mesmos documentos em Markdown:**
-- **A proposta** (os 5 pontos do desafio e os problemas resolvidos no caminho): [`docs/proposta.md`](docs/proposta.md)
+- **A proposta** (obtenção dos dados, trabalho manual, confiabilidade, estrutura técnica, plano de implementação e os problemas resolvidos no caminho): [`docs/proposta.md`](docs/proposta.md)
 - **Detalhes técnicos** (medições, regras e tabelas completas por trás de cada número): [`docs/detalhes-tecnicos.md`](docs/detalhes-tecnicos.md)
 - **Como evoluir** (princípios, receitas de extensão, escala, próximos passos): [`docs/como-evoluir.md`](docs/como-evoluir.md)
 - **As operadoras do Cotador, uma a uma** (canais, robots.txt, amostras lidas): [`docs/operadoras/`](docs/operadoras/)

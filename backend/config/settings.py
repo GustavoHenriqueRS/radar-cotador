@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 RAIZ = BASE_DIR.parent
 carregar_env(RAIZ / ".env")
 
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "desafio-cotador-somente-desenvolvimento")
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "radar-cotador-somente-desenvolvimento")
 DEBUG = os.environ.get("DJANGO_DEBUG", "1") == "1"
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1,0.0.0.0").split(",")
 

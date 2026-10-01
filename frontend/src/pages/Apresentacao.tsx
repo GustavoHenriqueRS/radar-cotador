@@ -32,7 +32,7 @@ const ACHADOS = [
 ];
 
 const DOCUMENTOS = [
-  { nome: "proposta", titulo: "Proposta", texto: "Os cinco pontos do desafio e os problemas resolvidos no caminho." },
+  { nome: "proposta", titulo: "Proposta", texto: "Obtenção, trabalho manual, confiabilidade, estrutura e plano, e os problemas resolvidos no caminho." },
   { nome: "slides", titulo: "Slides", texto: "A proposta em 12 slides, para apresentar em poucos minutos." },
   { nome: "detalhes-tecnicos", titulo: "Detalhes técnicos", texto: "As medições, as regras e as tabelas por trás de cada número." },
   { nome: "como-evoluir", titulo: "Como evoluir", texto: "Princípios, receitas de extensão, escala e próximos passos." },
@@ -76,7 +76,7 @@ export function Apresentacao() {
           </nav>
           <div className="mx-auto mt-16 max-w-3xl text-center sm:mt-24">
             <p className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-marinho-2/70 px-3 py-1 text-xs font-medium text-sky-200">
-              Desafio técnico · Cotador de Planos de Saúde
+              Proposta · Cotador de Planos de Saúde
             </p>
             <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-white sm:text-6xl">
               Tabelas de preço que se conferem sozinhas
@@ -194,7 +194,7 @@ export function Apresentacao() {
 
       <footer className="border-t border-borda bg-white">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-8 text-sm text-slate-600 sm:px-6">
-          <p><span className="font-semibold text-slate-900">Gustavo Henrique</span> · desafio técnico do Cotador de Planos de Saúde · outubro de 2026</p>
+          <p><span className="font-semibold text-slate-900">Gustavo Henrique</span> · proposta para o Cotador de Planos de Saúde · outubro de 2026</p>
           <div className="flex flex-wrap gap-4">
             <Link to="/" className="font-medium text-acao hover:underline">Abrir o protótipo</Link>
             <a href={REPOSITORIO} className="font-medium text-acao hover:underline">Código no GitHub</a>
