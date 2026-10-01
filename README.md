@@ -2,7 +2,6 @@
 
 Protótipo para o desafio técnico do Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
 
-- **A proposta** (os 5 pontos do desafio e os problemas que resolvi no caminho): [`docs/proposta.md`](docs/proposta.md)
 - **Detalhes técnicos** (medições, regras e tabelas completas por trás de cada número): [`docs/detalhes-tecnicos.md`](docs/detalhes-tecnicos.md)
 - **Como evoluir** (princípios, receitas de extensão, escala, próximos passos): [`docs/como-evoluir.md`](docs/como-evoluir.md)
 - **As operadoras do Cotador, uma a uma** (canais, robots.txt, amostras lidas): [`docs/operadoras/`](docs/operadoras/)
