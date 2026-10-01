@@ -55,7 +55,7 @@ Para mostrar o protótipo completo a outras pessoas a partir de qualquer máquin
 ACESSO_SENHA=uma-senha ./deploy/subir-com-tunel.sh
 ```
 
-O script sobe o mesmo protótipo atrás de senha (usuário `avaliador`), com limite de memória, e o publica por um túnel da Cloudflare. O endereço `https://...trycloudflare.com` aparece no fim e muda se o túnel reiniciar.
+O script sobe o mesmo protótipo atrás de senha (usuário `avaliador`), com limite de memória, e o publica por um túnel da Cloudflare. O endereço `https://...trycloudflare.com` aparece no fim e muda se o túnel reiniciar. Com `ACESSO_ABERTO=1` no lugar da senha, ele sobe sem senha, para um endereço que só vai para quem vai usar.
 
 A segunda leitura, por LLM, liga sozinha quando há uma chave de API no `.env`:
 
