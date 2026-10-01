@@ -4,6 +4,8 @@ WORKDIR /app/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci --no-audit --no-fund
 COPY frontend/ ./
+# A página de apresentação usa o mesmo diagrama da documentação.
+COPY docs/img/ /app/docs/img/
 RUN npm run build
 
 # 2) Django + leitor

@@ -48,3 +48,18 @@ body {
     animation-duration: 0ms !important;
   }
 }
+
+.quadrado-grade {
+  opacity: 0;
+  animation: acender 6s ease-in-out infinite;
+}
+
+@keyframes acender {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.16;
+  }
+}

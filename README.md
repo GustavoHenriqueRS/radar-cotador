@@ -2,6 +2,13 @@
 
 Protótipo para o desafio técnico do Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
 
+**Para ver sem instalar nada:**
+- **Protótipo no navegador:** [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/). É o acervo de demonstração congelado, com a cotação calculada no próprio navegador; revisar, publicar e coletar ficam desligados.
+- **Vídeo de 1 min 28 s:** [a demonstração seguindo o roteiro](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4).
+- **Documentos em PDF:** [proposta](docs/pdf/proposta.pdf), [detalhes técnicos](docs/pdf/detalhes-tecnicos.pdf), [como evoluir](docs/pdf/como-evoluir.pdf), [as 9 operadoras](docs/pdf/operadoras.pdf), [pesquisa](docs/pdf/pesquisa.pdf) e [roteiro da demonstração](docs/pdf/roteiro-demo.pdf).
+
+**Os mesmos documentos em Markdown:**
+- **A proposta** (os 5 pontos do desafio e os problemas resolvidos no caminho): [`docs/proposta.md`](docs/proposta.md)
 - **Detalhes técnicos** (medições, regras e tabelas completas por trás de cada número): [`docs/detalhes-tecnicos.md`](docs/detalhes-tecnicos.md)
 - **Como evoluir** (princípios, receitas de extensão, escala, próximos passos): [`docs/como-evoluir.md`](docs/como-evoluir.md)
 - **As operadoras do Cotador, uma a uma** (canais, robots.txt, amostras lidas): [`docs/operadoras/`](docs/operadoras/)
@@ -188,6 +195,14 @@ cd backend && ../.venv/bin/python manage.py test radar
 
 Os primeiros usam os PDFs reais do acervo e os casos de fronteira encontrados neles: cabeçalho quebrado, tabelas lado a lado, texto girado, odonto embutido no preço, colunas trocadas entre versões, robots.txt com linha em branco, e-mail com remetente falsificado. Os do Django cobrem o que depende do banco: versão antiga que chega depois da atual, cópia arquivada na série da tabela viva, robots.txt do site original valendo para a cópia, aviso de mudança de rede.
 
+## Versão estática, PDFs e vídeo
+
+O material de apresentação sai do próprio protótipo, por script, e se refaz a qualquer momento:
+
+- **Versão estática** (`./scripts/gerar_demo_estatica.sh`): `manage.py exportar_demo` exporta as respostas da API, as páginas dos PDFs e o que a cotação precisa; o front é montado em modo estático e publicado no branch `gh-pages`. A cotação roda no navegador com a mesma conta da API, e `scripts/conferir_versao_estatica.cjs` compara as duas cartão a cartão: em 8 combinações de idade, contratação e UF, o resultado é idêntico.
+- **PDFs** (`python3 scripts/gerar_pdfs.py`): o Markdown de `docs/` vira PDF com capa, sumário e número de página, impresso pelo Chrome sem interface.
+- **Vídeo** (`node scripts/gravar_video.cjs`): o roteiro da demonstração gravado no protótipo no ar, com legendas.
+
 ## Estrutura
 
 ```
@@ -197,7 +212,8 @@ fontes/            as fontes e seus fluxos de captura, em JSON (uma fonte nova �
 backend/radar/     modelos, pipeline (servicos.py), API, carga de demonstração
 frontend/          React + Vite + Tailwind
 amostras/          25 PDFs públicos (manifest.json com URL, data de coleta e hash) e o PDF escaneado simulado
-docs/              proposta, detalhes técnicos, como evoluir, operadoras e pesquisa
+docs/              proposta, detalhes técnicos, como evoluir, operadoras e pesquisa; os PDFs em docs/pdf
+scripts/           medições do acervo e do cálculo, PDFs, versão estática, vídeo e a conferência da versão estática
 ```
 
 ## Real × simulado

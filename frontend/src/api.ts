@@ -1,3 +1,5 @@
+import { ESTATICO, pedirEstatico } from "./estatico";
+
 export type Severidade = "erro" | "alerta" | "info";
 
 export interface Achado {
@@ -282,6 +284,7 @@ export interface ResultadoCotacao {
 }
 
 async function pedir<T>(caminho: string, init?: RequestInit): Promise<T> {
+  if (ESTATICO) return pedirEstatico<T>(caminho, init);
   const r = await fetch(`/api/${caminho}`, init);
   if (!r.ok) {
     const corpo = await r.json().catch(() => ({}));

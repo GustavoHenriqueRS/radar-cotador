@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { Activity, Calculator, FileStack, Gauge, Library, TableProperties } from "lucide-react";
+import { Activity, Calculator, FileStack, Gauge, Library, Presentation, TableProperties } from "lucide-react";
+import { ESTATICO } from "../estatico";
 
 const ITENS = [
   { para: "/", rotulo: "Painel", Icone: Gauge, fim: true },
@@ -8,12 +9,14 @@ const ITENS = [
   { para: "/radar", rotulo: "Radar", Icone: Activity },
   { para: "/cotacao", rotulo: "Cotação", Icone: Calculator },
   { para: "/fontes", rotulo: "Fontes", Icone: Library },
+  { para: "/apresentacao", rotulo: "Apresentação", Icone: Presentation },
 ];
 
 export function Layout() {
   return (
     <div className="min-h-dvh lg:flex">
-      <a href="#conteudo" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-white focus:p-2">
+      {/* Com o roteador por #, um link para #conteudo trocaria de rota: o foco vai direto para o conteúdo. */}
+      <a href="#conteudo" onClick={(e) => { e.preventDefault(); document.getElementById("conteudo")?.focus(); }} className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-white focus:p-2">
         Pular para o conteúdo
       </a>
       <aside className="bg-marinho text-slate-300 lg:sticky lg:top-0 lg:h-dvh lg:w-60 lg:shrink-0">
@@ -47,7 +50,15 @@ export function Layout() {
           Protótipo do desafio técnico. Dados públicos reais (ANS, operadoras e administradoras) e um PDF escaneado simulado.
         </p>
       </aside>
-      <main id="conteudo" className="min-w-0 flex-1 px-4 py-5 sm:px-6 lg:px-8">
+      <main id="conteudo" tabIndex={-1} className="min-w-0 flex-1 px-4 py-5 outline-none sm:px-6 lg:px-8">
+        {ESTATICO && (
+          <p role="note" className="mb-5 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900">
+            Versão estática do protótipo: o acervo de demonstração como estava em {import.meta.env.VITE_DEMO_DATA ?? "sua exportação"}, com a
+            cotação calculada no próprio navegador. Revisar, publicar e coletar ficam desligados aqui; o protótipo completo sobe com{" "}
+            <code className="rounded bg-amber-100 px-1 font-mono text-xs">docker compose up</code>.{" "}
+            <a href="https://github.com/GustavoHenriqueRS/radar-cotador" className="font-medium underline underline-offset-2">Código e documentação no GitHub</a>.
+          </p>
+        )}
         <Outlet />
       </main>
     </div>

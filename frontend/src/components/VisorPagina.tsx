@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { Celula, Coluna } from "../api";
+import { urlPagina } from "../estatico";
 import { brl } from "../formato";
 import { COR_CAIXA, estadoCelula } from "./ui";
 
@@ -42,7 +43,7 @@ export function VisorPagina({ documentoId, pagina, totalPaginas, tamanho, coluna
         {!carregou && <div className="absolute inset-0 animate-pulse bg-slate-200" aria-hidden />}
         <img
           key={`${documentoId}-${pagina}`}
-          src={`/api/documentos/${documentoId}/pagina/${pagina}.png`}
+          src={urlPagina(documentoId, pagina)}
           alt={`Página ${pagina} do documento, com os preços lidos destacados`}
           className="absolute inset-0 h-full w-full"
           onLoad={() => setCarregou(true)}
