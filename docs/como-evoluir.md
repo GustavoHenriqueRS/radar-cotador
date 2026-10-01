@@ -110,7 +110,7 @@ Se o tipo já traz o arquivo junto (como o e-mail), basta preencher `Candidato.c
    - **sem preço lido:** a âncora das faixas não foi achada; olhe os rótulos em `leitor/faixas.py`;
    - **coluna sem registro ANS:** o cabeçalho está longe ou quebrado; olhe `_associar_cabecalho` em `leitor/geometrico.py`;
    - **condição de venda errada:** o vocabulário de condições está em `leitor/condicoes.py`;
-   - **PDF sem texto:** vai para o OCR sozinho; se for imagem dentro de PDF com texto, ainda não (ver a seção 4).
+   - **PDF sem texto:** vai para o OCR sozinho; tabela em imagem dentro de PDF com texto passa pela leitura por LLM (ver a seção 4).
 3. Corrija no leitor genérico, nunca com um caso especial para aquele arquivo.
 4. Acrescente o PDF em `amostras/` com a origem no `manifest.json` e um teste que fixa o caso.
 5. Rode o acervo inteiro (`pytest`) para ver que nenhum outro layout piorou.
@@ -198,7 +198,7 @@ Custo medido:
    - Tabela em imagem dentro de um PDF com texto passa só pelo LLM.
 6. **Reembolso com valores.**
    - A ANS registra se o plano tem livre escolha (reembolso) e a cotação mostra isso.
-   - Os valores e múltiplos de reembolso vêm do material. A leitura por LLM já extrai condições; falta o campo estruturado e a regra de conferência.
+   - Os valores e múltiplos de reembolso vêm do material. A leitura por LLM já extrai essas condições; o passo seguinte é um campo estruturado com regra de conferência.
 7. **Rede não hospitalar e área de comercialização**, no mesmo padrão da rede hospitalar (seção 2.5).
 
 ## 5. Operação
@@ -219,9 +219,9 @@ O que acompanhar:
 
 ### Publicação
 
-Hoje o protótipo completo roda numa EC2 da AWS com Docker Compose e sai por um túnel rápido da Cloudflare (`deploy/subir-com-tunel.sh`, explicado no `README.md`). Serve bem para a demonstração. Para produção, os passos são:
+O protótipo completo roda numa EC2 da AWS com Docker Compose e sai por um túnel da Cloudflare (`deploy/subir-com-tunel.sh`, explicado no `README.md`). Com mais operadoras e mais corretores usando, a publicação cresce assim:
 
-- domínio próprio, com um túnel nomeado da Cloudflare ou um balanceador da AWS na frente, para o endereço ser fixo;
+- domínio próprio, com um túnel nomeado da Cloudflare ou um balanceador da AWS na frente;
 - PostgreSQL gerenciado, com backup automático, no lugar do contêiner;
 - os PDFs originais num armazenamento de objetos (S3 ou equivalente), com versionamento, porque o PDF é a prova da origem;
 - a leitura numa fila (Celery ou RQ), separada do servidor web, para um lote grande de PDFs não pesar na tela de revisão;

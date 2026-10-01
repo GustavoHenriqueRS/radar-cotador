@@ -1,9 +1,10 @@
 """Exporta o acervo de demonstração para a versão estática do protótipo, que abre no navegador sem servidor.
 
-Grava as respostas da API que as telas leem, as páginas dos PDFs em WebP e o que a cotação precisa para rodar
-no navegador com o mesmo cálculo de `servicos.cotar`. Só lê o banco.
+Grava as respostas da API que as telas leem, as páginas dos PDFs em WebP, os PDFs originais (para baixar) e o que
+a cotação precisa para rodar no navegador com o mesmo cálculo de `servicos.cotar`. Só lê o banco.
 """
 import json
+import shutil
 from pathlib import Path
 
 import pypdfium2 as pdfium
@@ -58,6 +59,9 @@ class Command(BaseCommand):
 
         (destino / "cotacao.json").write_text(json.dumps(self._cotacao(), ensure_ascii=False, default=str), encoding="utf-8")
         paginas = self._paginas(destino / "paginas", largura)
+        (destino / "pdfs").mkdir(parents=True, exist_ok=True)
+        for doc in Documento.objects.all():
+            shutil.copyfile(doc.arquivo.path, destino / "pdfs" / f"{doc.pk}.pdf")
         self.stdout.write(f"{len(tabelas)} tabelas, {len(registros)} registros e {paginas} páginas exportados para {destino}")
 
     def _cotacao(self) -> dict:

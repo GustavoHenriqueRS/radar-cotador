@@ -137,7 +137,8 @@ def pagina(request, pk, numero):
 @api_view(["GET"])
 def pdf(request, pk):
     d = get_object_or_404(Documento, pk=pk)
-    return FileResponse(open(d.arquivo.path, "rb"), content_type="application/pdf")
+    return FileResponse(open(d.arquivo.path, "rb"), content_type="application/pdf",
+                        as_attachment=request.GET.get("baixar") == "1", filename=d.nome_original)
 
 
 @api_view(["POST"])

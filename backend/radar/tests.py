@@ -11,6 +11,7 @@ from datetime import date
 from decimal import Decimal
 from unittest import mock
 
+from django.core.files.base import ContentFile
 from django.test import TestCase, override_settings
 
 from coletor.http import Http, Resposta
@@ -202,3 +203,17 @@ class RedeTest(TestCase):
                                         "(redução deferida pela ANS)")
         self.assertEqual((evento.severidade, evento.data_efeito), ("alerta", date(2026, 10, 10)))
         self.assertEqual([m["protocolo"] for m in mudancas], ["P1"])
+
+
+class PdfOriginalTest(TestCase):
+    def test_baixa_o_pdf_original_com_o_nome_com_que_chegou(self):
+        with tempfile.TemporaryDirectory() as pasta, override_settings(MEDIA_ROOT=pasta):
+            doc = Documento(nome_original="unimed_bh_2026.pdf", sha256="a" * 64, status=Documento.Status.EM_REVISAO)
+            doc.arquivo.save("guardado.pdf", ContentFile(b"%PDF-1.4 teste"), save=True)
+            baixar = self.client.get(f"/api/documentos/{doc.pk}/pdf?baixar=1")
+            self.assertEqual(baixar.status_code, 200)
+            self.assertEqual(baixar["Content-Disposition"], 'attachment; filename="unimed_bh_2026.pdf"')
+            self.assertEqual(b"".join(baixar.streaming_content), b"%PDF-1.4 teste")
+            abrir = self.client.get(f"/api/documentos/{doc.pk}/pdf")
+            self.assertEqual(abrir["Content-Disposition"], 'inline; filename="unimed_bh_2026.pdf"')
+            b"".join(abrir.streaming_content)

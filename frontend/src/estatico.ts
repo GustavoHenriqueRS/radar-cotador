@@ -14,6 +14,9 @@ export const AVISO_ACAO =
 export const urlPagina = (documentoId: number, pagina: number) =>
   ESTATICO ? `${BASE}paginas/${documentoId}/${pagina}.webp` : `/api/documentos/${documentoId}/pagina/${pagina}.png`;
 
+export const urlPdf = (documentoId: number) =>
+  ESTATICO ? `${BASE}pdfs/${documentoId}.pdf` : `/api/documentos/${documentoId}/pdf?baixar=1`;
+
 async function lerJson<T>(arquivo: string): Promise<T> {
   const r = await fetch(BASE + arquivo);
   if (!r.ok) throw new Error(`Esta tela não faz parte da versão estática (${arquivo}).`);

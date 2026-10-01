@@ -73,8 +73,6 @@ visitante → Cloudflare (HTTPS) → túnel → EC2 na AWS → Caddy → Django 
 - **Teto de memória por contêiner.** A máquina tem 2 GB de RAM e 2 GB de swap. O app fica com 900 MB de RAM e pode chegar a 2 GB usando swap; o banco fica com 256 MB. Um pico de leitura fica contido no contêiner e não derruba o servidor.
 - **Primeira subida.** Levou cerca de 4 minutos na EC2: migrações, download dos dados abertos da ANS, montagem do índice e carga dos 23 PDFs do acervo. Até terminar, o endereço responde 502.
 
-O endereço é o de um túnel rápido da Cloudflare, gratuito e sem conta: ele muda se o túnel reiniciar e não tem garantia de disponibilidade. O caminho para produção está em `docs/como-evoluir.md`.
-
 Para publicar do mesmo jeito em qualquer máquina com Docker:
 
 ```bash

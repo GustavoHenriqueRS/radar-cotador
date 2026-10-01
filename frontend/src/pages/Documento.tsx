@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { ArrowLeft, Check, CheckCircle2, EyeOff, RefreshCw, Send } from "lucide-react";
+import { ArrowLeft, Check, CheckCircle2, Download, EyeOff, RefreshCw, Send } from "lucide-react";
 import { post, type Coluna, type DocumentoDetalhe, type ResultadoPublicacao } from "../api";
 import { Cabecalho } from "../components/Layout";
 import { ItemEvento } from "../components/Eventos";
 import { VisorPagina } from "../components/VisorPagina";
+import { urlPdf } from "../estatico";
 import { Botao, Cartao, Carregando, Erro, estadoCelula, IconeSeveridade, Selo, SeloLeitura, SeloStatusDocumento, Vazio } from "../components/ui";
 import { brl, data, FAIXAS, num } from "../formato";
 import { useApi } from "../usarApi";
@@ -77,6 +78,10 @@ export function Documento() {
         descricao={[doc.operadora, doc.administradora && `via ${doc.administradora}`, doc.tipo_contratacao, doc.vigencia_fim && `vigência até ${data(doc.vigencia_fim)}`].filter(Boolean).join(" · ")}
         acoes={
           <>
+            <a href={urlPdf(doc.id)} download={doc.nome} title="Baixar o PDF original, como chegou"
+              className="inline-flex min-h-9 items-center gap-1.5 rounded-md border border-borda bg-white px-3 py-1.5 text-sm font-medium text-slate-800 transition-colors duration-150 hover:bg-slate-50">
+              <Download size={15} aria-hidden /> Baixar PDF
+            </a>
             <Botao onClick={() => acao("reprocessar", () => post(`documentos/${doc.id}/reprocessar`))} carregando={ocupado === "reprocessar"} disabled={processando}>
               <RefreshCw size={15} aria-hidden /> Reprocessar
             </Botao>
