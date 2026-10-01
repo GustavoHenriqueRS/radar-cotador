@@ -3,7 +3,8 @@
 Protótipo para o desafio técnico do Cotador de Planos de Saúde. Cada tabela de venda em PDF é lida duas vezes: uma leitura geométrica (ou OCR) e uma leitura por LLM. As duas são conferidas entre si e contra os dados abertos da ANS. Uma pessoa só revisa o que não fecha. Depois, o sistema publica versões com origem e vigência e avisa o que mudou.
 
 **Para ver sem instalar nada:**
-- **Protótipo no navegador:** [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/). É o acervo de demonstração congelado, com a cotação calculada no próprio navegador; revisar, publicar e coletar ficam desligados.
+- **Protótipo completo, com o back-end:** [item-soa-alleged-lauderdale.trycloudflare.com](https://item-soa-alleged-lauderdale.trycloudflare.com), publicado na AWS. Tudo funciona, de revisar e publicar a enviar PDF; a seção [Publicação](#publicação) mostra como está montado.
+- **Versão estática, no navegador:** [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/). É o acervo de demonstração congelado, com a cotação calculada no próprio navegador; revisar, publicar e coletar ficam desligados.
 - **Vídeo de 1 min 28 s:** [a demonstração seguindo o roteiro](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4).
 - **Slides:** [os 12 slides da apresentação](docs/pdf/slides.pdf), gerados de [`docs/slides.md`](docs/slides.md).
 - **Documentos em PDF:** [proposta](docs/pdf/proposta.pdf), [detalhes técnicos](docs/pdf/detalhes-tecnicos.pdf), [como evoluir](docs/pdf/como-evoluir.pdf), [as 9 operadoras](docs/pdf/operadoras.pdf), [pesquisa](docs/pdf/pesquisa.pdf) e [roteiro da demonstração](docs/pdf/roteiro-demo.pdf).
@@ -49,13 +50,7 @@ Abra http://localhost:8000. A primeira subida leva de 5 a 10 minutos:
 - baixa uns 130 MB de dados abertos da ANS e monta o índice local;
 - processa os 23 PDFs do acervo de demonstração.
 
-Para mostrar o protótipo completo a outras pessoas a partir de qualquer máquina com Docker, sem abrir porta nem configurar domínio:
-
-```bash
-ACESSO_SENHA=uma-senha ./deploy/subir-com-tunel.sh
-```
-
-O script sobe o mesmo protótipo atrás de senha (usuário `avaliador`), com limite de memória, e o publica por um túnel da Cloudflare. O endereço `https://...trycloudflare.com` aparece no fim e muda se o túnel reiniciar. Com `ACESSO_ABERTO=1` no lugar da senha, ele sobe sem senha, para um endereço que só vai para quem vai usar.
+Para publicar o protótipo completo na internet, veja [Publicação](#publicação).
 
 A segunda leitura, por LLM, liga sozinha quando há uma chave de API no `.env`:
 
@@ -64,6 +59,31 @@ cp .env.example .env
 ```
 
 Preencha uma das chaves: `OPENAI_API_KEY` (GPT-6 Luna, o padrão), `GEMINI_API_KEY` (Gemini 3.8 Flash) ou `ANTHROPIC_API_KEY` (Claude). `LEITOR_MODELO` troca o modelo. Sem chave, valem as leituras já gravadas em `amostras/leituras_llm/` (marcadas como "gravada" na tela); para um PDF novo, fica a leitura geométrica/OCR mais as regras da ANS.
+
+## Publicação
+
+O protótipo completo está no ar em https://item-soa-alleged-lauderdale.trycloudflare.com. É o mesmo `docker compose up` deste repositório, rodando numa instância EC2 da AWS (`t3.small`, região us-east-1) com o acervo de demonstração carregado: revisar, corrigir, publicar, enviar PDF e coletar funcionam de verdade.
+
+```
+visitante → Cloudflare (HTTPS) → túnel → EC2 na AWS → Caddy → Django + React → PostgreSQL
+```
+
+- **Nenhuma porta aberta no servidor.** O contêiner `cloudflared` abre uma conexão de dentro para fora até a Cloudflare, que entrega o endereço público e o HTTPS. Não há domínio para configurar nem regra de firewall para abrir.
+- **Caddy na frente do app.** Um servidor web pequeno recebe o que chega pelo túnel e repassa ao Django. É nele que entra a senha, quando ela está ligada.
+- **Teto de memória por contêiner.** A máquina tem 2 GB de RAM e 2 GB de swap. O app fica com 900 MB de RAM e pode chegar a 2 GB usando swap; o banco fica com 256 MB. Um pico de leitura fica contido no contêiner e não derruba o servidor.
+- **Primeira subida.** Levou cerca de 4 minutos na EC2: migrações, download dos dados abertos da ANS, montagem do índice e carga dos 23 PDFs do acervo. Até terminar, o endereço responde 502.
+
+O endereço é o de um túnel rápido da Cloudflare, gratuito e sem conta: ele muda se o túnel reiniciar e não tem garantia de disponibilidade. O caminho para produção está em `docs/como-evoluir.md`.
+
+Para publicar do mesmo jeito em qualquer máquina com Docker:
+
+```bash
+ACESSO_SENHA=uma-senha ./deploy/subir-com-tunel.sh
+```
+
+Com senha, o usuário é `avaliador`. Com `ACESSO_ABERTO=1` no lugar da senha, ele sobe sem senha, para um endereço que só vai para quem vai usar. O endereço aparece no fim.
+
+A versão estática, no GitHub Pages, é outra coisa: o acervo exportado por `manage.py exportar_demo`, com a cotação calculada no navegador e as ações desligadas (seção "Versão estática, PDFs e vídeo").
 
 ## O que olhar
 
@@ -230,7 +250,8 @@ scripts/           medições do acervo e do cálculo, PDFs, versão estática, 
 - **Real:**
   - os dados abertos da ANS, baixados do portal oficial;
   - os PDFs, materiais públicos de operadoras e administradoras usados aqui só para demonstração, com origem registrada no `manifest.json`;
-  - a coleta da Allcare, pela página pública de materiais ("Coletar agora" em Fontes).
+  - a coleta da Allcare, pela página pública de materiais ("Coletar agora" em Fontes);
+  - o protótipo completo publicado numa EC2 da AWS (seção Publicação).
 - **Simulado:**
   - o PDF escaneado, gerado a partir de um real;
   - a aprovação humana das versões antigas, feita pela carga de demonstração para montar o histórico;

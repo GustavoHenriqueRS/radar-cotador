@@ -14,7 +14,7 @@ O protótipo roda com material público real:
 - O sistema e o mapeamento acharam problemas que estavam passando: uma operadora extinta desde 2022 ainda listada na página do Cotador, planos suspensos na ANS em tabela de venda, uma tabela 9,7% mais barata porque era a versão antiga e um hospital que saiu da rede de 9 planos publicados.
 - A segunda leitura sai por cerca de US$ 0,001 por página. O acervo inteiro custou US$ 0,35.
 
-O protótipo sobe com `docker compose up`, e o roteiro da demonstração está em `docs/roteiro-demo.md`. Sem instalar nada, dá para abrir a versão estática no navegador, em [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), ver o [vídeo de 1 min 28 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4) ou passar pelos [slides](https://github.com/GustavoHenriqueRS/radar-cotador/blob/main/docs/pdf/slides.pdf).
+O protótipo sobe com `docker compose up`, e o roteiro da demonstração está em `docs/roteiro-demo.md`. A versão completa, com o back-end, está publicada na AWS (endereço no `README.md`). Sem instalar nada, dá para abrir também a versão estática no navegador, em [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), ver o [vídeo de 1 min 28 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4) ou passar pelos [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf).
 
 | Pedido do desafio | Onde está |
 |---|---|
@@ -312,6 +312,7 @@ Real:
 - as coletas: a página de materiais da Allcare, as versões antigas no arquivo da web e as 53 tabelas da API da CORPe;
 - o mapeamento das 9 operadoras, com as amostras lidas;
 - a rede hospitalar e as mudanças de rede, da ANS;
+- a publicação do protótipo completo numa EC2 da AWS, com acesso por um túnel da Cloudflare;
 - todo o pipeline: leitura, OCR, conferência, publicação versionada, comparação de versões, radar e cotação.
 
 Simulado:
@@ -325,8 +326,9 @@ Leitura por LLM gravada: as leituras do acervo ficam salvas, então a demonstra�
 
 Onde está cada coisa:
 
+- o protótipo completo no ar, com o back-end: endereço e montagem na seção "Publicação" do `README.md`;
 - a versão estática, no navegador: [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), com a cotação calculada no próprio navegador;
-- o [vídeo da demonstração](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 28 s, e os [slides](https://github.com/GustavoHenriqueRS/radar-cotador/blob/main/docs/pdf/slides.pdf);
+- o [vídeo da demonstração](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 28 s, e os [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf);
 - como rodar: `README.md`;
 - o roteiro da demonstração: `docs/roteiro-demo.md`;
 - as medições e as regras em detalhe: `docs/detalhes-tecnicos.md`;

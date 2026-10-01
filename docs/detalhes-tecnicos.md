@@ -330,6 +330,7 @@ Uma cotação precisa poder ser explicada meses depois: de onde veio cada preço
 | Coleta | pacote `coletor` com cinco tipos de captura; fontes em `fontes/*.json`; agendador diário no docker compose (perfil `coleta`) | igual, agendado por captura (Celery beat) | fonte nova é configuração; o motor cuida de robots.txt, intervalo, download condicional, validação do PDF e histórico |
 | Rede hospitalar | SQLite local montado dos dados abertos da ANS por HTTP Range (14 MB para 392 planos) | tabelas no PostgreSQL, atualizadas por job mensal | o zip oficial tem 1,4 GB; baixar e guardar só o necessário |
 | Processamento | thread em segundo plano | fila (Celery ou RQ + Redis) | o documento é a unidade de trabalho; os leitores não guardam estado, então escala horizontalmente |
+| Publicação | EC2 `t3.small` na AWS com Docker Compose, atrás de um túnel da Cloudflare (`deploy/subir-com-tunel.sh`) | domínio próprio, com túnel nomeado ou balanceador; banco gerenciado | nenhuma porta aberta no servidor e HTTPS sem configurar domínio |
 
 **Crescimento para mais operadoras e planos:**
 - **Operadora nova em PDF:** não exige código. O leitor é genérico e já cobre os layouts das 8 fontes do acervo.

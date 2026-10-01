@@ -124,8 +124,10 @@ A meta inicial de automação é 75%; o protótipo chega a 81,1%.
 <!-- classe: capa -->
 # Para ver e testar
 
-Protótipo no navegador: **gustavohenriquers.github.io/radar-cotador**
+Protótipo completo, no ar na AWS: **endereço no README**
+
+Versão estática, no navegador: **gustavohenriquers.github.io/radar-cotador**
 
 Código e documentação: **github.com/GustavoHenriqueRS/radar-cotador**
 
-Completo, na máquina: `docker compose up`
+Na própria máquina: `docker compose up`

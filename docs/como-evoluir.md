@@ -216,3 +216,13 @@ O que acompanhar:
 - células em revisão por fonte;
 - custo do LLM por dia;
 - idade média do material por trás das cotações.
+
+### Publicação
+
+Hoje o protótipo completo roda numa EC2 da AWS com Docker Compose e sai por um túnel rápido da Cloudflare (`deploy/subir-com-tunel.sh`, explicado no `README.md`). Serve bem para a demonstração. Para produção, os passos são:
+
+- domínio próprio, com um túnel nomeado da Cloudflare ou um balanceador da AWS na frente, para o endereço ser fixo;
+- PostgreSQL gerenciado, com backup automático, no lugar do contêiner;
+- os PDFs originais num armazenamento de objetos (S3 ou equivalente), com versionamento, porque o PDF é a prova da origem;
+- a leitura numa fila (Celery ou RQ), separada do servidor web, para um lote grande de PDFs não pesar na tela de revisão;
+- o deploy automático a cada mudança na branch principal, depois do `./verificar.sh`.

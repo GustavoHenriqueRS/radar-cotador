@@ -1,7 +1,7 @@
-# O protótipo completo numa máquina compartilhada, por um túnel da Cloudflare, com senha (padrão) ou aberto.
+# O protótipo completo num servidor com Docker, publicado por um túnel da Cloudflare, com senha (padrão) ou aberto.
 # Nenhuma porta é publicada no servidor: só o túnel chega ao Caddy, e só o Caddy chega ao app.
-# Os limites de memória impedem o Radar de disputar RAM com o que já roda na máquina; o excedente vai para o swap
-# do próprio contêiner. Uso: deploy/subir-com-tunel.sh.
+# Cada contêiner tem teto de memória, para um pico de leitura nunca derrubar o servidor; acima do teto, o app e o banco
+# usam swap até o memswap_limit. Uso: deploy/subir-com-tunel.sh.
 services:
   db:
     mem_limit: 256m
