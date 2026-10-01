@@ -14,7 +14,7 @@ O protótipo roda com material público real:
 - O sistema e o mapeamento acharam problemas que estavam passando: uma operadora extinta desde 2022 ainda listada na página do Cotador, planos suspensos na ANS em tabela de venda, uma tabela 9,7% mais barata porque era a versão antiga e um hospital que saiu da rede de 9 planos publicados.
 - A segunda leitura sai por cerca de US$ 0,001 por página. O acervo inteiro custou US$ 0,35.
 
-O protótipo sobe com `docker compose up`, e o roteiro da demonstração está em `docs/roteiro-demo.md`. A versão completa, com o back-end, está publicada na AWS (endereço no `README.md`). Sem instalar nada, dá para abrir também a versão estática no navegador, em [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), ver o [vídeo de 1 min 28 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4) ou passar pelos [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf).
+O protótipo sobe com `docker compose up`, e o roteiro da demonstração está em `docs/roteiro-demo.md`. A versão completa, com o back-end, está publicada na AWS (endereço no `README.md`). Sem instalar nada, dá para abrir também a versão estática no navegador, em [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), ver o [resumo em vídeo de 41 s](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-motion.mp4), a [demonstração completa](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 36 s, ou passar pelos [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf).
 
 | Pedido do desafio | Onde está |
 |---|---|
@@ -328,7 +328,7 @@ Onde está cada coisa:
 
 - o protótipo completo no ar, com o back-end: endereço e montagem na seção "Publicação" do `README.md`;
 - a versão estática, no navegador: [gustavohenriquers.github.io/radar-cotador](https://gustavohenriquers.github.io/radar-cotador/), com a cotação calculada no próprio navegador;
-- o [vídeo da demonstração](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 28 s, e os [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf);
+- o [resumo em vídeo](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-motion.mp4), de 41 s, a [demonstração completa](https://gustavohenriquers.github.io/radar-cotador/video/radar-cotador-demo.mp4), de 1 min 36 s, e os [slides](https://gustavohenriquers.github.io/radar-cotador/pdf/slides.pdf);
 - como rodar: `README.md`;
 - o roteiro da demonstração: `docs/roteiro-demo.md`;
 - as medições e as regras em detalhe: `docs/detalhes-tecnicos.md`;

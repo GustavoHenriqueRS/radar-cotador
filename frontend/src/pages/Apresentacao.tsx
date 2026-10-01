@@ -6,7 +6,7 @@ import {
 import arquitetura from "../../../docs/img/arquitetura.svg?url";
 import { GradeAnimada } from "../components/GradeAnimada";
 import { ESTATICO } from "../estatico";
-import { CAPA_VIDEO, REPOSITORIO, VIDEO, pdf } from "../links";
+import { CAPA_RESUMO, CAPA_VIDEO, REPOSITORIO, RESUMO, VIDEO, pdf } from "../links";
 
 const NUMEROS = [
   { valor: "81,1%", texto: "dos preços passam sem revisão humana, nos produtos que o PDF identifica pelo registro ANS" },
@@ -117,11 +117,23 @@ export function Apresentacao() {
         </div>
       </section>
 
-      <Secao id="video" rotulo="Demonstração" titulo="O protótipo em um minuto e meio">
-        <video controls preload="metadata" poster={CAPA_VIDEO} className="aspect-video w-full rounded-2xl border border-borda bg-marinho shadow-sm">
-          <source src={VIDEO} type="video/mp4" />
-          <a href={VIDEO}>Baixar o vídeo da demonstração</a>
-        </video>
+      <Secao id="video" rotulo="Vídeos" titulo="O Radar em 41 segundos e a demonstração completa">
+        <div className="grid gap-8 lg:grid-cols-2">
+          {[
+            { src: RESUMO, capa: CAPA_RESUMO, titulo: "Resumo, 41 s", texto: "Do PDF à cotação: a dupla leitura, a ANS, o radar e a origem de cada preço." },
+            { src: VIDEO, capa: CAPA_VIDEO, titulo: "Demonstração completa, 1 min 36 s", texto: "O protótipo em uso, tela a tela, seguindo o roteiro da demonstração." },
+          ].map((v) => (
+            <figure key={v.src}>
+              <video controls preload="metadata" poster={v.capa} className="aspect-video w-full rounded-2xl border border-borda bg-marinho shadow-sm">
+                <source src={v.src} type="video/mp4" />
+                <a href={v.src}>Baixar o vídeo</a>
+              </video>
+              <figcaption className="mt-3 text-sm leading-relaxed text-slate-600">
+                <span className="font-medium text-slate-900">{v.titulo}.</span> {v.texto}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
       </Secao>
 
       <Secao rotulo="Como funciona" titulo="Do PDF da operadora à cotação do corretor, com a ANS por baixo de tudo">

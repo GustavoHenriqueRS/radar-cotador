@@ -21,6 +21,7 @@ FONTES = RAIZ / "frontend" / "node_modules" / "@fontsource"
 REPOSITORIO = "https://github.com/GustavoHenriqueRS/radar-cotador"
 DEMO = "https://gustavohenriquers.github.io/radar-cotador/"
 VIDEO = DEMO + "video/radar-cotador-demo.mp4"
+RESUMO = DEMO + "video/radar-cotador-motion.mp4"
 OPERADORAS = ["bradesco_saude", "sulamerica_saude", "amil", "notredame_intermedica", "hapvida",
               "central_nacional_unimed", "smile_saude", "quallity_pro_saude", "saude_sim"]
 
@@ -122,7 +123,8 @@ def montar(nome: str, doc: dict) -> str:
     <p>{autoria_html}</p>
     <p>Código e documentação: <a href="{REPOSITORIO}">{REPOSITORIO.removeprefix("https://")}</a></p>
     <p>Protótipo no navegador: <a href="{DEMO}">{DEMO.removeprefix("https://").rstrip("/")}</a></p>
-    <p>Vídeo da demonstração (1 min 28 s): <a href="{VIDEO}">{VIDEO.removeprefix("https://")}</a></p>
+    <p>Resumo em vídeo (41 s): <a href="{RESUMO}">{RESUMO.removeprefix("https://")}</a></p>
+    <p>Demonstração completa (1 min 36 s): <a href="{VIDEO}">{VIDEO.removeprefix("https://")}</a></p>
   </div>
 </section>
 {bloco_sumario}

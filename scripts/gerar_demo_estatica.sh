@@ -12,8 +12,8 @@ rm -rf "$SAIDA"
 docker compose cp app:/tmp/demo "$SAIDA/demo"
 touch "$SAIDA/.nojekyll"
 mkdir -p "$SAIDA/pdf" && cp docs/pdf/*.pdf "$SAIDA/pdf/"
-# O vídeo (scripts/gravar_video.cjs) e a capa dele vão junto quando já foram gravados.
+# Os vídeos e as capas vão junto quando já estão em dados/video.
 if [ -f dados/video/radar-cotador-demo.mp4 ]; then
-  mkdir -p "$SAIDA/video" && cp dados/video/radar-cotador-demo.mp4 dados/video/capa.jpg "$SAIDA/video/"
+  mkdir -p "$SAIDA/video" && cp dados/video/*.mp4 dados/video/*.jpg "$SAIDA/video/"
 fi
 echo "versão estática em $SAIDA"
