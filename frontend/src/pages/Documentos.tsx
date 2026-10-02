@@ -35,15 +35,23 @@ export function Documentos() {
     <>
       <Cabecalho titulo="Documentos recebidos" descricao="Tabelas de venda de operadoras e administradoras. Cada arquivo é lido duas vezes, conferido contra a ANS e fica guardado com o hash, para rastrear a origem de cada número." />
       <label
+        data-ativo={arrastando || enviando}
         onDragOver={(e) => { e.preventDefault(); setArrastando(true); }}
-        onDragLeave={() => setArrastando(false)}
+        onDragLeave={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setArrastando(false); }}
         onDrop={(e) => { e.preventDefault(); setArrastando(false); enviar(e.dataTransfer.files); }}
-        className={`mb-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-lg border-2 border-dashed px-4 py-7 text-center transition-colors duration-150 ${
-          arrastando ? "border-acao bg-sky-50" : "border-slate-300 bg-white hover:border-acao"
+        className={`halo group mb-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-xl border px-4 py-8 text-center transition-[background-color,box-shadow,border-color] duration-200 ${
+          arrastando || enviando
+            ? "border-transparent bg-sky-50/70 shadow-[0_0_0_4px_rgba(3,105,161,0.08),0_14px_40px_rgba(3,105,161,0.14)]"
+            : "border-dashed border-slate-300 bg-white hover:border-acao/60"
         }`}
       >
-        <FileUp size={26} className="text-acao" aria-hidden />
-        <span className="text-sm font-medium text-slate-800">{enviando ? "Enviando…" : "Arraste PDFs de tabela aqui ou clique para escolher"}</span>
+        <span className={`grid size-12 place-items-center rounded-xl bg-sky-50 text-acao ring-1 ring-sky-100 transition-transform duration-200 motion-reduce:transition-none ${
+          arrastando ? "-translate-y-1 scale-110" : "group-hover:-translate-y-0.5"}`}>
+          <FileUp size={24} aria-hidden />
+        </span>
+        <span className="mt-1 text-sm font-medium text-slate-800">
+          {enviando ? "Enviando e lendo o PDF…" : arrastando ? "Solte para enviar" : "Arraste PDFs de tabela aqui ou clique para escolher"}
+        </span>
         <span className="text-xs text-slate-500">PDF com texto ou escaneado (vai para OCR). O mesmo arquivo não é processado duas vezes.</span>
         <input ref={input} type="file" accept="application/pdf" multiple className="sr-only" onChange={(e) => enviar(e.target.files)} />
       </label>

@@ -63,3 +63,49 @@ body {
     opacity: 0.16;
   }
 }
+
+/* Borda que gira em volta da área de envio enquanto um PDF é arrastado ou enviado. */
+@property --halo-angulo {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.halo {
+  position: relative;
+  isolation: isolate;
+}
+
+.halo::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  padding: 2px;
+  border-radius: inherit;
+  pointer-events: none;
+  background: conic-gradient(from var(--halo-angulo), transparent 0turn, #0369a1 0.1turn, #7dd3fc 0.2turn, transparent 0.32turn,
+    transparent 0.5turn, #0369a1 0.6turn, #7dd3fc 0.7turn, transparent 0.82turn);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  animation: halo-gira 2.6s linear infinite;
+}
+
+.halo[data-ativo="true"]::before {
+  opacity: 1;
+}
+
+@keyframes halo-gira {
+  to {
+    --halo-angulo: 360deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .halo::before {
+    animation: none;
+  }
+}

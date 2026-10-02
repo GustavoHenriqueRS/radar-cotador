@@ -6,7 +6,7 @@ import { Cabecalho } from "../components/Layout";
 import { ItemEvento } from "../components/Eventos";
 import { VisorPagina } from "../components/VisorPagina";
 import { urlPdf } from "../estatico";
-import { Botao, Cartao, Carregando, Erro, estadoCelula, IconeSeveridade, Selo, SeloLeitura, SeloStatusDocumento, Vazio } from "../components/ui";
+import { Botao, Cartao, Carregando, Erro, estadoCelula, IconeSeveridade, Selo, SeloLeitura, SeloStatusDocumento, Vazio, useDeslizante } from "../components/ui";
 import { brl, data, FAIXAS, num } from "../formato";
 import { useApi } from "../usarApi";
 
@@ -27,6 +27,7 @@ export function Documento() {
   const [aviso, setAviso] = useState<string | null>(null);
 
   const colunasRevisar = useMemo(() => doc?.colunas.filter((c) => c.celulas.some((x) => x.revisar) && c.status !== "ignorada") ?? [], [doc]);
+  const abas = useDeslizante<HTMLDivElement>(filtro, doc?.id, doc?.status, colunasRevisar.length);
   const visiveis = filtro === "revisar" ? colunasRevisar : doc?.colunas ?? [];
 
   useEffect(() => {
@@ -147,10 +148,11 @@ export function Documento() {
           </div>
 
           <div className="min-w-0 space-y-4">
-            <div role="tablist" className="inline-flex rounded-md border border-borda bg-white p-0.5 text-sm">
+            <div ref={abas.grupo} role="tablist" className="relative inline-flex rounded-md border border-borda bg-white p-0.5 text-sm">
+              <span aria-hidden className={`${abas.classe} rounded bg-marinho`} style={abas.estilo} />
               {(["revisar", "todas"] as const).map((f) => (
-                <button key={f} role="tab" aria-selected={filtro === f} type="button" onClick={() => setFiltro(f)}
-                  className={`min-h-8 cursor-pointer rounded px-3 ${filtro === f ? "bg-marinho text-white" : "text-slate-700 hover:bg-slate-100"}`}>
+                <button key={f} role="tab" aria-selected={filtro === f} data-ativo={filtro === f} type="button" onClick={() => setFiltro(f)}
+                  className={`relative min-h-8 cursor-pointer rounded px-3 transition-colors duration-200 ${filtro === f ? "text-white" : "text-slate-700 hover:bg-slate-100"}`}>
                   {f === "revisar" ? `Precisam de revisão (${colunasRevisar.length})` : `Todas as colunas (${doc.colunas.length})`}
                 </button>
               ))}

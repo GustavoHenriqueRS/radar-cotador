@@ -3,7 +3,7 @@ import { Ban, CheckCircle2 } from "lucide-react";
 import type { DocumentoResumo, OperadoraSaude, Painel as TPainel } from "../api";
 import { Cabecalho } from "../components/Layout";
 import { ItemEvento } from "../components/Eventos";
-import { Cartao, Carregando, Erro, Kpi, Selo, SeloLeitura, Vazio } from "../components/ui";
+import { Cartao, Carregando, ContaAte, Erro, Kpi, Selo, SeloLeitura, Vazio } from "../components/ui";
 import { data, num } from "../formato";
 import { useApi } from "../usarApi";
 
@@ -17,6 +17,8 @@ export function Painel() {
 
   const semRevisao = dados.precos_com_produto ? dados.precos_com_produto_sem_revisao / dados.precos_com_produto : 0;
   const custo = Number(dados.custo_llm_usd || 0);
+  const inteiro = (v: number) => num(Math.round(v));
+  const conta = (v: number) => <ContaAte valor={v} formato={inteiro} />;
   return (
     <>
       <Cabecalho
@@ -24,12 +26,12 @@ export function Painel() {
         descricao="Cada preço vem de um documento e de uma posição na página, é conferido contra a ANS e só chega a uma pessoa quando algo não fecha."
       />
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
-        <Kpi rotulo="Preços lidos" valor={num(dados.precos_lidos)} detalhe={`${num(dados.documentos)} documentos · LLM ${custo ? `US$ ${custo.toFixed(2)}` : "desligado"}`} />
-        <Kpi rotulo="Sem revisão humana" valor={`${Math.round(semRevisao * 100)}%`} detalhe={`${num(dados.precos_com_produto_sem_revisao)} de ${num(dados.precos_com_produto)} preços`} tom="ok" />
-        <Kpi rotulo="Para revisar" valor={num(dados.precos_revisar)} detalhe="apontados por regra ou leitura" tom={dados.precos_revisar ? "revisar" : "ok"} />
-        <Kpi rotulo="Sem produto identificado" valor={num(dados.precos_sem_produto)} detalhe="PDF sem registro ANS: mapear coluna" tom={dados.precos_sem_produto ? "revisar" : "ok"} />
-        <Kpi rotulo="Tabelas publicadas" valor={num(dados.tabelas_ativas)} detalhe={`${num(dados.operadoras_com_tabela)} operadoras`} />
-        <Kpi rotulo="Alertas abertos" valor={num(dados.eventos_abertos)} detalhe={`${num(dados.tabelas_vencidas)} tabelas vencidas`} tom={dados.eventos_abertos ? "erro" : "ok"} />
+        <Kpi rotulo="Preços lidos" valor={conta(dados.precos_lidos)} detalhe={`${num(dados.documentos)} documentos · LLM ${custo ? `US$ ${custo.toFixed(2)}` : "desligado"}`} />
+        <Kpi rotulo="Sem revisão humana" valor={<ContaAte valor={semRevisao * 100} formato={(v) => `${Math.round(v)}%`} />} proporcao={semRevisao} detalhe={`${num(dados.precos_com_produto_sem_revisao)} de ${num(dados.precos_com_produto)} preços`} tom="ok" />
+        <Kpi rotulo="Para revisar" valor={conta(dados.precos_revisar)} detalhe="apontados por regra ou leitura" tom={dados.precos_revisar ? "revisar" : "ok"} />
+        <Kpi rotulo="Sem produto identificado" valor={conta(dados.precos_sem_produto)} proporcao={dados.precos_lidos ? dados.precos_sem_produto / dados.precos_lidos : 0} detalhe="PDF sem registro ANS: mapear coluna" tom={dados.precos_sem_produto ? "revisar" : "ok"} />
+        <Kpi rotulo="Tabelas publicadas" valor={conta(dados.tabelas_ativas)} detalhe={`${num(dados.operadoras_com_tabela)} operadoras`} />
+        <Kpi rotulo="Alertas abertos" valor={conta(dados.eventos_abertos)} detalhe={`${num(dados.tabelas_vencidas)} tabelas vencidas`} tom={dados.eventos_abertos ? "erro" : "ok"} />
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-[minmax(0,1fr)_380px]">

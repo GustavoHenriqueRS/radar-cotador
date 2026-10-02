@@ -1,4 +1,5 @@
-import type { ReactNode } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { AlertTriangle, CheckCircle2, Info, Loader2, PencilLine, ScanLine, XCircle } from "lucide-react";
 import type { Celula, Severidade } from "../api";
 
@@ -16,15 +17,82 @@ export function Cartao({ titulo, acao, children, className = "" }: { titulo?: Re
   );
 }
 
-export function Kpi({ rotulo, valor, detalhe, tom = "neutro" }: { rotulo: string; valor: ReactNode; detalhe?: ReactNode; tom?: "neutro" | "ok" | "revisar" | "erro" }) {
-  const cor = { neutro: "text-slate-900", ok: "text-ok", revisar: "text-revisar", erro: "text-erro" }[tom];
+const semMovimento = () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/** Conta de zero até o valor quando a tela abre; com movimento reduzido, mostra o valor direto. */
+export function ContaAte({ valor, formato, duracao = 800 }: { valor: number; formato: (v: number) => string; duracao?: number }) {
+  const [atual, setAtual] = useState(() => (semMovimento() ? valor : 0));
+  useEffect(() => {
+    if (semMovimento()) { setAtual(valor); return; }
+    const inicio = performance.now();
+    let quadro = 0;
+    const passo = (agora: number) => {
+      const p = Math.min(1, (agora - inicio) / duracao);
+      setAtual(valor * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) quadro = requestAnimationFrame(passo);
+    };
+    quadro = requestAnimationFrame(passo);
+    return () => cancelAnimationFrame(quadro);
+  }, [valor, duracao]);
+  return <>{formato(atual)}</>;
+}
+
+const COR_TOM = { neutro: "text-slate-900", ok: "text-ok", revisar: "text-revisar", erro: "text-erro" };
+const BARRA_TOM = { neutro: "bg-slate-400", ok: "bg-green-600", revisar: "bg-amber-500", erro: "bg-red-600" };
+
+export function Kpi({ rotulo, valor, detalhe, tom = "neutro", proporcao }: {
+  rotulo: string; valor: ReactNode; detalhe?: ReactNode; tom?: "neutro" | "ok" | "revisar" | "erro"; proporcao?: number;
+}) {
+  const [cheia, setCheia] = useState(semMovimento());
+  useEffect(() => {
+    const q = requestAnimationFrame(() => setCheia(true));
+    return () => cancelAnimationFrame(q);
+  }, []);
   return (
-    <div className="rounded-lg border border-borda bg-white px-4 py-3">
+    <div className="flex flex-col rounded-lg border border-borda bg-white px-4 py-3">
       <p className="text-xs font-medium uppercase tracking-wide text-slate-500">{rotulo}</p>
-      <p className={`num mt-1 text-2xl font-semibold ${cor}`}>{valor}</p>
+      <p className={`num mt-1 text-2xl font-semibold ${COR_TOM[tom]}`}>{valor}</p>
       {detalhe && <p className="mt-0.5 text-xs text-slate-500">{detalhe}</p>}
+      {proporcao !== undefined && (
+        <div className="mt-auto pt-2.5" aria-hidden>
+          <div className="h-1.5 overflow-hidden rounded-full bg-slate-100">
+            <div className={`h-full rounded-full ${BARRA_TOM[tom]} transition-[width] duration-700 ease-out motion-reduce:transition-none`}
+              style={{ width: `${(cheia ? proporcao : 0) * 100}%` }} />
+          </div>
+        </div>
+      )}
     </div>
   );
+}
+
+/**
+ * Posição do item ativo dentro de um grupo de botões, para um fundo que desliza até ele.
+ * O grupo precisa ser `relative` e o botão ativo, marcado com `data-ativo="true"`.
+ */
+export function useDeslizante<T extends HTMLElement>(ativo: string | null, ...extras: unknown[]) {
+  const grupo = useRef<T>(null);
+  const [caixa, setCaixa] = useState<{ x: number; y: number; w: number; h: number } | null>(null);
+  const [animar, setAnimar] = useState(false);
+  useLayoutEffect(() => {
+    const medir = () => {
+      const el = grupo.current?.querySelector<HTMLElement>('[data-ativo="true"]');
+      if (el) setCaixa({ x: el.offsetLeft, y: el.offsetTop, w: el.offsetWidth, h: el.offsetHeight });
+    };
+    medir();
+    const observador = new ResizeObserver(medir);
+    if (grupo.current) observador.observe(grupo.current);
+    return () => observador.disconnect();
+  }, [ativo, ...extras]);
+  useEffect(() => {
+    if (!caixa || animar) return;
+    const q = requestAnimationFrame(() => setAnimar(true));
+    return () => cancelAnimationFrame(q);
+  }, [caixa, animar]);
+  const estilo: CSSProperties = caixa
+    ? { transform: `translate(${caixa.x}px, ${caixa.y}px)`, width: caixa.w, height: caixa.h }
+    : { opacity: 0 };
+  const classe = `pointer-events-none absolute left-0 top-0 ${animar ? "transition-[transform,width,height] duration-300 ease-out motion-reduce:transition-none" : ""}`;
+  return { grupo, estilo, classe };
 }
 
 const ESTILO_SEVERIDADE: Record<Severidade, { classe: string; Icone: typeof Info; rotulo: string }> = {
